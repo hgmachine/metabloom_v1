@@ -1,4 +1,4 @@
-var socket = io('http://localhost:8080');
+var socket = io('http://157.230.188.180:8080');
 socket.emit('join', {role: 'mentor'});
 
 socket.on('update_status_dojos', function(data) {
