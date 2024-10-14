@@ -1,0 +1,24 @@
+[
+    {
+        "username": "Henrique",
+        "password": "795213",
+        "tasks": {},
+        "meta": "Meta Bloom",
+        "user_id": "1e6f5953-6ad5-400b-b884-df91fceb28ea",
+        "permissions": [
+            "Professor"
+        ],
+        "done": {}
+    },
+    {
+        "username": "Gustavo",
+        "password": "222222",
+        "tasks": {},
+        "meta": "FullStack Web",
+        "user_id": "e9f9a63a-918d-4ec2-a1cb-c9ea7b96a04d",
+        "permissions": [
+            "Monitor"
+        ],
+        "done": {}
+    }
+]

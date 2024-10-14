@@ -1,0 +1,58 @@
+[
+    {
+        "username": "Vanessa",
+        "password": "123456",
+        "tasks": {
+            "ca5eab39-d5fe-4ea0-a03a-9fb64d78269b": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "e5e6497e-a1cd-44c9-8a7b-33ed61e86e62": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "e263f569-5298-4a23-8e95-365bb0aef5e5": [
+                0,
+                0,
+                0,
+                0
+            ]
+        },
+        "meta": "FullStack Web",
+        "user_id": "7cbcafa1-a5d4-411f-8f4b-e6cf4f0adef3",
+        "permissions": [],
+        "done": {
+            "02a4650a-d9a4-4189-a69a-10e4554cbb0": "Para criar um atalho de comandos",
+            "b2e44230-1857-46a3-8673-7fb4f49c9c89": "Para compactar arquivos"
+        }
+    },
+    {
+        "username": "Mourison Gomes",
+        "password": "111111",
+        "tasks": {},
+        "meta": "Piano Bloom!",
+        "user_id": "77782940-c2d1-4fa8-9252-3fb5701bc742",
+        "permissions": [],
+        "done": {}
+    },
+    {
+        "username": "Henrique",
+        "password": "333333",
+        "tasks": {
+            "ca5eab39-d5fe-4ea0-a03a-9fb64d78269b": [
+                0,
+                0,
+                0,
+                0
+            ]
+        },
+        "meta": "FullStack Web",
+        "user_id": "093b523a-92f5-4cb5-937a-71d71576497a",
+        "permissions": [],
+        "done": {}
+    }
+]
