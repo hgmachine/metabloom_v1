@@ -266,7 +266,7 @@ class Application:
             redirect(f'/student')
         elif session_admin_id:
             response.set_cookie('session_id', session_admin_id, \
-            httponly=True, secure=True, max_age=7200)
+            httponly=True, secure=False, max_age=7200)
             redirect('/admin')
         else:
             redirect('/index')
