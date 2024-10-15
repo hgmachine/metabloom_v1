@@ -1,5 +1,6 @@
-// Inicialização do WebSocket
-var socket = io('http://157.230.188.180:8080');
+var socket = io('http://157.230.188.180:8080', {
+  transports: ['websocket']
+});
 
 // Verificar se userId está definido
 if (typeof userId === 'undefined') {
