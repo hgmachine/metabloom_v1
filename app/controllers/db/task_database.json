@@ -90,6 +90,145 @@
         "number": "e263f569-5298-4a23-8e95-365bb0aef5e5",
         "on": [true,true,true,false]
     },
+{
+	"title": "Coleções de Dados em Python",
+        "type": "Micro",
+        "explains": [
+            {"Titulo 1": "Explicação 1", "Conteudo": "Blá blá blá... 1"},
+            {"Titulo 2": "Explicação 2", "Conteudo": "Blá blá blá... 2"}
+        ],
+        "practices": [
+            {"Titulo 3": "Explicação 3", "Conteudo": "Blá blá blá... 2"}
+        ],
+    "content": {
+	"1": [
+	    {
+		"text": "O que é uma lista em Python?",
+		"number": "3fa85f64-5717-4562-b3fc-2c963f66afa6"
+	    },
+	    {
+		"text": "O que é um dicionário em Python?",
+		"number": "6fa85f64-5717-4562-b3fc-2c963f66afa6"
+	    },
+	    {
+		"text": "Qual é a diferença entre listas e tuplas?",
+		"number": "7fa85f64-5717-4562-b3fc-2c963f66afa6"
+	    },
+	    {
+		"text": "O que é uma chave em um dicionário?",
+		"number": "8fa85f64-5717-4562-b3fc-2c963f66afa6"
+	    },
+	    {
+		"text": "O que é um valor em um dicionário?",
+		"number": "9fa85f64-5717-4562-b3fc-2c963f66afa6"
+	    },
+	    {
+		"text": "O que significa 'mutável' em relação a listas?",
+		"number": "1fa85f64-5717-4562-b3fc-2c963f66afa6"
+	    },
+	    {
+		"text": "O que significa 'imutável' em relação a tuplas?",
+		"number": "2fa85f64-5717-4562-b3fc-2c963f66afa6"
+	    },
+	    {
+		"text": "Para que servem listas em Python?",
+		"number": "4fa85f64-5717-4562-b3fc-2c963f66afa6"
+	    },
+	    {
+		"text": "Para que servem dicionários em Python?",
+		"number": "5fa85f64-5717-4562-b3fc-2c963f66afa6"
+	    },
+	    {
+		"text": "Qual é a estrutura básica de uma lista em Python?",
+		"number": "10fa85f64-5717-4562-b3fc-2c963f66afa6"
+	    }
+	],
+	"2": [
+	    {
+		"text": "Como criar uma lista em Python?",
+		"number": "11fa85f64-5717-4562-b3fc-2c963f66afa6"
+	    },
+	    {
+		"text": "Como adicionar um elemento a uma lista?",
+		"number": "12fa85f64-5717-4562-b3fc-2c963f66afa6"
+	    },
+	    {
+		"text": "Como remover um elemento de uma lista?",
+		"number": "13fa85f64-5717-4562-b3fc-2c963f66afa6"
+	    },
+	    {
+		"text": "Como acessar um elemento específico em uma lista?",
+		"number": "14fa85f64-5717-4562-b3fc-2c963f66afa6"
+	    },
+	    {
+		"text": "Como criar um dicionário em Python?",
+		"number": "15fa85f64-5717-4562-b3fc-2c963f66afa6"
+	    },
+	    {
+		"text": "Como adicionar um par chave-valor a um dicionário?",
+		"number": "16fa85f64-5717-4562-b3fc-2c963f66afa6"
+	    },
+	    {
+		"text": "Como remover uma chave de um dicionário?",
+		"number": "17fa85f64-5717-4562-b3fc-2c963f66afa6"
+	    },
+	    {
+		"text": "Como acessar o valor de uma chave em um dicionário?",
+		"number": "18fa85f64-5717-4562-b3fc-2c963f66afa6"
+	    },
+	    {
+		"text": "Como verificar se uma chave existe em um dicionário?",
+		"number": "19fa85f64-5717-4562-b3fc-2c963f66afa6"
+	    },
+	    {
+		"text": "Como obter todas as chaves de um dicionário?",
+		"number": "20fa85f64-5717-4562-b3fc-2c963f66afa6"
+	    }
+	],
+	"3": [
+	    {
+		"text": "Escreva um código que itere sobre uma lista e imprima cada elemento.",
+		"number": "21fa85f64-5717-4562-b3fc-2c963f66afa6"
+	    },
+	    {
+		"text": "Escreva um código que atualize o valor de uma chave em um dicionário.",
+		"number": "22fa85f64-5717-4562-b3fc-2c963f66afa6"
+	    },
+	    {
+		"text": "Escreva um código que combine duas listas em uma única lista.",
+		"number": "23fa85f64-5717-4562-b3fc-2c963f66afa6"
+	    },
+	    {
+		"text": "Escreva um código que filtre elementos de uma lista com base em uma condição.",
+		"number": "24fa85f64-5717-4562-b3fc-2c963f66afa6"
+	    },
+	    {
+		"text": "Escreva um código que inverta as chaves e valores de um dicionário.",
+		"number": "25fa85f64-5717-4562-b3fc-2c963f66afa6"
+	    },
+	    {
+		"text": "Escreva um código que conte a ocorrência de elementos em uma lista.",
+		"number": "26fa85f64-5717-4562-b3fc-2c963f66afa6"
+	    },
+	    {
+		"text": "Escreva um código que mescle dois dicionários.",
+		"number": "27fa85f64-5717-4562-b3fc-2c963f66afa6"
+	    },
+	    {
+		"text": "Escreva um código que encontre o maior número em uma lista.",
+		"number": "28fa85f64-5717-4562-b3fc-2c963f66afa6"
+	    },
+	    {
+		"text": "Escreva um código que converta uma lista de tuplas em um dicionário.",
+		"number": "29fa85f64-5717-4562-b3fc-2c963f66afa6"
+	    },
+	    {
+		"text": "Escreva um código que ordene uma lista de dicionários com base em um valor específico.",
+		"number": "30fa85f64-5717-4562-b3fc-2c963f66afa6"
+	    }
+	]
+    }
+},
     {
     "title": "Vim",
     "type": "Micro",
