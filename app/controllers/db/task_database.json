@@ -294,7 +294,9 @@
             {"text": "Como exibimos o número de linhas em um arquivo?", "number": "e15d49fc-b7b8-4c2c-93f3-7e50a4e1b2a3"},
             {"text": "Como removemos um conjunto de linhas consecutivas, de forma rápida, no VIM?", "number": "1a620f92-1d46-447d-a701-1fd62d06b923"}
         ]
-    }
+    },
+	"number": "bc98762b-c01c-4c64-b8b2-5f84fe463c9c",
+        "on": [true,true,true,false]
 },
 {
         "title": "Git",
