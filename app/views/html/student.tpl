@@ -89,7 +89,7 @@
                                     <th>{{ task.title }}</th>
                                   {% endif %}
                                 <th>
-                                    {% set stars = user.tasks[task.number][0] // 10%}
+                                    {% set stars = user.tasks[task.number][0] // 10 %}
                                     {% for star in range(0, stars) %}
                                         <span class="pricing-dollar" style="display: inline-block;">
                                             <img src="/static/img/star.png" class="img-responsive" style="width:20px; height: 20px;">
@@ -97,7 +97,7 @@
                                     {% endfor %}
                                 </th>
                                 <th>
-                                    {% set stars = user.tasks[task.number][1] // 10%}
+                                    {% set stars = user.tasks[task.number][1] // 10 %}
                                     {% for star in range(0, stars) %}
                                         <span class="pricing-dollar" style="display: inline-block;">
                                             <img src="/static/img/star.png" class="img-responsive" style="width:20px; height: 20px;">
@@ -105,10 +105,19 @@
                                     {% endfor %}
                                 </th>
                                 <th>
-                                    {% set stars = user.tasks[task.number][2] // 10%}
+                                    {% set stars = user.tasks[task.number][2] // 10 %}
                                     {% for star in range(0, stars) %}
                                         <span class="pricing-dollar" style="display: inline-block;">
                                             <img src="/static/img/star.png" class="img-responsive" style="width:20px; height: 20px;">
+                                        </span>
+                                    {% endfor %}
+                                </th>
+                                <th>
+                                    {% set stars = user.tasks[task.number][3] // 10 %}
+                                    {% for star in range(0, stars) %}
+                                        <span class="pricing-dollar" style="display: inline-block;">
+                                            <img src="/static/img/star.png" class="img-responsive" style="width:20px; height: 20px;">
+					    <p>*</p>
                                         </span>
                                     {% endfor %}
                                 </th>
@@ -157,7 +166,7 @@
                                     <th>{{ task.title }}</th>
                                   {% endif %}
                                 <th>
-                                    {% set stars = user.tasks[task.number][0] // 10%}
+                                    {% set stars = user.tasks[task.number][0] // 10 %}
                                     {% for star in range(0, stars) %}
                                         <span class="pricing-dollar" style="display: inline-block;">
                                             <img src="/static/img/star.png" class="img-responsive" style="width:20px; height: 20px;">
@@ -165,7 +174,7 @@
                                     {% endfor %}
                                 </th>
                                 <th>
-                                    {% set stars = user.tasks[task.number][1] // 10%}
+                                    {% set stars = user.tasks[task.number][1] // 10 %}
                                     {% for star in range(0, stars) %}
                                         <span class="pricing-dollar" style="display: inline-block;">
                                             <img src="/static/img/star.png" class="img-responsive" style="width:20px; height: 20px;">
@@ -173,7 +182,15 @@
                                     {% endfor %}
                                 </th>
                                 <th>
-                                    {% set stars = user.tasks[task.number][2] // 10%}
+                                    {% set stars = user.tasks[task.number][2] // 10 %}
+                                    {% for star in range(0, stars) %}
+                                        <span class="pricing-dollar" style="display: inline-block;">
+                                            <img src="/static/img/star.png" class="img-responsive" style="width:20px; height: 20px;">
+                                        </span>
+                                    {% endfor %}
+                                </th>
+                                <th>
+                                    {% set stars = user.tasks[task.number][3] // 10 %}
                                     {% for star in range(0, stars) %}
                                         <span class="pricing-dollar" style="display: inline-block;">
                                             <img src="/static/img/star.png" class="img-responsive" style="width:20px; height: 20px;">

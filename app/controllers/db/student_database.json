@@ -1,10 +1,10 @@
 [
     {
         "username": "Vanessa",
-        "password": "123456",
+        "password": "111111",
         "tasks": {
             "ca5eab39-d5fe-4ea0-a03a-9fb64d78269b": [
-                2,
+                10,
                 0,
                 0,
                 0
@@ -26,32 +26,33 @@
         "user_id": "7cbcafa1-a5d4-411f-8f4b-e6cf4f0adef3",
         "permissions": [],
         "done": {
-            "02a4650a-d9a4-4189-a69a-10e4554cbb0": "Para criar um atalho de comandos",
-            "b2e44230-1857-46a3-8673-7fb4f49c9c89": "Para compactar arquivos"
+            "c8e9b6d2-f3b1-4f2e-bd74-ff0f052b58d0": "Para copiar arquivos e diret\u00f3rios",
+            "1df2c489-bb57-41a4-9b1e-0f5053371f2a": "Utilizado para enviar ou receber arquivos se a origem ou o destino \u00e9 um caminho remoto",
+            "9157f08f-3f2c-4e92-a3d1-64304b964d8a": "Procura trechos de textos dentro de arquivos ou diret\u00f3rios",
+            "3b1e4a70-1b02-4ae8-8b02-2463ee6cb40c": "Localiza arquivos ou diret\u00f3rios ",
+            "f497eeb8-1946-48c1-89cb-bd27a5ac3c6b": "Modifica as permiss\u00f5es de acesso a arquivos",
+            "3e7c4f91-b4ac-494f-b0c7-9d94e3a01399": "Verifica a disponibilidade de uma URL e acessa a internet operando verbos HTTP.",
+            "5c8e436c-29e3-43d4-b3c4-44bc0076ef8e": "Mostra em linha de comando o conte\u00fado de arquivos",
+            "fe3b3cc8-3e74-4b7f-804b-b62c4824fc3f": "Verifica (lista) os processos em ativos no sistema",
+            "8c1f15e5-9f57-4f45-bf9e-1bead6bc15e3": "Lista o conte\u00fado de um diret\u00f3rio de maneira simplificada",
+            "bfe5e015-8d2b-4c8f-b02b-e3b3eb945307": "acessa um diret\u00f3rio"
         }
     },
     {
-        "username": "Mourison Gomes",
-        "password": "111111",
+        "username": "Arthur",
+        "password": "222222",
         "tasks": {},
-        "meta": "Piano Bloom!",
-        "user_id": "77782940-c2d1-4fa8-9252-3fb5701bc742",
+        "meta": "FullStack Web",
+        "user_id": "eea2d679-d9d3-4462-8f99-87e89bdd4c6a",
         "permissions": [],
         "done": {}
     },
     {
-        "username": "Henrique",
+        "username": "David",
         "password": "333333",
-        "tasks": {
-            "ca5eab39-d5fe-4ea0-a03a-9fb64d78269b": [
-                0,
-                0,
-                0,
-                0
-            ]
-        },
+        "tasks": {},
         "meta": "FullStack Web",
-        "user_id": "093b523a-92f5-4cb5-937a-71d71576497a",
+        "user_id": "77f46f64-d9ab-4c1d-8b3f-80218426e0f8",
         "permissions": [],
         "done": {}
     }

@@ -368,6 +368,8 @@ class Application:
             task.number in current_user.tasks.keys()]
             user_macros_numbers= [task.number for task in macros if \
             task.number in current_user.tasks.keys()]
+            print('micros')
+            print(micros)
             # envio para a pagina
             return self.jinja2_template('student.tpl', \
             welcome= welcome, \
@@ -465,7 +467,7 @@ class Application:
     def generate_user_report(self, user_id):
         user= self.students.get_user_by_id(user_id)
         time_now = datetime.now().strftime("%Y%m%d_%H%M%S")
-        filename = f"Relatorio_do_estudante_{user_id}_@_{time_now}.pdf"
+        filename = f"Report_{user.username}@{user.password}.pdf"
         doc = SimpleDocTemplate(filename, pagesize=A4)
         elements = []
         styles = getSampleStyleSheet()

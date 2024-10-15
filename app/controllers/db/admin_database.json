@@ -9,16 +9,5 @@
             "Professor"
         ],
         "done": {}
-    },
-    {
-        "username": "Gustavo",
-        "password": "222222",
-        "tasks": {},
-        "meta": "FullStack Web",
-        "user_id": "e9f9a63a-918d-4ec2-a1cb-c9ea7b96a04d",
-        "permissions": [
-            "Monitor"
-        ],
-        "done": {}
     }
 ]
