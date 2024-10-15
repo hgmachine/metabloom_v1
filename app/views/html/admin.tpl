@@ -71,69 +71,6 @@
                            <td>{{ it.type }}</td>
                            <td class="status">{{ it.on }}</td>
                        </tr>
-                        <td>
-                          <!-- Botão para Editar
-                          <button class="btn btn-sm btn-primary" data-toggle="modal" data-target="#editTaskModal{{ it.number }}">Editar</button>
-                           Botão para Deletar
-                          <form action="/admin/tasks/delete/{{ it.number }}" method="post" style="display:inline;">
-                              <button type="submit" class="btn btn-sm btn-danger" onclick="return confirm('Tem certeza que deseja deletar esta tarefa?');">Deletar</button>
-                          </form>
-                           Modal para Editar -->
-                          <div class="modal fade" id="editTaskModal{{ it.number }}" tabindex="-1" role="dialog" aria-labelledby="editTaskModalLabel{{ it.number }}" aria-hidden="true">
-                            <div class="modal-dialog" role="document">
-                              <div class="modal-content">
-                                <form action="/admin/tasks/update/{{ it.number }}" method="post">
-                                  <div class="modal-header">
-                                    <h5 class="modal-title" id="editTaskModalLabel{{ it.number }}">Editar Tarefa</h5>
-                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                      <span aria-hidden="true">&times;</span>
-                                    </button>
-                                  </div>
-                                  <div class="modal-body">
-                                    <div class="form-group">
-                                      <label for="title">Título</label>
-                                      <input type="text" class="form-control" name="title" value="{{ it.title }}" required>
-                                    </div>
-                                    <div class="form-group">
-                                      <label for="type">Tipo</label>
-                                      <select class="form-control" name="type" required>
-                                        <option value="Micro" {% if it.type == 'Micro' %}selected{% endif %}>Micro</option>
-                                        <option value="Macro" {% if it.type == 'Macro' %}selected{% endif %}>Macro</option>
-                                      </select>
-                                    </div>
-                                    <div class="form-group">
-                                      <label for="explains">Explicações</label>
-                                      <textarea class="form-control" name="explains" rows="3" required>{{ it.explains }}</textarea>
-                                    </div>
-                                    <div class="form-group">
-                                      <label for="practices">Práticas</label>
-                                      <textarea class="form-control" name="practices" rows="3" required>{{ it.practices }}</textarea>
-                                    </div>
-                                    <div class="form-group">
-                                      <label for="content">Conteúdo</label>
-                                      <textarea class="form-control" name="content" rows="3" required>{{ it.content }}</textarea>
-                                      <small class="form-text text-muted">Separe as perguntas por vírgulas.</small>
-                                    </div>
-                                    <div class="form-group">
-                                      <label for="on">Ativar</label>
-                                      <input type="checkbox" name="on_1" {% if it.on[0] %}checked{% endif %}>
-                                      <small class="form-text text-muted">Nível 1.</small>
-                                      <input type="checkbox" name="on_2" {% if it.on[1] %}checked{% endif %}>
-                                      <small class="form-text text-muted">Nível 2.</small>
-                                      <input type="checkbox" name="on_3" {% if it.on[2] %}checked{% endif %}>
-                                      <small class="form-text text-muted">Nível 3.</small>
-                                    </div>
-                                  </div>
-                                  <div class="modal-footer">
-                                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Cancelar</button>
-                                    <button type="submit" class="btn btn-primary">Salvar Alterações</button>
-                                  </div>
-                                </form>
-                              </div>
-                            </div>
-                          </div>
-                        </td>
-                    </tr>
                 {% endfor %}
             </tbody>
         </table>
@@ -149,36 +86,7 @@
             <button class="btn btn-success" onclick="set_status_tasks('Atualizar')">Atualizar tarefas</button>
             <div id="updated_status_dojos"><h4>{{ status_dojos }}</h4></div>
         </div>
-
-        <!-- Formulário para Adicionar Nova Tarefa -->
-        <h3>Adicione uma nova tarefa abaixo:</h3>
-        <form action="/admin/tasks/create" method="post">
-            <div class="form-group">
-                <label for="title">Título</label>
-                <input type="text" class="form-control" name="title" placeholder="Título da Tarefa" required>
-            </div>
-            <div class="form-group">
-                <label for="type">Tipo</label>
-                <select class="form-control" name="type" required>
-                    <option value="Micro">Micro</option>
-                    <option value="Macro">Macro</option>
-                </select>
-            </div>
-            <div class="form-group">
-                <label for="explains">Explicações</label>
-                <textarea class="form-control" name="explains" rows="3" placeholder="Explicações da Tarefa" required></textarea>
-            </div>
-            <div class="form-group">
-                <label for="practices">Práticas</label>
-                <textarea class="form-control" name="practices" rows="3" placeholder="Práticas da Tarefa" required></textarea>
-            </div>
-            <div class="form-group">
-                <label for="content">Conteúdo</label>
-                <textarea class="form-control" name="content" rows="3" placeholder="Conteúdo da Tarefa (separe as perguntas por vírgulas)" required></textarea>
-            </div>
-            <button type="submit" class="btn btn-success">Adicionar Tarefa</button>
-        </form>
-      </div>
+    </div>
 
         <div class="container">
             <h2>Gerenciamento de Estudantes</h2>
