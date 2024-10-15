@@ -1,4 +1,3 @@
-
 var socket = io('http://157.230.188.180:8080', {
   transports: ['websocket']
 });
