@@ -4,7 +4,7 @@
         "password": "111111",
         "tasks": {
             "e263f569-5298-4a23-8e95-365bb0aef5e5": [
-                3,
+                0,
                 0,
                 0,
                 0
@@ -16,31 +16,16 @@
                 0
             ]
         },
-        "meta": "FullStack Web",
+        "meta": "Orientação a Objetos",
         "user_id": "7cbcafa1-a5d4-411f-8f4b-e6cf4f0adef3",
         "permissions": {},
-        "done": {
-            "c8e9b6d2-f3b1-4f2e-bd74-ff0f052b58d0": "Para copiar arquivos e diret\u00f3rios",
-            "1df2c489-bb57-41a4-9b1e-0f5053371f2a": "Utilizado para enviar ou receber arquivos se a origem ou o destino \u00e9 um caminho remoto",
-            "9157f08f-3f2c-4e92-a3d1-64304b964d8a": "Procura trechos de textos dentro de arquivos ou diret\u00f3rios",
-            "3b1e4a70-1b02-4ae8-8b02-2463ee6cb40c": "Localiza arquivos ou diret\u00f3rios ",
-            "f497eeb8-1946-48c1-89cb-bd27a5ac3c6b": "Modifica as permiss\u00f5es de acesso a arquivos",
-            "3e7c4f91-b4ac-494f-b0c7-9d94e3a01399": "Verifica a disponibilidade de uma URL e acessa a internet operando verbos HTTP.",
-            "5c8e436c-29e3-43d4-b3c4-44bc0076ef8e": "Mostra em linha de comando o conte\u00fado de arquivos",
-            "fe3b3cc8-3e74-4b7f-804b-b62c4824fc3f": "Verifica (lista) os processos em ativos no sistema",
-            "8c1f15e5-9f57-4f45-bf9e-1bead6bc15e3": "Lista o conte\u00fado de um diret\u00f3rio de maneira simplificada",
-            "bfe5e015-8d2b-4c8f-b02b-e3b3eb945307": "acessa um diret\u00f3rio",
-            "c81f77e1-89f1-4f73-b79b-4a16be66b7b6": "Para limpar a tela do terminal",
-            "8fbcf2a5-b6e3-4c68-915b-d1ee6cf7f6a4": "Para imprimir saida de texto no terminal e em arquivos",
-            "73cbe6f1-32bb-4891-a244-fc0de4da5696": "para remover arquivos e diret\u00f3rios",
-            "b2ae9be5-3543-45ec-8b40-2abbd081e7c0": "Para criar um diret\u00f3rio"
-        }
+        "done": {}
     },
     {
         "username": "Arthur",
         "password": "222222",
         "tasks": {},
-        "meta": "FullStack Web",
+        "meta": "Orientação a Objetos",
         "user_id": "eea2d679-d9d3-4462-8f99-87e89bdd4c6a",
         "permissions": [],
         "done": {}
@@ -49,7 +34,7 @@
         "username": "David",
         "password": "333333",
         "tasks": {},
-        "meta": "FullStack Web",
+        "meta": "Orientação a Objetos",
         "user_id": "77f46f64-d9ab-4c1d-8b3f-80218426e0f8",
         "permissions": [],
         "done": {}
