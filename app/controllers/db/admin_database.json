@@ -9,5 +9,49 @@
             "Professor"
         ],
         "done": {}
+    },
+    {
+        "username": "Brenda",
+        "password": "777777",
+        "tasks": {},
+        "meta": "Orienta\u00c3\u00a7\u00c3\u00a3o a Objetos",
+        "user_id": "b0ec6739-e5dc-44f6-ac72-3077c0c3e34c",
+        "permissions": [
+            "Monitor"
+        ],
+        "done": []
+    },
+    {
+        "username": "Samuel",
+        "password": "888888",
+        "tasks": {},
+        "meta": "Orienta\u00c3\u00a7\u00c3\u00a3o a Objetos",
+        "user_id": "492e961f-9ab6-43e9-8d7e-a65326a4d00a",
+        "permissions": [
+            "Monitor"
+        ],
+        "done": []
+    },
+    {
+        "username": "Eduardo",
+        "password": "888888",
+        "tasks": {},
+        "meta": "Orienta\u00c3\u00a7\u00c3\u00a3o a Objetos",
+        "user_id": "bbc369e6-8591-45b6-a4eb-b6849fdd2700",
+        "permissions": [
+            "Monitor"
+        ],
+        "done": []
+    },
+    {
+        "username": "Ludimila",
+        "password": "123456",
+        "tasks": {},
+        "meta": "Orienta\u00c3\u00a7\u00c3\u00a3o a Objetos",
+        "user_id": "7f05d98e-6a03-4c14-9abf-a8eeea7635ef",
+        "permissions": [
+            "Monitor"
+        ],
+        "done": []
     }
 ]
