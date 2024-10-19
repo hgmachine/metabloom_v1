@@ -74,3 +74,23 @@ socket.on('new_response', function(data) {
 function sendFeedback(userId, questionId, question, response, feedback) {
     socket.emit('mentor_feedback', {user_id: userId, question_id: questionId, question:question, response:response, feedback: feedback});
 }
+
+submitButton.onclick = function() {
+    var feedbackValue;
+    if (correctFeedback.checked) {
+        feedbackValue = 'Correta';
+    } else if (incorrectFeedback.checked) {
+        feedbackValue = 'Errada';
+    }
+
+    if (feedbackValue) {
+        // Chama a função para enviar o feedback
+        sendFeedback(data.user_id, data.question_id, data.question, data.response, feedbackValue);
+        
+        // Após o feedback ser enviado, desabilita o botão e altera o texto
+        submitButton.disabled = true;  // Desabilita o botão para evitar múltiplos envios
+        submitButton.innerText = 'Enviado';  // Altera o texto do botão
+    } else {
+        alert('Por favor, selecione uma opção antes de enviar.');
+    }
+};
