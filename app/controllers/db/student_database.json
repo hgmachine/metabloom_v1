@@ -8,19 +8,12 @@
                 0,
                 0,
                 0
-            ],
-            "bc98762b-c01c-4c64-b8b2-5f84fe463c9c": [
-                0,
-                0,
-                0,
-                0
             ]
         },
         "meta": "Orienta\u00e7\u00e3o a Objetos",
         "user_id": "7cbcafa1-a5d4-411f-8f4b-e6cf4f0adef3",
-        "permissions": [],
-        "done": {
-        }
+        "permissions": {},
+        "done": {}
     },
     {
         "username": "Arthur",
@@ -31,19 +24,14 @@
                 0,
                 0,
                 0
-            ],
-            "bc98762b-c01c-4c64-b8b2-5f84fe463c9c": [
-                0,
-                0,
-                0,
-                0
             ]
         },
         "meta": "Orienta\u00e7\u00e3o a Objetos",
         "user_id": "eea2d679-d9d3-4462-8f99-87e89bdd4c6a",
         "permissions": {},
         "done": {
-            "76e4f32e-bf0e-4072-bdcb-2764a5b2ad2a": "\u00c9 usado para ordenar linhas de texto em arquivos ou na sa\u00edda de comandos, e \u00e9 bastante \u00fatil em sistemas operacionais baseados em unix/linux. Ele permite classificar dados de forma alfab\u00e9tica, num\u00e9rica ou por colunas espec\u00edficas"
+            "76e4f32e-bf0e-4072-bdcb-2764a5b2ad2a": "\u00e9 utilizado em sistemas operacionais baseados em unix/linux, para ordenar linhas de texto em arquivos ou na sa\u00edda do terminal. Ele organiza os dados de forma alfab\u00e9tica, num\u00e9rica ou com base em crit\u00e9rios espec\u00edficos que voc\u00ea definir",
+            "14c0d48c-57c5-408e-bd42-c8b1f4d92c8e": "\u00e9 o gerenciador de pacotes base do Debian e de distribui\u00e7\u00f5es derivadas, como Ubuntu. Ele \u00e9 usado para instalar, remover, configurar e consultar pacotes.deb, com ele voc\u00ea pode instalar pacote, remover pacote, remover um pacote e suas configura\u00e7\u00f5es, listar pacotes instalados etc."
         }
     },
     {
@@ -55,31 +43,18 @@
                 0,
                 0,
                 0
-            ],
-            "bc98762b-c01c-4c64-b8b2-5f84fe463c9c": [
-                0,
-                0,
-                0,
-                0
             ]
         },
         "meta": "Orienta\u00e7\u00e3o a Objetos",
         "user_id": "77f46f64-d9ab-4c1d-8b3f-80218426e0f8",
         "permissions": {},
-        "done": {
-        }
+        "done": {}
     },
     {
         "username": "Gabriel",
         "password": "444444",
         "tasks": {
             "e263f569-5298-4a23-8e95-365bb0aef5e5": [
-                0,
-                0,
-                0,
-                0
-            ],
-            "bc98762b-c01c-4c64-b8b2-5f84fe463c9c": [
                 0,
                 0,
                 0,
@@ -100,19 +75,12 @@
                 0,
                 0,
                 0
-            ],
-            "bc98762b-c01c-4c64-b8b2-5f84fe463c9c": [
-                0,
-                0,
-                0,
-                0
             ]
         },
         "meta": "Orienta\u00e7\u00e3o a Objetos",
         "user_id": "a4101ca6-e76a-4993-9929-0e0e92899ec0",
         "permissions": {},
-        "done": {
-        }
+        "done": {}
     },
     {
         "username": "Daniel",
@@ -123,19 +91,12 @@
                 0,
                 0,
                 0
-            ],
-            "bc98762b-c01c-4c64-b8b2-5f84fe463c9c": [
-                0,
-                0,
-                0,
-                0
             ]
         },
         "meta": "Orienta\u00e7\u00e3o a Objetos",
         "user_id": "6ee262a4-1e44-46fa-b762-1c23b31412c5",
         "permissions": {},
-        "done": {
-        }
+        "done": {}
     },
     {
         "username": "Enzo",
@@ -146,17 +107,13 @@
                 0,
                 0,
                 0
-            ],
-            "bc98762b-c01c-4c64-b8b2-5f84fe463c9c": [
-                0,
-                0,
-                0,
-                0
             ]
         },
         "meta": "Orienta\u00e7\u00e3o a Objetos",
         "user_id": "d028170c-02eb-413a-a645-fb6c8138dadf",
         "permissions": {},
-        "done": {}
+        "done": {
+            "b3c93163-b53c-4ab2-9861-65e9f7023994": "teste"
+        }
     }
 ]
