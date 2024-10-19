@@ -53,6 +53,7 @@ socket.on('new_response', function(data) {
     // Adicionando um botão para enviar o feedback
     var submitButton = document.createElement('button');
     submitButton.innerText = 'Enviar Feedback';
+    // Função chamada ao clicar no botão
     submitButton.onclick = function() {
         var feedbackValue;
         if (correctFeedback.checked) {
@@ -62,6 +63,9 @@ socket.on('new_response', function(data) {
         }
         if (feedbackValue) {
             sendFeedback(data.user_id, data.question_id, data.question, data.response, feedbackValue);
+            // Desabilita o botão e altera o texto após o envio
+            submitButton.disabled = true;
+            submitButton.innerText = 'Enviado';
         } else {
             alert('Por favor, selecione uma opção antes de enviar.');
         }
