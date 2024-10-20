@@ -71,6 +71,9 @@ class UserRecord(DataRecord):
     def reset_tasks(self):
         for user in self.models:
             user.done= {}
+            if not user.is_admin():
+                for key in user.tasks.keys():
+                    user.tasks[key] = [0, 0, 0, 0]
         self.save()
 
     def remove_user(self, user_id):

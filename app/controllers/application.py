@@ -8,7 +8,6 @@ from jinja2 import Environment, FileSystemLoader
 import socketio
 import uuid
 import copy
-import pdb;
 
 # PDF
 
@@ -461,7 +460,6 @@ class Application:
                 for level_index, new in enumerate(hits_after):
                     user.tasks[task][level_index] += new  # Apenas soma os novos pontos
         self.students.save()
-        self.dojos.restart()
 
     def generate_user_report(self, user_id):
         user= self.students.get_user_by_id(user_id)
@@ -512,10 +510,11 @@ class Application:
             elements.append(nenhum_texto)
 
         doc.build(elements)
-        self.students.reset_tasks()
         redirect('/admin')
 
     def open_dojo(self):
+        self.students.reset_tasks()
+        self.dojos.restart()
         self.dojos.open()
 
     def close_dojo(self):

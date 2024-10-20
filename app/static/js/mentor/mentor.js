@@ -11,10 +11,19 @@ socket.on('close_order', function(data) {
 
 socket.on('app_update_handle_button', function(data) {
 
-    // Desabilita o botão que já foi clicado por outro(s) monitore(s)
-    var button = document.getElementById('resendButton_' + data.question_id);
-    button.disabled = true;
-    button.innerText = 'Solicitado';  // Muda o texto do botão para indicar que foi enviado
+    // Monta o ID do botão
+    var buttonId = 'resendButton_' + data.question_id;
+
+    // Tenta obter o botão
+    var button = document.getElementById(buttonId);
+    if (button) {
+        // Desabilita o botão e muda o texto
+        button.disabled = true;
+        button.innerText = 'Enviado';  // Muda o texto do botão para indicar que foi enviado
+        console.log('Botão desabilitado e texto alterado:', button); // Log para verificar a alteração
+    } else {
+        console.error('Botão não encontrado:', buttonId); // Log de erro se o botão não for encontrado
+    }
 });
 
 socket.on('new_response', function(data) {
@@ -54,6 +63,7 @@ socket.on('new_response', function(data) {
     // Adicionando um botão para enviar o feedback
     var submitButton = document.createElement('button');
     submitButton.innerText = 'Enviar Feedback';
+    submitButton.id = 'resendButton_' + data.question_id; // Definindo o ID do botão
     // Função chamada ao clicar no botão
     submitButton.onclick = function() {
         var feedbackValue;
