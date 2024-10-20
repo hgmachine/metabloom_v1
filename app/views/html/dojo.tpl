@@ -36,7 +36,7 @@
                       <h4 id="feedback_{{ question['number'] }}">Resposta: não corrigida.</h4>
                   {% endfor %}
                 {% else %}
-                  <h1 style="text-align: center;">Ops! Seu limite de perguntas foi atingido. Aguarde pela nova abertura dos Dojos :)</h1>
+                  <h1 style="text-align: center;">Limite de perguntas atingido para esta tarefa :)</h1>
                 {% endif %}
             </div>
         </div>
