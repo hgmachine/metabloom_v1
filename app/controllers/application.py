@@ -8,6 +8,7 @@ from jinja2 import Environment, FileSystemLoader
 import socketio
 import uuid
 import copy
+import pdb;
 
 # PDF
 
@@ -453,19 +454,19 @@ class Application:
                 if task_number not in job_data:
                     job_data[task_number] = {}
                 job_data[task_number][task_level] = job_data[task_number].get(task_level, 0) + task_hits
-                for task, task_levels in job_data.items():
-                    if task not in user.tasks:
-                        user.tasks[task] = [0] * len(niveis_padrao)
-                    hits_before = user.tasks[task]
-                    hits_after = [task_levels.get(level, 0) for level in niveis_padrao]
-                    hits_now = [x + y for x, y in zip(hits_after, hits_before)]
-                    user.tasks[task] = hits_now
+            for task, task_levels in job_data.items():
+                if task not in user.tasks:
+                    user.tasks[task] = [0] * len(niveis_padrao)
+                hits_after = [task_levels.get(level, 0) for level in niveis_padrao]
+                for level_index, new in enumerate(hits_after):
+                    user.tasks[task][level_index] += new  # Apenas soma os novos pontos
         self.students.save()
+        self.dojos.restart()
 
     def generate_user_report(self, user_id):
         user= self.students.get_user_by_id(user_id)
         time_now = datetime.now().strftime("%Y%m%d_%H%M%S")
-        filename = f"Report_{user.username}@{user.password}.pdf"
+        filename = f"Report_{user.username}_{user.password}@{time_now}.pdf"
         doc = SimpleDocTemplate(filename, pagesize=A4)
         elements = []
         styles = getSampleStyleSheet()
@@ -511,6 +512,7 @@ class Application:
             elements.append(nenhum_texto)
 
         doc.build(elements)
+        self.students.reset_tasks()
         redirect('/admin')
 
     def open_dojo(self):
@@ -520,8 +522,6 @@ class Application:
         self.content.clear_all()
         self.dojos.close()
         self.evaluate_dojos()
-        print('RESETANDO')
-        self.students.reset_tasks()
 
     ############################################################################
     # Websocket events (cables and chanels):
