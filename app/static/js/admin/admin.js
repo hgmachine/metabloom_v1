@@ -1,7 +1,15 @@
-var socket = io('http://157.230.188.180:8080', {
-//var socket = io('http://localhost:8080/', {
-  transports: ['websocket']
-});
+var socket;
+
+// Verifica se está no servidor ou em desenvolvimento
+if (window.location.hostname === '157.230.188.180') {
+    socket = io('http://157.230.188.180:8080', {
+        transports: ['websocket']
+    });
+} else {
+    socket = io('http://localhost:8080', {
+        transports: ['websocket']
+    });
+}
 
 socket.emit('join', {role: 'mentor'});
 

@@ -513,12 +513,12 @@ class Application:
         redirect('/admin')
 
     def open_dojo(self):
+        self.content.clear_all()
         self.students.reset_tasks()
         self.dojos.restart()
         self.dojos.open()
 
     def close_dojo(self):
-        self.content.clear_all()
         self.dojos.close()
         self.evaluate_dojos()
 
