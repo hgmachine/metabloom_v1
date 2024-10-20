@@ -22,6 +22,8 @@
     <link rel="stylesheet" type="text/css" href="/static/css/index/font-awesome.min.css">
     <link rel="stylesheet" type="text/css" href="/static/css/index/tooplate-style.css">
 
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="/static/js/index/custom.js"></script>
     <script src="/static/js/websocket/socket.io.js"></script>
 
     {% block styles %}

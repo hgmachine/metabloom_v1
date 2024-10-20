@@ -277,7 +277,7 @@
             {"text": "Para que serve o comando `:%s/palavra/nova_palavra/g` no VIM?", "number": "cdffb1e8-e9b5-4098-a3af-885b768635d0"},
             {"text": "Para que serve o comando `A` no VIM?", "number": "d5caa91c-9053-4a2d-9b5d-5a44c1941ca1"},
             {"text": "Para que serve o comando `I` no VIM?", "number": "20bb0cf6-5d12-4ab4-bb80-9a5af31975cb"},
-            {"text": "Para que serve o comando `:set number` no VIM?", "number": "e3c5016d-407f-418e-bbd5-d2fd78274507"},
+            {"text": "Para que serve o comando `:set number` no VIM?", "number": "e3c5016d-407f-418e-bbd5-d2fd78274508"},
             {"text": "Para que serve o comando `O` no VIM?", "number": "e3c5016d-407f-418e-bbd5-d2fd78274507"},
             {"text": "Para que serve o comando `o` no VIM?", "number": "d604d0ed-3be1-4055-b83b-2514fce9cb4e"},
             {"text": "Para que serve o comando `:windo` no VIM?", "number": "a8db4b37-23e3-4b06-9f4e-e87f07da80d5"}
@@ -314,7 +314,7 @@
                 {"text": "O que faz o comando `git add .`?", "number": "6b7af36b-7a5b-4d90-9150-bef8e4818b69"},
                 {"text": "O que faz o comando `git commit`?", "number": "6e9aeec2-24d4-48e5-99f1-e23b83722792"},
                 {"text": "O que faz o comando `git clone`?", "number": "9084e758-30fc-4905-8595-36ef330e6e9a"},
-                {"text": "O que faz o comando `git status`?", "number": "7cda70fc-e962-4891-98e3-87bcaf8974b2"},
+                {"text": "O que faz o comando `git status`?", "number": "7cda70fc-e962-4891-98e3-87bcaf8974b3"},
                 {"text": "O que faz o comando `git pull`?", "number": "26e4d44b-62dc-4055-a5d1-fc5945eaa9d5"},
                 {"text": "O que faz o comando `git config --global user.name <NAME>`", "number": "3e0734c8-44bc-41d2-a0b5-f1ca0b676b37"},
                 {"text": "O que faz o comando `git push`", "number": "ae4a4c57-6812-41af-b320-96fc1ca5cb0b"},
@@ -327,7 +327,7 @@
                 {"text": "O que é um commit?", "number": "750744cb-e56d-4bb2-8b66-b9f0fa123557"},
                 {"text": "Como você faz um commit?", "number": "1a2e4bd0-c6dc-46a8-b3d4-96ae04e2af06"},
                 {"text": "Como você lista os commits?", "number": "6798cdd2-b953-4d97-aef4-13d8916714bb"},
-                {"text": "O que faz o comando `git status`?", "number": "1e77ef82-b3ec-4697-b1d0-c6f19abf174e"},
+                {"text": "O que faz o comando `git status`?", "number": "1e77ef82-b3ec-4697-b1d0-c6f19abf174f"},
                 {"text": "Como você adiciona arquivos ao commit?", "number": "2e82d26e-0210-474b-b73c-1831e3e491b9"},
                 {"text": "O que é um branch?", "number": "9c77e1c7-5b3b-4ef2-83c0-b91e78921d87"},
                 {"text": "Como você cria um branch?", "number": "2fbb6c7f-86b1-4d2e-8054-35eeef43a818"},
@@ -346,7 +346,7 @@
                 {"text": "Como você reverte um commit?", "number": "1a67c03e-b508-4c04-9ff1-79f2e4c95b08"}
             ]
         },
-        "number": "e263f569-5298-4a23-8e95-365bb0aef5e5",
+        "number": "cf33e711-b345-4217-a637-b4a67601a1b0",
         "on": [false,false,false,false]
     }
 ]

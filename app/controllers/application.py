@@ -516,13 +516,10 @@ class Application:
         redirect('/admin')
 
     def open_dojo(self):
-        self.tasks.reset_all()
-        self.dojos.restart()
         self.dojos.open()
 
     def close_dojo(self):
         self.content.clear_all()
-        self.tasks.finish_all()
         self.dojos.close()
 
     ############################################################################
@@ -574,6 +571,7 @@ class Application:
         @self.sio.event
         def send_status_dojos(sid, data):
             status_dojos = data['status_dojos']
+            print('STATUS: ' + status_dojos)
             self.set_status_dojos(status_dojos)
             self.sio.emit('update_status_dojos', {'status_dojos': status_dojos}, room='mentors')
             if status_dojos == 'Os dojos foram fechados':

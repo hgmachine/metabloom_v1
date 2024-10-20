@@ -80,16 +80,6 @@ class TaskRecord(DataRecord):
         for task in self.models:
             task.on = status
 
-    def reset_all(self):
-        for task in self.models:
-            task.reset()
-            print(f'Resetando a tarefa de titulo: {task.title}')
-
-    def finish_all(self):
-        for task in self.models:
-            task.finish()
-            print(f'Finalizando a tarefa de titulo: {task.title}')
-
     def reload(self):
         """Recarrega as tarefas a partir do banco de dados."""
         self.load_objects()

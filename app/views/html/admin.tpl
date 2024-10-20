@@ -6,7 +6,6 @@
 
 <link rel="stylesheet" type="text/css" href="/static/css/student/student.css">
 <script type="text/javascript" src="/static/js/admin/admin.js"></script>
-<script type="text/javascript" src="/static/js/index/custom.js"></script>
 
 {% endblock %}
 
