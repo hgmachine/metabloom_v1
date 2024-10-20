@@ -81,7 +81,6 @@
             </form>
             <button class="btn btn-success" onclick="set_status_dojos('Os dojos foram abertos')">Abrir dojos</button>
             <button class="btn btn-success" onclick="set_status_dojos('Os dojos foram fechados')">Fechar dojos</button>
-            <button class="btn btn-success" onclick="set_status_dojos('Os dojos foram encerrados')">Encerrar os dojos</button>
             <button class="btn btn-success" onclick="set_status_tasks('Atualizar')">Atualizar tarefas</button>
             <div id="updated_status_dojos"><h4>{{ status_dojos }}</h4></div>
         </div>

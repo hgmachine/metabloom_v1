@@ -439,8 +439,6 @@ class Application:
             self.close_dojo()
         elif status_dojos == 'As avaliações foram iniciadas':
             self.sio.emit('update_status_dojos', {'status_dojos': status_dojos}, room='mentors')
-        elif status_dojos == 'Os dojos foram encerrados':
-            self.evaluate_dojos()
 
     def evaluate_dojos(self):
         users = UserRecord.Authenticated_users.values()
@@ -455,13 +453,13 @@ class Application:
                 if task_number not in job_data:
                     job_data[task_number] = {}
                 job_data[task_number][task_level] = job_data[task_number].get(task_level, 0) + task_hits
-            for task, task_levels in job_data.items():
-                if task not in user.tasks:
-                    user.tasks[task] = [0] * len(niveis_padrao)
-                hits_before = user.tasks[task]
-                hits_after = [task_levels.get(level, 0) for level in niveis_padrao]
-                hits_now = [x + y for x, y in zip(hits_after, hits_before)]
-                user.tasks[task] = hits_now
+                for task, task_levels in job_data.items():
+                    if task not in user.tasks:
+                        user.tasks[task] = [0] * len(niveis_padrao)
+                    hits_before = user.tasks[task]
+                    hits_after = [task_levels.get(level, 0) for level in niveis_padrao]
+                    hits_now = [x + y for x, y in zip(hits_after, hits_before)]
+                    user.tasks[task] = hits_now
         self.students.save()
 
     def generate_user_report(self, user_id):
@@ -521,6 +519,9 @@ class Application:
     def close_dojo(self):
         self.content.clear_all()
         self.dojos.close()
+        self.evaluate_dojos()
+        print('RESETANDO')
+        self.students.reset_tasks()
 
     ############################################################################
     # Websocket events (cables and chanels):

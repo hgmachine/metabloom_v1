@@ -27,7 +27,7 @@ class UserRecord(DataRecord):
         for user in self.models:
             if user_id == user.user_id:
                 if question_number not in user.done:
-                    user.done[question_number]= response 
+                    user.done[question_number]= response
                 self.write_objects()
                 return True
         return False
@@ -68,6 +68,10 @@ class UserRecord(DataRecord):
         self.write_objects()
         return True
 
+    def reset_tasks(self):
+        for user in self.models:
+            user.done= {}
+        self.save()
 
     def remove_user(self, user_id):
         for user in self.models:
