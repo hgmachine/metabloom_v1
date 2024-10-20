@@ -8,11 +8,17 @@
                 0,
                 0,
                 0
+            ],
+            "bc98762b-c01c-4c64-b8b2-5f84fe463c9c": [
+                0,
+                0,
+                0,
+                0
             ]
         },
         "meta": "Orienta\u00e7\u00e3o a Objetos",
         "user_id": "7cbcafa1-a5d4-411f-8f4b-e6cf4f0adef3",
-        "permissions": [],
+        "permissions": {},
         "done": {
         }
     },
