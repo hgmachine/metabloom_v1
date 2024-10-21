@@ -1,11 +1,12 @@
 [
     {
         "username": "Henrique",
-        "password": "795213",
+        "password": "257913",
         "tasks": {},
         "meta": "Meta Bloom",
         "user_id": "1e6f5953-6ad5-400b-b884-df91fceb28ea",
         "permissions": [
+            "Monitor",
             "Professor"
         ],
         "done": {}
