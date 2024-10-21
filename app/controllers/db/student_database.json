@@ -14,107 +14,23 @@
                 0,
                 0,
                 0
+            ],
+            "730bb18b-814d-4c6b-aff9-87713d2e61f5": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "cf33e711-b345-4217-a637-b4a67601a1b0": [
+                0,
+                0,
+                0,
+                0
             ]
         },
         "meta": "Orienta\u00e7\u00e3o a Objetos",
         "user_id": "7cbcafa1-a5d4-411f-8f4b-e6cf4f0adef3",
-        "permissions": [],
-        "done": {}
-    },
-    {
-        "username": "Arthur",
-        "password": "222222",
-        "tasks": {
-            "e263f569-5298-4a23-8e95-365bb0aef5e5": [
-                0,
-                0,
-                0,
-                0
-            ]
-        },
-        "meta": "Orienta\u00e7\u00e3o a Objetos",
-        "user_id": "eea2d679-d9d3-4462-8f99-87e89bdd4c6a",
-        "permissions": [],
-        "done": {}
-    },
-    {
-        "username": "Victor",
-        "password": "333333",
-        "tasks": {
-            "e263f569-5298-4a23-8e95-365bb0aef5e5": [
-                0,
-                0,
-                0,
-                0
-            ]
-        },
-        "meta": "Orienta\u00e7\u00e3o a Objetos",
-        "user_id": "77f46f64-d9ab-4c1d-8b3f-80218426e0f8",
-        "permissions": [],
-        "done": {}
-    },
-    {
-        "username": "Gabriel",
-        "password": "444444",
-        "tasks": {
-            "e263f569-5298-4a23-8e95-365bb0aef5e5": [
-                0,
-                0,
-                0,
-                0
-            ]
-        },
-        "meta": "Orienta\u00e7\u00e3o a Objetos",
-        "user_id": "34347de5-6366-4e54-872a-8595446233ae",
-        "permissions": [],
-        "done": {}
-    },
-    {
-        "username": "Maria",
-        "password": "555555",
-        "tasks": {
-            "e263f569-5298-4a23-8e95-365bb0aef5e5": [
-                0,
-                0,
-                0,
-                0
-            ]
-        },
-        "meta": "Orienta\u00e7\u00e3o a Objetos",
-        "user_id": "a4101ca6-e76a-4993-9929-0e0e92899ec0",
-        "permissions": [],
-        "done": {}
-    },
-    {
-        "username": "Daniel",
-        "password": "666666",
-        "tasks": {
-            "e263f569-5298-4a23-8e95-365bb0aef5e5": [
-                0,
-                0,
-                0,
-                0
-            ]
-        },
-        "meta": "Orienta\u00e7\u00e3o a Objetos",
-        "user_id": "6ee262a4-1e44-46fa-b762-1c23b31412c5",
-        "permissions": [],
-        "done": {}
-    },
-    {
-        "username": "Enzo",
-        "password": "999999",
-        "tasks": {
-            "e263f569-5298-4a23-8e95-365bb0aef5e5": [
-                0,
-                0,
-                0,
-                0
-            ]
-        },
-        "meta": "Orienta\u00e7\u00e3o a Objetos",
-        "user_id": "d028170c-02eb-413a-a645-fb6c8138dadf",
-        "permissions": [],
+        "permissions": {},
         "done": {}
     }
 ]
