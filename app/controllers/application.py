@@ -18,6 +18,8 @@ from reportlab.lib.styles import getSampleStyleSheet
 from reportlab.platypus import SimpleDocTemplate, Paragraph, Table, TableStyle, Spacer
 import os
 from datetime import datetime
+import pytz
+
 
 class Application:
 
@@ -418,6 +420,7 @@ class Application:
             number= params['number']
             level= params['level']
             current_user = self.getCurrentUserBySessionId()
+            print(f'Usuário entrando em dojo: {current_user.username}')
             if current_user and not current_user.is_admin():
                 task= self.tasks.get_task_by_number(number)
                 for question_id in current_user.done:
@@ -462,36 +465,47 @@ class Application:
         self.students.save()
 
     def generate_user_report(self, user_id):
-        user= self.students.get_user_by_id(user_id)
-        time_now = datetime.now().strftime("%Y%m%d_%H%M%S")
+        user = self.students.get_user_by_id(user_id)
+
+        # Define o fuso horário de Brasília
+        brasilia_tz = pytz.timezone('America/Sao_Paulo')
+
+        # Obtém a data e hora atuais no fuso horário de Brasília
+        time_now = datetime.now(brasilia_tz).strftime("%Y%m%d_%H%M%S")
         filename = f"Report_{user.username}_{user.password}@{time_now}.pdf"
         doc = SimpleDocTemplate(filename, pagesize=A4)
         elements = []
         styles = getSampleStyleSheet()
+
         title = Paragraph("Relatório de Avaliação de Dojo", styles['Title'])
         elements.append(title)
-        date_str = datetime.now().strftime("%d/%m/%Y %H:%M:%S")
+
+        # Data de geração do relatório
+        date_str = datetime.now(brasilia_tz).strftime("%d/%m/%Y %H:%M:%S")
         date_paragraph = Paragraph(f"Data de Geração: {date_str}", styles['Normal'])
         elements.append(date_paragraph)
         elements.append(Paragraph("<br/><br/>", styles['Normal']))
+
         user_paragraph = Paragraph(f"Estudante: {user.username}", styles['Heading2'])
         elements.append(user_paragraph)
         user_paragraph = Paragraph(f"Código identificador: {user_id}", styles['Heading4'])
         elements.append(user_paragraph)
         elements.append(Paragraph("<br/><br/>", styles['Normal']))
+
         data = [["Tarefa", "Nível 1", "Nível 2", "Nível 3", "Nível 4"]]
         for task, hits in user.tasks.items():
-            title= self.tasks.get_task_by_number(task).title
+            title = self.tasks.get_task_by_number(task).title
             row = [f"Tarefa {title}"] + hits
             data.append(row)
+
         table = Table(data)
         table.setStyle(TableStyle([
-            ('BACKGROUND', (0,0), (-1,0), colors.grey),
-            ('TEXTCOLOR', (0,0), (-1,0), colors.whitesmoke),
-            ('ALIGN', (0,0), (-1,-1), 'CENTER'),
-            ('FONTNAME', (0,0), (-1,0), 'Helvetica-Bold'),
-            ('BOTTOMPADDING', (0,0), (-1,0), 12),
-            ('GRID', (0,0), (-1,-1), 1, colors.black),
+            ('BACKGROUND', (0, 0), (-1, 0), colors.grey),
+            ('TEXTCOLOR', (0, 0), (-1, 0), colors.whitesmoke),
+            ('ALIGN', (0, 0), (-1, -1), 'CENTER'),
+            ('FONTNAME', (0, 0), (-1, 0), 'Helvetica-Bold'),
+            ('BOTTOMPADDING', (0, 0), (-1, 0), 12),
+            ('GRID', (0, 0), (-1, -1), 1, colors.black),
         ]))
 
         elements.append(table)
@@ -499,7 +513,7 @@ class Application:
 
         if user.done:
             for codigo, response in user.done.items():
-                question= self.tasks.get_question_by_id(codigo)
+                question = self.tasks.get_question_by_id(codigo)
                 question_paragraph = Paragraph(f"<b>Pergunta:</b> {question}", styles['Normal'])
                 elements.append(question_paragraph)
                 descricao_paragraph = Paragraph(f"<b>Resposta:</b> {response}", styles['Normal'])
