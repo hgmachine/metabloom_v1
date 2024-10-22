@@ -13,7 +13,7 @@
                          <h1 id="task_name">{{ task.title }}</h1>
                     </div>
                </div>
-               <div class="col-md-6 col-sm-6">
+               <div class="col-md-12 col-sm-12">
                     <ul class="nav nav-tabs" role="tablist">
                          <li class="active"><a href="#tab01" aria-controls="tab01" role="tab" data-toggle="tab">Recursos teóricos</a></li>
                          <li><a href="#tab02" aria-controls="tab02" role="tab" data-toggle="tab">Recursos práticos</a></li>
@@ -37,11 +37,13 @@
                          </div>
                     </div>
                </div>
+               <!--
                <div class="col-md-6 col-sm-6">
                     <div class="feature-image">
                          <img src="{{'/static/img/index/feature-mockup.png'}}" class="img-responsive" alt="Thin Laptop">
                     </div>
                </div>
+             -->
           </div>
      </div>
 </section>
@@ -69,7 +71,7 @@
                              <h2>Nível 1 - Entendimento</h2>
                         </div>
                         <div class="pricing-info">
-                              <p>Explicação</p>
+                              <p>Estamos constituindo a nossa memória sobre o conteúdo abordado. Crie um resumo claro, de preferência por escrito, para auxiliar a sua memorização.</p>
                         </div>
                         <div class="pricing-bottom">
                               {% set stars = user.tasks[task.number][0] // 10 %}
@@ -85,10 +87,10 @@
                <div class="col-md-6 col-sm-6">
                     <div class="pricing-thumb">
                         <div class="pricing-title">
-                             <h2>Nível 2 - Preparação</h2>
+                             <h2>Nível 2 - Interpretação</h2>
                         </div>
                         <div class="pricing-info">
-                              <p>Explicação</p>
+                              <p>Aqui, estamos colocando em prática os primeiros recursos cognitivos/psicomotores memorizados. Pode utilizar o seu resumo e também ferramentas inteligentes de pesquisas.</p>
                         </div>
                         <div class="pricing-bottom">
                           {% set stars = user.tasks[task.number][1] // 10 %}
@@ -109,7 +111,7 @@
                             <h2>Nível 3 - Aplicação</h2>
                        </div>
                        <div class="pricing-info">
-                             <p>Explicação</p>
+                             <p>Os estudantes desenvolvolvem aqui a capacidade de aplicar habilidades para resolver problemas ou realizar tarefas específicas. O estudante ainda pode utilizar o seu resumo, além de ferramentas inteligentes de pesquisa (se necessário).</p>
                        </div>
                        <div class="pricing-bottom">
                          {% set stars = user.tasks[task.number][2] // 10 %}
@@ -128,7 +130,7 @@
                             <h2>Nível 4 - Automação</h2>
                        </div>
                        <div class="pricing-info">
-                             <p>Explicação</p>
+                             <p>Na esfera cognitiva, este é nível é observado pela resolução de problemas sem a necessidade de quaisquer pesquisas. Na esfera psicomotora, este nível é observado na resposta rápida/internalizada de uma ação específica.</p>
                        </div>
                        <div class="pricing-bottom">
                          {% set stars = user.tasks[task.number][3] // 10 %}
