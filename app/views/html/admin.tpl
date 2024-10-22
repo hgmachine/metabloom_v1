@@ -180,9 +180,21 @@
                                         </div>
 
                                         <div class="form-group">
+                                             <label for="availability">Disponibilidade</label>
+                                             <div class="form-check">
+                                                 <input class="form-check-input" type="checkbox" name="availability" id="availability" value="1"
+                                                     {% if student.on %}checked{% endif %}>
+                                                 <label class="form-check-label" for="availability">
+                                                     Disponível
+                                                 </label>
+                                             </div>
+                                         </div>
+
+                                        <div class="form-group">
                                           <label for="meta">Meta</label>
                                           <input type="text" class="form-control" name="meta" value="{{ student.meta }}" required>
                                         </div>
+
                                       </div>
                                       <div class="modal-footer">
                                         <input type="hidden" name="user_id" value="{{ student.user_id }}">

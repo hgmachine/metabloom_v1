@@ -162,7 +162,10 @@ class Application:
             selected_tasks = request.forms.getall('tasks')
             meta = request.forms.get('meta').encode('latin-1').decode('utf-8')
             user_id = request.forms.get('user_id')
-            self.update_student(username, password, meta, selected_tasks, {}, user_id)
+            # Verifica se o checkbox de disponibilidade foi marcado
+            availability = 'availability' in request.forms  # True se marcado, False se não
+            self.update_student(username, password, meta, selected_tasks, \
+            availability, {}, user_id)
 
         @self.app.route('/admin/admins/update/<number>', method='POST')
         def admin_update_post(number):
@@ -303,8 +306,8 @@ class Application:
         self.tasks.update_task(title,type,explains,practices,content,number,on)
         redirect('/admin')
 
-    def update_student(self,username,password,meta,tasks,permissions,user_id):
-        self.students.update_user(username,password,meta,tasks,permissions,user_id)
+    def update_student(self,username,password,meta,tasks,availability,permissions,user_id):
+        self.students.update_user(username,password,meta,tasks,availability,permissions,user_id)
         redirect('/admin')
 
     def update_admin(self,username,password,meta,tasks,permissions,user_id):
@@ -415,22 +418,23 @@ class Application:
         redirect('/index')
 
     def dojo(self,params):
+        current_user = self.getCurrentUserBySessionId()
         if self.dojos.is_open:
-            number= params['number']
-            level= params['level']
-            current_user = self.getCurrentUserBySessionId()
-            print(f'Usuário entrando em dojo: {current_user.username}')
-            if current_user and not current_user.is_admin():
-                task= self.tasks.get_task_by_number(number)
-                for question_id in current_user.done:
-                    task.update_answered_number(level,question_id)
-                if task:
-                    questions= task.questions(level)
-                    self.dojos.create_job(current_user.user_id, number, level)
-                    return self.jinja2_template('dojo.tpl', \
-                    username=current_user.username, \
-                    user=current_user, user_id= current_user.user_id, \
-                    task=task, level=level, questions=questions)
+            if current_user.on:
+                number= params['number']
+                level= params['level']
+                print(f'Usuário entrando em dojo: {current_user.username}')
+                if current_user and not current_user.is_admin():
+                    task= self.tasks.get_task_by_number(number)
+                    for question_id in current_user.done:
+                        task.update_answered_number(level,question_id)
+                    if task:
+                        questions= task.questions(level)
+                        self.dojos.create_job(current_user.user_id, number, level)
+                        return self.jinja2_template('dojo.tpl', \
+                        username=current_user.username, \
+                        user=current_user, user_id= current_user.user_id, \
+                        task=task, level=level, questions=questions)
         redirect('/student')
 
     def set_status_dojos(self, status_dojos):

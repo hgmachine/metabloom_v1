@@ -38,12 +38,13 @@ class UserRecord(DataRecord):
                 return user
         return None
 
-    def update_user(self, username, password, meta, tasks, permissions, user_id):
+    def update_user(self, username, password, meta, tasks, availability, permissions, user_id):
         for user in self.models:
             if user_id == user.user_id:
                 user.username = username
                 user.password = password
                 user.meta = meta
+                user.on= availability
                 for task in tasks:
                     if task not in user.tasks:
                         user.tasks[task] = [0,0,0,0]
@@ -63,7 +64,7 @@ class UserRecord(DataRecord):
             if existing_user.user_id == user_id:
                 return False
         new_user = self.model_class(username, password, meta, user_id, \
-        {}, permissions)
+        False, {}, permissions)
         self.models.append(new_user)
         self.write_objects()
         return True
