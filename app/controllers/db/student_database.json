@@ -1,7 +1,7 @@
 [
     {
         "username": "Vanessa",
-        "password": "123456",
+        "password": "794701",
         "tasks": {
             "e263f569-5298-4a23-8e95-365bb0aef5e5": [
                 0,
@@ -28,7 +28,7 @@
                 0
             ]
         },
-        "meta": "Orienta\u00e7\u00e3o a Objetos",
+        "meta": "Orientação a Objetos",
         "user_id": "7cbcafa1-a5d4-411f-8f4b-e6cf4f0adef3",
         "permissions": {},
         "done": {}

@@ -168,8 +168,7 @@ class Application:
         def admin_update_post(number):
             username = request.forms.get('username').encode('latin-1').decode('utf-8')
             password = request.forms.get('password')
-            meta = request.forms.get('meta')
-            meta= meta.encode('latin-1').decode('utf-8') if meta == True else meta
+            meta = request.forms.get('meta').encode('latin-1').decode('utf-8')
             user_id = request.forms.get('user_id')
             if user_id == '1e6f5953-6ad5-400b-b884-df91fceb28ea':
                 selected_permissions= ['Monitor','Professor']

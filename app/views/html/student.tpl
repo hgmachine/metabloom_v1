@@ -32,6 +32,7 @@
                      </div>
                      {% else %}
                      <h1>Olá, {{ user.username }}!</h1>
+                     <h3>Meta: {{ user.meta }}</h3>
                      <br>
                      <!-- Botões de Ação -->
                      <div class="mt-3">
