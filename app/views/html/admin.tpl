@@ -82,6 +82,14 @@
             <button class="btn btn-success" onclick="set_status_dojos('Os dojos foram abertos')">Abrir dojos</button>
             <button class="btn btn-success" onclick="set_status_dojos('Os dojos foram fechados')">Fechar dojos</button>
             <button class="btn btn-success" onclick="set_status_tasks('Atualizar')">Atualizar tarefas</button>
+            <!-- Botão para Gerar relatório de cada estudante disponível -->
+            <form action="/admin/students/report_all" method="post" style="display:inline;">
+                <button type="submit" class="btn btn-sm btn-danger">Gerar relatórios</button>
+            </form>
+            <!-- Botão para tornar todos os estudantes indisponíveis -->
+            <form action="/admin/students/off_them_all" method="post" style="display:inline;">
+                <button type="submit" class="btn btn-sm btn-danger">Indisponibilizar os estudantes</button>
+            </form>
             <div id="updated_status_dojos"><h4>{{ status_dojos }}</h4></div>
         </div>
     </div>
@@ -96,6 +104,7 @@
                       <th>Nome</th>
                       <th>Senha</th>
                       <th>Meta</th>
+                      <th>Disponível</th>
                       <th>Ações</th>
                     </tr>
                 </thead>
@@ -107,6 +116,13 @@
                             <td>{{ student.username }}</td>
                             <td>{{ student.password }}</td>
                             <td>{{ student.meta }}</td>
+                            <td>
+                                {% if student.on %}
+                                  <img src="/static/img/checkok.png" class="img-responsive" style="width:20px; height: 20px;">
+                                {% else %}
+                                  <img src="/static/img/checknok.png" class="img-responsive" style="width:20px; height: 20px;">
+                                {% endif %}
+                            </td>
                             <td>
                                 <!-- Botão para Editar -->
                                 <button class="btn btn-sm btn-primary" data-toggle="modal" data-target="#editStudentModal{{ student.user_id }}">Editar</button>

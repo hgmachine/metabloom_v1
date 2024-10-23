@@ -22,8 +22,8 @@ class UserAccount():
 
 class SuperAccount(UserAccount):
 
-    def __init__(self, username, password, meta, user_id, tasks={}, permissions= [], done= []):
-        super().__init__(username, password, meta, user_id, done, tasks, permissions)
+    def __init__(self, username, password, meta, user_id, done, on, tasks={}, permissions= []):
+        super().__init__(username, password, meta, user_id, done, on, tasks, permissions)
         self.permissions= permissions
         if not permissions:
             self.permissions= ['monitor']

@@ -9,17 +9,7 @@
             "Monitor",
             "Professor"
         ],
-        "done": {}
-    },
-    {
-        "username": "Gustavo",
-        "password": "456789",
-        "tasks": {},
-        "meta": "Orienta\u00e7\u00e3o a Objetos",
-        "user_id": "c0567a4f-cda3-4f91-bb6c-14a1b51e40c7",
-        "permissions": [
-            "Monitor"
-        ],
-        "done": []
+        "done": {},
+        "on": true
     }
 ]

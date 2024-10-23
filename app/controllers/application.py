@@ -113,7 +113,25 @@ class Application:
 
         @self.app.route('/admin/students/report/<user_id>', method='POST')
         def student_report_post(user_id):
-            self.generate_user_report(user_id)
+            student= self.students.get_user_by_id(user_id)
+            if student.on:
+                self.generate_user_report(user_id)
+            redirect('/admin')
+
+        @self.app.route('/admin/students/off_them_all', method='POST')
+        def students_report_off_post():
+            students= self.students
+            for student in students.models:
+                student.on= False
+            redirect('/admin')
+
+        @self.app.route('/admin/students/report_all', method='POST')
+        def students_report_post():
+            students= self.students
+            for student in students.models:
+                if student.on:
+                    self.generate_user_report(student.user_id)
+            redirect('/admin')
 
         @self.app.route('/index', method='POST')
         def index_post():
@@ -190,7 +208,7 @@ class Application:
             username = request.forms.get('username').encode('latin-1').decode('utf-8')
             password = request.forms.get('password')
             meta = request.forms.get('meta').encode('latin-1').decode('utf-8')
-            self.insert_student(username, password, meta, {})
+            self.insert_student(username, password, meta)
 
         @self.app.route('/admin/admins/create', method='POST')
         def admin_create_post():
@@ -287,9 +305,9 @@ class Application:
         self.users.removeUser(current_user)
         redirect('/admin')
 
-    def insert_student(self, username, password, meta, permissions):
+    def insert_student(self, username, password, meta):
         user_id= str(uuid.uuid4())
-        self.students.create_user(username,password,meta,permissions,user_id)
+        self.students.create_user(username,password,meta,{},user_id)
         redirect('/admin')
 
     def insert_admin(self, username, password, meta, permissions):
@@ -527,7 +545,6 @@ class Application:
             elements.append(nenhum_texto)
 
         doc.build(elements)
-        redirect('/admin')
 
     def open_dojo(self):
         self.content.clear_all()

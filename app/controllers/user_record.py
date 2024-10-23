@@ -64,7 +64,7 @@ class UserRecord(DataRecord):
             if existing_user.user_id == user_id:
                 return False
         new_user = self.model_class(username, password, meta, user_id, \
-        False, {}, permissions)
+        {}, False, permissions)
         self.models.append(new_user)
         self.write_objects()
         return True

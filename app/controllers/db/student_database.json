@@ -33,35 +33,5 @@
         "permissions": {},
         "done": {},
         "on": true
-    },
-    {
-        "username": "Pedro",
-        "password": "222222",
-        "tasks": {},
-        "meta": "Orienta\u00e7\u00e3o a Objetos",
-        "user_id": "d5f447e4-89ac-4daa-a444-8bd44256471f",
-        "permissions": [],
-        "done": false,
-        "on": {}
-    },
-    {
-        "username": "Paula",
-        "password": "333333",
-        "tasks": {},
-        "meta": "Orienta\u00e7\u00e3o a Objetos",
-        "user_id": "175e04bb-af92-438d-8e62-8902afc778cd",
-        "permissions": [],
-        "done": false,
-        "on": {}
-    },
-    {
-        "username": "Carla",
-        "password": "444444",
-        "tasks": {},
-        "meta": "FullStack Web",
-        "user_id": "e3b8b32d-c944-47b3-a2dd-811498fca945",
-        "permissions": [],
-        "done": false,
-        "on": {}
     }
 ]
