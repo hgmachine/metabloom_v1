@@ -13,19 +13,5 @@
         "on": true,
         "tasks_sum": {},
         "last": ""
-    },
-    {
-        "username": "Gustavo",
-        "password": "222222",
-        "tasks": {},
-        "meta": "Orienta\u00e7\u00e3o a Objetos",
-        "user_id": "254a7e01-99ee-42aa-9928-b193eeeb4750",
-        "permissions": [
-            "Monitor"
-        ],
-        "done": {},
-        "on": false,
-        "tasks_sum": {},
-        "last": ""
     }
 ]
