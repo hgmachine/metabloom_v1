@@ -31,6 +31,13 @@ textareas.forEach(textarea => {
             alert("Colar está desativado para estas questões!");  // Mensagem opcional para o usuário
         }
     });
+
+    // Bloquear o menu de contexto (botão direito do mouse)
+    textarea.addEventListener('contextmenu', function(event) {
+        event.preventDefault();  // Bloqueia o menu de contexto
+        alert("Colar está desativado para estas questões!");  // Mensagem opcional para o usuário
+    });
+
 });
 
 // Função para limpar todos os textareas
