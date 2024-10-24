@@ -193,15 +193,18 @@ class Application:
             user_id = request.forms.get('user_id')
             if user_id == '1e6f5953-6ad5-400b-b884-df91fceb28ea':
                 selected_permissions= ['Monitor','Professor']
+                availability= True
             else:
                 selected_permissions= []
                 permission_monitor = request.forms.get('permission-monitor')
                 permission_professor = request.forms.get('permission-professor')
+                # Verifica se o checkbox de disponibilidade foi marcado
+                availability = 'availability' in request.forms  # True se marcado, False se não
                 if permission_monitor:
                     selected_permissions.append(permission_monitor)
                 if permission_professor:
                     selected_permissions.append(permission_professor)
-            self.update_admin(username, password, meta, {}, selected_permissions, user_id)
+            self.update_admin(username, password, meta, {}, availability, selected_permissions, user_id)
 
         @self.app.route('/admin/students/create', method='POST')
         def student_create_post():
@@ -328,8 +331,8 @@ class Application:
         self.students.update_user(username,password,meta,tasks,availability,permissions,user_id)
         redirect('/admin')
 
-    def update_admin(self,username,password,meta,tasks,permissions,user_id):
-        self.admins.update_user(username,password,meta,tasks,permissions,user_id)
+    def update_admin(self,username,password,meta,tasks,availability,permissions,user_id):
+        self.admins.update_user(username,password,meta,tasks,availability,permissions,user_id)
         redirect('/admin')
 
     def delete_task(self,number):
@@ -390,8 +393,6 @@ class Application:
             task.number in current_user.tasks.keys()]
             user_macros_numbers= [task.number for task in macros if \
             task.number in current_user.tasks.keys()]
-            print('micros')
-            print(micros)
             # envio para a pagina
             return self.jinja2_template('student.tpl', \
             welcome= welcome, \
@@ -407,11 +408,12 @@ class Application:
         current_user = self.getCurrentUserBySessionId()
         if self.dojos.is_open:
             if current_user and current_user.is_admin:
-                content= self.content.contents
-                status_dojos= 'As avaliações foram iniciadas'
-                self.set_status_dojos(status_dojos)
-                return self.jinja2_template('mentor.tpl',user=current_user, \
-                content=content)
+                if current_user.on:
+                    content= self.content.contents
+                    status_dojos= 'As avaliações foram iniciadas'
+                    self.set_status_dojos(status_dojos)
+                    return self.jinja2_template('mentor.tpl',user=current_user, \
+                    content=content)
         redirect('/admin')
 
     def admin(self):
@@ -483,6 +485,16 @@ class Application:
                 hits_after = [task_levels.get(level, 0) for level in niveis_padrao]
                 for level_index, new in enumerate(hits_after):
                     user.tasks[task][level_index] += new  # Apenas soma os novos pontos
+            # Se tasks_sum está vazio, inicializa com tasks
+            if not user.tasks_sum:
+                user.tasks_sum = {key: list(value) for key, value in user.tasks.items()}
+            else:
+                # Atualiza tasks_sum somando os novos valores
+                for key, value in user.tasks.items():
+                    if key in user.tasks_sum:
+                        user.tasks_sum[key] = [user.tasks_sum[key][i] + value[i] for i in range(len(value))]
+                    else:
+                        user.tasks_sum[key] = list(value)
         self.students.save()
 
     def generate_user_report(self, user_id):
@@ -532,9 +544,12 @@ class Application:
         elements.append(table)
         elements.append(Paragraph("<br/><br/>", styles['Normal']))
 
+        # Duplicando as informações para cada usuário para cada usuário
+        report_content = f"Data: {date_str}\n\n"
         if user.done:
             for codigo, response in user.done.items():
                 question = self.tasks.get_question_by_id(codigo)
+                report_content += f"Pergunta: {question}\nResposta: {response}\n\n"
                 question_paragraph = Paragraph(f"<b>Pergunta:</b> {question}", styles['Normal'])
                 elements.append(question_paragraph)
                 descricao_paragraph = Paragraph(f"<b>Resposta:</b> {response}", styles['Normal'])
@@ -542,9 +557,13 @@ class Application:
                 elements.append(Spacer(1, 12))
         else:
             nenhum_texto = Paragraph("Nenhuma pergunta foi respondida corretamente.", styles['Normal'])
+            report_content += "Nenhuma pergunta foi respondida neste momento.\n"
             elements.append(nenhum_texto)
 
         doc.build(elements)
+        user.last= report_content
+        self.students.save()
+
 
     def open_dojo(self):
         self.content.clear_all()

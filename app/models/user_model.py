@@ -4,7 +4,7 @@ import uuid
 
 class UserAccount():
 
-    def __init__(self, username, password, meta, user_id, done, on, tasks={}, permissions=[]):
+    def __init__(self, username, password, meta, user_id, done, on, tasks={}, permissions=[], tasks_sum={}, last= ""):
         self.username= username
         self.password= password
         self.tasks= tasks # dicionário {"task-number":"pontuações por nivel"}
@@ -13,6 +13,8 @@ class UserAccount():
         self.permissions= [] # sem permissões neste nível
         self.done= done # tarefas realizadas (numbers)
         self.on= on # o aluno está disponpivel ou não
+        self.tasks_sum= tasks_sum # quantidade de estrelas por tarefa
+        self.last= last # último relatório realizado
 
 
     def is_admin(self):
@@ -22,8 +24,8 @@ class UserAccount():
 
 class SuperAccount(UserAccount):
 
-    def __init__(self, username, password, meta, user_id, done, on, tasks={}, permissions= []):
-        super().__init__(username, password, meta, user_id, done, on, tasks, permissions)
+    def __init__(self, username, password, meta, user_id, done, on, tasks={}, permissions= [], tasks_sum={}, last=""):
+        super().__init__(username, password, meta, user_id, done, on, tasks, permissions, tasks_sum, last)
         self.permissions= permissions
         if not permissions:
             self.permissions= ['monitor']

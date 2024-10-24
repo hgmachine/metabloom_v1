@@ -258,6 +258,7 @@
                       <th>Nome</th>
                       <th>Senha</th>
                       <th>Meta</th>
+                      <th>Disponível</th>
                       <th>Ações</th>
                     </tr>
                 </thead>
@@ -270,6 +271,13 @@
                                 <td>{{ admin.username }}</td>
                                 <td>{{ admin.password if user.user_id == '1e6f5953-6ad5-400b-b884-df91fceb28ea' else '***'}}</td>
                                 <td>{{ admin.meta if user.user_id == '1e6f5953-6ad5-400b-b884-df91fceb28ea' else '***'}}</td>
+                                <td>
+                                    {% if admin.on %}
+                                      <img src="/static/img/checkok.png" class="img-responsive" style="width:20px; height: 20px;">
+                                    {% else %}
+                                      <img src="/static/img/checknok.png" class="img-responsive" style="width:20px; height: 20px;">
+                                    {% endif %}
+                                </td>
                                 <td>
 
                                   {% if admin.user_id == user.user_id or user.user_id == '1e6f5953-6ad5-400b-b884-df91fceb28ea' %}
@@ -329,6 +337,17 @@
                                                           <br>
                                                       </div>
                                                   </div>
+
+                                                  <div class="form-group">
+                                                       <label for="availability">Disponibilidade</label>
+                                                       <div class="form-check">
+                                                           <input class="form-check-input" type="checkbox" name="availability" id="availability" value="1"
+                                                               {% if admin.on %}checked{% endif %}>
+                                                           <label class="form-check-label" for="availability">
+                                                               Disponível
+                                                           </label>
+                                                       </div>
+                                                   </div>
 
                                           </div>
 
@@ -417,6 +436,11 @@
                 <button class="btn btn-warning">Avaliar os dojos</button>
             </form>
             <div id="updated_status_dojos"><h4>{{ status_dojos }}</h4></div>
+            {% if not user.on %}
+            <h4>Solicite o professor habilitação para participar destas avaliações</h4>
+            {% else %}
+            <h4>Você está habilitado para participar destas avaliações</h4>
+            {% endif%}
         </div>
 
 {% endif %}

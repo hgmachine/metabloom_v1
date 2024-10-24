@@ -53,7 +53,7 @@
         <div class="row">
             <div class="col-md-12 col-sm-12">
                 <div class="section-title">
-                    <h1>Tarefas</h1>
+                    <h1>Tarefas:</h1>
                 </div>
             </div>
               <div class="col-md-12 col-sm-12">
@@ -90,7 +90,7 @@
                                     <th>{{ task.title }}</th>
                                   {% endif %}
                                 <th>
-                                    {% set stars = user.tasks[task.number][0] // 10 %}
+                                    {% set stars = user.tasks_sum[task.number][0] // 10 %}
                                     {% for star in range(0, stars) %}
                                         <span class="pricing-dollar" style="display: inline-block;">
                                             <img src="/static/img/star.png" class="img-responsive" style="width:20px; height: 20px;">
@@ -98,7 +98,7 @@
                                     {% endfor %}
                                 </th>
                                 <th>
-                                    {% set stars = user.tasks[task.number][1] // 10 %}
+                                    {% set stars = user.tasks_sum[task.number][1] // 10 %}
                                     {% for star in range(0, stars) %}
                                         <span class="pricing-dollar" style="display: inline-block;">
                                             <img src="/static/img/star.png" class="img-responsive" style="width:20px; height: 20px;">
@@ -106,7 +106,7 @@
                                     {% endfor %}
                                 </th>
                                 <th>
-                                    {% set stars = user.tasks[task.number][2] // 10 %}
+                                    {% set stars = user.tasks_sum[task.number][2] // 10 %}
                                     {% for star in range(0, stars) %}
                                         <span class="pricing-dollar" style="display: inline-block;">
                                             <img src="/static/img/star.png" class="img-responsive" style="width:20px; height: 20px;">
@@ -114,7 +114,7 @@
                                     {% endfor %}
                                 </th>
                                 <th>
-                                    {% set stars = user.tasks[task.number][3] // 10 %}
+                                    {% set stars = user.tasks_sum[task.number][3] // 10 %}
                                     {% for star in range(0, stars) %}
                                         <span class="pricing-dollar" style="display: inline-block;">
                                             <img src="/static/img/star.png" class="img-responsive" style="width:20px; height: 20px;">
@@ -167,7 +167,7 @@
                                     <th>{{ task.title }}</th>
                                   {% endif %}
                                 <th>
-                                    {% set stars = user.tasks[task.number][0] // 10 %}
+                                    {% set stars = user.tasks_sum[task.number][0] // 10 %}
                                     {% for star in range(0, stars) %}
                                         <span class="pricing-dollar" style="display: inline-block;">
                                             <img src="/static/img/star.png" class="img-responsive" style="width:20px; height: 20px;">
@@ -175,7 +175,7 @@
                                     {% endfor %}
                                 </th>
                                 <th>
-                                    {% set stars = user.tasks[task.number][1] // 10 %}
+                                    {% set stars = user.tasks_sum[task.number][1] // 10 %}
                                     {% for star in range(0, stars) %}
                                         <span class="pricing-dollar" style="display: inline-block;">
                                             <img src="/static/img/star.png" class="img-responsive" style="width:20px; height: 20px;">
@@ -183,7 +183,7 @@
                                     {% endfor %}
                                 </th>
                                 <th>
-                                    {% set stars = user.tasks[task.number][2] // 10 %}
+                                    {% set stars = user.tasks_sum[task.number][2] // 10 %}
                                     {% for star in range(0, stars) %}
                                         <span class="pricing-dollar" style="display: inline-block;">
                                             <img src="/static/img/star.png" class="img-responsive" style="width:20px; height: 20px;">
@@ -191,7 +191,7 @@
                                     {% endfor %}
                                 </th>
                                 <th>
-                                    {% set stars = user.tasks[task.number][3] // 10 %}
+                                    {% set stars = user.tasks_sum[task.number][3] // 10 %}
                                     {% for star in range(0, stars) %}
                                         <span class="pricing-dollar" style="display: inline-block;">
                                             <img src="/static/img/star.png" class="img-responsive" style="width:20px; height: 20px;">
@@ -207,6 +207,20 @@
             </div>
         </div>
     </div>
+
+    <div class="container">
+    <div class="row">
+        <div class="col-md-12 col-sm-12">
+            <div class="section-title">
+                <h1>Informações do último dojo realizado:</h1>
+            </div>
+            <div class="info-content">
+                <pre>{{ user.last }}</pre>
+            </div>
+        </div>
+    </div>
+    </div>
+
 </section>
 
 <!-- Definição da variável userId utilizando Jinja2 -->
