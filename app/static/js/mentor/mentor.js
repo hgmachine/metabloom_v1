@@ -132,18 +132,21 @@ function handleResend(userId, questionId, question, response) {
     }
 
     if (feedbackValue) {
-        sendFeedback(userId, questionId, question, response, feedbackValue);
-        var submitButton = document.getElementById('resendButton_' + questionId);
-        submitButton.disabled = true;
-        submitButton.innerText = 'Enviado';
-
-        // Após 1 segundo, remove o conteúdo da pergunta
+        // Adiciona um delay de 500ms antes de enviar o feedback
         setTimeout(function() {
-            var responseItem = submitButton.closest('.response-item'); // Encontra o item da resposta
-            if (responseItem) {
-                responseItem.remove(); // Remove o item da resposta da página
-            }
-        }, 1000); // 1000 milissegundos = 1 segundo
+            sendFeedback(userId, questionId, question, response, feedbackValue);
+            var submitButton = document.getElementById('resendButton_' + questionId);
+            submitButton.disabled = true;
+            submitButton.innerText = 'Enviado';
+
+            // Após 1 segundo, remove o conteúdo da pergunta
+            setTimeout(function() {
+                var responseItem = submitButton.closest('.response-item'); // Encontra o item da resposta
+                if (responseItem) {
+                    responseItem.remove(); // Remove o item da resposta da página
+                }
+            }, 1000); // 1000 milissegundos = 1 segundo
+        }, 500); // Adiciona o delay de 500ms aqui
     } else {
         alert('Por favor, selecione uma opção antes de enviar.');
     }
