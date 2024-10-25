@@ -18,19 +18,23 @@ socket.on('close_order', function(data) {
 });
 
 socket.on('app_update_handle_button', function(data) {
-
-    // Monta o ID do botão
     var buttonId = 'resendButton_' + data.question_id;
-
-    // Tenta obter o botão
     var button = document.getElementById(buttonId);
+
     if (button) {
-        // Desabilita o botão e muda o texto
         button.disabled = true;
-        button.innerText = 'Enviado';  // Muda o texto do botão para indicar que foi enviado
-        console.log('Botão desabilitado e texto alterado:', button); // Log para verificar a alteração
+        button.innerText = 'Enviado';
+        console.log('Botão desabilitado e texto alterado:', button);
+
+        // Remove o item da resposta correspondente após 1 segundo
+        setTimeout(function() {
+            var responseItem = button.closest('.response-item'); // Encontra o item da resposta
+            if (responseItem) {
+                responseItem.remove(); // Remove o item da resposta da página
+            }
+        }, 1000); // 1000 milissegundos = 1 segundo
     } else {
-        console.error('Botão não encontrado:', buttonId); // Log de erro se o botão não for encontrado
+        console.error('Botão não encontrado:', buttonId);
     }
 });
 
