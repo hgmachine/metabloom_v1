@@ -615,7 +615,6 @@ class Application:
             question= data['question']
             response = data['response']
             self.content.add_content(user_id,question_id,question,response,None)
-            self.content.print_all()
             self.sio.emit('new_response', {'user_id': user_id, 'question_id': question_id, 'question': question, 'response': response}, room='mentors')
 
         @self.sio.event

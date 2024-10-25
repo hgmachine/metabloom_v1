@@ -36,15 +36,17 @@ socket.on('app_update_handle_button', function(data) {
 
 socket.on('new_response', function(data) {
     var responseDiv = document.createElement('div');
+    responseDiv.className = 'response-item'; // Adiciona a classe Bootstrap
+
     var questionDiv = document.createElement('div');
+    questionDiv.innerHTML = "<strong>Pergunta:</strong> " + data.question + "<br>";
+    responseDiv.appendChild(questionDiv);
 
     var responseTextarea = document.createElement('textarea');
     responseTextarea.rows = 4; // Número de linhas visíveis
     responseTextarea.cols = 50; // Número de colunas visíveis
     responseTextarea.value = data.response; // Definindo o valor da resposta
-
-    questionDiv.innerHTML = "<br>" +  "Pergunta:" + data.question + "<br>";
-    responseDiv.appendChild(questionDiv);
+    responseTextarea.className = 'form-control'; // Classe Bootstrap para textarea
     responseDiv.appendChild(responseTextarea); // Adicionando a textarea
 
     // Criação dos radio buttons
@@ -60,17 +62,30 @@ socket.on('new_response', function(data) {
     incorrectFeedback.value = 'Errada';
     incorrectFeedback.id = 'incorrect_' + data.user_id;
 
-    responseDiv.appendChild(document.createElement('br'));
-    responseDiv.appendChild(correctFeedback);
-    responseDiv.appendChild(document.createTextNode('Correta'));
-    responseDiv.appendChild(document.createElement('br'));
-    responseDiv.appendChild(incorrectFeedback);
-    responseDiv.appendChild(document.createTextNode('Errada'));
-    responseDiv.appendChild(document.createElement('br'));
+    var feedbackDiv = document.createElement('div');
+    feedbackDiv.className = 'mt-2'; // Margem superior para espaçamento
+
+    // Usar innerHTML para permitir negrito
+    var correctLabel = document.createElement('label');
+    correctLabel.setAttribute('for', correctFeedback.id);
+    correctLabel.innerHTML = '<strong>Correta</strong>';
+
+    var incorrectLabel = document.createElement('label');
+    incorrectLabel.setAttribute('for', incorrectFeedback.id);
+    incorrectLabel.innerHTML = '<strong>Errada</strong>';
+
+    feedbackDiv.appendChild(correctFeedback);
+    feedbackDiv.appendChild(correctLabel);
+    feedbackDiv.appendChild(document.createElement('br'));
+    feedbackDiv.appendChild(incorrectFeedback);
+    feedbackDiv.appendChild(incorrectLabel);
+
+    responseDiv.appendChild(feedbackDiv);
 
     // Adicionando um botão para enviar o feedback
     var submitButton = document.createElement('button');
     submitButton.innerText = 'Enviar Feedback';
+    submitButton.className = 'btn btn-primary'; // Classe Bootstrap para botão
     submitButton.id = 'resendButton_' + data.question_id; // Definindo o ID do botão
     // Função chamada ao clicar no botão
     submitButton.onclick = function() {
@@ -85,6 +100,10 @@ socket.on('new_response', function(data) {
             // Desabilita o botão e altera o texto após o envio
             submitButton.disabled = true;
             submitButton.innerText = 'Enviado';
+            // Após 1 segundo, remove o responseDiv
+            setTimeout(function() {
+            document.getElementById('responses').removeChild(responseDiv);
+            }, 1000); // 1000 milissegundos = 1 segundo
         } else {
             alert('Por favor, selecione uma opção antes de enviar.');
         }
@@ -96,4 +115,33 @@ socket.on('new_response', function(data) {
 
 function sendFeedback(userId, questionId, question, response, feedback) {
     socket.emit('mentor_feedback', {user_id: userId, question_id: questionId, question:question, response:response, feedback: feedback});
+}
+
+function handleResend(userId, questionId, question, response) {
+    var feedbackValue;
+    var correctFeedback = document.getElementById('correct_' + userId);
+    var incorrectFeedback = document.getElementById('incorrect_' + userId);
+
+    if (correctFeedback.checked) {
+        feedbackValue = 'Correta';
+    } else if (incorrectFeedback.checked) {
+        feedbackValue = 'Errada';
+    }
+
+    if (feedbackValue) {
+        sendFeedback(userId, questionId, question, response, feedbackValue);
+        var submitButton = document.getElementById('resendButton_' + questionId);
+        submitButton.disabled = true;
+        submitButton.innerText = 'Enviado';
+
+        // Após 1 segundo, remove o conteúdo da pergunta
+        setTimeout(function() {
+            var responseItem = submitButton.closest('.response-item'); // Encontra o item da resposta
+            if (responseItem) {
+                responseItem.remove(); // Remove o item da resposta da página
+            }
+        }, 1000); // 1000 milissegundos = 1 segundo
+    } else {
+        alert('Por favor, selecione uma opção antes de enviar.');
+    }
 }
