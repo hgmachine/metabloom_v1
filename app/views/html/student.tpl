@@ -90,7 +90,7 @@
                                     <th>{{ task.title }}</th>
                                   {% endif %}
                                 <th>
-                                    {% set stars = user.tasks_sum[task.number][0] // 10 if task.number in user.tasks.sum.keys() else 0 %}
+                                    {% set stars = user.tasks_sum[task.number][0] // 10 if task.number in user.tasks_sum.keys() else 0 %}
                                     {% for star in range(0, stars) %}
                                         <span class="pricing-dollar" style="display: inline-block;">
                                             <img src="/static/img/star.png" class="img-responsive" style="width:20px; height: 20px;">
@@ -98,7 +98,7 @@
                                     {% endfor %}
                                 </th>
                                 <th>
-                                    {% set stars = user.tasks_sum[task.number][1] // 10 if task.number in user.tasks.sum.keys() else 0 %}
+                                    {% set stars = user.tasks_sum[task.number][1] // 10 if task.number in user.tasks_sum.keys() else 0 %}
                                     {% for star in range(0, stars) %}
                                         <span class="pricing-dollar" style="display: inline-block;">
                                             <img src="/static/img/star.png" class="img-responsive" style="width:20px; height: 20px;">
@@ -106,7 +106,7 @@
                                     {% endfor %}
                                 </th>
                                 <th>
-                                    {% set stars = user.tasks_sum[task.number][2] // 10 if task.number in user.tasks.sum.keys() else 0 %}
+                                    {% set stars = user.tasks_sum[task.number][2] // 10 if task.number in user.tasks_sum.keys() else 0 %}
                                     {% for star in range(0, stars) %}
                                         <span class="pricing-dollar" style="display: inline-block;">
                                             <img src="/static/img/star.png" class="img-responsive" style="width:20px; height: 20px;">
@@ -114,7 +114,7 @@
                                     {% endfor %}
                                 </th>
                                 <th>
-                                    {% set stars = user.tasks_sum[task.number][3] if task.number in user.tasks.sum.keys() else 0 %}
+                                    {% set stars = user.tasks_sum[task.number][3] if task.number in user.tasks_sum.keys() else 0 %}
                                     {% for star in range(0, stars) %}
                                         <span class="pricing-dollar" style="display: inline-block;">
                                             <img src="/static/img/star.png" class="img-responsive" style="width:20px; height: 20px;">
@@ -167,7 +167,7 @@
                                     <th>{{ task.title }}</th>
                                   {% endif %}
                                 <th>
-                                    {% set stars = user.tasks_sum[task.number][0] // 10 if task.number in user.tasks.sum.keys() else 0 %}
+                                    {% set stars = user.tasks_sum[task.number][0] // 10 if task.number in user.tasks_sum.keys() else 0 %}
                                     {% for star in range(0, stars) %}
                                         <span class="pricing-dollar" style="display: inline-block;">
                                             <img src="/static/img/star.png" class="img-responsive" style="width:20px; height: 20px;">
@@ -175,7 +175,7 @@
                                     {% endfor %}
                                 </th>
                                 <th>
-                                    {% set stars = user.tasks_sum[task.number][1] // 10 if task.number in user.tasks.sum.keys() else 0 %}
+                                    {% set stars = user.tasks_sum[task.number][1] // 10 if task.number in user.tasks_sum.keys() else 0 %}
                                     {% for star in range(0, stars) %}
                                         <span class="pricing-dollar" style="display: inline-block;">
                                             <img src="/static/img/star.png" class="img-responsive" style="width:20px; height: 20px;">
@@ -183,7 +183,7 @@
                                     {% endfor %}
                                 </th>
                                 <th>
-                                    {% set stars = user.tasks_sum[task.number][2] // 10 if task.number in user.tasks.sum.keys() else 0 %}
+                                    {% set stars = user.tasks_sum[task.number][2] // 10 if task.number in user.tasks_sum.keys() else 0 %}
                                     {% for star in range(0, stars) %}
                                         <span class="pricing-dollar" style="display: inline-block;">
                                             <img src="/static/img/star.png" class="img-responsive" style="width:20px; height: 20px;">
@@ -191,7 +191,7 @@
                                     {% endfor %}
                                 </th>
                                 <th>
-                                    {% set stars = user.tasks_sum[task.number][3] if task.number in user.tasks.sum.keys() else 0 %}
+                                    {% set stars = user.tasks_sum[task.number][3] if task.number in user.tasks_sum.keys() else 0 %}
                                     {% for star in range(0, stars) %}
                                         <span class="pricing-dollar" style="display: inline-block;">
                                             <img src="/static/img/star.png" class="img-responsive" style="width:20px; height: 20px;">
