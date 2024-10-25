@@ -48,12 +48,22 @@ function clearTextareas() {
     });
 }
 
-function submitAnswer(questionId) {
+function submitAnswer(questionId, button) {
     var questionElement = document.getElementById('question_' + questionId);
     var responseElement = document.getElementById('response_' + questionId);
     var question = questionElement.innerText;
     var response = responseElement.value; // Mudando de innerText para value para input
+
+    if (!response) {
+      alert("Por favor, digite uma resposta antes de enviar.");
+      return;
+    }
+
     socket.emit('submit_response', { user_id: userId, question_id: questionId, question: question, response: response });
+
+    // Desabilita o botão e altera o texto
+    button.disabled = true;
+    button.innerText = 'Enviada';
 }
 
 socket.on('close_order', function(data) {

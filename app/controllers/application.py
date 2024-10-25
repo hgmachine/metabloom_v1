@@ -220,6 +220,10 @@ class Application:
             meta = request.forms.get('meta').encode('latin-1').decode('utf-8')
             self.insert_admin(username, password, meta, {})
 
+        @self.app.route('/admin/students/reset_them_all', method='POST')
+        def admim_reset_post():
+            self.reset_them_all()
+
         @self.app.route('/mentor/send_feedback', method='POST')
         def send_feedback_post():
             user_id= request.forms.get('user_id')
@@ -448,6 +452,8 @@ class Application:
                     task= self.tasks.get_task_by_number(number)
                     for question_id in current_user.done:
                         task.update_answered_number(level,question_id)
+                    for content in self.content.contents:
+                        task.update_answered_number(level,content.question_id)
                     if task:
                         questions= task.questions(level)
                         self.dojos.create_job(current_user.user_id, number, level)
@@ -564,16 +570,29 @@ class Application:
         user.last= report_content
         self.students.save()
 
-
     def open_dojo(self):
         self.content.clear_all()
         self.students.reset_tasks()
+        self.tasks.reset_submission()
         self.dojos.restart()
         self.dojos.open()
 
     def close_dojo(self):
         self.dojos.close()
         self.evaluate_dojos()
+
+    def reset_them_all(self):
+        students= self.students
+        for student in students.models:
+            tasks= student.tasks
+            for number, points in tasks.items():
+                tasks[number]= [0,0,0,0]
+            student.tasks_sum= {}
+            student.done= {}
+            student.last= ""
+        self.students.save()
+        print('Sucesso na limpeza dos dados!')
+        redirect('/admin')
 
     ############################################################################
     # Websocket events (cables and chanels):
@@ -595,13 +614,8 @@ class Application:
             question_id = data['question_id']
             question= data['question']
             response = data['response']
-            print('***********************************************************')
-            print(f'User_id emitido pelo JS: {user_id}')
-            print(f'Question_id emitido pelo Js: {question_id}')
-            print(f'Question emitido pelo JS: {question}')
-            print(f'Response emitido pelo JS: {response}')
-            print('***********************************************************')
             self.content.add_content(user_id,question_id,question,response,None)
+            self.content.print_all()
             self.sio.emit('new_response', {'user_id': user_id, 'question_id': question_id, 'question': question, 'response': response}, room='mentors')
 
         @self.sio.event

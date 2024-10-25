@@ -5,3 +5,6 @@ class Content:
         self.response = response
         self.question_id = question_id
         self.feedback= feedback
+
+    def __str__(self):
+        return f"Question_Id: {self.question_id}, Response: {self.response}"

@@ -73,5 +73,9 @@ class Task:
             'answered_numbers': self.answered_numbers
         }
 
+    def reset_answered_numbers(self):
+        """Reseta as questões respondidas para todos os níveis."""
+        self.answered_numbers = {"1": [], "2": [], "3": []}
+
     def __repr__(self):
         return f"Task(title={self.title}, type={self.type}, number={self.number})"

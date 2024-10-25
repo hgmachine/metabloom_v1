@@ -32,5 +32,9 @@ class ContentRecord:
         print("O ID do usuário ou da pergunta não existe!")
         return False
 
+    def print_all(self):
+        for content in self.contents:
+            print(content)
+
     def clear_all(self):
         self.contents = []

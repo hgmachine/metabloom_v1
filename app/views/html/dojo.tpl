@@ -31,7 +31,7 @@
                       <div class="question mb-4">
                           <h4 id="question_{{ question['number'] }}">{{ question['text'] }}</h4>
                           <textarea id="response_{{ question['number'] }}" class="response-textarea form-control mb-2" rows="4" placeholder="Digite sua resposta aqui..."></textarea>
-                          <button class="btn btn-primary" onclick="submitAnswer('{{ question['number'] }}')">Submeter</button>
+                          <button class="btn btn-primary" onclick="submitAnswer('{{ question['number'] }}', this)">Submeter</button>
                       </div>
                       <h4 id="feedback_{{ question['number'] }}">Resposta: não corrigida.</h4>
                   {% endfor %}

@@ -90,6 +90,10 @@
             <form action="/admin/students/off_them_all" method="post" style="display:inline;">
                 <button type="submit" class="btn btn-sm btn-danger">Indisponibilizar os estudantes</button>
             </form>
+            <!-- Botão para resetar todos os estudantes indisponíveis -->
+            <form action="/admin/students/reset_them_all" method="post" style="display:inline;">
+                <button type="submit" class="btn btn-sm btn-danger" onclick="return confirm('Você tem certeza de que deseja resetar a pontuação de todos os estudantes?');">Resetar pontuação</button>
+            </form>
             <div id="updated_status_dojos"><h4>{{ status_dojos }}</h4></div>
         </div>
     </div>
