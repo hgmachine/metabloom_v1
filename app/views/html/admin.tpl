@@ -87,13 +87,17 @@
                 <button type="submit" class="btn btn-sm btn-danger">Gerar relatórios</button>
             </form>
             <!-- Botão para tornar todos os estudantes indisponíveis -->
+            <form action="/admin/students/light_them_all" method="post" style="display:inline;">
+                <button type="submit" class="btn btn-sm btn-danger">Disponibilidade</button>
+            </form>
+            <!-- Botão para tornar todos os estudantes indisponíveis -->
             <form action="/admin/students/off_them_all" method="post" style="display:inline;">
-                <button type="submit" class="btn btn-sm btn-danger">Indisponibilizar os estudantes</button>
+                <button type="submit" class="btn btn-sm btn-danger">Indisponíbilidade</button>
             </form>
             <!-- Botão para resetar todos os estudantes indisponíveis -->
-            <form action="/admin/students/reset_them_all" method="post" style="display:inline;">
+            <!--<form action="/admin/students/reset_them_all" method="post" style="display:inline;">
                 <button type="submit" class="btn btn-sm btn-danger" onclick="return confirm('Você tem certeza de que deseja resetar a pontuação de todos os estudantes?');">Resetar pontuação</button>
-            </form>
+            </form>>-->
             <div id="updated_status_dojos"><h4>{{ status_dojos }}</h4></div>
         </div>
     </div>
@@ -446,6 +450,128 @@
             <h4>Você está habilitado para participar destas avaliações</h4>
             {% endif%}
         </div>
+
+        <div class="container">
+            <h2>Gerenciamento de Estudantes</h2>
+
+            <!-- Listagem de Estudantes -->
+            <table class="table table-striped">
+                <thead>
+                    <tr>
+                      <th>Nome</th>
+                      <th>Senha</th>
+                      <th>Meta</th>
+                      <th>Disponível</th>
+                      <th>Ações</th>
+                    </tr>
+                </thead>
+                <tbody>
+
+                    {% for student in students.models: %}
+
+                        <tr>
+                            <td>{{ student.username }}</td>
+                            <td>{{ student.password }}</td>
+                            <td>{{ student.meta }}</td>
+                            <td>
+                                {% if student.on %}
+                                  <img src="/static/img/checkok.png" class="img-responsive" style="width:20px; height: 20px;">
+                                {% else %}
+                                  <img src="/static/img/checknok.png" class="img-responsive" style="width:20px; height: 20px;">
+                                {% endif %}
+                            </td>
+                            <td>
+                                <!-- Botão para Vizualizar -->
+                                <form action="/admin/students/view/{{ student.user_id }}" method="get" style="display:inline;">
+                                    <button type="submit" class="btn btn-sm btn-danger">Visualizar</button>
+                                </form>
+
+                                <!-- Modal para Editar -->
+                              <div class="modal fade" id="editStudentModal{{ student.user_id }}" tabindex="-1" role="dialog" aria-labelledby="editStudentModalLabel{{ student.user_id }}" aria-hidden="true">
+                                <div class="modal-dialog" role="document">
+                                  <div class="modal-content">
+                                    <form action="/admin/students/update/{{ student.user_id }}" method="post">
+                                      <div class="modal-header">
+                                        <h5 class="modal-title" id="editStudentModalLabel{{ student.user_id }}">Editar Estudante</h5>
+                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                          <span aria-hidden="true">&times;</span>
+                                        </button>
+                                      </div>
+                                      <div class="modal-body">
+                                        <div class="form-group">
+                                          <label for="username">Nome de usuário</label>
+                                        </div>
+                                        <input type="text" class="form-control" name="username" value="{{ student.username }}" required>
+                                        <div class="form-group">
+                                          <label for="password">Senha</label>
+                                          <input type="text" class="form-control" name="password" value="{{ student.password }}" required>
+                                        </div>
+
+                                        <div class="form-group">
+                                            <label for="tasks">Microtarefas</label>
+                                            <div class="form-check">
+                                                {% for task in tasks.models %}
+                                                   {% if task.type == 'Micro' %}
+                                                      <input class="form-check-input" type="checkbox" name="tasks" id="microtask{{ task.number }}" value="{{ task.number }}"
+                                                          {% if task.number in student.tasks.keys() %}checked{% endif %}>
+                                                      <label class="form-check-label" for="microtask{{ task.number }}">
+                                                          {{ task.title }}
+                                                      </label>
+                                                      <br>
+                                                   {% endif %}
+                                                {% endfor %}
+                                            </div>
+                                        </div>
+
+                                        <div class="form-group">
+                                            <label for="tasks">Macrotarefas</label>
+                                            <div class="form-check">
+                                                {% for task in tasks.models %}
+                                                    {% if task.type == 'Macro' %}
+                                                        <input class="form-check-input" type="checkbox" name="tasks" id="macrotask{{ task.number }}" value="{{ task.number }}"
+                                                            {% if task.number in student.tasks.keys() %}checked{% endif %}>
+                                                        <label class="form-check-label" for="macrotask{{ task.number }}">
+                                                            {{ task.title }}
+                                                        </label>
+                                                        <br>
+                                                    {% endif %}
+                                                {% endfor %}
+                                            </div>
+                                        </div>
+
+                                        <div class="form-group">
+                                             <label for="availability">Disponibilidade</label>
+                                             <div class="form-check">
+                                                 <input class="form-check-input" type="checkbox" name="availability" id="availability" value="1"
+                                                     {% if student.on %}checked{% endif %}>
+                                                 <label class="form-check-label" for="availability">
+                                                     Disponível
+                                                 </label>
+                                             </div>
+                                         </div>
+
+                                        <div class="form-group">
+                                          <label for="meta">Meta</label>
+                                          <input type="text" class="form-control" name="meta" value="{{ student.meta }}" required>
+                                        </div>
+
+                                      </div>
+                                      <div class="modal-footer">
+                                        <input type="hidden" name="user_id" value="{{ student.user_id }}">
+                                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Cancelar</button>
+                                        <button type="submit" class="btn btn-primary">Salvar Alterações</button>
+                                      </div>
+                                    </form>
+                                  </div>
+                                </div>
+                              </div>
+                            </td>
+                        </tr>
+
+                    {% endfor %}
+
+                </tbody>
+            </table>
 
 {% endif %}
 

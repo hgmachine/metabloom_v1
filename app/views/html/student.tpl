@@ -90,37 +90,52 @@
                                     <th>{{ task.title }}</th>
                                   {% endif %}
                                 <th>
-                                    {% set stars = user.tasks_sum[task.number][0] // 10 if task.number in user.tasks_sum.keys() else 0 %}
-                                    {% for star in range(0, stars) %}
-                                        <span class="pricing-dollar" style="display: inline-block;">
-                                            <img src="/static/img/star.png" class="img-responsive" style="width:20px; height: 20px;">
-                                        </span>
-                                    {% endfor %}
+                                    {% if not admin %}
+                                      {% set stars = user.tasks_sum[task.number][0] // 10 if task.number in user.tasks_sum.keys() else 0 %}
+                                      {% for star in range(0, stars) %}
+                                          <span class="pricing-dollar" style="display: inline-block;">
+                                              <img src="/static/img/star.png" class="img-responsive" style="width:20px; height: 20px;">
+                                          </span>
+                                      {% endfor %}
+                                    {% else %}
+                                          <p style="text-align:center;">{{ user.tasks_sum[task.number][0] if task.number in user.tasks_sum.keys() else 0 }} </p>
+                                    {% endif %}
                                 </th>
                                 <th>
+                                  {% if not admin %}
                                     {% set stars = user.tasks_sum[task.number][1] // 10 if task.number in user.tasks_sum.keys() else 0 %}
                                     {% for star in range(0, stars) %}
                                         <span class="pricing-dollar" style="display: inline-block;">
                                             <img src="/static/img/star.png" class="img-responsive" style="width:20px; height: 20px;">
                                         </span>
                                     {% endfor %}
+                                  {% else %}
+                                        <p style="text-align:center;">{{ user.tasks_sum[task.number][1] if task.number in user.tasks_sum.keys() else 0 }} </p>
+                                  {% endif %}
                                 </th>
                                 <th>
+                                  {% if not admin %}
                                     {% set stars = user.tasks_sum[task.number][2] // 10 if task.number in user.tasks_sum.keys() else 0 %}
                                     {% for star in range(0, stars) %}
                                         <span class="pricing-dollar" style="display: inline-block;">
                                             <img src="/static/img/star.png" class="img-responsive" style="width:20px; height: 20px;">
                                         </span>
                                     {% endfor %}
+                                  {% else %}
+                                        <p style="text-align:center;">{{ user.tasks_sum[task.number][2] if task.number in user.tasks_sum.keys() else 0 }} </p>
+                                  {% endif %}
                                 </th>
                                 <th>
-                                    {% set stars = user.tasks_sum[task.number][3] if task.number in user.tasks_sum.keys() else 0 %}
+                                  {% if not admin %}
+                                    {% set stars = user.tasks_sum[task.number][3] // 10 if task.number in user.tasks_sum.keys() else 0 %}
                                     {% for star in range(0, stars) %}
                                         <span class="pricing-dollar" style="display: inline-block;">
                                             <img src="/static/img/star.png" class="img-responsive" style="width:20px; height: 20px;">
-					    <p>*</p>
                                         </span>
                                     {% endfor %}
+                                  {% else %}
+                                        <p style="text-align:center;">{{ user.tasks_sum[task.number][3] if task.number in user.tasks_sum.keys() else 0 }} </p>
+                                  {% endif %}
                                 </th>
                             </tr>
                             {% set counter = counter + 1 %}
@@ -167,36 +182,52 @@
                                     <th>{{ task.title }}</th>
                                   {% endif %}
                                 <th>
+                                  {% if not current_admin %}
                                     {% set stars = user.tasks_sum[task.number][0] // 10 if task.number in user.tasks_sum.keys() else 0 %}
                                     {% for star in range(0, stars) %}
                                         <span class="pricing-dollar" style="display: inline-block;">
                                             <img src="/static/img/star.png" class="img-responsive" style="width:20px; height: 20px;">
                                         </span>
                                     {% endfor %}
+                                  {% else %}
+                                        <p style="text-align:center;">{{ user.tasks_sum[task.number][0] if task.number in user.tasks_sum.keys() else 0 }} </p>
+                                  {% endif %}
                                 </th>
                                 <th>
+                                  {% if not current_admin %}
                                     {% set stars = user.tasks_sum[task.number][1] // 10 if task.number in user.tasks_sum.keys() else 0 %}
                                     {% for star in range(0, stars) %}
                                         <span class="pricing-dollar" style="display: inline-block;">
                                             <img src="/static/img/star.png" class="img-responsive" style="width:20px; height: 20px;">
                                         </span>
                                     {% endfor %}
+                                  {% else %}
+                                        <p style="text-align:center;">{{ user.tasks_sum[task.number][1] if task.number in user.tasks_sum.keys() else 0 }} </p>
+                                  {% endif %}
                                 </th>
                                 <th>
+                                  {% if not current_admin %}
                                     {% set stars = user.tasks_sum[task.number][2] // 10 if task.number in user.tasks_sum.keys() else 0 %}
                                     {% for star in range(0, stars) %}
                                         <span class="pricing-dollar" style="display: inline-block;">
                                             <img src="/static/img/star.png" class="img-responsive" style="width:20px; height: 20px;">
                                         </span>
                                     {% endfor %}
+                                  {% else %}
+                                        <p style="text-align:center;">{{ user.tasks_sum[task.number][2] if task.number in user.tasks_sum.keys() else 0 }} </p>
+                                  {% endif %}
                                 </th>
                                 <th>
-                                    {% set stars = user.tasks_sum[task.number][3] if task.number in user.tasks_sum.keys() else 0 %}
+                                  {% if not current_admin %}
+                                    {% set stars = user.tasks_sum[task.number][3] // 10 if task.number in user.tasks_sum.keys() else 0 %}
                                     {% for star in range(0, stars) %}
                                         <span class="pricing-dollar" style="display: inline-block;">
                                             <img src="/static/img/star.png" class="img-responsive" style="width:20px; height: 20px;">
                                         </span>
                                     {% endfor %}
+                                  {% else %}
+                                        <p style="text-align:center;">{{ user.tasks_sum[task.number][3] if task.number in user.tasks_sum.keys() else 0 }} </p>
+                                  {% endif %}
                                 </th>
                             </tr>
                             {% set counter = counter + 1 %}

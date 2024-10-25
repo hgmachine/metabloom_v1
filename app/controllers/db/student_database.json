@@ -33,33 +33,8 @@
         "permissions": {},
         "done": {},
         "on": true,
-        "tasks_sum": {
-            "e263f569-5298-4a23-8e95-365bb0aef5e5": [
-                0,
-                0,
-                0,
-                0
-            ],
-            "bc98762b-c01c-4c64-b8b2-5f84fe463c9c": [
-                0,
-                0,
-                0,
-                0
-            ],
-            "730bb18b-814d-4c6b-aff9-87713d2e61f5": [
-                0,
-                0,
-                0,
-                0
-            ],
-            "49cddbbf-7934-4669-ab8a-c54e2ba3a55d": [
-                0,
-                0,
-                0,
-                0
-            ]
-        },
-        "last": "Data: 25/10/2024 15:40:51\n\nNenhuma pergunta foi respondida neste momento.\n"
+        "tasks_sum": {},
+        "last": ""
     },
     {
         "username": "Alan",
@@ -94,9 +69,9 @@
         "user_id": "7df0538d-1488-4536-af71-0a96022a5017",
         "permissions": [],
         "done": {},
-        "on": true,
+        "on": false,
         "tasks_sum": {},
-        "last": "Data: 25/10/2024 15:40:51\n\nNenhuma pergunta foi respondida neste momento.\n"
+        "last": ""
     },
     {
         "username": "Anderson",
@@ -131,9 +106,9 @@
         "user_id": "9e0d2cc9-2c08-427a-93b7-939867e57a51",
         "permissions": [],
         "done": {},
-        "on": true,
+        "on": false,
         "tasks_sum": {},
-        "last": "Data: 25/10/2024 15:40:51\n\nNenhuma pergunta foi respondida neste momento.\n"
+        "last": ""
     },
     {
         "username": "Andre",
@@ -168,9 +143,9 @@
         "user_id": "97b313d0-fec0-4e73-b8fe-e26852a9cd0a",
         "permissions": [],
         "done": {},
-        "on": true,
+        "on": false,
         "tasks_sum": {},
-        "last": "Data: 25/10/2024 15:40:51\n\nNenhuma pergunta foi respondida neste momento.\n"
+        "last": ""
     },
     {
         "username": "Anderson",
@@ -205,9 +180,9 @@
         "user_id": "32881716-3a4b-4265-9961-c7f9adb5ee6b",
         "permissions": [],
         "done": {},
-        "on": true,
+        "on": false,
         "tasks_sum": {},
-        "last": "Data: 25/10/2024 15:40:51\n\nNenhuma pergunta foi respondida neste momento.\n"
+        "last": ""
     },
     {
         "username": "Arthur",
@@ -242,9 +217,9 @@
         "user_id": "68f1e4f3-806a-4ff0-832f-61afed326754",
         "permissions": [],
         "done": {},
-        "on": true,
+        "on": false,
         "tasks_sum": {},
-        "last": "Data: 25/10/2024 15:40:51\n\nNenhuma pergunta foi respondida neste momento.\n"
+        "last": ""
     },
     {
         "username": "Arthur",
@@ -279,9 +254,9 @@
         "user_id": "a6c2ef6a-20dc-4ecf-bec9-645611bbdab8",
         "permissions": [],
         "done": {},
-        "on": true,
+        "on": false,
         "tasks_sum": {},
-        "last": "Data: 25/10/2024 15:40:51\n\nNenhuma pergunta foi respondida neste momento.\n"
+        "last": ""
     },
     {
         "username": "Arthur",
@@ -316,9 +291,9 @@
         "user_id": "81625832-5a12-48c6-9407-6aaabe213113",
         "permissions": [],
         "done": {},
-        "on": true,
+        "on": false,
         "tasks_sum": {},
-        "last": "Data: 25/10/2024 15:40:51\n\nNenhuma pergunta foi respondida neste momento.\n"
+        "last": ""
     },
     {
         "username": "Antonio",
@@ -353,9 +328,9 @@
         "user_id": "ecb60a80-bccb-4ff7-8cfd-4c6b4cffdab2",
         "permissions": [],
         "done": {},
-        "on": true,
+        "on": false,
         "tasks_sum": {},
-        "last": "Data: 25/10/2024 15:40:51\n\nNenhuma pergunta foi respondida neste momento.\n"
+        "last": ""
     },
     {
         "username": "Artur",
@@ -390,9 +365,9 @@
         "user_id": "006a9961-dd27-4ee8-a0e5-f7906d2cf4fa",
         "permissions": [],
         "done": {},
-        "on": true,
+        "on": false,
         "tasks_sum": {},
-        "last": "Data: 25/10/2024 15:40:51\n\nNenhuma pergunta foi respondida neste momento.\n"
+        "last": ""
     },
     {
         "username": "Arthur",
@@ -427,9 +402,9 @@
         "user_id": "87394e47-b1f9-4719-aa97-6b52c321741a",
         "permissions": [],
         "done": {},
-        "on": true,
+        "on": false,
         "tasks_sum": {},
-        "last": "Data: 25/10/2024 15:40:51\n\nNenhuma pergunta foi respondida neste momento.\n"
+        "last": ""
     },
     {
         "username": "Breno",
@@ -464,9 +439,9 @@
         "user_id": "e4b322ff-1964-4ccf-ac27-e0c455b8a948",
         "permissions": [],
         "done": {},
-        "on": true,
+        "on": false,
         "tasks_sum": {},
-        "last": "Data: 25/10/2024 15:40:51\n\nNenhuma pergunta foi respondida neste momento.\n"
+        "last": ""
     },
     {
         "username": "Bruno",
@@ -501,9 +476,9 @@
         "user_id": "610c1a14-35e6-47f6-bb12-0af9a13bc16b",
         "permissions": [],
         "done": {},
-        "on": true,
+        "on": false,
         "tasks_sum": {},
-        "last": "Data: 25/10/2024 15:40:51\n\nNenhuma pergunta foi respondida neste momento.\n"
+        "last": ""
     },
     {
         "username": "Arthur",
@@ -538,9 +513,9 @@
         "user_id": "b1b86a1b-de56-49db-8222-deff0ee4e707",
         "permissions": [],
         "done": {},
-        "on": true,
+        "on": false,
         "tasks_sum": {},
-        "last": "Data: 25/10/2024 15:40:51\n\nNenhuma pergunta foi respondida neste momento.\n"
+        "last": ""
     },
     {
         "username": "Camila",
@@ -575,9 +550,9 @@
         "user_id": "acd10a85-d4fa-4686-b7af-6c7dc0978142",
         "permissions": [],
         "done": {},
-        "on": true,
+        "on": false,
         "tasks_sum": {},
-        "last": "Data: 25/10/2024 15:40:51\n\nNenhuma pergunta foi respondida neste momento.\n"
+        "last": ""
     },
     {
         "username": "Carlos",
@@ -612,9 +587,9 @@
         "user_id": "661aafd0-b0ed-4aa6-9307-8809820611d7",
         "permissions": [],
         "done": {},
-        "on": true,
+        "on": false,
         "tasks_sum": {},
-        "last": "Data: 25/10/2024 15:40:51\n\nNenhuma pergunta foi respondida neste momento.\n"
+        "last": ""
     },
     {
         "username": "Artur",
@@ -649,9 +624,9 @@
         "user_id": "6578bfb5-648d-43f6-9b71-768d437c798f",
         "permissions": [],
         "done": {},
-        "on": true,
+        "on": false,
         "tasks_sum": {},
-        "last": "Data: 25/10/2024 15:40:51\n\nNenhuma pergunta foi respondida neste momento.\n"
+        "last": ""
     },
     {
         "username": "Davi",
@@ -686,9 +661,9 @@
         "user_id": "01139fa8-d061-422c-b941-51ad6b638297",
         "permissions": [],
         "done": {},
-        "on": true,
+        "on": false,
         "tasks_sum": {},
-        "last": "Data: 25/10/2024 15:40:51\n\nNenhuma pergunta foi respondida neste momento.\n"
+        "last": ""
     },
     {
         "username": "Edson",
@@ -723,9 +698,9 @@
         "user_id": "b3d3da33-663a-45aa-93bd-84fef7b78689",
         "permissions": [],
         "done": {},
-        "on": true,
+        "on": false,
         "tasks_sum": {},
-        "last": "Data: 25/10/2024 15:40:51\n\nNenhuma pergunta foi respondida neste momento.\n"
+        "last": ""
     },
     {
         "username": "Beatriz",
@@ -760,9 +735,9 @@
         "user_id": "184484f3-0698-43f8-aefd-bf493e9646bc",
         "permissions": [],
         "done": {},
-        "on": true,
+        "on": false,
         "tasks_sum": {},
-        "last": "Data: 25/10/2024 15:40:51\n\nNenhuma pergunta foi respondida neste momento.\n"
+        "last": ""
     },
     {
         "username": "Filipe",
@@ -797,9 +772,9 @@
         "user_id": "c4ebd554-52d6-419d-90a8-ddd1b7b6c121",
         "permissions": [],
         "done": {},
-        "on": true,
+        "on": false,
         "tasks_sum": {},
-        "last": "Data: 25/10/2024 15:40:51\n\nNenhuma pergunta foi respondida neste momento.\n"
+        "last": ""
     },
     {
         "username": "Gabriel",
@@ -834,9 +809,9 @@
         "user_id": "f95f02c2-65e9-4f81-ac14-98c5968c2f76",
         "permissions": [],
         "done": {},
-        "on": true,
+        "on": false,
         "tasks_sum": {},
-        "last": "Data: 25/10/2024 15:40:51\n\nNenhuma pergunta foi respondida neste momento.\n"
+        "last": ""
     },
     {
         "username": "Bruno",
@@ -871,9 +846,9 @@
         "user_id": "119a9097-dfbb-4269-9904-64b34d828a3c",
         "permissions": [],
         "done": {},
-        "on": true,
+        "on": false,
         "tasks_sum": {},
-        "last": "Data: 25/10/2024 15:40:52\n\nNenhuma pergunta foi respondida neste momento.\n"
+        "last": ""
     },
     {
         "username": "Guilherme",
@@ -908,9 +883,9 @@
         "user_id": "0907d1ca-bd79-485f-a4f5-c0dd4979ca91",
         "permissions": [],
         "done": {},
-        "on": true,
+        "on": false,
         "tasks_sum": {},
-        "last": "Data: 25/10/2024 15:40:52\n\nNenhuma pergunta foi respondida neste momento.\n"
+        "last": ""
     },
     {
         "username": "Gustavo",
@@ -945,9 +920,9 @@
         "user_id": "1f3a5b6d-a035-494d-b465-d2618cb99932",
         "permissions": [],
         "done": {},
-        "on": true,
+        "on": false,
         "tasks_sum": {},
-        "last": "Data: 25/10/2024 15:40:52\n\nNenhuma pergunta foi respondida neste momento.\n"
+        "last": ""
     },
     {
         "username": "Caio",
@@ -982,9 +957,9 @@
         "user_id": "35766f10-f2e0-4849-a9f5-1af6e9052139",
         "permissions": [],
         "done": {},
-        "on": true,
+        "on": false,
         "tasks_sum": {},
-        "last": "Data: 25/10/2024 15:40:52\n\nNenhuma pergunta foi respondida neste momento.\n"
+        "last": ""
     },
     {
         "username": "Gustavo",
@@ -1019,9 +994,9 @@
         "user_id": "bd188632-9125-4da7-9b61-5913420f7778",
         "permissions": [],
         "done": {},
-        "on": true,
+        "on": false,
         "tasks_sum": {},
-        "last": "Data: 25/10/2024 15:40:52\n\nNenhuma pergunta foi respondida neste momento.\n"
+        "last": ""
     },
     {
         "username": "Heitor",
@@ -1056,9 +1031,9 @@
         "user_id": "c73e7b24-0ff5-4cc9-8a50-27663b1ae399",
         "permissions": [],
         "done": {},
-        "on": true,
+        "on": false,
         "tasks_sum": {},
-        "last": "Data: 25/10/2024 15:40:52\n\nNenhuma pergunta foi respondida neste momento.\n"
+        "last": ""
     },
     {
         "username": "Camile",
@@ -1093,9 +1068,9 @@
         "user_id": "e554c045-beb7-4324-8842-968cb206d074",
         "permissions": [],
         "done": {},
-        "on": true,
+        "on": false,
         "tasks_sum": {},
-        "last": "Data: 25/10/2024 15:40:52\n\nNenhuma pergunta foi respondida neste momento.\n"
+        "last": ""
     },
     {
         "username": "Hugo",
@@ -1130,9 +1105,9 @@
         "user_id": "926eaa35-5102-46ce-b2ff-89d3ce5aa8b1",
         "permissions": [],
         "done": {},
-        "on": true,
+        "on": false,
         "tasks_sum": {},
-        "last": "Data: 25/10/2024 15:40:52\n\nNenhuma pergunta foi respondida neste momento.\n"
+        "last": ""
     },
     {
         "username": "Caua",
@@ -1167,9 +1142,9 @@
         "user_id": "bd8ca575-0f87-4ed7-9340-114101a77a80",
         "permissions": [],
         "done": {},
-        "on": true,
+        "on": false,
         "tasks_sum": {},
-        "last": "Data: 25/10/2024 15:40:52\n\nNenhuma pergunta foi respondida neste momento.\n"
+        "last": ""
     },
     {
         "username": "Italo",
@@ -1204,9 +1179,9 @@
         "user_id": "952644ba-8d6e-4b4e-955b-88b0ccc0fffd",
         "permissions": [],
         "done": {},
-        "on": true,
+        "on": false,
         "tasks_sum": {},
-        "last": "Data: 25/10/2024 15:40:52\n\nNenhuma pergunta foi respondida neste momento.\n"
+        "last": ""
     },
     {
         "username": "Joao",
@@ -1241,9 +1216,9 @@
         "user_id": "c941a01a-1d17-4d08-ba6d-ea2859e098a4",
         "permissions": [],
         "done": {},
-        "on": true,
+        "on": false,
         "tasks_sum": {},
-        "last": "Data: 25/10/2024 15:40:52\n\nNenhuma pergunta foi respondida neste momento.\n"
+        "last": ""
     },
     {
         "username": "Davi",
@@ -1278,9 +1253,9 @@
         "user_id": "469eee88-e4e7-413f-a890-fb4098dace8f",
         "permissions": [],
         "done": {},
-        "on": true,
+        "on": false,
         "tasks_sum": {},
-        "last": "Data: 25/10/2024 15:40:52\n\nNenhuma pergunta foi respondida neste momento.\n"
+        "last": ""
     },
     {
         "username": "Joao",
@@ -1315,9 +1290,9 @@
         "user_id": "268b0892-1f53-43be-9b69-d2e31d82def9",
         "permissions": [],
         "done": {},
-        "on": true,
+        "on": false,
         "tasks_sum": {},
-        "last": "Data: 25/10/2024 15:40:52\n\nNenhuma pergunta foi respondida neste momento.\n"
+        "last": ""
     },
     {
         "username": "Eduardo",
@@ -1352,9 +1327,9 @@
         "user_id": "030dd2f9-2aa2-478c-a7bf-1900c15759bd",
         "permissions": [],
         "done": {},
-        "on": true,
+        "on": false,
         "tasks_sum": {},
-        "last": "Data: 25/10/2024 15:40:52\n\nNenhuma pergunta foi respondida neste momento.\n"
+        "last": ""
     },
     {
         "username": "Joao",
@@ -1389,9 +1364,9 @@
         "user_id": "c511ac38-fa8a-4946-915a-38f50443e2e7",
         "permissions": [],
         "done": {},
-        "on": true,
+        "on": false,
         "tasks_sum": {},
-        "last": "Data: 25/10/2024 15:40:52\n\nNenhuma pergunta foi respondida neste momento.\n"
+        "last": ""
     },
     {
         "username": "Jonatas",
@@ -1426,9 +1401,9 @@
         "user_id": "fe26f023-71c9-4459-a7d5-a8d69653be14",
         "permissions": [],
         "done": {},
-        "on": true,
+        "on": false,
         "tasks_sum": {},
-        "last": "Data: 25/10/2024 15:40:52\n\nNenhuma pergunta foi respondida neste momento.\n"
+        "last": ""
     },
     {
         "username": "Gabriel",
@@ -1463,9 +1438,9 @@
         "user_id": "4f7ba5e1-972c-4f4e-9a57-de9155df8621",
         "permissions": [],
         "done": {},
-        "on": true,
+        "on": false,
         "tasks_sum": {},
-        "last": "Data: 25/10/2024 15:40:52\n\nNenhuma pergunta foi respondida neste momento.\n"
+        "last": ""
     },
     {
         "username": "Laura",
@@ -1500,9 +1475,9 @@
         "user_id": "fdb480de-fc70-480a-bc9a-a49c3a1ccaea",
         "permissions": [],
         "done": {},
-        "on": true,
+        "on": false,
         "tasks_sum": {},
-        "last": "Data: 25/10/2024 15:40:52\n\nNenhuma pergunta foi respondida neste momento.\n"
+        "last": ""
     },
     {
         "username": "Luan",
@@ -1537,9 +1512,9 @@
         "user_id": "f6b13051-523d-4e0b-a79e-0bdb1c88b648",
         "permissions": [],
         "done": {},
-        "on": true,
+        "on": false,
         "tasks_sum": {},
-        "last": "Data: 25/10/2024 15:40:52\n\nNenhuma pergunta foi respondida neste momento.\n"
+        "last": ""
     },
     {
         "username": "Geovanna",
@@ -1574,9 +1549,9 @@
         "user_id": "984424d3-e837-4ead-9749-6923f4d250b3",
         "permissions": [],
         "done": {},
-        "on": true,
+        "on": false,
         "tasks_sum": {},
-        "last": "Data: 25/10/2024 15:40:52\n\nNenhuma pergunta foi respondida neste momento.\n"
+        "last": ""
     },
     {
         "username": "Lucas",
@@ -1611,9 +1586,9 @@
         "user_id": "34901d86-4577-40d5-8abd-f619e93704e2",
         "permissions": [],
         "done": {},
-        "on": true,
+        "on": false,
         "tasks_sum": {},
-        "last": "Data: 25/10/2024 15:40:52\n\nNenhuma pergunta foi respondida neste momento.\n"
+        "last": ""
     },
     {
         "username": "Guilherme",
@@ -1648,9 +1623,9 @@
         "user_id": "2b18cd34-8c30-4e1d-b385-1c40913d6fcd",
         "permissions": [],
         "done": {},
-        "on": true,
+        "on": false,
         "tasks_sum": {},
-        "last": "Data: 25/10/2024 15:40:52\n\nNenhuma pergunta foi respondida neste momento.\n"
+        "last": ""
     },
     {
         "username": "Marcos",
@@ -1685,9 +1660,9 @@
         "user_id": "513ef534-c3ad-4ab7-868f-6a6987181fbf",
         "permissions": [],
         "done": {},
-        "on": true,
+        "on": false,
         "tasks_sum": {},
-        "last": "Data: 25/10/2024 15:40:52\n\nNenhuma pergunta foi respondida neste momento.\n"
+        "last": ""
     },
     {
         "username": "Matheus",
@@ -1722,9 +1697,9 @@
         "user_id": "4377fe06-0b94-459f-8a5d-eca4fed9fe97",
         "permissions": [],
         "done": {},
-        "on": true,
+        "on": false,
         "tasks_sum": {},
-        "last": "Data: 25/10/2024 15:40:52\n\nNenhuma pergunta foi respondida neste momento.\n"
+        "last": ""
     },
     {
         "username": "Gustavo",
@@ -1759,9 +1734,9 @@
         "user_id": "2fb748c1-4937-45a3-98a5-f9b9c44d037b",
         "permissions": [],
         "done": {},
-        "on": true,
+        "on": false,
         "tasks_sum": {},
-        "last": "Data: 25/10/2024 15:40:52\n\nNenhuma pergunta foi respondida neste momento.\n"
+        "last": ""
     },
     {
         "username": "Maximiliano",
@@ -1796,9 +1771,9 @@
         "user_id": "085ca23b-7361-439d-b735-a680f181eac3",
         "permissions": [],
         "done": {},
-        "on": true,
+        "on": false,
         "tasks_sum": {},
-        "last": "Data: 25/10/2024 15:40:52\n\nNenhuma pergunta foi respondida neste momento.\n"
+        "last": ""
     },
     {
         "username": "Gustavo",
@@ -1833,9 +1808,9 @@
         "user_id": "e1bc987b-88fe-439b-a4a0-7d2b25251419",
         "permissions": [],
         "done": {},
-        "on": true,
+        "on": false,
         "tasks_sum": {},
-        "last": "Data: 25/10/2024 15:40:52\n\nNenhuma pergunta foi respondida neste momento.\n"
+        "last": ""
     },
     {
         "username": "Pablo",
@@ -1870,9 +1845,9 @@
         "user_id": "93a50437-270e-4bc5-80d2-f57b3aaca598",
         "permissions": [],
         "done": {},
-        "on": true,
+        "on": false,
         "tasks_sum": {},
-        "last": "Data: 25/10/2024 15:40:52\n\nNenhuma pergunta foi respondida neste momento.\n"
+        "last": ""
     },
     {
         "username": "Henrique",
@@ -1907,9 +1882,9 @@
         "user_id": "65daef70-6356-45b1-bc5d-f22194c280e9",
         "permissions": [],
         "done": {},
-        "on": true,
+        "on": false,
         "tasks_sum": {},
-        "last": "Data: 25/10/2024 15:40:52\n\nNenhuma pergunta foi respondida neste momento.\n"
+        "last": ""
     },
     {
         "username": "Paulo",
@@ -1944,9 +1919,9 @@
         "user_id": "aee90701-4bc7-4bef-90c6-bf924c21ce37",
         "permissions": [],
         "done": {},
-        "on": true,
+        "on": false,
         "tasks_sum": {},
-        "last": "Data: 25/10/2024 15:40:52\n\nNenhuma pergunta foi respondida neste momento.\n"
+        "last": ""
     },
     {
         "username": "Isabella",
@@ -1981,9 +1956,9 @@
         "user_id": "41f2347b-0409-47fd-bdb5-e0333fa4800f",
         "permissions": [],
         "done": {},
-        "on": true,
+        "on": false,
         "tasks_sum": {},
-        "last": "Data: 25/10/2024 15:40:52\n\nNenhuma pergunta foi respondida neste momento.\n"
+        "last": ""
     },
     {
         "username": "Pedro",
@@ -2018,9 +1993,9 @@
         "user_id": "148be81f-0f22-4414-ba48-84eed5a141de",
         "permissions": [],
         "done": {},
-        "on": true,
+        "on": false,
         "tasks_sum": {},
-        "last": "Data: 25/10/2024 15:40:52\n\nNenhuma pergunta foi respondida neste momento.\n"
+        "last": ""
     },
     {
         "username": "Pedro",
@@ -2055,9 +2030,9 @@
         "user_id": "3e291bd5-decb-4174-b032-d26d7a471078",
         "permissions": [],
         "done": {},
-        "on": true,
+        "on": false,
         "tasks_sum": {},
-        "last": "Data: 25/10/2024 15:40:52\n\nNenhuma pergunta foi respondida neste momento.\n"
+        "last": ""
     },
     {
         "username": "Joao",
@@ -2092,9 +2067,9 @@
         "user_id": "ffe4f7fa-a057-4f47-8d1f-690c26d59e06",
         "permissions": [],
         "done": {},
-        "on": true,
+        "on": false,
         "tasks_sum": {},
-        "last": "Data: 25/10/2024 15:40:52\n\nNenhuma pergunta foi respondida neste momento.\n"
+        "last": ""
     },
     {
         "username": "Pedro",
@@ -2129,9 +2104,9 @@
         "user_id": "db9e9be4-04d7-4b26-8b4a-9f5f96c7df45",
         "permissions": [],
         "done": {},
-        "on": true,
+        "on": false,
         "tasks_sum": {},
-        "last": "Data: 25/10/2024 15:40:52\n\nNenhuma pergunta foi respondida neste momento.\n"
+        "last": ""
     },
     {
         "username": "Joao",
@@ -2166,9 +2141,9 @@
         "user_id": "9323fe47-6316-492f-8f57-18d2653c9e32",
         "permissions": [],
         "done": {},
-        "on": true,
+        "on": false,
         "tasks_sum": {},
-        "last": "Data: 25/10/2024 15:40:52\n\nNenhuma pergunta foi respondida neste momento.\n"
+        "last": ""
     },
     {
         "username": "Philipe",
@@ -2203,9 +2178,9 @@
         "user_id": "3f9ffcbf-6a6f-4ee5-87a6-6c0ed0d13e19",
         "permissions": [],
         "done": {},
-        "on": true,
+        "on": false,
         "tasks_sum": {},
-        "last": "Data: 25/10/2024 15:40:52\n\nNenhuma pergunta foi respondida neste momento.\n"
+        "last": ""
     },
     {
         "username": "Joao",
@@ -2240,9 +2215,9 @@
         "user_id": "13a07043-92f3-494d-a70d-8c78bf6379d7",
         "permissions": [],
         "done": {},
-        "on": true,
+        "on": false,
         "tasks_sum": {},
-        "last": "Data: 25/10/2024 15:40:52\n\nNenhuma pergunta foi respondida neste momento.\n"
+        "last": ""
     },
     {
         "username": "Rivadalvio",
@@ -2277,9 +2252,9 @@
         "user_id": "00c3425d-decc-4a2b-b8de-9d4f3d0854f2",
         "permissions": [],
         "done": {},
-        "on": true,
+        "on": false,
         "tasks_sum": {},
-        "last": "Data: 25/10/2024 15:40:52\n\nNenhuma pergunta foi respondida neste momento.\n"
+        "last": ""
     },
     {
         "username": "Joao",
@@ -2314,9 +2289,9 @@
         "user_id": "526d644f-9661-4c07-80a6-0559a79383a9",
         "permissions": [],
         "done": {},
-        "on": true,
+        "on": false,
         "tasks_sum": {},
-        "last": "Data: 25/10/2024 15:40:52\n\nNenhuma pergunta foi respondida neste momento.\n"
+        "last": ""
     },
     {
         "username": "Saied",
@@ -2351,9 +2326,9 @@
         "user_id": "7c7923e4-7ec5-4e71-ba66-544274a61612",
         "permissions": [],
         "done": {},
-        "on": true,
+        "on": false,
         "tasks_sum": {},
-        "last": "Data: 25/10/2024 15:40:52\n\nNenhuma pergunta foi respondida neste momento.\n"
+        "last": ""
     },
     {
         "username": "Yasmim",
@@ -2388,9 +2363,9 @@
         "user_id": "5122c682-e5f2-4785-a00e-d19fc7c8f96b",
         "permissions": [],
         "done": {},
-        "on": true,
+        "on": false,
         "tasks_sum": {},
-        "last": "Data: 25/10/2024 15:40:52\n\nNenhuma pergunta foi respondida neste momento.\n"
+        "last": ""
     },
     {
         "username": "Joaquim",
@@ -2425,9 +2400,9 @@
         "user_id": "833cdbe9-ec41-451f-802a-9509b29f9571",
         "permissions": [],
         "done": {},
-        "on": true,
+        "on": false,
         "tasks_sum": {},
-        "last": "Data: 25/10/2024 15:40:52\n\nNenhuma pergunta foi respondida neste momento.\n"
+        "last": ""
     },
     {
         "username": "Jose",
@@ -2462,9 +2437,9 @@
         "user_id": "4320db09-399f-4b30-a393-7e5ff3c87386",
         "permissions": [],
         "done": {},
-        "on": true,
+        "on": false,
         "tasks_sum": {},
-        "last": "Data: 25/10/2024 15:40:52\n\nNenhuma pergunta foi respondida neste momento.\n"
+        "last": ""
     },
     {
         "username": "Luan",
@@ -2499,9 +2474,9 @@
         "user_id": "07a89aaa-36d4-4108-98bb-226613db7872",
         "permissions": [],
         "done": {},
-        "on": true,
+        "on": false,
         "tasks_sum": {},
-        "last": "Data: 25/10/2024 15:40:52\n\nNenhuma pergunta foi respondida neste momento.\n"
+        "last": ""
     },
     {
         "username": "Lucas",
@@ -2536,9 +2511,9 @@
         "user_id": "69bf9011-9087-4804-a7a2-0fe3666410ac",
         "permissions": [],
         "done": {},
-        "on": true,
+        "on": false,
         "tasks_sum": {},
-        "last": "Data: 25/10/2024 15:40:52\n\nNenhuma pergunta foi respondida neste momento.\n"
+        "last": ""
     },
     {
         "username": "Luisa",
@@ -2573,9 +2548,9 @@
         "user_id": "0d24ec20-64e9-4a70-82b8-2cfb726e16ac",
         "permissions": [],
         "done": {},
-        "on": true,
+        "on": false,
         "tasks_sum": {},
-        "last": "Data: 25/10/2024 15:40:52\n\nNenhuma pergunta foi respondida neste momento.\n"
+        "last": ""
     },
     {
         "username": "Marcus",
@@ -2610,9 +2585,9 @@
         "user_id": "68bdc044-01eb-4f2e-b49b-6b65f75cc95a",
         "permissions": [],
         "done": {},
-        "on": true,
+        "on": false,
         "tasks_sum": {},
-        "last": "Data: 25/10/2024 15:40:52\n\nNenhuma pergunta foi respondida neste momento.\n"
+        "last": ""
     },
     {
         "username": "Matheus",
@@ -2647,9 +2622,9 @@
         "user_id": "fafdf210-e5cf-4d72-a15b-f0d25f4d5e9d",
         "permissions": [],
         "done": {},
-        "on": true,
+        "on": false,
         "tasks_sum": {},
-        "last": "Data: 25/10/2024 15:40:52\n\nNenhuma pergunta foi respondida neste momento.\n"
+        "last": ""
     },
     {
         "username": "Nicolai",
@@ -2684,9 +2659,9 @@
         "user_id": "8177f824-0bfd-4f64-aac0-02b6b56a0314",
         "permissions": [],
         "done": {},
-        "on": true,
+        "on": false,
         "tasks_sum": {},
-        "last": "Data: 25/10/2024 15:40:52\n\nNenhuma pergunta foi respondida neste momento.\n"
+        "last": ""
     },
     {
         "username": "Paulo",
@@ -2721,9 +2696,9 @@
         "user_id": "097cefff-4adc-4dc3-96c4-2332a3725f46",
         "permissions": [],
         "done": {},
-        "on": true,
+        "on": false,
         "tasks_sum": {},
-        "last": "Data: 25/10/2024 15:40:52\n\nNenhuma pergunta foi respondida neste momento.\n"
+        "last": ""
     },
     {
         "username": "Pedro",
@@ -2758,9 +2733,9 @@
         "user_id": "d0cd0f41-db5e-45de-8a9a-f7703538e53d",
         "permissions": [],
         "done": {},
-        "on": true,
+        "on": false,
         "tasks_sum": {},
-        "last": "Data: 25/10/2024 15:40:52\n\nNenhuma pergunta foi respondida neste momento.\n"
+        "last": ""
     },
     {
         "username": "Pedro",
@@ -2795,9 +2770,9 @@
         "user_id": "2ff8b4fa-d1f0-4e19-b16a-b38fb40d4389",
         "permissions": [],
         "done": {},
-        "on": true,
+        "on": false,
         "tasks_sum": {},
-        "last": "Data: 25/10/2024 15:40:52\n\nNenhuma pergunta foi respondida neste momento.\n"
+        "last": ""
     },
     {
         "username": "Pedro",
@@ -2832,9 +2807,9 @@
         "user_id": "cd90ed21-fcad-4a14-9f53-ad568b06921d",
         "permissions": [],
         "done": {},
-        "on": true,
+        "on": false,
         "tasks_sum": {},
-        "last": "Data: 25/10/2024 15:40:52\n\nNenhuma pergunta foi respondida neste momento.\n"
+        "last": ""
     },
     {
         "username": "Pedro",
@@ -2869,9 +2844,9 @@
         "user_id": "1fcafbbb-d3f2-4966-8ec7-c55346641b32",
         "permissions": [],
         "done": {},
-        "on": true,
+        "on": false,
         "tasks_sum": {},
-        "last": "Data: 25/10/2024 15:40:52\n\nNenhuma pergunta foi respondida neste momento.\n"
+        "last": ""
     },
     {
         "username": "Rafael",
@@ -2906,9 +2881,9 @@
         "user_id": "9e917be8-c738-49e2-a35b-5c4b260b4fb2",
         "permissions": [],
         "done": {},
-        "on": true,
+        "on": false,
         "tasks_sum": {},
-        "last": "Data: 25/10/2024 15:40:52\n\nNenhuma pergunta foi respondida neste momento.\n"
+        "last": ""
     },
     {
         "username": "Sabrina",
@@ -2943,9 +2918,9 @@
         "user_id": "94ccf27d-f81b-4563-85a8-f788ee2a24f4",
         "permissions": [],
         "done": {},
-        "on": true,
+        "on": false,
         "tasks_sum": {},
-        "last": "Data: 25/10/2024 15:40:52\n\nNenhuma pergunta foi respondida neste momento.\n"
+        "last": ""
     },
     {
         "username": "Vitor",
@@ -2980,9 +2955,9 @@
         "user_id": "e77edd83-0198-4120-ad61-3eedc658016f",
         "permissions": [],
         "done": {},
-        "on": true,
+        "on": false,
         "tasks_sum": {},
-        "last": "Data: 25/10/2024 15:40:52\n\nNenhuma pergunta foi respondida neste momento.\n"
+        "last": ""
     },
     {
         "username": "Yasmin",
@@ -3017,9 +2992,9 @@
         "user_id": "dd385c04-2deb-4045-8828-0f8ade33715f",
         "permissions": [],
         "done": {},
-        "on": true,
+        "on": false,
         "tasks_sum": {},
-        "last": "Data: 25/10/2024 15:40:52\n\nNenhuma pergunta foi respondida neste momento.\n"
+        "last": ""
     },
     {
         "username": "Alan",
@@ -3032,7 +3007,7 @@
                 0
             ],
             "730bb18b-814d-4c6b-aff9-87713d2e61f5": [
-                5,
+                0,
                 0,
                 0,
                 0
@@ -3053,40 +3028,10 @@
         "meta": "Orienta\u00e7\u00e3o a Objetos - T02",
         "user_id": "b1ac2739-2d2e-4b29-85fa-52895f22fd71",
         "permissions": [],
-        "done": {
-            "c51b7982-6a0d-43cb-8bbf-8125fca81f7d": "pois diferentemente das listas que posso manipular ap\u00f3s serem criadas , as tuplas uma vez criadas nao podem ser mudadas",
-            "aa4e8c91-2f29-4f8c-9a4f-5b0cdd5f1b91": "que a listas sao mutaveis , ja \u00e1 tuplas nao",
-            "4f5bde32-b375-4c98-a012-f678923b7f8f": "listas sao conjuntos de variaveis ou termos que em python pode-se misturar todos os tipos ",
-            "bb0a8398-8a39-4b8d-a6f7-5fc8c6db83c5": "listas sao essenciais para o python pois podem guardar cole\u00e7oes de variaveis em uma s\u00f3"
-        },
-        "on": true,
-        "tasks_sum": {
-            "e263f569-5298-4a23-8e95-365bb0aef5e5": [
-                0,
-                0,
-                0,
-                0
-            ],
-            "730bb18b-814d-4c6b-aff9-87713d2e61f5": [
-                5,
-                0,
-                0,
-                0
-            ],
-            "49cddbbf-7934-4669-ab8a-c54e2ba3a55d": [
-                0,
-                0,
-                0,
-                0
-            ],
-            "bc98762b-c01c-4c64-b8b2-5f84fe463c9c": [
-                0,
-                0,
-                0,
-                0
-            ]
-        },
-        "last": "Data: 25/10/2024 15:40:52\n\nPergunta: O que significa 'imut\u00e1vel' em rela\u00e7\u00e3o a tuplas?\nResposta: pois diferentemente das listas que posso manipular ap\u00f3s serem criadas , as tuplas uma vez criadas nao podem ser mudadas\n\nPergunta: Qual \u00e9 a diferen\u00e7a entre listas e tuplas?\nResposta: que a listas sao mutaveis , ja \u00e1 tuplas nao\n\nPergunta: O que \u00e9 uma lista em Python?\nResposta: listas sao conjuntos de variaveis ou termos que em python pode-se misturar todos os tipos \n\nPergunta: Para que servem listas em Python?\nResposta: listas sao essenciais para o python pois podem guardar cole\u00e7oes de variaveis em uma s\u00f3\n\n"
+        "done": {},
+        "on": false,
+        "tasks_sum": {},
+        "last": ""
     },
     {
         "username": "Angelo",
@@ -3121,9 +3066,9 @@
         "user_id": "af520ebb-71be-4691-b3c5-94eb7ab2a77e",
         "permissions": [],
         "done": {},
-        "on": true,
+        "on": false,
         "tasks_sum": {},
-        "last": "Data: 25/10/2024 15:40:52\n\nNenhuma pergunta foi respondida neste momento.\n"
+        "last": ""
     },
     {
         "username": "Arthur",
@@ -3158,16 +3103,16 @@
         "user_id": "7c86f6d3-173b-48d8-b011-e65d36572d39",
         "permissions": [],
         "done": {},
-        "on": true,
+        "on": false,
         "tasks_sum": {},
-        "last": "Data: 25/10/2024 15:40:52\n\nNenhuma pergunta foi respondida neste momento.\n"
+        "last": ""
     },
     {
         "username": "Bernardo",
         "password": "232001120",
         "tasks": {
             "e263f569-5298-4a23-8e95-365bb0aef5e5": [
-                2,
+                0,
                 0,
                 0,
                 0
@@ -3194,45 +3139,17 @@
         "meta": "Orienta\u00e7\u00e3o a Objetos - T02",
         "user_id": "f6058c2e-8d9e-4d31-9fb0-abada6d3f666",
         "permissions": [],
-        "done": {
-            "0e9673f5-9e76-4e98-97da-7b1f2e6d0214": "Seria um comando para mostrar as linhas de texto de um arquivo, acredito que seja limitado as 10 primeiras linhas por padr\u00e3o mas este limite pode ser alterado",
-            "c8e9b6d2-f3b1-4f2e-bd74-ff0f052b58d0": "Seria um comando utilizado para copiar arquivos, e podemos utilizar ele para copiar arquivos e mover estes para um local especifico "
-        },
-        "on": true,
-        "tasks_sum": {
-            "e263f569-5298-4a23-8e95-365bb0aef5e5": [
-                2,
-                0,
-                0,
-                0
-            ],
-            "730bb18b-814d-4c6b-aff9-87713d2e61f5": [
-                0,
-                0,
-                0,
-                0
-            ],
-            "49cddbbf-7934-4669-ab8a-c54e2ba3a55d": [
-                0,
-                0,
-                0,
-                0
-            ],
-            "bc98762b-c01c-4c64-b8b2-5f84fe463c9c": [
-                0,
-                0,
-                0,
-                0
-            ]
-        },
-        "last": "Data: 25/10/2024 15:40:52\n\nPergunta: Para que serve o comando `head`?\nResposta: Seria um comando para mostrar as linhas de texto de um arquivo, acredito que seja limitado as 10 primeiras linhas por padr\u00e3o mas este limite pode ser alterado\n\nPergunta: Para que serve o comando `cp`?\nResposta: Seria um comando utilizado para copiar arquivos, e podemos utilizar ele para copiar arquivos e mover estes para um local especifico \n\n"
+        "done": {},
+        "on": false,
+        "tasks_sum": {},
+        "last": ""
     },
     {
         "username": "Bryan",
         "password": "241012015",
         "tasks": {
             "e263f569-5298-4a23-8e95-365bb0aef5e5": [
-                4,
+                0,
                 0,
                 0,
                 0
@@ -3259,45 +3176,10 @@
         "meta": "Orienta\u00e7\u00e3o a Objetos - T02",
         "user_id": "c521c9a0-7134-441b-85af-05f474b6495f",
         "permissions": [],
-        "done": {
-            "74245f75-0d48-4c2c-81f5-2b84c89ab5af": "Serve para exibir as \u00faltimas linhas de um arquivo de texto.",
-            "f497eeb8-1946-48c1-89cb-bd27a5ac3c6b": "Serve para alterar as permiss\u00f5es de arquivos e diret\u00f3rios no sistema de arquivos",
-            "bfe5e015-8d2b-4c8f-b02b-e3b3eb945307": "Serve para navegar entre diret\u00f3rios no sistema de arquivos no Bash, alterando o diret\u00f3rio de trabalho atual, deixando acessar pastas e arquivos.",
-            "28543be4-f3b7-4143-89d4-c928e539f7d6": "Serve para iniciar uma sess\u00e3o do interpretador de comandos Bash ou para executar scripts que est\u00e3o escritos em shell",
-            "5c8e436c-29e3-43d4-b3c4-44bc0076ef8e": "Serve para visualizar o conte\u00fado de arquivos de texto, juntar arquivos e redirecionar dados no Bash.",
-            "b3c93163-b53c-4ab2-9861-65e9f7023994": "Serve para mover ou renomear arquivos e diret\u00f3rios.\n",
-            "83a3e2d7-bdc2-4f3f-b486-550b3f213cf7": "Serve para extrair se\u00e7\u00f5es de linhas de um arquivo ou entrada padr\u00e3o",
-            "9157f08f-3f2c-4e92-a3d1-64304b964d8a": "Serve para buscar e filtrar texto em arquivos ou na sa\u00edda de outros comandos",
-            "c8e9b6d2-f3b1-4f2e-bd74-ff0f052b58d0": "Serve para copiar arquivos e diret\u00f3rios, permite tamb\u00e9m duplicar arquivos existentes."
-        },
-        "on": true,
-        "tasks_sum": {
-            "e263f569-5298-4a23-8e95-365bb0aef5e5": [
-                6,
-                0,
-                0,
-                0
-            ],
-            "730bb18b-814d-4c6b-aff9-87713d2e61f5": [
-                0,
-                0,
-                0,
-                0
-            ],
-            "49cddbbf-7934-4669-ab8a-c54e2ba3a55d": [
-                0,
-                0,
-                0,
-                0
-            ],
-            "bc98762b-c01c-4c64-b8b2-5f84fe463c9c": [
-                0,
-                0,
-                0,
-                0
-            ]
-        },
-        "last": "Data: 25/10/2024 15:40:52\n\nPergunta: Para que serve o comando `tail`?\nResposta: Serve para exibir as \u00faltimas linhas de um arquivo de texto.\n\n"
+        "done": {},
+        "on": false,
+        "tasks_sum": {},
+        "last": ""
     },
     {
         "username": "Caio",
@@ -3332,9 +3214,9 @@
         "user_id": "f23336b4-a36c-44c3-bb6d-d691e23b47b5",
         "permissions": [],
         "done": {},
-        "on": true,
+        "on": false,
         "tasks_sum": {},
-        "last": "Data: 25/10/2024 15:40:52\n\nNenhuma pergunta foi respondida neste momento.\n"
+        "last": ""
     },
     {
         "username": "Daniel",
@@ -3369,16 +3251,16 @@
         "user_id": "7307f8e2-cbac-4fdd-b03a-a1bf7cce6203",
         "permissions": [],
         "done": {},
-        "on": true,
+        "on": false,
         "tasks_sum": {},
-        "last": "Data: 25/10/2024 15:40:52\n\nNenhuma pergunta foi respondida neste momento.\n"
+        "last": ""
     },
     {
         "username": "Daniel",
         "password": "241025612",
         "tasks": {
             "e263f569-5298-4a23-8e95-365bb0aef5e5": [
-                3,
+                0,
                 0,
                 0,
                 0
@@ -3405,40 +3287,10 @@
         "meta": "Orienta\u00e7\u00e3o a Objetos - T02",
         "user_id": "6a5308e0-103d-4b27-82e9-cde01eeaee28",
         "permissions": [],
-        "done": {
-            "73cbe6f1-32bb-4891-a244-fc0de4da5696": "Remover arquivos e diret\u00f3rios.",
-            "bfe5e015-8d2b-4c8f-b02b-e3b3eb945307": "Entrar/trocar diret\u00f3rio.",
-            "c160eb54-1a4b-4485-8168-15d9e4eb473d": "Extrair arquivos .ZIP",
-            "74245f75-0d48-4c2c-81f5-2b84c89ab5af": "exibir as \u00faltimas linhas de um arquivo de texto"
-        },
-        "on": true,
-        "tasks_sum": {
-            "e263f569-5298-4a23-8e95-365bb0aef5e5": [
-                3,
-                0,
-                0,
-                0
-            ],
-            "730bb18b-814d-4c6b-aff9-87713d2e61f5": [
-                0,
-                0,
-                0,
-                0
-            ],
-            "49cddbbf-7934-4669-ab8a-c54e2ba3a55d": [
-                0,
-                0,
-                0,
-                0
-            ],
-            "bc98762b-c01c-4c64-b8b2-5f84fe463c9c": [
-                0,
-                0,
-                0,
-                0
-            ]
-        },
-        "last": "Data: 25/10/2024 15:40:52\n\nPergunta: Para que serve o comando `rm`?\nResposta: Remover arquivos e diret\u00f3rios.\n\nPergunta: Para que serve o comando `cd`?\nResposta: Entrar/trocar diret\u00f3rio.\n\nPergunta: Para que serve o comando `unzip`?\nResposta: Extrair arquivos .ZIP\n\nPergunta: Para que serve o comando `tail`?\nResposta: exibir as \u00faltimas linhas de um arquivo de texto\n\n"
+        "done": {},
+        "on": false,
+        "tasks_sum": {},
+        "last": ""
     },
     {
         "username": "Davi",
@@ -3457,7 +3309,7 @@
                 0
             ],
             "49cddbbf-7934-4669-ab8a-c54e2ba3a55d": [
-                2,
+                0,
                 0,
                 0,
                 0
@@ -3472,39 +3324,10 @@
         "meta": "Orienta\u00e7\u00e3o a Objetos - T02",
         "user_id": "cee21de3-957b-4fde-99e9-a3712b102134",
         "permissions": [],
-        "done": {
-            "e8570a9f-8db8-44b2-82ef-4f65e0b08098": "Para n\u00e3o se fazer novas classes do zero, pode-se usar a heran\u00e7a quando h\u00e1 vari\u00e1veis dentro de uma classe que tamb\u00e9m est\u00e3o contidas em outra para deixar o c\u00f3digo mais enxuto.",
-            "0j0e29bc-0a63-45be-9eb2-b5f441fe4294": "O m\u00e9todo __str__ devolve uma string armazenada no atributo text",
-            "4n4c2e4b-1c7a-41d6-802d-e58f33b7389e": "Representa um objeto como uma string"
-        },
-        "on": true,
-        "tasks_sum": {
-            "e263f569-5298-4a23-8e95-365bb0aef5e5": [
-                0,
-                0,
-                0,
-                0
-            ],
-            "730bb18b-814d-4c6b-aff9-87713d2e61f5": [
-                0,
-                0,
-                0,
-                0
-            ],
-            "49cddbbf-7934-4669-ab8a-c54e2ba3a55d": [
-                2,
-                0,
-                0,
-                0
-            ],
-            "bc98762b-c01c-4c64-b8b2-5f84fe463c9c": [
-                0,
-                0,
-                0,
-                0
-            ]
-        },
-        "last": "Data: 25/10/2024 15:40:52\n\nPergunta: O que \u00e9 heran\u00e7a em Python?\nResposta: Para n\u00e3o se fazer novas classes do zero, pode-se usar a heran\u00e7a quando h\u00e1 vari\u00e1veis dentro de uma classe que tamb\u00e9m est\u00e3o contidas em outra para deixar o c\u00f3digo mais enxuto.\n\nPergunta: Qual \u00e9 a fun\u00e7\u00e3o do m\u00e9todo `__str__`?\nResposta: O m\u00e9todo __str__ devolve uma string armazenada no atributo text\n\n"
+        "done": {},
+        "on": false,
+        "tasks_sum": {},
+        "last": ""
     },
     {
         "username": "Diogo",
@@ -3539,16 +3362,16 @@
         "user_id": "619a7588-1d9a-4f96-82bd-7dcbcd29636b",
         "permissions": [],
         "done": {},
-        "on": true,
+        "on": false,
         "tasks_sum": {},
-        "last": "Data: 25/10/2024 15:40:52\n\nNenhuma pergunta foi respondida neste momento.\n"
+        "last": ""
     },
     {
         "username": "Felipe",
         "password": "231026330",
         "tasks": {
             "e263f569-5298-4a23-8e95-365bb0aef5e5": [
-                6,
+                0,
                 0,
                 0,
                 0
@@ -3575,40 +3398,10 @@
         "meta": "Orienta\u00e7\u00e3o a Objetos - T02",
         "user_id": "2e0007ed-c127-4780-bcbc-2e740b699c6b",
         "permissions": [],
-        "done": {
-            "8c1f15e5-9f57-4f45-bf9e-1bead6bc15e3": "Para listar os arquivos dentro do diret\u00f3rio",
-            "76e4f32e-bf0e-4072-bdcb-2764a5b2ad2a": "Para ordenar os dados de um arquivo",
-            "3b1e4a70-1b02-4ae8-8b02-2463ee6cb40c": "Serve para encontrar arquivos com certos par\u00e2metros dentro do terminal do Linux",
-            "a4f0ec0f-1b25-4452-bd79-0ebff9e2eaa1": "\u00e9 um editor de texto "
-        },
-        "on": true,
-        "tasks_sum": {
-            "e263f569-5298-4a23-8e95-365bb0aef5e5": [
-                6,
-                0,
-                0,
-                0
-            ],
-            "730bb18b-814d-4c6b-aff9-87713d2e61f5": [
-                0,
-                0,
-                0,
-                0
-            ],
-            "49cddbbf-7934-4669-ab8a-c54e2ba3a55d": [
-                0,
-                0,
-                0,
-                0
-            ],
-            "bc98762b-c01c-4c64-b8b2-5f84fe463c9c": [
-                0,
-                0,
-                0,
-                0
-            ]
-        },
-        "last": "Data: 25/10/2024 15:40:52\n\nPergunta: Para que serve o comando `ls`?\nResposta: Para listar os arquivos dentro do diret\u00f3rio\n\nPergunta: Para que serve o comando `sort`?\nResposta: Para ordenar os dados de um arquivo\n\nPergunta: Para que serve o comando `find`?\nResposta: Serve para encontrar arquivos com certos par\u00e2metros dentro do terminal do Linux\n\n"
+        "done": {},
+        "on": false,
+        "tasks_sum": {},
+        "last": ""
     },
     {
         "username": "Gabriel",
@@ -3643,9 +3436,9 @@
         "user_id": "5eaa7d10-6ae7-4c64-aaa6-42584aaffcf0",
         "permissions": [],
         "done": {},
-        "on": true,
+        "on": false,
         "tasks_sum": {},
-        "last": "Data: 25/10/2024 15:40:52\n\nNenhuma pergunta foi respondida neste momento.\n"
+        "last": ""
     },
     {
         "username": "Gabriel",
@@ -3664,7 +3457,7 @@
                 0
             ],
             "49cddbbf-7934-4669-ab8a-c54e2ba3a55d": [
-                4,
+                0,
                 0,
                 0,
                 0
@@ -3679,47 +3472,17 @@
         "meta": "Orienta\u00e7\u00e3o a Objetos - T02",
         "user_id": "be7c8700-7265-4727-b878-a80d604d0566",
         "permissions": [],
-        "done": {
-            "1b00d1f3-0a6f-46cb-b4fc-e32b77efc63c": "S\u00e3o as caracter\u00edsticas de uma classe, como cor, idade, nome etc.",
-            "6f67ff1f-1057-4d77-bc84-4b3a828ea8e2": "Os m\u00e9todos definem como a classe deve se comportar e seus atributos.",
-            "5o5d3f79-5b3d-4930-b3ee-b28779f37f5f": "Voc\u00ea deve criar um objeto e definir valores aos seus atributos. Case o acesso seja publico, \u00e9 poss\u00edvel acessar diretamente o seu atributo com o comando no estilo: objeto.atributo (varia com o nomes dados). Caso o acesso seja privado, \u00e9 necessario criar um m\u00e9todo get para ter acesso ao atributo com o comando no estilo: objeto.get (varia com o nomes dados).",
-            "02f7c360-77d5-4a47-bbd3-334d1e8e52ec": "Ele \u00e9 o m\u00e9todo construtor no python: ele atribui os valores iniciais de um objeto quando criado."
-        },
-        "on": true,
-        "tasks_sum": {
-            "e263f569-5298-4a23-8e95-365bb0aef5e5": [
-                0,
-                0,
-                0,
-                0
-            ],
-            "730bb18b-814d-4c6b-aff9-87713d2e61f5": [
-                0,
-                0,
-                0,
-                0
-            ],
-            "49cddbbf-7934-4669-ab8a-c54e2ba3a55d": [
-                6,
-                0,
-                0,
-                0
-            ],
-            "bc98762b-c01c-4c64-b8b2-5f84fe463c9c": [
-                0,
-                0,
-                0,
-                0
-            ]
-        },
-        "last": "Data: 25/10/2024 15:40:52\n\nPergunta: O que s\u00e3o atributos em uma classe?\nResposta: S\u00e3o as caracter\u00edsticas de uma classe, como cor, idade, nome etc.\n\nPergunta: O que \u00e9 um m\u00e9todo de classe?\nResposta: Os m\u00e9todos definem como a classe deve se comportar e seus atributos.\n\n"
+        "done": {},
+        "on": false,
+        "tasks_sum": {},
+        "last": ""
     },
     {
         "username": "Giovani",
         "password": "241032500",
         "tasks": {
             "e263f569-5298-4a23-8e95-365bb0aef5e5": [
-                5,
+                0,
                 0,
                 0,
                 0
@@ -3746,50 +3509,17 @@
         "meta": "Orienta\u00e7\u00e3o a Objetos - T02",
         "user_id": "139c26f2-d964-4bfe-9ebc-d0efab464ebd",
         "permissions": [],
-        "done": {
-            "bfe5e015-8d2b-4c8f-b02b-e3b3eb945307": "Esse comando serve para entrar em um diret\u00f3rio",
-            "b2ae9be5-3543-45ec-8b40-2abbd081e7c0": "Esse comando serve para criar um diret\u00f3rio ou um subdiret\u00f3rio",
-            "8fbcf2a5-b6e3-4c68-915b-d1ee6cf7f6a4": "Esse comando \u00e9 usado para apresentar um texto na tela ou no terminal de um computador ",
-            "a4f0ec0f-1b25-4452-bd79-0ebff9e2eaa1": "Esse comando serve para abrir um editor de texto",
-            "8c1f15e5-9f57-4f45-bf9e-1bead6bc15e3": "Esse comando serve para listar os arquivos presentes no computador ",
-            "83a3e2d7-bdc2-4f3f-b486-550b3f213cf7": "Esse comando \u00e9 usado para mostrar se\u00e7\u00f5es especificas de um arquivo",
-            "9157f08f-3f2c-4e92-a3d1-64304b964d8a": "Esse comando busca por trechos de texto e mostra onde esses trecho foram encontrados"
-        },
-        "on": true,
-        "tasks_sum": {
-            "e263f569-5298-4a23-8e95-365bb0aef5e5": [
-                5,
-                0,
-                0,
-                0
-            ],
-            "730bb18b-814d-4c6b-aff9-87713d2e61f5": [
-                0,
-                0,
-                0,
-                0
-            ],
-            "49cddbbf-7934-4669-ab8a-c54e2ba3a55d": [
-                0,
-                0,
-                0,
-                0
-            ],
-            "bc98762b-c01c-4c64-b8b2-5f84fe463c9c": [
-                0,
-                0,
-                0,
-                0
-            ]
-        },
-        "last": "Data: 25/10/2024 15:40:52\n\nPergunta: Para que serve o comando `cd`?\nResposta: Esse comando serve para entrar em um diret\u00f3rio\n\nPergunta: Para que serve o comando `mkdir`?\nResposta: Esse comando serve para criar um diret\u00f3rio ou um subdiret\u00f3rio\n\nPergunta: Para que serve o comando `echo`?\nResposta: Esse comando \u00e9 usado para apresentar um texto na tela ou no terminal de um computador \n\nPergunta: Para que serve o comando `vim`?\nResposta: Esse comando serve para abrir um editor de texto\n\nPergunta: Para que serve o comando `ls`?\nResposta: Esse comando serve para listar os arquivos presentes no computador \n\n"
+        "done": {},
+        "on": false,
+        "tasks_sum": {},
+        "last": ""
     },
     {
         "username": "Giovanni",
         "password": "231027097",
         "tasks": {
             "e263f569-5298-4a23-8e95-365bb0aef5e5": [
-                4,
+                0,
                 0,
                 0,
                 0
@@ -3816,49 +3546,17 @@
         "meta": "Orienta\u00e7\u00e3o a Objetos - T02",
         "user_id": "59f9a4c4-2199-43e5-9a11-fedc0a5ffa1c",
         "permissions": [],
-        "done": {
-            "8fbcf2a5-b6e3-4c68-915b-d1ee6cf7f6a4": "Imprimir um texto",
-            "8c1f15e5-9f57-4f45-bf9e-1bead6bc15e3": "Utilizado para listar arquivos e diret\u00f3rios",
-            "76e4f32e-bf0e-4072-bdcb-2764a5b2ad2a": "Serve para ordenar linhas de maneira crescente ou  decrescente, de maneira alfab\u00e9tica ou num\u00e9rica",
-            "ff7f12d9-4e4f-49d4-9258-1e80e1e80a7a": "Criar arquivos.",
-            "3990cf54-4db7-48f3-bf67-f8d3a3e8b3f6": "Exibe o caminho completo do diret\u00f3rio",
-            "bfe5e015-8d2b-4c8f-b02b-e3b3eb945307": "Alterar o diret\u00f3rio."
-        },
-        "on": true,
-        "tasks_sum": {
-            "e263f569-5298-4a23-8e95-365bb0aef5e5": [
-                4,
-                0,
-                0,
-                0
-            ],
-            "730bb18b-814d-4c6b-aff9-87713d2e61f5": [
-                0,
-                0,
-                0,
-                0
-            ],
-            "49cddbbf-7934-4669-ab8a-c54e2ba3a55d": [
-                0,
-                0,
-                0,
-                0
-            ],
-            "bc98762b-c01c-4c64-b8b2-5f84fe463c9c": [
-                0,
-                0,
-                0,
-                0
-            ]
-        },
-        "last": "Data: 25/10/2024 15:40:52\n\nPergunta: Para que serve o comando `echo`?\nResposta: Imprimir um texto\n\nPergunta: Para que serve o comando `ls`?\nResposta: Utilizado para listar arquivos e diret\u00f3rios\n\nPergunta: Para que serve o comando `sort`?\nResposta: Serve para ordenar linhas de maneira crescente ou  decrescente, de maneira alfab\u00e9tica ou num\u00e9rica\n\nPergunta: Para que serve o comando `touch`?\nResposta: Criar arquivos.\n\n"
+        "done": {},
+        "on": false,
+        "tasks_sum": {},
+        "last": ""
     },
     {
         "username": "Guilherme",
         "password": "241025640",
         "tasks": {
             "e263f569-5298-4a23-8e95-365bb0aef5e5": [
-                3,
+                0,
                 0,
                 0,
                 0
@@ -3885,38 +3583,10 @@
         "meta": "Orienta\u00e7\u00e3o a Objetos - T02",
         "user_id": "4804b880-7660-4b37-b8d1-f2926be6ee7e",
         "permissions": [],
-        "done": {
-            "73cbe6f1-32bb-4891-a244-fc0de4da5696": "remover arquivos \u00e9 diretorios",
-            "bfe5e015-8d2b-4c8f-b02b-e3b3eb945307": "entra em diretorios e arquivos Exemplo: desktop1minw64$ cd ~/Downloads   \n\ndesktop1minw64 ~/Downloads$"
-        },
-        "on": true,
-        "tasks_sum": {
-            "e263f569-5298-4a23-8e95-365bb0aef5e5": [
-                3,
-                0,
-                0,
-                0
-            ],
-            "730bb18b-814d-4c6b-aff9-87713d2e61f5": [
-                0,
-                0,
-                0,
-                0
-            ],
-            "49cddbbf-7934-4669-ab8a-c54e2ba3a55d": [
-                0,
-                0,
-                0,
-                0
-            ],
-            "bc98762b-c01c-4c64-b8b2-5f84fe463c9c": [
-                0,
-                0,
-                0,
-                0
-            ]
-        },
-        "last": "Data: 25/10/2024 15:40:52\n\nPergunta: Para que serve o comando `rm`?\nResposta: remover arquivos \u00e9 diretorios\n\nPergunta: Para que serve o comando `cd`?\nResposta: entra em diretorios e arquivos Exemplo: desktop1minw64$ cd ~/Downloads   \n\ndesktop1minw64 ~/Downloads$\n\n"
+        "done": {},
+        "on": false,
+        "tasks_sum": {},
+        "last": ""
     },
     {
         "username": "Isadora",
@@ -3951,9 +3621,9 @@
         "user_id": "152be98a-65af-4da1-9cab-2e002868cc49",
         "permissions": [],
         "done": {},
-        "on": true,
+        "on": false,
         "tasks_sum": {},
-        "last": "Data: 25/10/2024 15:40:52\n\nNenhuma pergunta foi respondida neste momento.\n"
+        "last": ""
     },
     {
         "username": "Joao",
@@ -3988,41 +3658,16 @@
         "user_id": "3046cebe-765e-4203-a60f-9e9c986e625a",
         "permissions": [],
         "done": {},
-        "on": true,
-        "tasks_sum": {
-            "e263f569-5298-4a23-8e95-365bb0aef5e5": [
-                0,
-                0,
-                0,
-                0
-            ],
-            "730bb18b-814d-4c6b-aff9-87713d2e61f5": [
-                0,
-                0,
-                0,
-                0
-            ],
-            "49cddbbf-7934-4669-ab8a-c54e2ba3a55d": [
-                0,
-                0,
-                0,
-                0
-            ],
-            "bc98762b-c01c-4c64-b8b2-5f84fe463c9c": [
-                0,
-                0,
-                0,
-                0
-            ]
-        },
-        "last": "Data: 25/10/2024 15:40:53\n\nNenhuma pergunta foi respondida neste momento.\n"
+        "on": false,
+        "tasks_sum": {},
+        "last": ""
     },
     {
         "username": "Jonas",
         "password": "221022346",
         "tasks": {
             "e263f569-5298-4a23-8e95-365bb0aef5e5": [
-                12,
+                0,
                 0,
                 0,
                 0
@@ -4048,47 +3693,11 @@
         },
         "meta": "Orienta\u00e7\u00e3o a Objetos - T02",
         "user_id": "7924f9ec-88da-4dfe-a895-1883647944cf",
-        "permissions": {},
-        "done": {
-            "c81f77e1-89f1-4f73-b79b-4a16be66b7b6": "Serve para limpar a tela do terminal.",
-            "0e9673f5-9e76-4e98-97da-7b1f2e6d0214": "Serve para exibir as primeiras linhas de um arquivo.",
-            "bfe5e015-8d2b-4c8f-b02b-e3b3eb945307": "Serve para navegar entre os diret\u00f3rios da m\u00e1quina.",
-            "1df2c489-bb57-41a4-9b1e-0f5053371f2a": "Serve para copiar arquivos entre m\u00e1quinas.",
-            "8fbcf2a5-b6e3-4c68-915b-d1ee6cf7f6a4": "Serve para exibir textos ou vari\u00e1veis no terminal.z",
-            "b3c93163-b53c-4ab2-9861-65e9f7023994": "Serve para mover arquivos ou renomear. ",
-            "ff7f12d9-4e4f-49d4-9258-1e80e1e80a7a": "Serve para criar arquivos. ",
-            "c160eb54-1a4b-4485-8168-15d9e4eb473d": "Serve para extrair arquivos.\n",
-            "3990cf54-4db7-48f3-bf67-f8d3a3e8b3f6": "Serve para exibir o caminho do diret\u00f3rio que voc\u00ea est\u00e1 trabalhando",
-            "dbe9d95a-6cf4-47c5-b44c-45a66f05107b": "Serve para baixar arquivos da web"
-        },
-        "on": true,
-        "tasks_sum": {
-            "e263f569-5298-4a23-8e95-365bb0aef5e5": [
-                12,
-                0,
-                0,
-                0
-            ],
-            "730bb18b-814d-4c6b-aff9-87713d2e61f5": [
-                0,
-                0,
-                0,
-                0
-            ],
-            "49cddbbf-7934-4669-ab8a-c54e2ba3a55d": [
-                0,
-                0,
-                0,
-                0
-            ],
-            "bc98762b-c01c-4c64-b8b2-5f84fe463c9c": [
-                0,
-                0,
-                0,
-                0
-            ]
-        },
-        "last": "Data: 25/10/2024 15:40:53\n\nPergunta: Para que serve o comando `clear`?\nResposta: Serve para limpar a tela do terminal.\n\nPergunta: Para que serve o comando `head`?\nResposta: Serve para exibir as primeiras linhas de um arquivo.\n\nPergunta: Para que serve o comando `cd`?\nResposta: Serve para navegar entre os diret\u00f3rios da m\u00e1quina.\n\nPergunta: Para que serve o comando `scp`?\nResposta: Serve para copiar arquivos entre m\u00e1quinas.\n\nPergunta: Para que serve o comando `echo`?\nResposta: Serve para exibir textos ou vari\u00e1veis no terminal.z\n\nPergunta: Para que serve o comando `mv`?\nResposta: Serve para mover arquivos ou renomear. \n\nPergunta: Para que serve o comando `touch`?\nResposta: Serve para criar arquivos. \n\nPergunta: Para que serve o comando `unzip`?\nResposta: Serve para extrair arquivos.\n\n\nPergunta: Para que serve o comando `pwd`?\nResposta: Serve para exibir o caminho do diret\u00f3rio que voc\u00ea est\u00e1 trabalhando\n\nPergunta: Para que serve o comando `wget`?\nResposta: Serve para baixar arquivos da web\n\n"
+        "permissions": [],
+        "done": {},
+        "on": false,
+        "tasks_sum": {},
+        "last": ""
     },
     {
         "username": "Juan",
@@ -4121,11 +3730,11 @@
         },
         "meta": "Orienta\u00e7\u00e3o a Objetos - T02",
         "user_id": "8b9855cc-1541-402d-b4bf-22548c7bfca5",
-        "permissions": {},
+        "permissions": [],
         "done": {},
-        "on": true,
+        "on": false,
         "tasks_sum": {},
-        "last": "Data: 25/10/2024 15:40:53\n\nNenhuma pergunta foi respondida neste momento.\n"
+        "last": ""
     },
     {
         "username": "Kaua",
@@ -4158,11 +3767,11 @@
         },
         "meta": "Orienta\u00e7\u00e3o a Objetos - T02",
         "user_id": "2ea9cb82-cc56-4a2e-80ac-859819d898ab",
-        "permissions": {},
+        "permissions": [],
         "done": {},
-        "on": true,
+        "on": false,
         "tasks_sum": {},
-        "last": "Data: 25/10/2024 15:40:53\n\nNenhuma pergunta foi respondida neste momento.\n"
+        "last": ""
     },
     {
         "username": "Laura",
@@ -4195,18 +3804,18 @@
         },
         "meta": "Orienta\u00e7\u00e3o a Objetos - T02",
         "user_id": "9aa38b1e-e6c0-4329-bcc0-afe899717674",
-        "permissions": {},
+        "permissions": [],
         "done": {},
-        "on": true,
+        "on": false,
         "tasks_sum": {},
-        "last": "Data: 25/10/2024 15:40:53\n\nNenhuma pergunta foi respondida neste momento.\n"
+        "last": ""
     },
     {
         "username": "Lorena",
         "password": "222006937",
         "tasks": {
             "e263f569-5298-4a23-8e95-365bb0aef5e5": [
-                4,
+                0,
                 0,
                 0,
                 0
@@ -4232,41 +3841,11 @@
         },
         "meta": "Orienta\u00e7\u00e3o a Objetos - T02",
         "user_id": "30c3956f-2a60-4533-8017-f616f98a6344",
-        "permissions": {},
-        "done": {
-            "c81f77e1-89f1-4f73-b79b-4a16be66b7b6": "Serve para limpar o terminal.",
-            "bfe5e015-8d2b-4c8f-b02b-e3b3eb945307": "Serve para entrar em uma pasta escolhida: cd <nome da pasta>.",
-            "5c8e436c-29e3-43d4-b3c4-44bc0076ef8e": "Serve para criar arquivos de texto pelo terminal.\n",
-            "3990cf54-4db7-48f3-bf67-f8d3a3e8b3f6": "Mostra o caminho para o diret\u00f3rio atual."
-        },
-        "on": true,
-        "tasks_sum": {
-            "e263f569-5298-4a23-8e95-365bb0aef5e5": [
-                4,
-                0,
-                0,
-                0
-            ],
-            "730bb18b-814d-4c6b-aff9-87713d2e61f5": [
-                0,
-                0,
-                0,
-                0
-            ],
-            "49cddbbf-7934-4669-ab8a-c54e2ba3a55d": [
-                0,
-                0,
-                0,
-                0
-            ],
-            "bc98762b-c01c-4c64-b8b2-5f84fe463c9c": [
-                0,
-                0,
-                0,
-                0
-            ]
-        },
-        "last": "Data: 25/10/2024 15:40:53\n\nPergunta: Para que serve o comando `clear`?\nResposta: Serve para limpar o terminal.\n\nPergunta: Para que serve o comando `cd`?\nResposta: Serve para entrar em uma pasta escolhida: cd <nome da pasta>.\n\nPergunta: Para que serve o comando `cat`?\nResposta: Serve para criar arquivos de texto pelo terminal.\n\n\nPergunta: Para que serve o comando `pwd`?\nResposta: Mostra o caminho para o diret\u00f3rio atual.\n\n"
+        "permissions": [],
+        "done": {},
+        "on": false,
+        "tasks_sum": {},
+        "last": ""
     },
     {
         "username": "Lucas",
@@ -4299,11 +3878,11 @@
         },
         "meta": "Orienta\u00e7\u00e3o a Objetos - T02",
         "user_id": "a1335364-cc9b-4de1-b0f9-850da5f5111a",
-        "permissions": {},
+        "permissions": [],
         "done": {},
-        "on": true,
+        "on": false,
         "tasks_sum": {},
-        "last": "Data: 25/10/2024 15:40:53\n\nNenhuma pergunta foi respondida neste momento.\n"
+        "last": ""
     },
     {
         "username": "Lucas",
@@ -4336,36 +3915,11 @@
         },
         "meta": "Orienta\u00e7\u00e3o a Objetos - T02",
         "user_id": "169c083d-0cee-4ce5-bc05-2c34ba0420fb",
-        "permissions": {},
+        "permissions": [],
         "done": {},
-        "on": true,
-        "tasks_sum": {
-            "e263f569-5298-4a23-8e95-365bb0aef5e5": [
-                0,
-                0,
-                0,
-                0
-            ],
-            "730bb18b-814d-4c6b-aff9-87713d2e61f5": [
-                0,
-                0,
-                0,
-                0
-            ],
-            "49cddbbf-7934-4669-ab8a-c54e2ba3a55d": [
-                0,
-                0,
-                0,
-                0
-            ],
-            "bc98762b-c01c-4c64-b8b2-5f84fe463c9c": [
-                0,
-                0,
-                0,
-                0
-            ]
-        },
-        "last": "Data: 25/10/2024 15:40:53\n\nNenhuma pergunta foi respondida neste momento.\n"
+        "on": false,
+        "tasks_sum": {},
+        "last": ""
     },
     {
         "username": "Luis",
@@ -4398,41 +3952,11 @@
         },
         "meta": "Orienta\u00e7\u00e3o a Objetos - T02",
         "user_id": "97af14b4-378f-4684-8194-8d2afca322ed",
-        "permissions": {},
-        "done": {
-            "c160eb54-1a4b-4485-8168-15d9e4eb473d": "Serve para descomprimir um arquivo que esteja comprimido com a extens\u00e3o .zip",
-            "c81f77e1-89f1-4f73-b79b-4a16be66b7b6": "serve para limpar o terminal de todas as informa\u00e7\u00f5es. (comandos e respostas) ",
-            "8fbcf2a5-b6e3-4c68-915b-d1ee6cf7f6a4": "serve para imprimir um texto na linha de comando. seja ele o nome de um arquivo ou uma mensagem. tamb\u00e9m pode usado para lista em ordem alfab\u00e9tica.",
-            "8c1f15e5-9f57-4f45-bf9e-1bead6bc15e3": "Serve para listar todos os arquivos dentro de uma pasta ou diret\u00f3rio no bash."
-        },
-        "on": true,
-        "tasks_sum": {
-            "e263f569-5298-4a23-8e95-365bb0aef5e5": [
-                0,
-                0,
-                0,
-                0
-            ],
-            "730bb18b-814d-4c6b-aff9-87713d2e61f5": [
-                0,
-                0,
-                0,
-                0
-            ],
-            "49cddbbf-7934-4669-ab8a-c54e2ba3a55d": [
-                0,
-                0,
-                0,
-                0
-            ],
-            "bc98762b-c01c-4c64-b8b2-5f84fe463c9c": [
-                0,
-                0,
-                0,
-                0
-            ]
-        },
-        "last": "Data: 25/10/2024 15:40:53\n\nNenhuma pergunta foi respondida neste momento.\n"
+        "permissions": [],
+        "done": {},
+        "on": false,
+        "tasks_sum": {},
+        "last": ""
     },
     {
         "username": "Maria",
@@ -4465,38 +3989,11 @@
         },
         "meta": "Orienta\u00e7\u00e3o a Objetos - T02",
         "user_id": "0bfbce9a-19a4-4ecf-b0f0-7a460391ae2b",
-        "permissions": {},
-        "done": {
-            "f497eeb8-1946-48c1-89cb-bd27a5ac3c6b": "Muda as permiss\u00f5es de um arquivo"
-        },
-        "on": true,
-        "tasks_sum": {
-            "e263f569-5298-4a23-8e95-365bb0aef5e5": [
-                0,
-                0,
-                0,
-                0
-            ],
-            "730bb18b-814d-4c6b-aff9-87713d2e61f5": [
-                0,
-                0,
-                0,
-                0
-            ],
-            "49cddbbf-7934-4669-ab8a-c54e2ba3a55d": [
-                0,
-                0,
-                0,
-                0
-            ],
-            "bc98762b-c01c-4c64-b8b2-5f84fe463c9c": [
-                0,
-                0,
-                0,
-                0
-            ]
-        },
-        "last": "Data: 25/10/2024 15:40:53\n\nPergunta: Para que serve o comando `chmod`?\nResposta: Muda as permiss\u00f5es de um arquivo\n\n"
+        "permissions": [],
+        "done": {},
+        "on": false,
+        "tasks_sum": {},
+        "last": ""
     },
     {
         "username": "Maria",
@@ -4529,11 +4026,11 @@
         },
         "meta": "Orienta\u00e7\u00e3o a Objetos - T02",
         "user_id": "5e44b632-89de-4ca8-b19a-3447c75ebf7e",
-        "permissions": {},
+        "permissions": [],
         "done": {},
-        "on": true,
+        "on": false,
         "tasks_sum": {},
-        "last": "Data: 25/10/2024 15:40:53\n\nNenhuma pergunta foi respondida neste momento.\n"
+        "last": ""
     },
     {
         "username": "Maria",
@@ -4566,43 +4063,18 @@
         },
         "meta": "Orienta\u00e7\u00e3o a Objetos - T02",
         "user_id": "3ee47d5f-c0be-4b5d-b0c1-f02095d2f5fa",
-        "permissions": {},
+        "permissions": [],
         "done": {},
-        "on": true,
-        "tasks_sum": {
-            "e263f569-5298-4a23-8e95-365bb0aef5e5": [
-                0,
-                0,
-                0,
-                0
-            ],
-            "730bb18b-814d-4c6b-aff9-87713d2e61f5": [
-                0,
-                0,
-                0,
-                0
-            ],
-            "49cddbbf-7934-4669-ab8a-c54e2ba3a55d": [
-                0,
-                0,
-                0,
-                0
-            ],
-            "bc98762b-c01c-4c64-b8b2-5f84fe463c9c": [
-                0,
-                0,
-                0,
-                0
-            ]
-        },
-        "last": "Data: 25/10/2024 15:40:53\n\nNenhuma pergunta foi respondida neste momento.\n"
+        "on": false,
+        "tasks_sum": {},
+        "last": ""
     },
     {
         "username": "Matheus",
         "password": "232005405",
         "tasks": {
             "e263f569-5298-4a23-8e95-365bb0aef5e5": [
-                2,
+                0,
                 0,
                 0,
                 0
@@ -4628,47 +4100,11 @@
         },
         "meta": "Orienta\u00e7\u00e3o a Objetos - T02",
         "user_id": "de43c6c3-13ec-44f0-939a-bfa41abae7ed",
-        "permissions": {},
-        "done": {
-            "dbe9d95a-6cf4-47c5-b44c-45a66f05107b": " \u00e9 uma ferramenta, um comando que voc\u00ea utiliza pra baixar arquivos da internet, no diret\u00f3rio em que o usu\u00e1rio estiver.",
-            "b3c93163-b53c-4ab2-9861-65e9f7023994": "Mover arquivos de um diret\u00f3rio para outro",
-            "8fc5f623-1b90-49c9-b19e-9a8a440e95ec": "serve para executar um arquivos de script que cont\u00eam uma sequencia com v\u00e1rios comandos, de forma que automatize essa tarefa",
-            "b2e44230-1857-46a3-8673-7fb4f49c9c89": "Serve para compactar arquivos",
-            "c160eb54-1a4b-4485-8168-15d9e4eb473d": "Serve para descompactar arquivos",
-            "b2ae9be5-3543-45ec-8b40-2abbd081e7c0": "Serve para criar um diretorio",
-            "74245f75-0d48-4c2c-81f5-2b84c89ab5af": "Exibe as ultimas linhas de um arquivo de texto",
-            "1df2c489-bb57-41a4-9b1e-0f5053371f2a": "Serve pra transferir arquivos pra diferentes m\u00e1quinas, de forma segura",
-            "83a3e2d7-bdc2-4f3f-b486-550b3f213cf7": "ele extrai se\u00e7\u00f5es de linhas de um arquivo de texto",
-            "fe3b3cc8-3e74-4b7f-804b-b62c4824fc3f": "Ele exibe informa\u00e7\u00f5es sobre os processos ativos / em execu\u00e7\u00e3o do sistema"
-        },
-        "on": true,
-        "tasks_sum": {
-            "e263f569-5298-4a23-8e95-365bb0aef5e5": [
-                2,
-                0,
-                0,
-                0
-            ],
-            "730bb18b-814d-4c6b-aff9-87713d2e61f5": [
-                0,
-                0,
-                0,
-                0
-            ],
-            "49cddbbf-7934-4669-ab8a-c54e2ba3a55d": [
-                0,
-                0,
-                0,
-                0
-            ],
-            "bc98762b-c01c-4c64-b8b2-5f84fe463c9c": [
-                0,
-                0,
-                0,
-                0
-            ]
-        },
-        "last": "Data: 25/10/2024 15:40:53\n\nPergunta: Para que serve o comando `wget`?\nResposta:  \u00e9 uma ferramenta, um comando que voc\u00ea utiliza pra baixar arquivos da internet, no diret\u00f3rio em que o usu\u00e1rio estiver.\n\nPergunta: Para que serve o comando `mv`?\nResposta: Mover arquivos de um diret\u00f3rio para outro\n\n"
+        "permissions": [],
+        "done": {},
+        "on": false,
+        "tasks_sum": {},
+        "last": ""
     },
     {
         "username": "Pamela",
@@ -4701,11 +4137,11 @@
         },
         "meta": "Orienta\u00e7\u00e3o a Objetos - T02",
         "user_id": "54fdad91-b52c-4e83-a7e9-97f9d9dc3440",
-        "permissions": {},
+        "permissions": [],
         "done": {},
-        "on": true,
+        "on": false,
         "tasks_sum": {},
-        "last": "Data: 25/10/2024 15:40:53\n\nNenhuma pergunta foi respondida neste momento.\n"
+        "last": ""
     },
     {
         "username": "Pedro",
@@ -4738,18 +4174,18 @@
         },
         "meta": "Orienta\u00e7\u00e3o a Objetos - T02",
         "user_id": "c8e8201f-b623-4df2-a5f6-f570be85c078",
-        "permissions": {},
+        "permissions": [],
         "done": {},
-        "on": true,
+        "on": false,
         "tasks_sum": {},
-        "last": "Data: 25/10/2024 15:40:53\n\nNenhuma pergunta foi respondida neste momento.\n"
+        "last": ""
     },
     {
         "username": "Pedro",
         "password": "232038442",
         "tasks": {
             "e263f569-5298-4a23-8e95-365bb0aef5e5": [
-                1,
+                0,
                 0,
                 0,
                 0
@@ -4775,38 +4211,11 @@
         },
         "meta": "Orienta\u00e7\u00e3o a Objetos - T02",
         "user_id": "d60d1b12-c2fa-43ed-9d60-9caf05fdeecb",
-        "permissions": {},
-        "done": {
-            "8fbcf2a5-b6e3-4c68-915b-d1ee6cf7f6a4": "exibir mensagens ou conte\u00fado de vari\u00e1vel no terminal"
-        },
-        "on": true,
-        "tasks_sum": {
-            "e263f569-5298-4a23-8e95-365bb0aef5e5": [
-                1,
-                0,
-                0,
-                0
-            ],
-            "730bb18b-814d-4c6b-aff9-87713d2e61f5": [
-                0,
-                0,
-                0,
-                0
-            ],
-            "49cddbbf-7934-4669-ab8a-c54e2ba3a55d": [
-                0,
-                0,
-                0,
-                0
-            ],
-            "bc98762b-c01c-4c64-b8b2-5f84fe463c9c": [
-                0,
-                0,
-                0,
-                0
-            ]
-        },
-        "last": "Data: 25/10/2024 15:40:53\n\nPergunta: Para que serve o comando `echo`?\nResposta: exibir mensagens ou conte\u00fado de vari\u00e1vel no terminal\n\n"
+        "permissions": [],
+        "done": {},
+        "on": false,
+        "tasks_sum": {},
+        "last": ""
     },
     {
         "username": "Renan",
@@ -4825,7 +4234,7 @@
                 0
             ],
             "49cddbbf-7934-4669-ab8a-c54e2ba3a55d": [
-                3,
+                0,
                 0,
                 0,
                 0
@@ -4839,40 +4248,11 @@
         },
         "meta": "Orienta\u00e7\u00e3o a Objetos - T02",
         "user_id": "758eafe1-3799-4a4b-b229-564ac1618f08",
-        "permissions": {},
-        "done": {
-            "4d885b5f-d3f3-4f7e-a2fc-e1b86d646f73": "\u00c9 uma ferramenta para trabalhar com heran\u00e7a em python",
-            "a40f64eb-b5ca-4703-ae40-6b1d2f4b227d": "O encapsulamento \u00e9 um dos pilares da POO e \u00e9 importante para proteger e otimizar o seu c\u00f3digo",
-            "3c1a64f0-1b2e-41c5-b36d-e6c08a1a7f43": "\u00e9 uma classe que n\u00e3o pode ser instanciada diretamente, em vez disso, ela servir\u00e1 de modelo para outras classes"
-        },
-        "on": true,
-        "tasks_sum": {
-            "e263f569-5298-4a23-8e95-365bb0aef5e5": [
-                0,
-                0,
-                0,
-                0
-            ],
-            "730bb18b-814d-4c6b-aff9-87713d2e61f5": [
-                0,
-                0,
-                0,
-                0
-            ],
-            "49cddbbf-7934-4669-ab8a-c54e2ba3a55d": [
-                3,
-                0,
-                0,
-                0
-            ],
-            "bc98762b-c01c-4c64-b8b2-5f84fe463c9c": [
-                0,
-                0,
-                0,
-                0
-            ]
-        },
-        "last": "Data: 25/10/2024 15:40:53\n\nPergunta: Qual \u00e9 o papel do m\u00e9todo `super()`?\nResposta: \u00c9 uma ferramenta para trabalhar com heran\u00e7a em python\n\nPergunta: Qual \u00e9 a import\u00e2ncia do encapsulamento na Orienta\u00e7\u00e3o a Objetos?\nResposta: O encapsulamento \u00e9 um dos pilares da POO e \u00e9 importante para proteger e otimizar o seu c\u00f3digo\n\nPergunta: O que \u00e9 uma classe abstrata?\nResposta: \u00e9 uma classe que n\u00e3o pode ser instanciada diretamente, em vez disso, ela servir\u00e1 de modelo para outras classes\n\n"
+        "permissions": [],
+        "done": {},
+        "on": false,
+        "tasks_sum": {},
+        "last": ""
     },
     {
         "username": "Vinicius",
@@ -4905,43 +4285,18 @@
         },
         "meta": "Orienta\u00e7\u00e3o a Objetos - T02",
         "user_id": "de14b4e2-350a-4c5f-9a45-7d4a22dd735b",
-        "permissions": {},
+        "permissions": [],
         "done": {},
-        "on": true,
-        "tasks_sum": {
-            "e263f569-5298-4a23-8e95-365bb0aef5e5": [
-                0,
-                0,
-                0,
-                0
-            ],
-            "730bb18b-814d-4c6b-aff9-87713d2e61f5": [
-                0,
-                0,
-                0,
-                0
-            ],
-            "49cddbbf-7934-4669-ab8a-c54e2ba3a55d": [
-                0,
-                0,
-                0,
-                0
-            ],
-            "bc98762b-c01c-4c64-b8b2-5f84fe463c9c": [
-                0,
-                0,
-                0,
-                0
-            ]
-        },
-        "last": "Data: 25/10/2024 15:40:53\n\nNenhuma pergunta foi respondida neste momento.\n"
+        "on": false,
+        "tasks_sum": {},
+        "last": ""
     },
     {
         "username": "Yan",
         "password": "241025480",
         "tasks": {
             "e263f569-5298-4a23-8e95-365bb0aef5e5": [
-                12,
+                0,
                 0,
                 0,
                 0
@@ -4967,48 +4322,11 @@
         },
         "meta": "Orienta\u00e7\u00e3o a Objetos - T02",
         "user_id": "75dcdd7b-6f66-4400-afc6-1f48d23514b0",
-        "permissions": {},
-        "done": {
-            "9157f08f-3f2c-4e92-a3d1-64304b964d8a": "O grep serve para pesquisa correspondente dentro de um arquivo.",
-            "b2ae9be5-3543-45ec-8b40-2abbd081e7c0": "Serve para criar um diret\u00f3rio.",
-            "c81f77e1-89f1-4f73-b79b-4a16be66b7b6": "Serve para limpar o terminal.",
-            "c14135dc-e52e-4b68-9fd5-d84d3c91ec01": "Executar um comando com permiss\u00f5es de root (raiz).",
-            "ff7f12d9-4e4f-49d4-9258-1e80e1e80a7a": "Criar um arquivo.",
-            "3990cf54-4db7-48f3-bf67-f8d3a3e8b3f6": "O pwd imprime o caminho atual.",
-            "76e4f32e-bf0e-4072-bdcb-2764a5b2ad2a": "Serve para organizar linhas em arquivos de texto.",
-            "83a3e2d7-bdc2-4f3f-b486-550b3f213cf7": "Serve para remover linhas de um arquivo.",
-            "02a4650a-d9a4-4189-a69a-10e4554cbb0": "O alias mostra o que um atalho de um comando faz na \u00edntegra.",
-            "14c0d48c-57c5-408e-bd42-c8b1f4d92c8e": "O dpkg \u00e9 o gerenciador de pacotes de distros baseadas em Debian",
-            "8fc5f623-1b90-49c9-b19e-9a8a440e95ec": "Serve para executar arquivos shell."
-        },
-        "on": true,
-        "tasks_sum": {
-            "e263f569-5298-4a23-8e95-365bb0aef5e5": [
-                12,
-                0,
-                0,
-                0
-            ],
-            "730bb18b-814d-4c6b-aff9-87713d2e61f5": [
-                0,
-                0,
-                0,
-                0
-            ],
-            "49cddbbf-7934-4669-ab8a-c54e2ba3a55d": [
-                0,
-                0,
-                0,
-                0
-            ],
-            "bc98762b-c01c-4c64-b8b2-5f84fe463c9c": [
-                0,
-                0,
-                0,
-                0
-            ]
-        },
-        "last": "Data: 25/10/2024 15:40:53\n\nPergunta: Para que serve o comando `grep`?\nResposta: O grep serve para pesquisa correspondente dentro de um arquivo.\n\nPergunta: Para que serve o comando `mkdir`?\nResposta: Serve para criar um diret\u00f3rio.\n\nPergunta: Para que serve o comando `clear`?\nResposta: Serve para limpar o terminal.\n\nPergunta: Para que serve o comando `sudo`?\nResposta: Executar um comando com permiss\u00f5es de root (raiz).\n\nPergunta: Para que serve o comando `touch`?\nResposta: Criar um arquivo.\n\nPergunta: Para que serve o comando `pwd`?\nResposta: O pwd imprime o caminho atual.\n\nPergunta: Para que serve o comando `sort`?\nResposta: Serve para organizar linhas em arquivos de texto.\n\nPergunta: Para que serve o comando `cut`?\nResposta: Serve para remover linhas de um arquivo.\n\nPergunta: Para que serve o comando `alias`?\nResposta: O alias mostra o que um atalho de um comando faz na \u00edntegra.\n\nPergunta: Para que serve o comando `dpkg`?\nResposta: O dpkg \u00e9 o gerenciador de pacotes de distros baseadas em Debian\n\nPergunta: Para que serve o comando `sh`?\nResposta: Serve para executar arquivos shell.\n\n"
+        "permissions": [],
+        "done": {},
+        "on": false,
+        "tasks_sum": {},
+        "last": ""
     },
     {
         "username": "Alexandre",
@@ -5041,18 +4359,18 @@
         },
         "meta": "Orienta\u00e7\u00e3o a Objetos - T02",
         "user_id": "5eefb282-056b-4c00-a908-edf677a93eaf",
-        "permissions": {},
+        "permissions": [],
         "done": {},
-        "on": true,
+        "on": false,
         "tasks_sum": {},
-        "last": "Data: 25/10/2024 15:40:53\n\nNenhuma pergunta foi respondida neste momento.\n"
+        "last": ""
     },
     {
         "username": "Arthur",
         "password": "231034064",
         "tasks": {
             "e263f569-5298-4a23-8e95-365bb0aef5e5": [
-                9,
+                0,
                 0,
                 0,
                 0
@@ -5078,52 +4396,18 @@
         },
         "meta": "Orienta\u00e7\u00e3o a Objetos - T02",
         "user_id": "bf92fb9e-a4a7-4648-a30a-0eebcc45f1f4",
-        "permissions": {},
-        "done": {
-            "c81f77e1-89f1-4f73-b79b-4a16be66b7b6": "Para limpar o terminal, excluindo as linhas escritas anteriormente..",
-            "02a4650a-d9a4-4189-a69a-10e4554cbb0": "Permite criar nomes mais simples para comandos mais complexos",
-            "8fbcf2a5-b6e3-4c68-915b-d1ee6cf7f6a4": "O comando imprime um texto na tela do terminal",
-            "c14135dc-e52e-4b68-9fd5-d84d3c91ec01": "O comando concede a permiss\u00e3o de super usu\u00e1rio.",
-            "8c1f15e5-9f57-4f45-bf9e-1bead6bc15e3": "o comando ls mostra as pastas do sistema",
-            "28543be4-f3b7-4143-89d4-c928e539f7d6": "Controla o sistema operacional",
-            "fe3b3cc8-3e74-4b7f-804b-b62c4824fc3f": "Mostra os processos em execu\u00e7\u00e3o no linux.",
-            "3e7c4f91-b4ac-494f-b0c7-9d94e3a01399": "Serve para transferir dados de um servidor ou para um servidor"
-        },
-        "on": true,
-        "tasks_sum": {
-            "e263f569-5298-4a23-8e95-365bb0aef5e5": [
-                9,
-                0,
-                0,
-                0
-            ],
-            "730bb18b-814d-4c6b-aff9-87713d2e61f5": [
-                0,
-                0,
-                0,
-                0
-            ],
-            "49cddbbf-7934-4669-ab8a-c54e2ba3a55d": [
-                0,
-                0,
-                0,
-                0
-            ],
-            "bc98762b-c01c-4c64-b8b2-5f84fe463c9c": [
-                0,
-                0,
-                0,
-                0
-            ]
-        },
-        "last": "Data: 25/10/2024 15:40:53\n\nPergunta: Para que serve o comando `clear`?\nResposta: Para limpar o terminal, excluindo as linhas escritas anteriormente..\n\nPergunta: Para que serve o comando `alias`?\nResposta: Permite criar nomes mais simples para comandos mais complexos\n\nPergunta: Para que serve o comando `echo`?\nResposta: O comando imprime um texto na tela do terminal\n\nPergunta: Para que serve o comando `sudo`?\nResposta: O comando concede a permiss\u00e3o de super usu\u00e1rio.\n\nPergunta: Para que serve o comando `ls`?\nResposta: o comando ls mostra as pastas do sistema\n\nPergunta: Para que serve o comando `bash`?\nResposta: Controla o sistema operacional\n\nPergunta: Para que serve o comando `ps`?\nResposta: Mostra os processos em execu\u00e7\u00e3o no linux.\n\nPergunta: Para que serve o comando `curl`?\nResposta: Serve para transferir dados de um servidor ou para um servidor\n\n"
+        "permissions": [],
+        "done": {},
+        "on": false,
+        "tasks_sum": {},
+        "last": ""
     },
     {
         "username": "Beatriz",
         "password": "232046050",
         "tasks": {
             "e263f569-5298-4a23-8e95-365bb0aef5e5": [
-                3,
+                0,
                 0,
                 0,
                 0
@@ -5149,46 +4433,18 @@
         },
         "meta": "Orienta\u00e7\u00e3o a Objetos - T02",
         "user_id": "10f0bc0e-8ba4-4e24-8a16-201f2b7b54b8",
-        "permissions": {},
-        "done": {
-            "bfe5e015-8d2b-4c8f-b02b-e3b3eb945307": "Navegar entre os arquivos",
-            "c14135dc-e52e-4b68-9fd5-d84d3c91ec01": "Executar comandos como administrador"
-        },
-        "on": true,
-        "tasks_sum": {
-            "e263f569-5298-4a23-8e95-365bb0aef5e5": [
-                3,
-                0,
-                0,
-                0
-            ],
-            "730bb18b-814d-4c6b-aff9-87713d2e61f5": [
-                0,
-                0,
-                0,
-                0
-            ],
-            "49cddbbf-7934-4669-ab8a-c54e2ba3a55d": [
-                0,
-                0,
-                0,
-                0
-            ],
-            "bc98762b-c01c-4c64-b8b2-5f84fe463c9c": [
-                0,
-                0,
-                0,
-                0
-            ]
-        },
-        "last": "Data: 25/10/2024 15:40:53\n\nPergunta: Para que serve o comando `cd`?\nResposta: Navegar entre os arquivos\n\nPergunta: Para que serve o comando `sudo`?\nResposta: Executar comandos como administrador\n\n"
+        "permissions": [],
+        "done": {},
+        "on": false,
+        "tasks_sum": {},
+        "last": ""
     },
     {
         "username": "Brunno",
         "password": "232032000",
         "tasks": {
             "e263f569-5298-4a23-8e95-365bb0aef5e5": [
-                7,
+                0,
                 0,
                 0,
                 0
@@ -5214,45 +4470,11 @@
         },
         "meta": "Orienta\u00e7\u00e3o a Objetos - T02",
         "user_id": "bd943683-49eb-4b68-b2cd-880feb550232",
-        "permissions": {},
-        "done": {
-            "3e7c4f91-b4ac-494f-b0c7-9d94e3a01399": "serve para manipular e transferir dados URL",
-            "83a3e2d7-bdc2-4f3f-b486-550b3f213cf7": "serve para cortar bytes, caracteres ou campos de um arquivo",
-            "c160eb54-1a4b-4485-8168-15d9e4eb473d": "serve para descompactar arquivos",
-            "02a4650a-d9a4-4189-a69a-10e4554cbb0": "serve para criar atalhos para comandos",
-            "8fc5f623-1b90-49c9-b19e-9a8a440e95ec": "serve para invocar a shell padr\u00e3o e utiliz\u00e1-la",
-            "14c0d48c-57c5-408e-bd42-c8b1f4d92c8e": "serve para gerenciar pacotes em sistemas Debian",
-            "f497eeb8-1946-48c1-89cb-bd27a5ac3c6b": "serve para alterar as permiss\u00f5es de arquivos e diret\u00f3rios",
-            "9157f08f-3f2c-4e92-a3d1-64304b964d8a": "serve para procurar por trechos de textos dentro de arquivos e diret\u00f3rios e retornar onde foram encontrados (ou se n\u00e3o foram)"
-        },
-        "on": true,
-        "tasks_sum": {
-            "e263f569-5298-4a23-8e95-365bb0aef5e5": [
-                7,
-                0,
-                0,
-                0
-            ],
-            "730bb18b-814d-4c6b-aff9-87713d2e61f5": [
-                0,
-                0,
-                0,
-                0
-            ],
-            "49cddbbf-7934-4669-ab8a-c54e2ba3a55d": [
-                0,
-                0,
-                0,
-                0
-            ],
-            "bc98762b-c01c-4c64-b8b2-5f84fe463c9c": [
-                0,
-                0,
-                0,
-                0
-            ]
-        },
-        "last": "Data: 25/10/2024 15:40:53\n\nPergunta: Para que serve o comando `curl`?\nResposta: serve para manipular e transferir dados URL\n\nPergunta: Para que serve o comando `cut`?\nResposta: serve para cortar bytes, caracteres ou campos de um arquivo\n\nPergunta: Para que serve o comando `unzip`?\nResposta: serve para descompactar arquivos\n\nPergunta: Para que serve o comando `alias`?\nResposta: serve para criar atalhos para comandos\n\nPergunta: Para que serve o comando `sh`?\nResposta: serve para invocar a shell padr\u00e3o e utiliz\u00e1-la\n\nPergunta: Para que serve o comando `dpkg`?\nResposta: serve para gerenciar pacotes em sistemas Debian\n\nPergunta: Para que serve o comando `chmod`?\nResposta: serve para alterar as permiss\u00f5es de arquivos e diret\u00f3rios\n\n"
+        "permissions": [],
+        "done": {},
+        "on": false,
+        "tasks_sum": {},
+        "last": ""
     },
     {
         "username": "Bryan",
@@ -5285,43 +4507,18 @@
         },
         "meta": "Orienta\u00e7\u00e3o a Objetos - T02",
         "user_id": "8304a7c2-3ff5-4b9d-ab41-3255f1539271",
-        "permissions": {},
+        "permissions": [],
         "done": {},
-        "on": true,
-        "tasks_sum": {
-            "e263f569-5298-4a23-8e95-365bb0aef5e5": [
-                0,
-                0,
-                0,
-                0
-            ],
-            "730bb18b-814d-4c6b-aff9-87713d2e61f5": [
-                0,
-                0,
-                0,
-                0
-            ],
-            "49cddbbf-7934-4669-ab8a-c54e2ba3a55d": [
-                0,
-                0,
-                0,
-                0
-            ],
-            "bc98762b-c01c-4c64-b8b2-5f84fe463c9c": [
-                0,
-                0,
-                0,
-                0
-            ]
-        },
-        "last": "Data: 25/10/2024 15:40:53\n\nNenhuma pergunta foi respondida neste momento.\n"
+        "on": false,
+        "tasks_sum": {},
+        "last": ""
     },
     {
         "username": "Carlos",
         "password": "232014404",
         "tasks": {
             "e263f569-5298-4a23-8e95-365bb0aef5e5": [
-                4,
+                0,
                 0,
                 0,
                 0
@@ -5347,45 +4544,11 @@
         },
         "meta": "Orienta\u00e7\u00e3o a Objetos - T02",
         "user_id": "28161d8c-1466-414d-960a-b66e1233e588",
-        "permissions": {},
-        "done": {
-            "8c1f15e5-9f57-4f45-bf9e-1bead6bc15e3": "Serve para listar arquivos e pastas",
-            "bfe5e015-8d2b-4c8f-b02b-e3b3eb945307": "serve para mudar de pasta",
-            "0e9673f5-9e76-4e98-97da-7b1f2e6d0214": "O head mostra as linhas iniciais ",
-            "3e7c4f91-b4ac-494f-b0c7-9d94e3a01399": "Usado para transferencia de dados ",
-            "c160eb54-1a4b-4485-8168-15d9e4eb473d": "Serve para descompactar um arquivo",
-            "73cbe6f1-32bb-4891-a244-fc0de4da5696": "Serve para remover um arquivo ou pasta",
-            "b3c93163-b53c-4ab2-9861-65e9f7023994": "Serve para mover um arquivo ou pasta",
-            "ff7f12d9-4e4f-49d4-9258-1e80e1e80a7a": "Serve para criar arquivos e tamb\u00e9m atualizar "
-        },
-        "on": true,
-        "tasks_sum": {
-            "e263f569-5298-4a23-8e95-365bb0aef5e5": [
-                4,
-                0,
-                0,
-                0
-            ],
-            "730bb18b-814d-4c6b-aff9-87713d2e61f5": [
-                0,
-                0,
-                0,
-                0
-            ],
-            "49cddbbf-7934-4669-ab8a-c54e2ba3a55d": [
-                0,
-                0,
-                0,
-                0
-            ],
-            "bc98762b-c01c-4c64-b8b2-5f84fe463c9c": [
-                0,
-                0,
-                0,
-                0
-            ]
-        },
-        "last": "Data: 25/10/2024 15:40:53\n\nPergunta: Para que serve o comando `ls`?\nResposta: Serve para listar arquivos e pastas\n\nPergunta: Para que serve o comando `cd`?\nResposta: serve para mudar de pasta\n\nPergunta: Para que serve o comando `head`?\nResposta: O head mostra as linhas iniciais \n\n"
+        "permissions": [],
+        "done": {},
+        "on": false,
+        "tasks_sum": {},
+        "last": ""
     },
     {
         "username": "Joao",
@@ -5420,9 +4583,9 @@
         "user_id": "89aa2bc9-e5e6-4b7b-bd05-7d237bcfce0c",
         "permissions": [],
         "done": {},
-        "on": true,
+        "on": false,
         "tasks_sum": {},
-        "last": "Data: 25/10/2024 15:40:53\n\nNenhuma pergunta foi respondida neste momento.\n"
+        "last": ""
     },
     {
         "username": "Daniel",
@@ -5455,11 +4618,11 @@
         },
         "meta": "Orienta\u00e7\u00e3o a Objetos",
         "user_id": "a12400ab-ffbb-454f-8025-d919d1b9dcc3",
-        "permissions": {},
+        "permissions": [],
         "done": {},
-        "on": true,
+        "on": false,
         "tasks_sum": {},
-        "last": "Data: 25/10/2024 15:40:53\n\nNenhuma pergunta foi respondida neste momento.\n"
+        "last": ""
     },
     {
         "username": "Leticia",
@@ -5494,9 +4657,9 @@
         "user_id": "fcedfbdc-3404-417d-bd70-0a60e412c8c4",
         "permissions": [],
         "done": {},
-        "on": true,
+        "on": false,
         "tasks_sum": {},
-        "last": "Data: 25/10/2024 15:40:53\n\nNenhuma pergunta foi respondida neste momento.\n"
+        "last": ""
     },
     {
         "username": "Danilo",
@@ -5529,11 +4692,11 @@
         },
         "meta": "Orienta\u00e7\u00e3o a Objetos - T02",
         "user_id": "1d7379b1-6a5d-4a09-91be-1c449a3958eb",
-        "permissions": {},
+        "permissions": [],
         "done": {},
-        "on": true,
+        "on": false,
         "tasks_sum": {},
-        "last": "Data: 25/10/2024 15:40:53\n\nNenhuma pergunta foi respondida neste momento.\n"
+        "last": ""
     },
     {
         "username": "Davi",
@@ -5566,38 +4729,11 @@
         },
         "meta": "Orienta\u00e7\u00e3o a Objetos - T02",
         "user_id": "9fbb64f8-6f0b-46be-bd1a-b2f9fd549e6d",
-        "permissions": {},
-        "done": {
-            "e8570a9f-8db8-44b2-82ef-4f65e0b08098": "heran\u00e7a \u00e9 a forma do python mostrar que uma classe use dos c\u00f3digos de uma outra sem a necessidade de faze-la novamente."
-        },
-        "on": true,
-        "tasks_sum": {
-            "e263f569-5298-4a23-8e95-365bb0aef5e5": [
-                0,
-                0,
-                0,
-                0
-            ],
-            "730bb18b-814d-4c6b-aff9-87713d2e61f5": [
-                0,
-                0,
-                0,
-                0
-            ],
-            "49cddbbf-7934-4669-ab8a-c54e2ba3a55d": [
-                0,
-                0,
-                0,
-                0
-            ],
-            "bc98762b-c01c-4c64-b8b2-5f84fe463c9c": [
-                0,
-                0,
-                0,
-                0
-            ]
-        },
-        "last": "Data: 25/10/2024 15:40:53\n\nPergunta: O que \u00e9 heran\u00e7a em Python?\nResposta: heran\u00e7a \u00e9 a forma do python mostrar que uma classe use dos c\u00f3digos de uma outra sem a necessidade de faze-la novamente.\n\n"
+        "permissions": [],
+        "done": {},
+        "on": false,
+        "tasks_sum": {},
+        "last": ""
     },
     {
         "username": "Felipe",
@@ -5630,11 +4766,11 @@
         },
         "meta": "Orienta\u00e7\u00e3o a Objetos - T02",
         "user_id": "1df86e8e-0651-4bf8-97e0-3dfe56a1432c",
-        "permissions": {},
+        "permissions": [],
         "done": {},
-        "on": true,
+        "on": false,
         "tasks_sum": {},
-        "last": "Data: 25/10/2024 15:40:53\n\nNenhuma pergunta foi respondida neste momento.\n"
+        "last": ""
     },
     {
         "username": "Felype",
@@ -5667,45 +4803,18 @@
         },
         "meta": "Orienta\u00e7\u00e3o a Objetos - T02",
         "user_id": "edc1fa27-04b3-4558-88ac-bd66458321eb",
-        "permissions": {},
-        "done": {
-            "aa4e8c91-2f29-4f8c-9a4f-5b0cdd5f1b91": "As listas s\u00e3o edit\u00e1veis, enquanto as tuplas s\u00e3o elementos imut\u00e1veis."
-        },
-        "on": true,
-        "tasks_sum": {
-            "e263f569-5298-4a23-8e95-365bb0aef5e5": [
-                0,
-                0,
-                0,
-                0
-            ],
-            "730bb18b-814d-4c6b-aff9-87713d2e61f5": [
-                0,
-                0,
-                0,
-                0
-            ],
-            "49cddbbf-7934-4669-ab8a-c54e2ba3a55d": [
-                0,
-                0,
-                0,
-                0
-            ],
-            "bc98762b-c01c-4c64-b8b2-5f84fe463c9c": [
-                0,
-                0,
-                0,
-                0
-            ]
-        },
-        "last": "Data: 25/10/2024 15:40:53\n\nNenhuma pergunta foi respondida neste momento.\n"
+        "permissions": [],
+        "done": {},
+        "on": false,
+        "tasks_sum": {},
+        "last": ""
     },
     {
         "username": "Gabriel",
         "password": "232013990",
         "tasks": {
             "e263f569-5298-4a23-8e95-365bb0aef5e5": [
-                2,
+                0,
                 0,
                 0,
                 0
@@ -5731,39 +4840,11 @@
         },
         "meta": "Orienta\u00e7\u00e3o a Objetos - T02",
         "user_id": "63f8a527-7e6a-41f1-a260-c2d33660cf2c",
-        "permissions": {},
-        "done": {
-            "73cbe6f1-32bb-4891-a244-fc0de4da5696": "Como indicam as 2 letras na composi\u00e7\u00e3o do comando, rm \u00e9 usado para fazer a remo\u00e7\u00e3o de arquivos e diret\u00f3rios",
-            "b2ae9be5-3543-45ec-8b40-2abbd081e7c0": "\u00c9 respons\u00e1vel pela cria\u00e7\u00e3o de diret\u00f3rios MaKe DIRectory. A separa\u00e7\u00e3o por espa\u00e7os permite a cria\u00e7\u00e3o de m\u00faltiplas pastas"
-        },
-        "on": true,
-        "tasks_sum": {
-            "e263f569-5298-4a23-8e95-365bb0aef5e5": [
-                2,
-                0,
-                0,
-                0
-            ],
-            "730bb18b-814d-4c6b-aff9-87713d2e61f5": [
-                0,
-                0,
-                0,
-                0
-            ],
-            "49cddbbf-7934-4669-ab8a-c54e2ba3a55d": [
-                0,
-                0,
-                0,
-                0
-            ],
-            "bc98762b-c01c-4c64-b8b2-5f84fe463c9c": [
-                0,
-                0,
-                0,
-                0
-            ]
-        },
-        "last": "Data: 25/10/2024 15:40:53\n\nPergunta: Para que serve o comando `rm`?\nResposta: Como indicam as 2 letras na composi\u00e7\u00e3o do comando, rm \u00e9 usado para fazer a remo\u00e7\u00e3o de arquivos e diret\u00f3rios\n\nPergunta: Para que serve o comando `mkdir`?\nResposta: \u00c9 respons\u00e1vel pela cria\u00e7\u00e3o de diret\u00f3rios MaKe DIRectory. A separa\u00e7\u00e3o por espa\u00e7os permite a cria\u00e7\u00e3o de m\u00faltiplas pastas\n\n"
+        "permissions": [],
+        "done": {},
+        "on": false,
+        "tasks_sum": {},
+        "last": ""
     },
     {
         "username": "Gabriel",
@@ -5796,36 +4877,11 @@
         },
         "meta": "Orienta\u00e7\u00e3o a Objetos - T02",
         "user_id": "23be1f00-f81c-439b-aeaa-b61073ccb6b1",
-        "permissions": {},
+        "permissions": [],
         "done": {},
-        "on": true,
-        "tasks_sum": {
-            "e263f569-5298-4a23-8e95-365bb0aef5e5": [
-                0,
-                0,
-                0,
-                0
-            ],
-            "730bb18b-814d-4c6b-aff9-87713d2e61f5": [
-                0,
-                0,
-                0,
-                0
-            ],
-            "49cddbbf-7934-4669-ab8a-c54e2ba3a55d": [
-                0,
-                0,
-                0,
-                0
-            ],
-            "bc98762b-c01c-4c64-b8b2-5f84fe463c9c": [
-                0,
-                0,
-                0,
-                0
-            ]
-        },
-        "last": "Data: 25/10/2024 15:40:53\n\nNenhuma pergunta foi respondida neste momento.\n"
+        "on": false,
+        "tasks_sum": {},
+        "last": ""
     },
     {
         "username": "Giovanni",
@@ -5858,36 +4914,11 @@
         },
         "meta": "Orienta\u00e7\u00e3o a Objetos - T02",
         "user_id": "8702ec94-6499-4cf6-9fff-150d79d0f4d3",
-        "permissions": {},
+        "permissions": [],
         "done": {},
-        "on": true,
-        "tasks_sum": {
-            "e263f569-5298-4a23-8e95-365bb0aef5e5": [
-                0,
-                0,
-                0,
-                0
-            ],
-            "730bb18b-814d-4c6b-aff9-87713d2e61f5": [
-                0,
-                0,
-                0,
-                0
-            ],
-            "49cddbbf-7934-4669-ab8a-c54e2ba3a55d": [
-                0,
-                0,
-                0,
-                0
-            ],
-            "bc98762b-c01c-4c64-b8b2-5f84fe463c9c": [
-                0,
-                0,
-                0,
-                0
-            ]
-        },
-        "last": "Data: 25/10/2024 15:40:53\n\nNenhuma pergunta foi respondida neste momento.\n"
+        "on": false,
+        "tasks_sum": {},
+        "last": ""
     },
     {
         "username": "Guilherme",
@@ -5920,36 +4951,11 @@
         },
         "meta": "Orienta\u00e7\u00e3o a Objetos - T02",
         "user_id": "f82d61f8-c6bc-4f00-9f09-9e9aa69f7767",
-        "permissions": {},
+        "permissions": [],
         "done": {},
-        "on": true,
-        "tasks_sum": {
-            "e263f569-5298-4a23-8e95-365bb0aef5e5": [
-                0,
-                0,
-                0,
-                0
-            ],
-            "730bb18b-814d-4c6b-aff9-87713d2e61f5": [
-                0,
-                0,
-                0,
-                0
-            ],
-            "49cddbbf-7934-4669-ab8a-c54e2ba3a55d": [
-                0,
-                0,
-                0,
-                0
-            ],
-            "bc98762b-c01c-4c64-b8b2-5f84fe463c9c": [
-                0,
-                0,
-                0,
-                0
-            ]
-        },
-        "last": "Data: 25/10/2024 15:40:53\n\nNenhuma pergunta foi respondida neste momento.\n"
+        "on": false,
+        "tasks_sum": {},
+        "last": ""
     },
     {
         "username": "Henrique",
@@ -5982,43 +4988,18 @@
         },
         "meta": "Orienta\u00e7\u00e3o a Objetos - T02",
         "user_id": "9133011e-4b4b-4e41-a101-d9f17ee42d8c",
-        "permissions": {},
+        "permissions": [],
         "done": {},
-        "on": true,
-        "tasks_sum": {
-            "e263f569-5298-4a23-8e95-365bb0aef5e5": [
-                0,
-                0,
-                0,
-                0
-            ],
-            "730bb18b-814d-4c6b-aff9-87713d2e61f5": [
-                0,
-                0,
-                0,
-                0
-            ],
-            "49cddbbf-7934-4669-ab8a-c54e2ba3a55d": [
-                0,
-                0,
-                0,
-                0
-            ],
-            "bc98762b-c01c-4c64-b8b2-5f84fe463c9c": [
-                0,
-                0,
-                0,
-                0
-            ]
-        },
-        "last": "Data: 25/10/2024 15:40:53\n\nNenhuma pergunta foi respondida neste momento.\n"
+        "on": false,
+        "tasks_sum": {},
+        "last": ""
     },
     {
         "username": "Janio",
         "password": "232013891",
         "tasks": {
             "e263f569-5298-4a23-8e95-365bb0aef5e5": [
-                10,
+                0,
                 0,
                 0,
                 0
@@ -6030,7 +5011,7 @@
                 0
             ],
             "49cddbbf-7934-4669-ab8a-c54e2ba3a55d": [
-                1,
+                0,
                 0,
                 0,
                 0
@@ -6044,48 +5025,11 @@
         },
         "meta": "Orienta\u00e7\u00e3o a Objetos - T02",
         "user_id": "912ebb43-d48a-4875-8097-b2885053274e",
-        "permissions": {},
-        "done": {
-            "c81f77e1-89f1-4f73-b79b-4a16be66b7b6": "Limpa a tela do terminal",
-            "a4f0ec0f-1b25-4452-bd79-0ebff9e2eaa1": "Abre o editor de texto \"vim\" direto no terminal",
-            "b2ae9be5-3543-45ec-8b40-2abbd081e7c0": "Cria um diret\u00f3rio",
-            "5c8e436c-29e3-43d4-b3c4-44bc0076ef8e": "imprime no terminal um arquivo selecionado\n",
-            "b2e44230-1857-46a3-8673-7fb4f49c9c89": "compacta arquivos",
-            "c8e9b6d2-f3b1-4f2e-bd74-ff0f052b58d0": "copia um arquivo",
-            "b3c93163-b53c-4ab2-9861-65e9f7023994": "pode mover um arquivo de um diret\u00f3rio para outro e tamb\u00e9m pode renomear arquivos",
-            "74245f75-0d48-4c2c-81f5-2b84c89ab5af": "Imprime as \u00faltimas linhas de um arquivo",
-            "8r8g7g7f-9e69-4a97-b35f-8f76e44c7e9a": "Getter e setter s\u00e3o metodos de acesso \u00e0 atributos que s\u00e3o privados de uma classe.",
-            "1b00d1f3-0a6f-46cb-b4fc-e32b77efc63c": "S\u00e3o vari\u00e1veis de uma classe",
-            "fe3b3cc8-3e74-4b7f-804b-b62c4824fc3f": "lista processos em andamento no terminal"
-        },
-        "on": true,
-        "tasks_sum": {
-            "e263f569-5298-4a23-8e95-365bb0aef5e5": [
-                10,
-                0,
-                0,
-                0
-            ],
-            "730bb18b-814d-4c6b-aff9-87713d2e61f5": [
-                0,
-                0,
-                0,
-                0
-            ],
-            "49cddbbf-7934-4669-ab8a-c54e2ba3a55d": [
-                1,
-                0,
-                0,
-                0
-            ],
-            "bc98762b-c01c-4c64-b8b2-5f84fe463c9c": [
-                0,
-                0,
-                0,
-                0
-            ]
-        },
-        "last": "Data: 25/10/2024 15:40:53\n\nPergunta: Para que serve o comando `clear`?\nResposta: Limpa a tela do terminal\n\nPergunta: Para que serve o comando `vim`?\nResposta: Abre o editor de texto \"vim\" direto no terminal\n\nPergunta: Para que serve o comando `mkdir`?\nResposta: Cria um diret\u00f3rio\n\nPergunta: Para que serve o comando `cat`?\nResposta: imprime no terminal um arquivo selecionado\n\n\nPergunta: Para que serve o comando `zip`?\nResposta: compacta arquivos\n\nPergunta: Para que serve o comando `cp`?\nResposta: copia um arquivo\n\nPergunta: Para que serve o comando `mv`?\nResposta: pode mover um arquivo de um diret\u00f3rio para outro e tamb\u00e9m pode renomear arquivos\n\nPergunta: Para que serve o comando `tail`?\nResposta: Imprime as \u00faltimas linhas de um arquivo\n\nPergunta: O que \u00e9 um getter e setter?\nResposta: Getter e setter s\u00e3o metodos de acesso \u00e0 atributos que s\u00e3o privados de uma classe.\n\nPergunta: O que s\u00e3o atributos em uma classe?\nResposta: S\u00e3o vari\u00e1veis de uma classe\n\n"
+        "permissions": [],
+        "done": {},
+        "on": false,
+        "tasks_sum": {},
+        "last": ""
     },
     {
         "username": "Joao",
@@ -6118,38 +5062,11 @@
         },
         "meta": "Orienta\u00e7\u00e3o a Objetos - T02",
         "user_id": "89f82216-cfe6-4f44-98b2-eeb01220b034",
-        "permissions": {},
-        "done": {
-            "74245f75-0d48-4c2c-81f5-2b84c89ab5af": "Esse comando mostrar\u00e1 por padr\u00e3o as \u00faltimas 10 linhas de algum arquivo, "
-        },
-        "on": true,
-        "tasks_sum": {
-            "e263f569-5298-4a23-8e95-365bb0aef5e5": [
-                0,
-                0,
-                0,
-                0
-            ],
-            "730bb18b-814d-4c6b-aff9-87713d2e61f5": [
-                0,
-                0,
-                0,
-                0
-            ],
-            "49cddbbf-7934-4669-ab8a-c54e2ba3a55d": [
-                0,
-                0,
-                0,
-                0
-            ],
-            "bc98762b-c01c-4c64-b8b2-5f84fe463c9c": [
-                0,
-                0,
-                0,
-                0
-            ]
-        },
-        "last": "Data: 25/10/2024 15:40:53\n\nNenhuma pergunta foi respondida neste momento.\n"
+        "permissions": [],
+        "done": {},
+        "on": false,
+        "tasks_sum": {},
+        "last": ""
     },
     {
         "username": "Jose",
@@ -6182,36 +5099,11 @@
         },
         "meta": "Orienta\u00e7\u00e3o a Objetos - T02",
         "user_id": "a9b4bc35-2cf8-4a2d-9457-fe712a1c1daf",
-        "permissions": {},
+        "permissions": [],
         "done": {},
-        "on": true,
-        "tasks_sum": {
-            "e263f569-5298-4a23-8e95-365bb0aef5e5": [
-                0,
-                0,
-                0,
-                0
-            ],
-            "730bb18b-814d-4c6b-aff9-87713d2e61f5": [
-                0,
-                0,
-                0,
-                0
-            ],
-            "49cddbbf-7934-4669-ab8a-c54e2ba3a55d": [
-                0,
-                0,
-                0,
-                0
-            ],
-            "bc98762b-c01c-4c64-b8b2-5f84fe463c9c": [
-                0,
-                0,
-                0,
-                0
-            ]
-        },
-        "last": "Data: 25/10/2024 15:40:53\n\nNenhuma pergunta foi respondida neste momento.\n"
+        "on": false,
+        "tasks_sum": {},
+        "last": ""
     },
     {
         "username": "Julia",
@@ -6244,36 +5136,11 @@
         },
         "meta": "Orienta\u00e7\u00e3o a Objetos - T02",
         "user_id": "18f086ed-ebbd-4ec0-96f0-586348574200",
-        "permissions": {},
+        "permissions": [],
         "done": {},
-        "on": true,
-        "tasks_sum": {
-            "e263f569-5298-4a23-8e95-365bb0aef5e5": [
-                0,
-                0,
-                0,
-                0
-            ],
-            "730bb18b-814d-4c6b-aff9-87713d2e61f5": [
-                0,
-                0,
-                0,
-                0
-            ],
-            "49cddbbf-7934-4669-ab8a-c54e2ba3a55d": [
-                0,
-                0,
-                0,
-                0
-            ],
-            "bc98762b-c01c-4c64-b8b2-5f84fe463c9c": [
-                0,
-                0,
-                0,
-                0
-            ]
-        },
-        "last": "Data: 25/10/2024 15:40:53\n\nNenhuma pergunta foi respondida neste momento.\n"
+        "on": false,
+        "tasks_sum": {},
+        "last": ""
     },
     {
         "username": "Lara",
@@ -6306,43 +5173,18 @@
         },
         "meta": "Orienta\u00e7\u00e3o a Objetos - T02",
         "user_id": "1a088fab-9d82-4dee-adff-1adc64520574",
-        "permissions": {},
+        "permissions": [],
         "done": {},
-        "on": true,
-        "tasks_sum": {
-            "e263f569-5298-4a23-8e95-365bb0aef5e5": [
-                0,
-                0,
-                0,
-                0
-            ],
-            "730bb18b-814d-4c6b-aff9-87713d2e61f5": [
-                0,
-                0,
-                0,
-                0
-            ],
-            "49cddbbf-7934-4669-ab8a-c54e2ba3a55d": [
-                0,
-                0,
-                0,
-                0
-            ],
-            "bc98762b-c01c-4c64-b8b2-5f84fe463c9c": [
-                0,
-                0,
-                0,
-                0
-            ]
-        },
-        "last": "Data: 25/10/2024 15:40:53\n\nNenhuma pergunta foi respondida neste momento.\n"
+        "on": false,
+        "tasks_sum": {},
+        "last": ""
     },
     {
         "username": "Leonardo",
         "password": "211062105",
         "tasks": {
             "e263f569-5298-4a23-8e95-365bb0aef5e5": [
-                5,
+                0,
                 0,
                 0,
                 0
@@ -6368,51 +5210,18 @@
         },
         "meta": "Orienta\u00e7\u00e3o a Objetos - T02",
         "user_id": "fabb71fd-f92e-425e-9cfd-aa49b7d4c4c4",
-        "permissions": {},
-        "done": {
-            "c160eb54-1a4b-4485-8168-15d9e4eb473d": "Descompactar arquivos",
-            "76e4f32e-bf0e-4072-bdcb-2764a5b2ad2a": "Organizar uma lista em ordem crescente",
-            "b2e44230-1857-46a3-8673-7fb4f49c9c89": "Compactar arquivos",
-            "3e7c4f91-b4ac-494f-b0c7-9d94e3a01399": "Manipula\u00e7\u00e3o e transfer\u00eancia de URL",
-            "fe3b3cc8-3e74-4b7f-804b-b62c4824fc3f": "Exibir informa\u00e7\u00f5es sobre processos em exibi\u00e7\u00e3o",
-            "b3c93163-b53c-4ab2-9861-65e9f7023994": "Mover arquivos e diret\u00f3rios",
-            "ff7f12d9-4e4f-49d4-9258-1e80e1e80a7a": "Cria arquivos vazios"
-        },
-        "on": true,
-        "tasks_sum": {
-            "e263f569-5298-4a23-8e95-365bb0aef5e5": [
-                5,
-                0,
-                0,
-                0
-            ],
-            "730bb18b-814d-4c6b-aff9-87713d2e61f5": [
-                0,
-                0,
-                0,
-                0
-            ],
-            "49cddbbf-7934-4669-ab8a-c54e2ba3a55d": [
-                0,
-                0,
-                0,
-                0
-            ],
-            "bc98762b-c01c-4c64-b8b2-5f84fe463c9c": [
-                0,
-                0,
-                0,
-                0
-            ]
-        },
-        "last": "Data: 25/10/2024 15:40:53\n\nPergunta: Para que serve o comando `unzip`?\nResposta: Descompactar arquivos\n\nPergunta: Para que serve o comando `sort`?\nResposta: Organizar uma lista em ordem crescente\n\nPergunta: Para que serve o comando `zip`?\nResposta: Compactar arquivos\n\nPergunta: Para que serve o comando `curl`?\nResposta: Manipula\u00e7\u00e3o e transfer\u00eancia de URL\n\nPergunta: Para que serve o comando `ps`?\nResposta: Exibir informa\u00e7\u00f5es sobre processos em exibi\u00e7\u00e3o\n\nPergunta: Para que serve o comando `mv`?\nResposta: Mover arquivos e diret\u00f3rios\n\n"
+        "permissions": [],
+        "done": {},
+        "on": false,
+        "tasks_sum": {},
+        "last": ""
     },
     {
         "username": "Lucas",
         "password": "231026456",
         "tasks": {
             "e263f569-5298-4a23-8e95-365bb0aef5e5": [
-                6,
+                0,
                 0,
                 0,
                 0
@@ -6438,48 +5247,18 @@
         },
         "meta": "Orienta\u00e7\u00e3o a Objetos - T02",
         "user_id": "01a07991-0656-4806-b058-a91adde4ed74",
-        "permissions": {},
-        "done": {
-            "bfe5e015-8d2b-4c8f-b02b-e3b3eb945307": "acesso a um diret\u00f3rio de trabalho",
-            "b2ae9be5-3543-45ec-8b40-2abbd081e7c0": "criar um diret\u00f3rio ou um subdiret\u00f3rio",
-            "73cbe6f1-32bb-4891-a244-fc0de4da5696": "remover um arquivo ou diret\u00f3rio",
-            "c14135dc-e52e-4b68-9fd5-d84d3c91ec01": "permite executar comandos com privil\u00e9gio de super usu\u00e1rio"
-        },
-        "on": true,
-        "tasks_sum": {
-            "e263f569-5298-4a23-8e95-365bb0aef5e5": [
-                9,
-                0,
-                0,
-                0
-            ],
-            "730bb18b-814d-4c6b-aff9-87713d2e61f5": [
-                0,
-                0,
-                0,
-                0
-            ],
-            "49cddbbf-7934-4669-ab8a-c54e2ba3a55d": [
-                0,
-                0,
-                0,
-                0
-            ],
-            "bc98762b-c01c-4c64-b8b2-5f84fe463c9c": [
-                0,
-                0,
-                0,
-                0
-            ]
-        },
-        "last": "Data: 25/10/2024 15:40:53\n\nPergunta: Para que serve o comando `cd`?\nResposta: acesso a um diret\u00f3rio de trabalho\n\nPergunta: Para que serve o comando `mkdir`?\nResposta: criar um diret\u00f3rio ou um subdiret\u00f3rio\n\nPergunta: Para que serve o comando `rm`?\nResposta: remover um arquivo ou diret\u00f3rio\n\nPergunta: Para que serve o comando `sudo`?\nResposta: permite executar comandos com privil\u00e9gio de super usu\u00e1rio\n\n"
+        "permissions": [],
+        "done": {},
+        "on": false,
+        "tasks_sum": {},
+        "last": ""
     },
     {
         "username": "Lucas",
         "password": "232004480",
         "tasks": {
             "e263f569-5298-4a23-8e95-365bb0aef5e5": [
-                1,
+                0,
                 0,
                 0,
                 0
@@ -6505,38 +5284,11 @@
         },
         "meta": "Orienta\u00e7\u00e3o a Objetos - T02",
         "user_id": "695014cc-26eb-4abf-ae80-b3cf5581ac60",
-        "permissions": {},
-        "done": {
-            "b2e44230-1857-46a3-8673-7fb4f49c9c89": "serve para realizar comandos relacionadas a arquivos compactados"
-        },
-        "on": true,
-        "tasks_sum": {
-            "e263f569-5298-4a23-8e95-365bb0aef5e5": [
-                1,
-                0,
-                0,
-                0
-            ],
-            "730bb18b-814d-4c6b-aff9-87713d2e61f5": [
-                0,
-                0,
-                0,
-                0
-            ],
-            "49cddbbf-7934-4669-ab8a-c54e2ba3a55d": [
-                0,
-                0,
-                0,
-                0
-            ],
-            "bc98762b-c01c-4c64-b8b2-5f84fe463c9c": [
-                0,
-                0,
-                0,
-                0
-            ]
-        },
-        "last": "Data: 25/10/2024 15:40:53\n\nPergunta: Para que serve o comando `zip`?\nResposta: serve para realizar comandos relacionadas a arquivos compactados\n\n"
+        "permissions": [],
+        "done": {},
+        "on": false,
+        "tasks_sum": {},
+        "last": ""
     },
     {
         "username": "Luis",
@@ -6569,11 +5321,11 @@
         },
         "meta": "Orienta\u00e7\u00e3o a Objetos - T02",
         "user_id": "1fda2b66-fbe4-419b-afb7-ad9dc1083de5",
-        "permissions": {},
+        "permissions": [],
         "done": {},
-        "on": true,
+        "on": false,
         "tasks_sum": {},
-        "last": "Data: 25/10/2024 15:40:53\n\nNenhuma pergunta foi respondida neste momento.\n"
+        "last": ""
     },
     {
         "username": "Marcos",
@@ -6606,11 +5358,11 @@
         },
         "meta": "Orienta\u00e7\u00e3o a Objetos - T02",
         "user_id": "fb9e3952-42c6-48b1-98cb-506797ee861e",
-        "permissions": {},
+        "permissions": [],
         "done": {},
-        "on": true,
+        "on": false,
         "tasks_sum": {},
-        "last": "Data: 25/10/2024 15:40:53\n\nNenhuma pergunta foi respondida neste momento.\n"
+        "last": ""
     },
     {
         "username": "Maria",
@@ -6643,11 +5395,11 @@
         },
         "meta": "Orienta\u00e7\u00e3o a Objetos - T02",
         "user_id": "7389e664-6db9-4e48-96f8-7405a0be4a76",
-        "permissions": {},
+        "permissions": [],
         "done": {},
-        "on": true,
+        "on": false,
         "tasks_sum": {},
-        "last": "Data: 25/10/2024 15:40:53\n\nNenhuma pergunta foi respondida neste momento.\n"
+        "last": ""
     },
     {
         "username": "Maria",
@@ -6660,7 +5412,7 @@
                 0
             ],
             "730bb18b-814d-4c6b-aff9-87713d2e61f5": [
-                1,
+                0,
                 0,
                 0,
                 0
@@ -6680,38 +5432,11 @@
         },
         "meta": "Orienta\u00e7\u00e3o a Objetos - T02",
         "user_id": "0a06cae5-424d-4c03-a8f1-4a15b0604ead",
-        "permissions": {},
-        "done": {
-            "aa4e8c91-2f29-4f8c-9a4f-5b0cdd5f1b91": "Em python as tuplas sao imutaveis, ou seja, a depender da posicao do dado o resultado pode se alterar, elas tambem sao mais estruturais e armazenam dados heterogenios. Ja as listas soa usadas para guardar dados semelhantes, de mesmo tipo e significado."
-        },
-        "on": true,
-        "tasks_sum": {
-            "e263f569-5298-4a23-8e95-365bb0aef5e5": [
-                0,
-                0,
-                0,
-                0
-            ],
-            "730bb18b-814d-4c6b-aff9-87713d2e61f5": [
-                1,
-                0,
-                0,
-                0
-            ],
-            "49cddbbf-7934-4669-ab8a-c54e2ba3a55d": [
-                0,
-                0,
-                0,
-                0
-            ],
-            "bc98762b-c01c-4c64-b8b2-5f84fe463c9c": [
-                0,
-                0,
-                0,
-                0
-            ]
-        },
-        "last": "Data: 25/10/2024 15:40:53\n\nPergunta: Qual \u00e9 a diferen\u00e7a entre listas e tuplas?\nResposta: Em python as tuplas sao imutaveis, ou seja, a depender da posicao do dado o resultado pode se alterar, elas tambem sao mais estruturais e armazenam dados heterogenios. Ja as listas soa usadas para guardar dados semelhantes, de mesmo tipo e significado.\n\n"
+        "permissions": [],
+        "done": {},
+        "on": false,
+        "tasks_sum": {},
+        "last": ""
     },
     {
         "username": "Mariana",
@@ -6730,7 +5455,7 @@
                 0
             ],
             "49cddbbf-7934-4669-ab8a-c54e2ba3a55d": [
-                2,
+                0,
                 0,
                 0,
                 0
@@ -6744,40 +5469,11 @@
         },
         "meta": "Orienta\u00e7\u00e3o a Objetos - T02",
         "user_id": "d5caf7fb-e101-43ff-a19f-4cab5e3052db",
-        "permissions": {},
-        "done": {
-            "6p6e5c5e-67f8-4908-9c7c-3b27a8f8a82c": "`self` serve para inst\u00e2ncias de uma classe. \u00c9 usado para acessar atributos e m\u00e9todos de uma inst\u00e2ncia espec\u00edfica.\n`cls` \u00e9 a pr\u00f3pria classe. Usado em m\u00e9todos de classe para acessar atributos e os m\u00e9todos da classe em si, ao inv\u00e9s de uma inst\u00e2ncia espec\u00edfica.",
-            "5o5d3f79-5b3d-4930-b3ee-b28779f37f5f": "Usando o operador de ponto (.) \nexemplo:  self.nome ",
-            "3c1a64f0-1b2e-41c5-b36d-e6c08a1a7f43": "\u00c9 uma classe que serve como modelo para outras classes. Ou seja, pode ser apenas herdada. Pode conter m\u00e9todos abstratos, que s\u00e3o definidos mas n\u00e3o implementados."
-        },
-        "on": true,
-        "tasks_sum": {
-            "e263f569-5298-4a23-8e95-365bb0aef5e5": [
-                0,
-                0,
-                0,
-                0
-            ],
-            "730bb18b-814d-4c6b-aff9-87713d2e61f5": [
-                0,
-                0,
-                0,
-                0
-            ],
-            "49cddbbf-7934-4669-ab8a-c54e2ba3a55d": [
-                3,
-                0,
-                0,
-                0
-            ],
-            "bc98762b-c01c-4c64-b8b2-5f84fe463c9c": [
-                0,
-                0,
-                0,
-                0
-            ]
-        },
-        "last": "Data: 25/10/2024 15:40:53\n\nPergunta: Qual \u00e9 a diferen\u00e7a entre `self` e `cls`?\nResposta: `self` serve para inst\u00e2ncias de uma classe. \u00c9 usado para acessar atributos e m\u00e9todos de uma inst\u00e2ncia espec\u00edfica.\n`cls` \u00e9 a pr\u00f3pria classe. Usado em m\u00e9todos de classe para acessar atributos e os m\u00e9todos da classe em si, ao inv\u00e9s de uma inst\u00e2ncia espec\u00edfica.\n\n"
+        "permissions": [],
+        "done": {},
+        "on": false,
+        "tasks_sum": {},
+        "last": ""
     },
     {
         "username": "Mayra",
@@ -6810,18 +5506,18 @@
         },
         "meta": "Orienta\u00e7\u00e3o a Objetos - T02",
         "user_id": "9d6202d6-8116-48ce-9366-c75faf4996b2",
-        "permissions": {},
+        "permissions": [],
         "done": {},
-        "on": true,
+        "on": false,
         "tasks_sum": {},
-        "last": "Data: 25/10/2024 15:40:53\n\nNenhuma pergunta foi respondida neste momento.\n"
+        "last": ""
     },
     {
         "username": "Paulo",
         "password": "232005989",
         "tasks": {
             "e263f569-5298-4a23-8e95-365bb0aef5e5": [
-                1,
+                0,
                 0,
                 0,
                 0
@@ -6847,50 +5543,18 @@
         },
         "meta": "Orienta\u00e7\u00e3o a Objetos - T02",
         "user_id": "3b60159d-8ee4-414b-9a84-52682491708e",
-        "permissions": {},
-        "done": {
-            "8fbcf2a5-b6e3-4c68-915b-d1ee6cf7f6a4": "o Comando echo no shell \u00e9 usado pra exibir uma mensagem ou valor no terminal ",
-            "c81f77e1-89f1-4f73-b79b-4a16be66b7b6": "limpar o  terminal ",
-            "b2e44230-1857-46a3-8673-7fb4f49c9c89": "\u00e9 usado pra compactar arquivos e diret\u00f3rios em um \u00fanico arquivo .zip",
-            "b3c93163-b53c-4ab2-9861-65e9f7023994": "esse comando \u00e9 usado no sistema unix ou linux para mover ou renomear arquivos e diret\u00f3rios",
-            "ff7f12d9-4e4f-49d4-9258-1e80e1e80a7a": "\u00e9 usado em sistema pra criar arquivos vazios ou atualizar a data e hora de modifica\u00e7\u00e3o de arquivos existentes",
-            "83a3e2d7-bdc2-4f3f-b486-550b3f213cf7": "extrair se\u00e7\u00f5es espec\u00edficas de cada linha em um arquivo de texto ou de uma entrada de dados "
-        },
-        "on": true,
-        "tasks_sum": {
-            "e263f569-5298-4a23-8e95-365bb0aef5e5": [
-                1,
-                0,
-                0,
-                0
-            ],
-            "730bb18b-814d-4c6b-aff9-87713d2e61f5": [
-                0,
-                0,
-                0,
-                0
-            ],
-            "49cddbbf-7934-4669-ab8a-c54e2ba3a55d": [
-                0,
-                0,
-                0,
-                0
-            ],
-            "bc98762b-c01c-4c64-b8b2-5f84fe463c9c": [
-                0,
-                0,
-                0,
-                0
-            ]
-        },
-        "last": "Data: 25/10/2024 15:40:53\n\nPergunta: Para que serve o comando `echo`?\nResposta: o Comando echo no shell \u00e9 usado pra exibir uma mensagem ou valor no terminal \n\nPergunta: Para que serve o comando `clear`?\nResposta: limpar o  terminal \n\nPergunta: Para que serve o comando `zip`?\nResposta: \u00e9 usado pra compactar arquivos e diret\u00f3rios em um \u00fanico arquivo .zip\n\n"
+        "permissions": [],
+        "done": {},
+        "on": false,
+        "tasks_sum": {},
+        "last": ""
     },
     {
         "username": "Pedro",
         "password": "241011573",
         "tasks": {
             "e263f569-5298-4a23-8e95-365bb0aef5e5": [
-                1,
+                0,
                 0,
                 0,
                 0
@@ -6916,39 +5580,11 @@
         },
         "meta": "Orienta\u00e7\u00e3o a Objetos - T02",
         "user_id": "9c7d5ea0-99e5-460a-9244-1f385ce6a8e4",
-        "permissions": {},
-        "done": {
-            "c14135dc-e52e-4b68-9fd5-d84d3c91ec01": "este comando serve para dara permissoes de \"super administrador\", o que possibilita modificar arquivos e instalar pacotes.",
-            "14c0d48c-57c5-408e-bd42-c8b1f4d92c8e": "este comando serve para manipular pacotes, \u00e9 possivel instalar(-i), remover(-r), listar(-L) arquivos de pacotes."
-        },
-        "on": true,
-        "tasks_sum": {
-            "e263f569-5298-4a23-8e95-365bb0aef5e5": [
-                1,
-                0,
-                0,
-                0
-            ],
-            "730bb18b-814d-4c6b-aff9-87713d2e61f5": [
-                0,
-                0,
-                0,
-                0
-            ],
-            "49cddbbf-7934-4669-ab8a-c54e2ba3a55d": [
-                0,
-                0,
-                0,
-                0
-            ],
-            "bc98762b-c01c-4c64-b8b2-5f84fe463c9c": [
-                0,
-                0,
-                0,
-                0
-            ]
-        },
-        "last": "Data: 25/10/2024 15:40:53\n\nPergunta: Para que serve o comando `sudo`?\nResposta: este comando serve para dara permissoes de \"super administrador\", o que possibilita modificar arquivos e instalar pacotes.\n\n"
+        "permissions": [],
+        "done": {},
+        "on": false,
+        "tasks_sum": {},
+        "last": ""
     },
     {
         "username": "Rafael",
@@ -6961,7 +5597,7 @@
                 0
             ],
             "730bb18b-814d-4c6b-aff9-87713d2e61f5": [
-                2,
+                0,
                 0,
                 0,
                 0
@@ -6981,46 +5617,18 @@
         },
         "meta": "Orienta\u00e7\u00e3o a Objetos - T02",
         "user_id": "1c74941f-8813-44ba-92d8-6680c3be5799",
-        "permissions": {},
-        "done": {
-            "aa4e8c91-2f29-4f8c-9a4f-5b0cdd5f1b91": "Os valores das listas podem ser alterados e de tuplas n\u00e3o",
-            "afcc2f54-8eb6-4583-b0fa-2b90e378b5b4": "Os valores contidos na lista podem ser alterados"
-        },
-        "on": true,
-        "tasks_sum": {
-            "e263f569-5298-4a23-8e95-365bb0aef5e5": [
-                0,
-                0,
-                0,
-                0
-            ],
-            "730bb18b-814d-4c6b-aff9-87713d2e61f5": [
-                2,
-                0,
-                0,
-                0
-            ],
-            "49cddbbf-7934-4669-ab8a-c54e2ba3a55d": [
-                0,
-                0,
-                0,
-                0
-            ],
-            "bc98762b-c01c-4c64-b8b2-5f84fe463c9c": [
-                0,
-                0,
-                0,
-                0
-            ]
-        },
-        "last": "Data: 25/10/2024 15:40:53\n\nPergunta: Qual \u00e9 a diferen\u00e7a entre listas e tuplas?\nResposta: Os valores das listas podem ser alterados e de tuplas n\u00e3o\n\nPergunta: O que significa 'mut\u00e1vel' em rela\u00e7\u00e3o a listas?\nResposta: Os valores contidos na lista podem ser alterados\n\n"
+        "permissions": [],
+        "done": {},
+        "on": false,
+        "tasks_sum": {},
+        "last": ""
     },
     {
         "username": "Robson",
         "password": "221022730",
         "tasks": {
             "e263f569-5298-4a23-8e95-365bb0aef5e5": [
-                2,
+                0,
                 0,
                 0,
                 0
@@ -7046,40 +5654,11 @@
         },
         "meta": "Orienta\u00e7\u00e3o a Objetos - T02",
         "user_id": "61ef2d72-79b2-45fa-914e-0247bc9f65d6",
-        "permissions": {},
-        "done": {
-            "b2e44230-1857-46a3-8673-7fb4f49c9c89": "O comando serve para criar arquivos compactados no formato .zip, permitindo agrupar e compactar em um unico arquivo",
-            "8fc5f623-1b90-49c9-b19e-9a8a440e95ec": "Usado para invocar um interpretador de comandos, conhecido como shell.59",
-            "3b1e4a70-1b02-4ae8-8b02-2463ee6cb40c": "Comando usado para procurar arquivos e diretorios dentro de uma hieraquia de diretorios, permite uma variedade de criterio de busca\n"
-        },
-        "on": true,
-        "tasks_sum": {
-            "e263f569-5298-4a23-8e95-365bb0aef5e5": [
-                2,
-                0,
-                0,
-                0
-            ],
-            "730bb18b-814d-4c6b-aff9-87713d2e61f5": [
-                0,
-                0,
-                0,
-                0
-            ],
-            "49cddbbf-7934-4669-ab8a-c54e2ba3a55d": [
-                0,
-                0,
-                0,
-                0
-            ],
-            "bc98762b-c01c-4c64-b8b2-5f84fe463c9c": [
-                0,
-                0,
-                0,
-                0
-            ]
-        },
-        "last": "Data: 25/10/2024 15:40:53\n\nPergunta: Para que serve o comando `zip`?\nResposta: O comando serve para criar arquivos compactados no formato .zip, permitindo agrupar e compactar em um unico arquivo\n\nPergunta: Para que serve o comando `sh`?\nResposta: Usado para invocar um interpretador de comandos, conhecido como shell.59\n\nPergunta: Para que serve o comando `find`?\nResposta: Comando usado para procurar arquivos e diretorios dentro de uma hieraquia de diretorios, permite uma variedade de criterio de busca\n\n\n"
+        "permissions": [],
+        "done": {},
+        "on": false,
+        "tasks_sum": {},
+        "last": ""
     },
     {
         "username": "Robson",
@@ -7112,18 +5691,18 @@
         },
         "meta": "Orienta\u00e7\u00e3o a Objetos - T02",
         "user_id": "4aa42809-b431-420b-9c34-8f35bdc9e206",
-        "permissions": {},
+        "permissions": [],
         "done": {},
-        "on": true,
+        "on": false,
         "tasks_sum": {},
-        "last": "Data: 25/10/2024 15:40:53\n\nNenhuma pergunta foi respondida neste momento.\n"
+        "last": ""
     },
     {
         "username": "Vitor",
         "password": "231026607",
         "tasks": {
             "e263f569-5298-4a23-8e95-365bb0aef5e5": [
-                4,
+                0,
                 0,
                 0,
                 0
@@ -7150,39 +5729,10 @@
         "meta": "Orienta\u00e7\u00e3o a Objetos - T02",
         "user_id": "6e07131c-85d1-4ad3-abd7-0648b0c79b73",
         "permissions": [],
-        "done": {
-            "8c1f15e5-9f57-4f45-bf9e-1bead6bc15e3": "Serve para mostrar no terminal o conte\u00fado da pasta na qual o terminal est\u00e1 aberto.",
-            "c14135dc-e52e-4b68-9fd5-d84d3c91ec01": "D\u00e1 ao usu\u00e1rio permiss\u00f5es de outros usu\u00e1rios, normalmente o super-usu\u00e1rio ",
-            "b2e44230-1857-46a3-8673-7fb4f49c9c89": "Permite ao usu\u00e1rio criar um arquivo comprimido ou alterar os conte\u00fados de um arquivo j\u00e1 existente."
-        },
-        "on": true,
-        "tasks_sum": {
-            "e263f569-5298-4a23-8e95-365bb0aef5e5": [
-                4,
-                0,
-                0,
-                0
-            ],
-            "730bb18b-814d-4c6b-aff9-87713d2e61f5": [
-                0,
-                0,
-                0,
-                0
-            ],
-            "49cddbbf-7934-4669-ab8a-c54e2ba3a55d": [
-                0,
-                0,
-                0,
-                0
-            ],
-            "bc98762b-c01c-4c64-b8b2-5f84fe463c9c": [
-                0,
-                0,
-                0,
-                0
-            ]
-        },
-        "last": "Data: 25/10/2024 15:40:53\n\nPergunta: Para que serve o comando `ls`?\nResposta: Serve para mostrar no terminal o conte\u00fado da pasta na qual o terminal est\u00e1 aberto.\n\nPergunta: Para que serve o comando `sudo`?\nResposta: D\u00e1 ao usu\u00e1rio permiss\u00f5es de outros usu\u00e1rios, normalmente o super-usu\u00e1rio \n\nPergunta: Para que serve o comando `zip`?\nResposta: Permite ao usu\u00e1rio criar um arquivo comprimido ou alterar os conte\u00fados de um arquivo j\u00e1 existente.\n\n"
+        "done": {},
+        "on": false,
+        "tasks_sum": {},
+        "last": ""
     },
     {
         "username": "Yuri",
@@ -7195,7 +5745,7 @@
                 0
             ],
             "730bb18b-814d-4c6b-aff9-87713d2e61f5": [
-                2,
+                0,
                 0,
                 0,
                 0
@@ -7215,39 +5765,10 @@
         },
         "meta": "Orienta\u00e7\u00e3o a Objetos - T02",
         "user_id": "5d8ecdaa-8dbe-4232-816e-8160f74cf83d",
-        "permissions": {},
-        "done": {
-            "bb0a8398-8a39-4b8d-a6f7-5fc8c6db83c5": "Guardar v\u00e1rias informa\u00e7\u00f5es com a possibilidade de mutabilidade.",
-            "afcc2f54-8eb6-4583-b0fa-2b90e378b5b4": "Os valores da lista podem ser mudados \"ao vivo\", no caso, com o codigo rodando, diferente das tuplas que sao imutaveis.",
-            "10ec0c3a-b0bc-4c01-ae78-b9a8e27b0a35": "O valor associado a uma chave dentro do dicion\u00e1rio, \u00e9 como se fosse o valor da vari\u00e1vel, s\u00f3 que dentro do dicion\u00e1rio."
-        },
-        "on": true,
-        "tasks_sum": {
-            "e263f569-5298-4a23-8e95-365bb0aef5e5": [
-                0,
-                0,
-                0,
-                0
-            ],
-            "730bb18b-814d-4c6b-aff9-87713d2e61f5": [
-                2,
-                0,
-                0,
-                0
-            ],
-            "49cddbbf-7934-4669-ab8a-c54e2ba3a55d": [
-                0,
-                0,
-                0,
-                0
-            ],
-            "bc98762b-c01c-4c64-b8b2-5f84fe463c9c": [
-                0,
-                0,
-                0,
-                0
-            ]
-        },
-        "last": "Data: 25/10/2024 15:40:53\n\nPergunta: Para que servem listas em Python?\nResposta: Guardar v\u00e1rias informa\u00e7\u00f5es com a possibilidade de mutabilidade.\n\nPergunta: O que significa 'mut\u00e1vel' em rela\u00e7\u00e3o a listas?\nResposta: Os valores da lista podem ser mudados \"ao vivo\", no caso, com o codigo rodando, diferente das tuplas que sao imutaveis.\n\n"
+        "permissions": [],
+        "done": {},
+        "on": false,
+        "tasks_sum": {},
+        "last": ""
     }
 ]

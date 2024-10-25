@@ -123,6 +123,15 @@ class Application:
             students= self.students
             for student in students.models:
                 student.on= False
+            self.students.save()
+            redirect('/admin')
+
+        @self.app.route('/admin/students/light_them_all', method='POST')
+        def students_report_light_post():
+            students= self.students
+            for student in students.models:
+                student.on= True
+            self.students.save()
             redirect('/admin')
 
         @self.app.route('/admin/students/report_all', method='POST')
@@ -563,7 +572,7 @@ class Application:
                 elements.append(Spacer(1, 12))
         else:
             nenhum_texto = Paragraph("Nenhuma pergunta foi respondida corretamente.", styles['Normal'])
-            report_content += "Nenhuma pergunta foi respondida neste momento.\n"
+            report_content += "Nenhuma pergunta foi respondida neste dojo.\n"
             elements.append(nenhum_texto)
 
         doc.build(elements)
