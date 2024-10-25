@@ -31,7 +31,30 @@
         "meta": "Programa\u00e7\u00e3o FullStack",
         "user_id": "7cbcafa1-a5d4-411f-8f4b-e6cf4f0adef3",
         "permissions": [],
-        "done": {},
+        "done": {
+            "1bcfa5dc-0aa1-4372-9b4e-e87aa77f276e": "ss",
+            "03cd6531-c6e8-4174-a481-458b88524ed7": "ss",
+            "bc31c0cf-4c9c-4f7c-9f6a-4b4d99e5c7ec": "sss",
+            "7a305b8f-26bc-4b56-9740-cc9c2c473657": "ccc",
+            "78835c30-cd09-4914-bc9e-9bdf9f554b3e": "aaaa",
+            "16d4c22b-dbd6-4eb1-ae47-68b7f6537a09": "dfdfc",
+            "e61e88f7-d436-4c91-bc80-4a9cd31c32f8": "ecefcew",
+            "cc3171cb-0c02-40bc-a50e-1d53700f1fd9": "thedb",
+            "01a5d9cc-98c6-4901-bc3d-bc26783c99cc": "erggvws",
+            "3c94ac3e-94f3-46b0-8993-7d06b1a775af": "ergeewsgv",
+            "474dd0f1-8cc8-4519-8cf9-c61a8b40f13f": "cassc",
+            "e54c6397-1e08-4ec1-a99c-bdf5b6bc1c9a": "cacasc",
+            "1a67c03e-b508-4c04-9ff1-79f2e4c95b08": "dacqAX",
+            "f78c6331-dfc4-4115-b9bc-63e3b77a4ab5": "SAC ",
+            "824ae9ef-5d94-4eb0-a62b-d160d90c4827": "fcdqfc ",
+            "9d18ed9a-d8f1-4c7d-8b61-d45c30369472": "ewfdc",
+            "0cf672c1-1a59-411e-9ed3-7d4fdc00d888": "fds bvsdrfv ",
+            "1a0b4b5c-f41f-4b7b-94e2-908b8f51f80e": "rjhnrtfdc n",
+            "3a35c0f9-9b9e-44f0-b80c-ccebbf9aa6c8": "e3yghedh",
+            "29f16d65-33b8-4336-859b-bf644c08654c": "efqcwac",
+            "5b7d7b58-e1de-4c34-a009-2256d1d7e535": "efsazv z",
+            "ddc9c07b-645b-4268-a03c-4e02d907b8a5": "sgfsweezvszvgew"
+        },
         "on": true,
         "tasks_sum": {},
         "last": ""
@@ -4400,24 +4423,74 @@
     {
         "username": "Vitor",
         "password": "231026607",
-        "tasks": {},
+        "tasks": {
+            "e263f569-5298-4a23-8e95-365bb0aef5e5": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "730bb18b-814d-4c6b-aff9-87713d2e61f5": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "49cddbbf-7934-4669-ab8a-c54e2ba3a55d": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "bc98762b-c01c-4c64-b8b2-5f84fe463c9c": [
+                0,
+                0,
+                0,
+                0
+            ]
+        },
         "meta": "Orienta\u00e7\u00e3o a Objetos - T02",
         "user_id": "6e07131c-85d1-4ad3-abd7-0648b0c79b73",
-        "permissions": [],
+        "permissions": {},
         "done": {},
-        "on": false,
+        "on": true,
         "tasks_sum": {},
         "last": ""
     },
     {
         "username": "Yuri",
         "password": "232007016",
-        "tasks": {},
+        "tasks": {
+            "e263f569-5298-4a23-8e95-365bb0aef5e5": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "730bb18b-814d-4c6b-aff9-87713d2e61f5": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "49cddbbf-7934-4669-ab8a-c54e2ba3a55d": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "bc98762b-c01c-4c64-b8b2-5f84fe463c9c": [
+                0,
+                0,
+                0,
+                0
+            ]
+        },
         "meta": "Orienta\u00e7\u00e3o a Objetos - T02",
         "user_id": "5d8ecdaa-8dbe-4232-816e-8160f74cf83d",
-        "permissions": [],
+        "permissions": {},
         "done": {},
-        "on": false,
+        "on": true,
         "tasks_sum": {},
         "last": ""
     }
