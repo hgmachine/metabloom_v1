@@ -92,27 +92,26 @@ socket.on('new_response', function(data) {
     submitButton.className = 'btn btn-primary'; // Classe Bootstrap para botão
     submitButton.id = 'resendButton_' + data.question_id; // Definindo o ID do botão
     // Função chamada ao clicar no botão
-    submitButton.onclick = function() {
-        var feedbackValue;
-        if (correctFeedback.checked) {
-            feedbackValue = 'Correta';
-        } else if (incorrectFeedback.checked) {
-            feedbackValue = 'Errada';
-        }
-        if (feedbackValue) {
-            sendFeedback(data.user_id, data.question_id, data.question, data.response, feedbackValue);
-            // Desabilita o botão e altera o texto após o envio
-            submitButton.disabled = true;
-            submitButton.innerText = 'Enviado';
-            // Após 1 segundo, remove o responseDiv
-            setTimeout(function() {
-            document.getElementById('responses').removeChild(responseDiv);
-            }, 1000); // 1000 milissegundos = 1 segundo
-        } else {
-            alert('Por favor, selecione uma opção antes de enviar.');
-        }
-    };
-
+	submitButton.onclick = function() {
+	    setTimeout(function() {
+		var feedbackValue;
+		if (correctFeedback.checked) {
+		    feedbackValue = 'Correta';
+		} else if (incorrectFeedback.checked) {
+		    feedbackValue = 'Errada';
+		}
+		if (feedbackValue) {
+		    sendFeedback(data.user_id, data.question_id, data.question, data.response, feedbackValue);
+		    submitButton.disabled = true;
+		    submitButton.innerText = 'Enviado';
+		    setTimeout(function() {
+			document.getElementById('responses').removeChild(responseDiv);
+		    }, 1000);
+		} else {
+		    alert('Por favor, selecione uma opção antes de enviar.');
+		}
+	    }, 500); // Ajuste o tempo conforme necessário
+	};
     responseDiv.appendChild(submitButton);
     document.getElementById('responses').appendChild(responseDiv);
 });

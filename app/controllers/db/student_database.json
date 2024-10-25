@@ -31,7 +31,15 @@
         "meta": "Programa\u00e7\u00e3o FullStack",
         "user_id": "7cbcafa1-a5d4-411f-8f4b-e6cf4f0adef3",
         "permissions": [],
-        "done": {},
+        "done": {
+            "c160eb54-1a4b-4485-8168-15d9e4eb473d": "Qdhehd",
+            "0e9673f5-9e76-4e98-97da-7b1f2e6d0214": "Jsusu",
+            "14c0d48c-57c5-408e-bd42-c8b1f4d92c8e": "Jsjsjs",
+            "83a3e2d7-bdc2-4f3f-b486-550b3f213cf7": "Udud",
+            "bfe5e015-8d2b-4c8f-b02b-e3b3eb945307": "Jdisi",
+            "c14135dc-e52e-4b68-9fd5-d84d3c91ec01": "Isudid",
+            "76e4f32e-bf0e-4072-bdcb-2764a5b2ad2a": "Vigifi"
+        },
         "on": true,
         "tasks_sum": {},
         "last": ""
