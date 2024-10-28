@@ -259,6 +259,15 @@
         <div class="container">
             <h2>Gerenciamento de Administradores</h2>
 
+            <!-- Botão para tornar todos os estudantes indisponíveis -->
+            <form action="/admin/mentors/light_them_all" method="post" style="display:inline;">
+                <button type="submit" class="btn btn-sm btn-danger">Disponibilidade</button>
+            </form>
+            <!-- Botão para tornar todos os estudantes indisponíveis -->
+            <form action="/admin/mentors/off_them_all" method="post" style="display:inline;">
+                <button type="submit" class="btn btn-sm btn-danger">Indisponíbilidade</button>
+            </form>
+
             <!-- Listagem de Administradores -->
             <table class="table table-striped">
                 <thead>
@@ -408,6 +417,8 @@
                 <button type="submit" class="btn btn-success">Adicionar Administrador</button>
             </form>
           </div>
+
+
 
 {% elif 'Monitor' in user.permissions: %}
 

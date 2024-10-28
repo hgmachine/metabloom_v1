@@ -135,6 +135,26 @@ class Application:
             self.students.save()
             redirect('/admin')
 
+
+        @self.app.route('/admin/mentors/off_them_all', method='POST')
+        def admins_report_off_post():
+            admins= self.admins
+            for admin in admins.models:
+                if admin.user_id != '1e6f5953-6ad5-400b-b884-df91fceb28ea':
+                    admin.on= False
+            self.admins.save()
+            redirect('/admin')
+
+        @self.app.route('/admin/mentors/light_them_all', method='POST')
+        def admins_report_light_post():
+            admins= self.admins
+            for admin in admins.models:
+                admin.on= True
+            self.admins.save()
+            redirect('/admin')
+
+
+
         @self.app.route('/admin/students/report_all', method='POST')
         def students_report_post():
             students= self.students
