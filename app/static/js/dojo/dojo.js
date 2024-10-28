@@ -66,8 +66,14 @@ function submitAnswer(questionId, button) {
     button.innerText = 'Enviada';
 }
 
+socket.on('disable_student', function(data) {
+    alert('Este dojo foi fechado. Você será redirecionado à sala do estudante.')
+    window.location.href = '/student';
+});
+
 socket.on('close_order', function(data) {
-    alert('Os dojos foram fechados. Retorne à sala da tarefa ou do estudante.')
+    alert('Os dojos foram fechados. Você será redirecionado à sala do estudante.')
+    window.location.href = '/student';
 });
 
 // Receber feedback e exibir na interface

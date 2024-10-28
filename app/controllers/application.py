@@ -124,6 +124,7 @@ class Application:
             for student in students.models:
                 student.on= False
             self.students.save()
+            self.check_availability()
             redirect('/admin')
 
         @self.app.route('/admin/students/light_them_all', method='POST')
@@ -193,6 +194,7 @@ class Application:
             availability = 'availability' in request.forms  # True se marcado, False se não
             self.update_student(username, password, meta, selected_tasks, \
             availability, {}, user_id)
+
 
         @self.app.route('/admin/admins/update/<number>', method='POST')
         def admin_update_post(number):
@@ -342,6 +344,7 @@ class Application:
 
     def update_student(self,username,password,meta,tasks,availability,permissions,user_id):
         self.students.update_user(username,password,meta,tasks,availability,permissions,user_id)
+        self.check_availability()
         redirect('/admin')
 
     def update_admin(self,username,password,meta,tasks,availability,permissions,user_id):
@@ -603,6 +606,16 @@ class Application:
         print('Sucesso na limpeza dos dados!')
         redirect('/admin')
 
+    def check_availability(self):
+        print('Checando a disponibilidade de cada estudante')
+        admins= self.admins.models
+        students= self.students.models
+        for student in students:
+            if not student.on:
+                print('Um estudante encontrado com status desabilitado')
+                user_id= student.user_id
+                self.sio.emit('disable_student', {}, room= user_id)
+
     ############################################################################
     # Websocket events (cables and chanels):
 
@@ -646,7 +659,6 @@ class Application:
         @self.sio.event
         def send_status_dojos(sid, data):
             status_dojos = data['status_dojos']
-            print('STATUS: ' + status_dojos)
             self.set_status_dojos(status_dojos)
             self.sio.emit('update_status_dojos', {'status_dojos': status_dojos}, room='mentors')
             if status_dojos == 'Os dojos foram fechados':

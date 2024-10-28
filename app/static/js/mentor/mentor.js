@@ -14,7 +14,8 @@ if (window.location.hostname === '157.230.188.180') {
 socket.emit('join', {role: 'mentor'});
 
 socket.on('close_order', function(data) {
-    alert('Os dojos foram fechados. Retorne à sala de administração.')
+    alert('Os dojos foram fechados. Você será redirecionado à sala da administração.')
+    window.location.href = '/admin';
 });
 
 socket.on('app_update_handle_button', function(data) {
