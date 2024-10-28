@@ -15,21 +15,6 @@
         "last": ""
     },
     {
-        "username": "Lemos",
-        "password": "794701",
-        "tasks": {},
-        "meta": "Meta Bloom",
-        "user_id": "bb93191e-c8bb-422f-ad5f-21683be08f43",
-        "permissions": [
-            "Monitor",
-            "Professor"
-        ],
-        "done": {},
-        "on": true,
-        "tasks_sum": {},
-        "last": ""
-    },
-    {
         "username": "Mauricio",
         "password": "231011533",
         "tasks": {},
@@ -39,7 +24,7 @@
             "Monitor"
         ],
         "done": {},
-        "on": true,
+        "on": false,
         "tasks_sum": {},
         "last": ""
     },
@@ -53,7 +38,7 @@
             "Monitor"
         ],
         "done": {},
-        "on": true,
+        "on": false,
         "tasks_sum": {},
         "last": ""
     },
@@ -67,7 +52,7 @@
             "Monitor"
         ],
         "done": {},
-        "on": true,
+        "on": false,
         "tasks_sum": {},
         "last": ""
     },
@@ -81,7 +66,7 @@
             "Monitor"
         ],
         "done": {},
-        "on": true,
+        "on": false,
         "tasks_sum": {},
         "last": ""
     },
@@ -95,7 +80,7 @@
             "Monitor"
         ],
         "done": {},
-        "on": true,
+        "on": false,
         "tasks_sum": {},
         "last": ""
     },
@@ -109,7 +94,7 @@
             "Monitor"
         ],
         "done": {},
-        "on": true,
+        "on": false,
         "tasks_sum": {},
         "last": ""
     },
@@ -123,7 +108,7 @@
             "Monitor"
         ],
         "done": {},
-        "on": true,
+        "on": false,
         "tasks_sum": {},
         "last": ""
     },
@@ -137,7 +122,7 @@
             "Monitor"
         ],
         "done": {},
-        "on": true,
+        "on": false,
         "tasks_sum": {},
         "last": ""
     },
@@ -151,7 +136,7 @@
             "Monitor"
         ],
         "done": {},
-        "on": true,
+        "on": false,
         "tasks_sum": {},
         "last": ""
     },
@@ -165,7 +150,7 @@
             "Monitor"
         ],
         "done": {},
-        "on": true,
+        "on": false,
         "tasks_sum": {},
         "last": ""
     },
@@ -179,7 +164,7 @@
             "Monitor"
         ],
         "done": {},
-        "on": true,
+        "on": false,
         "tasks_sum": {},
         "last": ""
     },
@@ -193,7 +178,7 @@
             "Monitor"
         ],
         "done": {},
-        "on": true,
+        "on": false,
         "tasks_sum": {},
         "last": ""
     },
@@ -207,7 +192,7 @@
             "Monitor"
         ],
         "done": {},
-        "on": true,
+        "on": false,
         "tasks_sum": {},
         "last": ""
     },
@@ -221,7 +206,7 @@
             "Monitor"
         ],
         "done": {},
-        "on": true,
+        "on": false,
         "tasks_sum": {},
         "last": ""
     },
@@ -235,7 +220,7 @@
             "Monitor"
         ],
         "done": {},
-        "on": true,
+        "on": false,
         "tasks_sum": {},
         "last": ""
     },
@@ -249,7 +234,7 @@
             "Monitor"
         ],
         "done": {},
-        "on": true,
+        "on": false,
         "tasks_sum": {},
         "last": ""
     },
@@ -263,7 +248,7 @@
             "Monitor"
         ],
         "done": {},
-        "on": true,
+        "on": false,
         "tasks_sum": {},
         "last": ""
     }
