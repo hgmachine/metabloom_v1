@@ -24,7 +24,7 @@
             "Monitor"
         ],
         "done": {},
-        "on": false,
+        "on": true,
         "tasks_sum": {},
         "last": ""
     },
