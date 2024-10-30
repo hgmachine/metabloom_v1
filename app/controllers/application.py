@@ -29,7 +29,6 @@ class Application:
             'mentor': self.mentor,
             'index': self.index,
             'admin': self.admin,
-            'debug': self.debug,
             'task': self.task,
             'dojo': self.dojo
         }
@@ -95,10 +94,6 @@ class Application:
         @self.app.route('/admin', method='GET')
         def admin_get():
             return self.render('admin')
-
-        @self.app.route('/debug/<password>', method='GET')
-        def debug_get(password):
-            return self.render('debug', password)
 
         @self.app.route('/admin/students/view/<user_id>', method='GET')
         def admin_view_get(user_id):
@@ -287,24 +282,6 @@ class Application:
         if not parameter:
             return content()
         return content(parameter)
-
-    def debug(self, password):
-        ACCESS_PASSWORD = '795213'
-
-        if password != ACCESS_PASSWORD:
-            return "Acesso negado. Senha incorreta.", 403
-
-        debug_data = {
-            'dojos': self.dojos,
-            'students': self.students,
-            'admins': self.admins,
-            'tasks': self.tasks,
-            'content': self.content,
-            'users_sessions': self.users_sessions,
-            'status_dojos': self.dojos.get_status(),
-            'logged_users': UserRecord.Authenticated_users
-        }
-        return self.jinja2_template('debug.tpl', debug_data=debug_data)
 
     def getAuthenticatedUsers(self):
         return UserRecord.Authenticated_users

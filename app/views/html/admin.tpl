@@ -5,7 +5,7 @@
 {% block styles %}
 
 <link rel="stylesheet" type="text/css" href="/static/css/student/student.css">
-<script type="text/javascript" src="/static/js/admin/admin.js"></script>
+<script type="text/javascript" src="/static/js/admin/admin.js?v=1.0.2"></script>
 
 {% endblock %}
 

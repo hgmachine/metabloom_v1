@@ -49,6 +49,6 @@
 </script>
 
 <!-- Carregar o arquivo dojo.js depois de definir userId -->
-<script type="text/javascript" src="/static/js/dojo/dojo.js"></script>
+<script type="text/javascript" src="/static/js/dojo/dojo.js?v=1.0.2"></script>
 
 {% endblock %}
