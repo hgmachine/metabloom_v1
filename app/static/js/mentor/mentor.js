@@ -101,7 +101,13 @@ socket.on('new_response', function(data) {
 		} else if (incorrectFeedback.checked) {
 		    feedbackValue = 'Errada';
 		}
-		if (feedbackValue) {
+	       // Log os valores
+               console.log('Feedback Value:', feedbackValue);
+               console.log('User ID:', data.user_id);
+               console.log('Question ID:', data.question_id);
+               console.log('Question:', data.question);
+               console.log('Response:', data.response);
+	       if (feedbackValue) {
 		    sendFeedback(data.user_id, data.question_id, data.question, data.response, feedbackValue);
 		    submitButton.disabled = true;
 		    submitButton.innerText = 'Enviado';

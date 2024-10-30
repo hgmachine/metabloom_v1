@@ -4,7 +4,7 @@
         "password": "794701",
         "tasks": {
             "e263f569-5298-4a23-8e95-365bb0aef5e5": [
-                3,
+                0,
                 0,
                 0,
                 0
@@ -32,9 +32,14 @@
         "user_id": "7cbcafa1-a5d4-411f-8f4b-e6cf4f0adef3",
         "permissions": [],
         "done": {
-            "73cbe6f1-32bb-4891-a244-fc0de4da5696": "para remover arquivos e diret\u00f3rios.",
-            "3990cf54-4db7-48f3-bf67-f8d3a3e8b3f6": "Exibe o caminho completo do diret\u00f3rio atual em que vc est\u00e1 no terminal",
-            "3b1e4a70-1b02-4ae8-8b02-2463ee6cb40c": "Para buscar arquivos e diret\u00f3rios, e pode ser procurado por: nome, tipo, tamanho, permiss\u00f5es, datas, entre outros."
+            "0e9673f5-9e76-4e98-97da-7b1f2e6d0214": "Ao contrario do comando 'tail' o comando head serve para mostrar por padr\u00e3o, as 10 primeiras linhas de um arquivo, ou vc pode esccolher quantas linhas quer ver",
+            "76e4f32e-bf0e-4072-bdcb-2764a5b2ad2a": "Ordena linhas de texto em arquivos ou na saida de outros comandos. Podendo ser em ordem alfab\u00e9tica, num\u00e9rica ou personalizada, ordem crescente ou decrescente.",
+            "c81f77e1-89f1-4f73-b79b-4a16be66b7b6": "Serve para limpar a tela do terminal",
+            "ff7f12d9-4e4f-49d4-9258-1e80e1e80a7a": "Cria arquivos vazios, ou se o arquivo j\u00e1 existe, ele atualiza a data e hora.",
+            "02a4650a-d9a4-4189-a69a-10e4554cbb0": "Cria apelidos ou comandos personalizados para comandos j\u00e1 existentes",
+            "3b1e4a70-1b02-4ae8-8b02-2463ee6cb40c": "Para buscar arquivos e diret\u00f3rios, e pode ser procurado por nome, tipo, tamanho, permiss\u00f5es, datas entre outros",
+            "a4f0ec0f-1b25-4452-bd79-0ebff9e2eaa1": "Ele abre o editor de texto que permite alterar/escrever/modificar arquivos de texto.",
+            "bfe5e015-8d2b-4c8f-b02b-e3b3eb945307": "Usado para navegar entre diret\u00f3rios pelo terminal"
         },
         "on": true,
         "tasks_sum": {
@@ -5056,7 +5061,7 @@
         },
         "meta": "Orienta\u00e7\u00e3o a Objetos - T02",
         "user_id": "b1ac2739-2d2e-4b29-85fa-52895f22fd71",
-        "permissions": {},
+        "permissions": [],
         "done": {},
         "on": true,
         "tasks_sum": {
@@ -5118,7 +5123,7 @@
         },
         "meta": "Orienta\u00e7\u00e3o a Objetos - T02",
         "user_id": "af520ebb-71be-4691-b3c5-94eb7ab2a77e",
-        "permissions": {},
+        "permissions": [],
         "done": {},
         "on": true,
         "tasks_sum": {

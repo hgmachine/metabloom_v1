@@ -4,7 +4,7 @@
 
 {% block styles %}
 <link rel="stylesheet" type="text/css" href="/static/css/mentor/mentor.css">
-<script type="text/javascript" src="/static/js/mentor/mentor.js?v=1.0.2"></script>
+<script type="text/javascript" src="/static/js/mentor/mentor.js?v=1.0.3"></script>
 {% endblock %}
 
 {% block content %}
