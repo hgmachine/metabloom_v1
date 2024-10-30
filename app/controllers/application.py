@@ -454,22 +454,25 @@ class Application:
     def dojo(self,params):
         current_user = self.getCurrentUserBySessionId()
         if self.dojo_is_open:
-            if current_user.on:
-                number= params['number']
-                level= params['level']
-                print(f'Usuário entrando em dojo: {current_user.username}')
-                if current_user and not current_user.is_admin():
-                    task= self.tasks.get_task_by_number(number)
-                    for question_id in current_user.done:
-                        task.update_answered_number(level,question_id)
-                    for content in self.content.contents:
-                        task.update_answered_number(level,content.question_id)
-                    if task:
-                        questions= task.questions(level)
-                        return self.jinja2_template('dojo.tpl', \
-                        username=current_user.username, \
-                        user=current_user, user_id= current_user.user_id, \
-                        task=task, level=level, questions=questions)
+            if current_user:
+                if current_user.on:
+                    number= params['number']
+                    level= params['level']
+                    if current_user and not current_user.is_admin():
+                        task= self.tasks.get_task_by_number(number)
+                        for question_id in current_user.done:
+                            task.update_answered_number(level,question_id, \
+                            current_user.user_id)
+                        for content in self.content.contents:
+                            if current_user.user_id == content.user_id:
+                                task.update_answered_number(level,content.question_id, \
+                                current_user.user_id)
+                        if task:
+                            questions= task.questions(level,current_user.user_id)
+                            return self.jinja2_template('dojo.tpl', \
+                            username=current_user.username, \
+                            user=current_user, user_id= current_user.user_id, \
+                            task=task, level=level, questions=questions)
         redirect('/student')
 
     def generate_user_report(self, user_id):
