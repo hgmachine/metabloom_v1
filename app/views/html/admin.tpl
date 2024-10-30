@@ -94,6 +94,10 @@
             <form action="/admin/students/off_them_all" method="post" style="display:inline;">
                 <button type="submit" class="btn btn-sm btn-danger">Indisponíbilidade</button>
             </form>
+            <!-- Botão para visualizar o content -->
+            <form action="/admin/students/content_all" method="post" style="display:inline;">
+                <button type="submit" class="btn btn-sm btn-danger">Contents</button>
+            </form>
             <!-- Botão para resetar todos os estudantes indisponíveis -->
             <!--<form action="/admin/students/reset_them_all" method="post" style="display:inline;">
                 <button type="submit" class="btn btn-sm btn-danger" onclick="return confirm('Você tem certeza de que deseja resetar a pontuação de todos os estudantes?');">Resetar pontuação</button>

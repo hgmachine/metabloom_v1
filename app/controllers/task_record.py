@@ -43,7 +43,7 @@ class TaskRecord(DataRecord):
                         return each_content['text']
         return None
 
-    def get_task_data_by_question(self, question):
+    def get_task_data_by_text(self, question):
         for task in self.models:
             for level in task.content:
                 content= task.content[level]
@@ -52,6 +52,14 @@ class TaskRecord(DataRecord):
                         return task.number, level
         return None
 
+    def get_task_data_by_number(self, question_id):
+        for task in self.models:
+            for level in task.content:
+                content= task.content[level]
+                for each_content in content:
+                    if question_id in each_content['number']:
+                        return task.number, level
+        return None
 
     def create_task(self, title, type, explains, practices, content, number):
         for existing_task in self.models:

@@ -1,6 +1,5 @@
 from app.controllers.user_record import UserRecord
 from app.controllers.task_record import TaskRecord
-from app.controllers.dojo_record import DojoRecord
 from app.controllers.content_record import ContentRecord
 from app.models.user_model import UserAccount, SuperAccount
 from bottle import jinja2_template, redirect, request, response, Bottle, static_file
@@ -40,7 +39,9 @@ class Application:
         self.admins= UserRecord('admin', SuperAccount)
         self.tasks= TaskRecord('task')
 
-        self.dojos= DojoRecord()
+        self.dojo_is_open= False
+        self.dojo_status= ''
+
         self.content= ContentRecord()
         self.users_sessions = {}
 
@@ -153,15 +154,16 @@ class Application:
             self.admins.save()
             redirect('/admin')
 
-
-
         @self.app.route('/admin/students/report_all', method='POST')
         def students_report_post():
             students= self.students
             for student in students.models:
-                if student.on:
-                    self.generate_user_report(student.user_id)
+                self.generate_user_report(student.user_id)
             redirect('/admin')
+
+        @self.app.route('/admin/students/content_all', method='POST')
+        def admins_students_content_post():
+            self.show_content()
 
         @self.app.route('/index', method='POST')
         def index_post():
@@ -267,7 +269,7 @@ class Application:
             print(f'Response emitido pelo python: {response}')
             print(f'Feedback emitido pelo python: {feedback}')
             print('***********************************************************')
-            task_number, level = self.tasks.get_task_data_by_question(question)
+            task_number, level = self.tasks.get_task_data_by_text(question)
             question_id = self.tasks.get_number_by_question(question)
             self.sio.emit('mentor_feedback', {
                 'user_id': user_id,
@@ -442,7 +444,7 @@ class Application:
 
     def mentor(self):
         current_user = self.getCurrentUserBySessionId()
-        if self.dojos.is_open:
+        if self.dojo_is_open:
             if current_user and current_user.is_admin:
                 if current_user.on:
                     content= self.content.contents
@@ -458,10 +460,9 @@ class Application:
                 tasks= self.tasks
                 students= self.students
                 admins= self.admins
-                status_dojos= self.dojos.get_status()
                 return self.jinja2_template('admin.tpl', \
                 user= current_user, tasks=tasks, students=students, \
-                admins= admins, status_dojos=status_dojos)
+                admins= admins, status_dojos=self.dojo_status)
         redirect('/index')
 
     def task(self, number):
@@ -475,7 +476,7 @@ class Application:
 
     def dojo(self,params):
         current_user = self.getCurrentUserBySessionId()
-        if self.dojos.is_open:
+        if self.dojo_is_open:
             if current_user.on:
                 number= params['number']
                 level= params['level']
@@ -488,52 +489,11 @@ class Application:
                         task.update_answered_number(level,content.question_id)
                     if task:
                         questions= task.questions(level)
-                        self.dojos.create_job(current_user.user_id, number, level)
                         return self.jinja2_template('dojo.tpl', \
                         username=current_user.username, \
                         user=current_user, user_id= current_user.user_id, \
                         task=task, level=level, questions=questions)
         redirect('/student')
-
-    def set_status_dojos(self, status_dojos):
-        self.dojos.set_status(status_dojos)
-        if status_dojos == 'Os dojos foram abertos':
-            self.open_dojo()
-        elif status_dojos == 'Os dojos foram fechados':
-            self.close_dojo()
-        elif status_dojos == 'As avaliações foram iniciadas':
-            self.sio.emit('update_status_dojos', {'status_dojos': status_dojos}, room='mentors')
-
-    def evaluate_dojos(self):
-        users = UserRecord.Authenticated_users.values()
-        niveis_padrao = ['1', '2', '3', '4']
-        for user in users:
-            jobs = self.dojos.read_jobs_from_user_id(user.user_id)
-            job_data = {}
-            for job in jobs:
-                task_number = job.task_number
-                task_level = job.task_level
-                task_hits = job.task_hits
-                if task_number not in job_data:
-                    job_data[task_number] = {}
-                job_data[task_number][task_level] = job_data[task_number].get(task_level, 0) + task_hits
-            for task, task_levels in job_data.items():
-                if task not in user.tasks:
-                    user.tasks[task] = [0] * len(niveis_padrao)
-                hits_after = [task_levels.get(level, 0) for level in niveis_padrao]
-                for level_index, new in enumerate(hits_after):
-                    user.tasks[task][level_index] += new  # Apenas soma os novos pontos
-            # Se tasks_sum está vazio, inicializa com tasks
-            if not user.tasks_sum:
-                user.tasks_sum = {key: list(value) for key, value in user.tasks.items()}
-            else:
-                # Atualiza tasks_sum somando os novos valores
-                for key, value in user.tasks.items():
-                    if key in user.tasks_sum:
-                        user.tasks_sum[key] = [user.tasks_sum[key][i] + value[i] for i in range(len(value))]
-                    else:
-                        user.tasks_sum[key] = list(value)
-        self.students.save()
 
     def generate_user_report(self, user_id):
         user = self.students.get_user_by_id(user_id)
@@ -602,16 +562,32 @@ class Application:
         user.last= report_content
         self.students.save()
 
-    def open_dojo(self):
-        self.content.clear_all()
-        self.students.reset_tasks()
-        self.tasks.reset_submission()
-        self.dojos.restart()
-        self.dojos.open()
+    def evaluate_dojos(self):
+        students= self.students.models
+        for student in students:
+            if student.done:
+                for q_id in student.done:
+                    task_id, level= self.tasks.get_task_data_by_number(q_id)
+                    if task_id not in student.tasks:
+                        student.tasks[task_id]= [0] * 4
+                    student.tasks[task_id][int(level)-1] += 1
+        self.students.summation()
+        self.students.save()
 
-    def close_dojo(self):
-        self.dojos.close()
-        self.evaluate_dojos()
+    def set_status_dojos(self, status_dojos):
+        self.dojo_status= status_dojos
+        if status_dojos == 'Os dojos foram abertos':
+            self.dojo_is_open= True
+            self.content.clear_all()
+            self.students.reset_tasks()
+            self.tasks.reset_submission()
+        elif status_dojos == 'Os dojos foram fechados':
+            self.dojo_is_open= False
+            self.dojo_status= 'Os dojos foram fechados'
+            self.students.save()
+            self.evaluate_dojos()
+        elif status_dojos == 'As avaliações foram iniciadas':
+            self.sio.emit('update_status_dojos', {'status_dojos': status_dojos}, room='mentors')
 
     def reset_them_all(self):
         students= self.students
@@ -623,7 +599,6 @@ class Application:
             student.done= {}
             student.last= ""
         self.students.save()
-        print('Sucesso na limpeza dos dados!')
         redirect('/admin')
 
     def check_availability(self):
@@ -636,6 +611,10 @@ class Application:
                 user_id= student.user_id
                 self.sio.emit('disable_student', {}, room= user_id)
 
+    def show_content(self):
+        self.content.print_all()
+        redirect('/admin')
+
     ############################################################################
     # Websocket events (cables and chanels):
 
@@ -644,7 +623,7 @@ class Application:
         @self.sio.event
         async def connect(sid, environ):
             print(f'Client connected{{ user_id | tojson }};: {sid}')
-            self.sio.emit('connected', {'data': 'Connected'}, room=sid)
+            self.sio.emit('conget_task_data_by_nected', {'data': 'Connected'}, room=sid)
 
         @self.sio.event
         async def disconnect(sid):
@@ -666,10 +645,9 @@ class Application:
             feedback = data['feedback']
             question= data['question']
             question_id= data['question_id']
-            task_number, task_level= self.tasks.get_task_data_by_question(question)
+            task_number, task_level= self.tasks.get_task_data_by_text(question)
             self.content.update_content(user_id,question_id,question,response,feedback)
             if feedback == "Correta":
-                self.dojos.hit_to_job(user_id,task_number,task_level)
                 self.students.add_question_data(question_id,response,user_id)
                 task= self.tasks.get_task_by_number(task_number)
                 task.update_answered_number(task_level,question_id)

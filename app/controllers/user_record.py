@@ -14,8 +14,10 @@ class UserRecord(DataRecord):
 
     def __init__(self, database, model_class):
         super().__init__(database, model_class)
-        self.load_objects()
+        self.load()
 
+    def load(self):
+        self.load_objects()
 
     def get_current_user_by_id(self, session_id):
         user= UserRecord.Authenticated_users.get(session_id)
@@ -55,6 +57,14 @@ class UserRecord(DataRecord):
                 self.write_objects()
                 return True
         return False
+
+    def summation(self):
+        for user in self.models:
+            for task_id, points in user.tasks.items():
+                if task_id not in user.tasks_sum:
+                    user.tasks_sum[task_id] = [0, 0, 0, 0]
+                for i in range(len(user.tasks_sum[task_id])):
+                    user.tasks_sum[task_id][i] += points[i]
 
     def save(self):
         self.write_objects()
