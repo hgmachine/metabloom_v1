@@ -7827,7 +7827,8 @@
             "83a3e2d7-bdc2-4f3f-b486-550b3f213cf7": "Selecionar e exibir partes espec\u00edficas de um arquivo",
             "74245f75-0d48-4c2c-81f5-2b84c89ab5af": "Exibir \u00faltimas linhas de um arquivo",
             "3b1e4a70-1b02-4ae8-8b02-2463ee6cb40c": "Encontrar arquivo dentro de um diret\u00f3rio (find . -name `nome_arquivo`)",
-            "8fbcf2a5-b6e3-4c68-915b-d1ee6cf7f6a4": "Imprimir texto na tela do terminal"
+            "8fbcf2a5-b6e3-4c68-915b-d1ee6cf7f6a4": "Imprimir texto na tela do terminal",
+            "a4f0ec0f-1b25-4452-bd79-0ebff9e2eaa1": "Editar arquivo"
         },
         "on": false,
         "tasks_sum": {
@@ -8055,7 +8056,8 @@
             "c14135dc-e52e-4b68-9fd5-d84d3c91ec01": "Para conseguir utilizar os privil\u00e9gios de um superusuario ",
             "5c8e436c-29e3-43d4-b3c4-44bc0076ef8e": "Para criar e exibir arquivos ",
             "76e4f32e-bf0e-4072-bdcb-2764a5b2ad2a": "Para ordenar as linhas de um arquivo ",
-            "aa4e8c91-2f29-4f8c-9a4f-5b0cdd5f1b91": "As listas s\u00e3o mut\u00e1veis e possuem colchetes, enquanto as tuplas s\u00e3o imut\u00e1veis e possuem par\u00eanteses"
+            "aa4e8c91-2f29-4f8c-9a4f-5b0cdd5f1b91": "As listas s\u00e3o mut\u00e1veis e possuem colchetes, enquanto as tuplas s\u00e3o imut\u00e1veis e possuem par\u00eanteses",
+            "83a3e2d7-bdc2-4f3f-b486-550b3f213cf7": "Serve para exibir partes espec\u00edficas de arquivos com texto ou tamb\u00e9m comandos "
         },
         "on": false,
         "tasks_sum": {
@@ -9491,7 +9493,10 @@
             "b2e44230-1857-46a3-8673-7fb4f49c9c89": "Ele \u00e9 utilizado para zipar arquivos.",
             "28543be4-f3b7-4143-89d4-c928e539f7d6": "Ele \u00e9 interpretador de comandos.",
             "0e9673f5-9e76-4e98-97da-7b1f2e6d0214": "Utilizado para mostrar as 10  primeiras linhas do c\u00f3digo.",
-            "b2ae9be5-3543-45ec-8b40-2abbd081e7c0": "Cria um diret\u00f3rio no sistema."
+            "b2ae9be5-3543-45ec-8b40-2abbd081e7c0": "Cria um diret\u00f3rio no sistema.",
+            "76e4f32e-bf0e-4072-bdcb-2764a5b2ad2a": "Ordenar as listas do texto.",
+            "14c0d48c-57c5-408e-bd42-c8b1f4d92c8e": "Ele \u00e9 um comando utilizado para gerenciar pacotes .deb.",
+            "8fc5f623-1b90-49c9-b19e-9a8a440e95ec": "Ele \u00e9 utilizado para executar scripts no terminal."
         },
         "on": false,
         "tasks_sum": {
