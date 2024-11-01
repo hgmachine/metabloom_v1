@@ -23,7 +23,7 @@
     <link rel="stylesheet" type="text/css" href="/static/css/index/tooplate-style.css">
 
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-    <script type="text/javascript" src="/static/js/index/custom.js"></script>
+    <script type="text/javascript" src="/static/js/index/custom.js?v1.0.1"></script>
     <script src="/static/js/websocket/socket.io.js"></script>
 
     {% block styles %}

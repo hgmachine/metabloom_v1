@@ -50,7 +50,7 @@ socket.on('new_response', function(data) {
     var responseTextarea = document.createElement('textarea');
     responseTextarea.rows = 4; // Número de linhas visíveis
     responseTextarea.cols = 50; // Número de colunas visíveis
-    responseTextarea.value = data.response; // Definindo o valor da resposta
+    responseTextarea.value = data.response.replace(/\n/g, '\r\n'); // Definindo o valor da resposta
     responseTextarea.className = 'form-control'; // Classe Bootstrap para textarea
     responseDiv.appendChild(responseTextarea); // Adicionando a textarea
 
@@ -59,13 +59,13 @@ socket.on('new_response', function(data) {
     correctFeedback.type = 'radio';
     correctFeedback.name = 'feedback_' + data.question_id; // Agrupando os radio buttons
     correctFeedback.value = 'Correta';
-    correctFeedback.id = 'correct_' + data.user_id;
+    correctFeedback.id = 'correct_' + data.question_id + '_' + data.user_id;
 
     var incorrectFeedback = document.createElement('input');
     incorrectFeedback.type = 'radio';
     incorrectFeedback.name = 'feedback_' + data.question_id;
     incorrectFeedback.value = 'Errada';
-    incorrectFeedback.id = 'incorrect_' + data.user_id;
+    incorrectFeedback.id = 'incorrect_' + data.question_id + '_' + data.user_id;
 
     var feedbackDiv = document.createElement('div');
     feedbackDiv.className = 'mt-2'; // Margem superior para espaçamento
@@ -96,6 +96,11 @@ socket.on('new_response', function(data) {
 	submitButton.onclick = function() {
 	    setTimeout(function() {
 		var feedbackValue;
+
+                // **Alterado**: Usando os novos IDs combinados
+                var correctFeedback = document.getElementById('correct_' + data.question_id + '_' + data.user_id); 
+                var incorrectFeedback = document.getElementById('incorrect_' + data.question_id + '_' + data.user_id); 
+
 		if (correctFeedback.checked) {
 		    feedbackValue = 'Correta';
 		} else if (incorrectFeedback.checked) {
@@ -106,9 +111,9 @@ socket.on('new_response', function(data) {
                console.log('User ID:', data.user_id);
                console.log('Question ID:', data.question_id);
                console.log('Question:', data.question);
-               console.log('Response:', data.response);
+               console.log('Response:', data.response.replace(/\n/g, '\\n'));
 	       if (feedbackValue) {
-		    sendFeedback(data.user_id, data.question_id, data.question, data.response, feedbackValue);
+		    sendFeedback(data.user_id, data.question_id, data.question, data.response.replace(/\n/g, '\\n'), feedbackValue);
 		    submitButton.disabled = true;
 		    submitButton.innerText = 'Enviado';
 		    setTimeout(function() {
@@ -129,8 +134,10 @@ function sendFeedback(userId, questionId, question, response, feedback) {
 
 function handleResend(userId, questionId, question, response) {
     var feedbackValue;
-    var correctFeedback = document.getElementById('correct_' + userId);
-    var incorrectFeedback = document.getElementById('incorrect_' + userId);
+
+    // **Alterado**: Usando os novos IDs combinados para obter o feedback
+    var correctFeedback = document.getElementById('correct_' + questionId + '_' + userId); 
+    var incorrectFeedback = document.getElementById('incorrect_' + questionId + '_' + userId); 
 
     if (correctFeedback.checked) {
         feedbackValue = 'Correta';
@@ -141,7 +148,7 @@ function handleResend(userId, questionId, question, response) {
     if (feedbackValue) {
         // Adiciona um delay de 500ms antes de enviar o feedback
         setTimeout(function() {
-            sendFeedback(userId, questionId, question, response, feedbackValue);
+            sendFeedback(userId, questionId, question, response.replace(/\n/g, '\\n'), feedbackValue);
             var submitButton = document.getElementById('resendButton_' + questionId);
             submitButton.disabled = true;
             submitButton.innerText = 'Enviado';

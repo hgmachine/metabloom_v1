@@ -35,22 +35,23 @@
                       {% if not message.feedback %}
                       <div class="response-item">
                           <div><strong>Pergunta:</strong> {{ message.question }}<br></div>
+                          <div><strong>Estudante(ID):</strong> {{ message.user_id }}<br></div>
                           <div>
-                              <textarea rows="4" cols="50">{{ message.response }}</textarea>
+                              <textarea rows="4" cols="50">{{ message.response | replace("'","`") | replace('"', "``") | replace('\n',' $ ') | safe }}</textarea>
                           </div>
                           <div>
                               <!-- Criação dos radio buttons -->
-                              <input type="radio" name="feedback_{{ message.question_id }}" value="Correta" id="correct_{{ message.user_id }}">
-                              <label for="correct_{{ message.user_id }}">Correta</label></br>
-                              <input type="radio" name="feedback_{{ message.question_id }}" value="Errada" id="incorrect_{{ message.user_id }}">
-                              <label for="incorrect_{{ message.user_id }}">Errada</label>
+			      <input type="radio" name="feedback_{{ message.question_id }}" value="Correta" id="correct_{{ message.question_id ~ '_' ~ message.user_id }}">
+			      <label for="correct_{{ message.question_id ~ '_' ~ message.user_id }}">Correta</label><br>
+			      <input type="radio" name="feedback_{{ message.question_id }}" value="Errada" id="incorrect_{{ message.question_id ~ '_' ~ message.user_id }}">
+			      <label for="incorrect_{{ message.question_id ~ '_' ~ message.user_id }}">Errada</label>
                           </div>
                           <div>
                               <button id="resendButton_{{ message.question_id }}" class="btn btn-primary" onclick="handleResend(
                                   '{{ message.user_id }}',
                                   '{{ message.question_id }}',
-                                  '{{ message.question }}',
-                                  '{{ message.response }}')">
+                                  '{{ message.question | replace("'","`") | replace('"',"``") | safe }}',
+                                  '{{ message.response | replace("'","`") | replace('"',"``") | replace('\n',' $ ') | safe }}')">
                                   Enviar Feedback
                               </button>
                           </div>

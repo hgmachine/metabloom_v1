@@ -162,8 +162,12 @@ class Application:
 
         @self.app.route('/index', method='POST')
         def index_post():
-            username = request.forms.get('username')
-            password = request.forms.get('password')
+            username = request.forms.get('username').strip()
+            password = request.forms.get('password').strip()
+            # Remove o sobrenome
+            partes = username.split()
+            # Mantém apenas o primeiro nome
+            username = partes[0]  # Apenas o primeiro nome
             self.authenticate_user(username, password)
 
         @self.app.route('/admin/tasks/delete/<number>', method='POST')
