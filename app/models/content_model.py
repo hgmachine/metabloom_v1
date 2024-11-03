@@ -7,4 +7,4 @@ class Content:
         self.feedback= feedback
 
     def __str__(self):
-        return f"Question_Id: {self.question_id}, Response: {self.response}"
+        return f"Question_Id: {self.question_id}, Response: {self.response}, Feedback: {self.feedback}"

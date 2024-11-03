@@ -428,7 +428,8 @@ class Application:
         if self.dojo_is_open:
             if current_user and current_user.is_admin:
                 if current_user.on:
-                    content= self.content.contents
+                    content= [cont for cont in self.content.contents if not cont.feedback]
+                    self.show_content()
                     status_dojos= 'As avaliações foram iniciadas'
                     self.set_status_dojos(status_dojos)
                     return self.jinja2_template('mentor.tpl',user=current_user, \
@@ -597,7 +598,6 @@ class Application:
 
     def show_content(self):
         self.content.print_all()
-        redirect('/admin')
 
     ############################################################################
     # Websocket events (cables and chanels):
@@ -630,11 +630,11 @@ class Application:
             question= data['question']
             question_id= data['question_id']
             task_number, task_level= self.tasks.get_task_data_by_text(question)
-            self.content.update_content(user_id,question_id,question,response,feedback)
+            self.content.update_content(user_id,question_id, feedback)
+            task= self.tasks.get_task_by_number(task_number)
+            task.update_answered_number(task_level,question_id, user_id)
             if feedback == "Correta":
                 self.students.add_question_data(question_id,response,user_id)
-                task= self.tasks.get_task_by_number(task_number)
-                task.update_answered_number(task_level,question_id)
             self.sio.emit('receive_feedback', {'feedback': feedback, 'question_id': question_id, 'response': response}, room=user_id)
             self.sio.emit('app_update_handle_button', {'question_id': question_id}, room='mentors')
 

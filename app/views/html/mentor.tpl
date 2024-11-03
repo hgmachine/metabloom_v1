@@ -4,7 +4,7 @@
 
 {% block styles %}
 <link rel="stylesheet" type="text/css" href="/static/css/mentor/mentor.css">
-<script type="text/javascript" src="/static/js/mentor/mentor.js?v=1.0.3"></script>
+<script type="text/javascript" src="/static/js/mentor/mentor.js?v=1.0.4"></script>
 {% endblock %}
 
 {% block content %}
@@ -41,10 +41,10 @@
                           </div>
                           <div>
                               <!-- Criação dos radio buttons -->
-			      <input type="radio" name="feedback_{{ message.question_id }}" value="Correta" id="correct_{{ message.question_id ~ '_' ~ message.user_id }}">
-			      <label for="correct_{{ message.question_id ~ '_' ~ message.user_id }}">Correta</label><br>
-			      <input type="radio" name="feedback_{{ message.question_id }}" value="Errada" id="incorrect_{{ message.question_id ~ '_' ~ message.user_id }}">
-			      <label for="incorrect_{{ message.question_id ~ '_' ~ message.user_id }}">Errada</label>
+              			      <input type="radio" name="feedback_{{ message.question_id }}" value="Correta" id="correct_{{ message.question_id ~ '_' ~ message.user_id }}">
+              			      <label for="correct_{{ message.question_id ~ '_' ~ message.user_id }}">Correta</label><br>
+              			      <input type="radio" name="feedback_{{ message.question_id }}" value="Errada" id="incorrect_{{ message.question_id ~ '_' ~ message.user_id }}">
+              			      <label for="incorrect_{{ message.question_id ~ '_' ~ message.user_id }}">Errada</label>
                           </div>
                           <div>
                               <button id="resendButton_{{ message.question_id }}" class="btn btn-primary" onclick="handleResend(

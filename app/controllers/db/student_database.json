@@ -4,7 +4,7 @@
         "password": "794701",
         "tasks": {
             "e263f569-5298-4a23-8e95-365bb0aef5e5": [
-                8,
+                0,
                 0,
                 0,
                 0
@@ -31,16 +31,7 @@
         "meta": "Programa\u00e7\u00e3o FullStack",
         "user_id": "7cbcafa1-a5d4-411f-8f4b-e6cf4f0adef3",
         "permissions": [],
-        "done": {
-            "bfe5e015-8d2b-4c8f-b02b-e3b3eb945307": "Usado para navegar entre diret\u00f3rios pelo terminal",
-            "b2e44230-1857-46a3-8673-7fb4f49c9c89": "Para compactar arquivos e diret\u00f3rios em um arquivo zip.",
-            "0e9673f5-9e76-4e98-97da-7b1f2e6d0214": "Ao contr\u00e1rio do tail ele serve para exibir, por padr\u00e3o, as 10 primeiras linhas de um arquivo, ou vc pode escolher quantas linhas quer ver",
-            "c14135dc-e52e-4b68-9fd5-d84d3c91ec01": "Executar comandos com permiss\u00f5es de superusu\u00e1rios, permitindo que execute tarefas administrativas e acesse arquivos protegidos pelo sistema",
-            "ff7f12d9-4e4f-49d4-9258-1e80e1e80a7a": "Cria arquivos vazios ou se o arquivo j\u00e1 existe ele atualiza a data e hora de acesso e modifia\u00e7\u00e3o",
-            "8c1f15e5-9f57-4f45-bf9e-1bead6bc15e3": "Para listar o conte\u00fado de um diret\u00f3rio, exibindo arquivos e subdiret\u00f3rios",
-            "c160eb54-1a4b-4485-8168-15d9e4eb473d": "Serve para abrir arquivos compactados",
-            "14c0d48c-57c5-408e-bd42-c8b1f4d92c8e": "Gerenciar pacotes em distribui\u00e7\u00f5es baseadas em Debian, como ubuntu. Instala, remove e gerencia pacotes .deb"
-        },
+        "done": {},
         "on": false,
         "tasks_sum": {
             "e263f569-5298-4a23-8e95-365bb0aef5e5": [
@@ -143,13 +134,13 @@
                 0
             ],
             "730bb18b-814d-4c6b-aff9-87713d2e61f5": [
-                3,
+                0,
                 0,
                 0,
                 0
             ],
             "49cddbbf-7934-4669-ab8a-c54e2ba3a55d": [
-                2,
+                0,
                 0,
                 0,
                 0
@@ -164,13 +155,7 @@
         "meta": "Orienta\u00e7\u00e3o a Objetos - T03",
         "user_id": "9e0d2cc9-2c08-427a-93b7-939867e57a51",
         "permissions": [],
-        "done": {
-            "e20482bc-62d8-4976-bf4e-d9c8a05be2ec": "Listas em python s\u00e3o cole\u00e7\u00f5es que apresentam uma cole\u00e7\u00e3o ordenada e mut\u00e1vel de itens, que podem ser n\u00fameros, strings, outras listas, etc. $  $ Exemplo:  $  $ lista = [1, 2, 3, 4]",
-            "10ec0c3a-b0bc-4c01-ae78-b9a8e27b0a35": "Um dicion\u00e1rio, \u00e9 um par de chave - valor. O valor em um dicion\u00e1rio est\u00e1 associado a um chave espec\u00edfica e pode ser acessado por essa chave. Os valores podem ser qualquer tipo de dado: strings, listas, outros dicion\u00e1rios, etc.\\n\\nExemplo:\\n\\nmeu_dicionario = { \"nome\": \"Anderson\"}\\nvalor_nome =meu_dicionario[\"nome\"]",
-            "4f5bde32-b375-4c98-a012-f678923b7f8f": "Uma lista em Python \u00e9 uma cole\u00e7\u00e3o ordenada de valores, separados por v\u00edrgula e dentro de colchetes []. Elas s\u00e3o utilizadas para armazenar diversos itens em uma \u00fanica v\u00e1riavel. As listas s\u00e3o estruturas mut\u00e1veis, permitindo a modifica\u00e7\u00e3o de elementos ap\u00f3s a sua cria\u00e7\u00e3o.",
-            "0j0e29bc-0a63-45be-9eb2-b5f441fe4294": "O m\u00e9todo __str__ tem por finalidade estabelecer uma representa\u00e7\u00e3o leg\u00edvel e amig\u00e1vel de uma inst\u00e2ncia de classe. Ou seja, como uma inst\u00e2ncia deve ser representada quando \u00e9 convertida para uma string.",
-            "0t0i9i9h-3c8f-4e56-8c78-499e548f4d41": "isinstance \u00e9 usado para verificar se um objeto \u00e9 uma inst\u00e2ncia de uma classe ou de uma tupla de classes espec\u00edficadas. Ele retorna True se o objeto pertence a classe ou a qualquer classe derivada dela, e False caso contr\u00e1rio."
-        },
+        "done": {},
         "on": false,
         "tasks_sum": {
             "e263f569-5298-4a23-8e95-365bb0aef5e5": [
@@ -341,7 +326,7 @@
                 0
             ],
             "49cddbbf-7934-4669-ab8a-c54e2ba3a55d": [
-                2,
+                0,
                 0,
                 0,
                 0
@@ -356,10 +341,7 @@
         "meta": "Orienta\u00e7\u00e3o a Objetos - T03",
         "user_id": "68f1e4f3-806a-4ff0-832f-61afed326754",
         "permissions": [],
-        "done": {
-            "7gde01c7-e6a5-4e64-b8b6-28e44ab6d89e": " Atributos de inst\u00e2ncia s\u00e3o usados para armazenar dados espec\u00edficos de cada objeto, enquanto atributos de classe s\u00e3o usados para dados que s\u00e3o comuns a todas as inst\u00e2ncias da classe.",
-            "02f7c360-77d5-4a47-bbd3-334d1e8e52ec": " O principal objetivo do m\u00e9todo __init__ \u00e9 inicializar os atributos da inst\u00e2ncia e realizar qualquer configura\u00e7\u00e3o necess\u00e1ria para o objeto criado"
-        },
+        "done": {},
         "on": false,
         "tasks_sum": {
             "e263f569-5298-4a23-8e95-365bb0aef5e5": [
@@ -394,7 +376,7 @@
         "password": "231011103",
         "tasks": {
             "e263f569-5298-4a23-8e95-365bb0aef5e5": [
-                1,
+                0,
                 0,
                 0,
                 0
@@ -421,9 +403,7 @@
         "meta": "Orienta\u00e7\u00e3o a Objetos - T03",
         "user_id": "a6c2ef6a-20dc-4ecf-bec9-645611bbdab8",
         "permissions": [],
-        "done": {
-            "8c1f15e5-9f57-4f45-bf9e-1bead6bc15e3": "O comando is \u00e9 um comando usado para listar arquivos de um diret\u00f3rio"
-        },
+        "done": {},
         "on": false,
         "tasks_sum": {
             "e263f569-5298-4a23-8e95-365bb0aef5e5": [
@@ -520,7 +500,7 @@
         "password": "241025597",
         "tasks": {
             "e263f569-5298-4a23-8e95-365bb0aef5e5": [
-                1,
+                0,
                 0,
                 0,
                 0
@@ -547,9 +527,7 @@
         "meta": "Orienta\u00e7\u00e3o a Objetos - T03",
         "user_id": "ecb60a80-bccb-4ff7-8cfd-4c6b4cffdab2",
         "permissions": [],
-        "done": {
-            "8c1f15e5-9f57-4f45-bf9e-1bead6bc15e3": "listar arquivos e diret\u00f3rios no diret\u00f3rio atual ou em um especificado "
-        },
+        "done": {},
         "on": false,
         "tasks_sum": {
             "e263f569-5298-4a23-8e95-365bb0aef5e5": [
@@ -832,7 +810,7 @@
         "password": "232000688",
         "tasks": {
             "e263f569-5298-4a23-8e95-365bb0aef5e5": [
-                7,
+                0,
                 0,
                 0,
                 0
@@ -859,15 +837,7 @@
         "meta": "Orienta\u00e7\u00e3o a Objetos - T03",
         "user_id": "b1b86a1b-de56-49db-8222-deff0ee4e707",
         "permissions": [],
-        "done": {
-            "9157f08f-3f2c-4e92-a3d1-64304b964d8a": "Filtra as linhas de um arquivo para procurar uma express\u00e3o regular como padr\u00e3o",
-            "74245f75-0d48-4c2c-81f5-2b84c89ab5af": "Serve para imprimir os \u00faltimos n\u00fameros de uma entrada ou arquivo",
-            "76e4f32e-bf0e-4072-bdcb-2764a5b2ad2a": "Serve para ordenar as linhas de um arquivo e exibir o resultado na sa\u00edda",
-            "fe3b3cc8-3e74-4b7f-804b-b62c4824fc3f": "Exibe as informa\u00e7\u00f5es pedidas sobre processos que est\u00e3o sendo executados em um sistema operacional",
-            "3990cf54-4db7-48f3-bf67-f8d3a3e8b3f6": "Serve para mostrar o diret\u00f3rio de trabalho atual e gravar na sa\u00edda o caminho desse diret\u00f3rio",
-            "0e9673f5-9e76-4e98-97da-7b1f2e6d0214": "Serve para imprimir as primeiras linhas de um arquivo",
-            "02a4650a-d9a4-4189-a69a-10e4554cbb0": "Serve para simplificar comandos no bash, cham\u00e1-los de diferentes formas, chamar comandos extensos por apenas um nome"
-        },
+        "done": {},
         "on": false,
         "tasks_sum": {
             "e263f569-5298-4a23-8e95-365bb0aef5e5": [
@@ -1088,7 +1058,7 @@
         "password": "232001620",
         "tasks": {
             "e263f569-5298-4a23-8e95-365bb0aef5e5": [
-                2,
+                0,
                 0,
                 0,
                 0
@@ -1115,10 +1085,7 @@
         "meta": "Orienta\u00e7\u00e3o a Objetos - T03",
         "user_id": "01139fa8-d061-422c-b941-51ad6b638297",
         "permissions": [],
-        "done": {
-            "bfe5e015-8d2b-4c8f-b02b-e3b3eb945307": "O comando cd serve para mudar o diret\u00f3rio",
-            "b2ae9be5-3543-45ec-8b40-2abbd081e7c0": "O comando mkdir vem de ``Make directory``, como o nome j\u00e1 indica cria um novo diret\u00f3rio."
-        },
+        "done": {},
         "on": false,
         "tasks_sum": {
             "e263f569-5298-4a23-8e95-365bb0aef5e5": [
@@ -1525,13 +1492,13 @@
         "password": "232014010",
         "tasks": {
             "e263f569-5298-4a23-8e95-365bb0aef5e5": [
-                2,
+                0,
                 0,
                 0,
                 0
             ],
             "730bb18b-814d-4c6b-aff9-87713d2e61f5": [
-                1,
+                0,
                 0,
                 0,
                 0
@@ -1552,11 +1519,7 @@
         "meta": "Orienta\u00e7\u00e3o a Objetos - T03",
         "user_id": "1f3a5b6d-a035-494d-b465-d2618cb99932",
         "permissions": [],
-        "done": {
-            "aa4e8c91-2f29-4f8c-9a4f-5b0cdd5f1b91": "uma lista \u00e9 mutavel, ja tuplas apresentam valores imutaveis",
-            "8c1f15e5-9f57-4f45-bf9e-1bead6bc15e3": "lista os arquivos do diretorio",
-            "ff7f12d9-4e4f-49d4-9258-1e80e1e80a7a": "cria arquivos vazios ,alem de alterar o registro de data e hora de arquivos ou pastas"
-        },
+        "done": {},
         "on": false,
         "tasks_sum": {
             "e263f569-5298-4a23-8e95-365bb0aef5e5": [
@@ -1653,7 +1616,7 @@
         "password": "232036887",
         "tasks": {
             "e263f569-5298-4a23-8e95-365bb0aef5e5": [
-                1,
+                0,
                 0,
                 0,
                 0
@@ -1680,9 +1643,7 @@
         "meta": "Orienta\u00e7\u00e3o a Objetos - T03",
         "user_id": "bd188632-9125-4da7-9b61-5913420f7778",
         "permissions": [],
-        "done": {
-            "8c1f15e5-9f57-4f45-bf9e-1bead6bc15e3": "mostra todos os arquivos e pasta onde "
-        },
+        "done": {},
         "on": false,
         "tasks_sum": {
             "e263f569-5298-4a23-8e95-365bb0aef5e5": [
@@ -1909,7 +1870,7 @@
                 0
             ],
             "730bb18b-814d-4c6b-aff9-87713d2e61f5": [
-                1,
+                0,
                 0,
                 0,
                 0
@@ -1930,9 +1891,7 @@
         "meta": "Orienta\u00e7\u00e3o a Objetos - T03",
         "user_id": "bd8ca575-0f87-4ed7-9340-114101a77a80",
         "permissions": [],
-        "done": {
-            "aa4e8c91-2f29-4f8c-9a4f-5b0cdd5f1b91": "a diferen\u00e7a entre elas est\u00e1 na rela\u00e7\u00e3o entre mut\u00e1vel e n\u00e3o. Que na lista eu consigo alterar o valor mesmo ap\u00f3s a declara\u00e7\u00e3o, ou seja, mut\u00e1vel. Enquanto que nas tuplas n\u00e3o ..."
-        },
+        "done": {},
         "on": false,
         "tasks_sum": {
             "e263f569-5298-4a23-8e95-365bb0aef5e5": [
@@ -2215,7 +2174,7 @@
         "password": "232014290",
         "tasks": {
             "e263f569-5298-4a23-8e95-365bb0aef5e5": [
-                1,
+                0,
                 0,
                 0,
                 0
@@ -2227,7 +2186,7 @@
                 0
             ],
             "49cddbbf-7934-4669-ab8a-c54e2ba3a55d": [
-                1,
+                0,
                 0,
                 0,
                 0
@@ -2242,10 +2201,7 @@
         "meta": "Orienta\u00e7\u00e3o a Objetos - T03",
         "user_id": "030dd2f9-2aa2-478c-a7bf-1900c15759bd",
         "permissions": [],
-        "done": {
-            "6p6e5c5e-67f8-4908-9c7c-3b27a8f8a82c": "O self referencia uma instancia espec\u00edfica da classe e para acessar m\u00e9todos e atributos da inst\u00e2ncia, J\u00e1 o cls referencia a classe e acessa m\u00e9todos est\u00e1ticos e atributos da classe como um todo.",
-            "8c1f15e5-9f57-4f45-bf9e-1bead6bc15e3": "Serve para imprimir uma lista de  quais pastas e arquivos existem naquele diret\u00f3rio  "
-        },
+        "done": {},
         "on": false,
         "tasks_sum": {
             "e263f569-5298-4a23-8e95-365bb0aef5e5": [
@@ -2280,13 +2236,13 @@
         "password": "232003723",
         "tasks": {
             "e263f569-5298-4a23-8e95-365bb0aef5e5": [
-                6,
+                0,
                 0,
                 0,
                 0
             ],
             "730bb18b-814d-4c6b-aff9-87713d2e61f5": [
-                2,
+                0,
                 0,
                 0,
                 0
@@ -2307,16 +2263,7 @@
         "meta": "Orienta\u00e7\u00e3o a Objetos - T03",
         "user_id": "c511ac38-fa8a-4946-915a-38f50443e2e7",
         "permissions": [],
-        "done": {
-            "9d9a98de-4429-4d4e-a49b-09cd0f6b6f82": "Para armazenar e organizar dados de forma eficiente, principalmente quando se tem a necessidade de associar chaves \u00fanicas e valores.",
-            "4f5bde32-b375-4c98-a012-f678923b7f8f": "Uma estrutura de dados que armazena uma cole\u00e7\u00e3o ordenada de elementos, podendo, os intens serem de v\u00e1rios tipos.",
-            "74245f75-0d48-4c2c-81f5-2b84c89ab5af": "\u00c9 utilizado para visualizar as \u00faltimas linhas de um arquivo de texto.",
-            "83a3e2d7-bdc2-4f3f-b486-550b3f213cf7": "\u00c9 utilizado para extrair se\u00e7\u00f5es espec\u00edficas de cada linha de um arquivo ou entrada de texto.",
-            "ff7f12d9-4e4f-49d4-9258-1e80e1e80a7a": "\u00c9 utilizado para criar arquivos vazios ou atualizar a data e hora de modifica\u00e7\u00e3o de arquivos j\u00e1 existentes.",
-            "b3c93163-b53c-4ab2-9861-65e9f7023994": "\u00c9 utilzado para mover ou renomear arquivos e diret\u00f3rios.",
-            "76e4f32e-bf0e-4072-bdcb-2764a5b2ad2a": "\u00c9 utilizado para ordenar linhas de textos em arquivo ou na entrada padr\u00e3o em ordem alfab\u00e9tica ou num\u00e9rica",
-            "5c8e436c-29e3-43d4-b3c4-44bc0076ef8e": "\u00c9 utilizado para exibir o conte\u00fado de arquivos, juntar m\u00faltiplos arquivos ou redirecionar o conte\u00fado para outros arquivos e comandos."
-        },
+        "done": {},
         "on": false,
         "tasks_sum": {
             "e263f569-5298-4a23-8e95-365bb0aef5e5": [
@@ -2661,8 +2608,8 @@
         "password": "222006946",
         "tasks": {
             "e263f569-5298-4a23-8e95-365bb0aef5e5": [
-                10,
-                4,
+                0,
+                0,
                 0,
                 0
             ],
@@ -2688,22 +2635,7 @@
         "meta": "Orienta\u00e7\u00e3o a Objetos - T03",
         "user_id": "34901d86-4577-40d5-8abd-f619e93704e2",
         "permissions": [],
-        "done": {
-            "e7abf67b-49d5-4344-9ff8-e1e15af7e25a": "Basta abrir o terminal no diret\u00f3rio escolhido e digitar o comando bash (nomedoarquivo)",
-            "c81f77e1-89f1-4f73-b79b-4a16be66b7b6": "Limpa o conte\u00fado visual da tela do terminal.",
-            "0e9673f5-9e76-4e98-97da-7b1f2e6d0214": "Ele imprime as primeiras (10) linhas de um arquivo.",
-            "bfe5e015-8d2b-4c8f-b02b-e3b3eb945307": "Define o diret\u00f3rio ou muda de um lugar para outro.",
-            "ff7f12d9-4e4f-49d4-9258-1e80e1e80a7a": "Cria arquivos vazios, para pessoas experientes \u00e9 poss\u00edvel at\u00e9 mudar metadados (como ultima data usada/modificada)",
-            "14c0d48c-57c5-408e-bd42-c8b1f4d92c8e": "Comando respons\u00e1vel por gerenciamento de pacotes.",
-            "c14135dc-e52e-4b68-9fd5-d84d3c91ec01": "Serve para usu\u00e1rios comuns conseguirem executar comandos que geralmente n\u00e3o tem permiss\u00e3o n\u00e3o sendo o superusuario.",
-            "c160eb54-1a4b-4485-8168-15d9e4eb473d": "Serve para extrair arquivos de um arquivo compactado.",
-            "74245f75-0d48-4c2c-81f5-2b84c89ab5af": "O contr\u00e1rio do comando head, imprime pra voc\u00ea as ultimas (10) linhas de um arquivo.",
-            "b2e44230-1857-46a3-8673-7fb4f49c9c89": "Serve para compactar arquivos, diferente do unzip que faz o contr\u00e1rio.",
-            "d382b4e7-fcf3-4139-bc6c-0e0a276c35c9": "Com o comando clear.",
-            "9157cda2-96f7-4c27-baa4-c72eb184672e": "Comando uniq.",
-            "bc31c0cf-4c9c-4f7c-9f6a-4b4d99e5c7ec": "O comando dpkg.",
-            "dbe9d95a-6cf4-47c5-b44c-45a66f05107b": "Faz download de arquivos da internet."
-        },
+        "done": {},
         "on": false,
         "tasks_sum": {
             "e263f569-5298-4a23-8e95-365bb0aef5e5": [
@@ -2862,7 +2794,7 @@
         "password": "241031852",
         "tasks": {
             "e263f569-5298-4a23-8e95-365bb0aef5e5": [
-                9,
+                0,
                 0,
                 0,
                 0
@@ -2880,7 +2812,7 @@
                 0
             ],
             "bc98762b-c01c-4c64-b8b2-5f84fe463c9c": [
-                10,
+                0,
                 0,
                 0,
                 0
@@ -2889,27 +2821,7 @@
         "meta": "Orienta\u00e7\u00e3o a Objetos - T03",
         "user_id": "4377fe06-0b94-459f-8a5d-eca4fed9fe97",
         "permissions": [],
-        "done": {
-            "a4f0ec0f-1b25-4452-bd79-0ebff9e2eaa1": "para editar textos pelo terminal",
-            "c160eb54-1a4b-4485-8168-15d9e4eb473d": "para descompactar arquivos",
-            "b2ae9be5-3543-45ec-8b40-2abbd081e7c0": "para criar diret\u00f3rios",
-            "02a4650a-d9a4-4189-a69a-10e4554cbb0": "criar atalhos",
-            "9157f08f-3f2c-4e92-a3d1-64304b964d8a": "buscar padr\u00f5es de texto",
-            "5c8e436c-29e3-43d4-b3c4-44bc0076ef8e": "visualizar e manipular arquivos de texto",
-            "3990cf54-4db7-48f3-bf67-f8d3a3e8b3f6": "exibir o diret\u00f3rio atual",
-            "f497eeb8-1946-48c1-89cb-bd27a5ac3c6b": "alterar permiss\u00f5es do arquivo",
-            "c81f77e1-89f1-4f73-b79b-4a16be66b7b6": "limpar o terminal",
-            "48f1cf06-1214-49f7-90c6-efb50ffb8b56": "copiar linha",
-            "66d1d4e5-5b9e-4906-b26a-03b7e8f6e6f8": "colar antes do cursor",
-            "f98db35a-6c34-4694-babc-6a1f90f8798d": "para modificar o texto de um arquivo",
-            "d5caa91c-9053-4a2d-9b5d-5a44c1941ca1": "inserir texto no final da linha",
-            "e4606f52-dabe-49c5-8016-c8f4eec4436e": "dividir a janela em duas horizontais",
-            "e303d2cb-6b2d-45c7-b44f-17b27963df1b": "desfazer mudan\u00e7as no arquivo atual",
-            "a8db4b37-23e3-4b06-9f4e-e87f07da80d5": "executar um comando em todas as janelas",
-            "f0e01d1a-b36c-4795-9d3a-63de9ca0573b": "acessar a documenta\u00e7\u00e3o do VIM",
-            "f7c362f0-e51c-4944-8373-bbb2e7c1d98a": "executar comandos do sistema operacional pelo VIM",
-            "4916e620-6f58-4299-bb4e-bf17733b51e8": "destacar elementos de c\u00f3digo como palavra-chave etc"
-        },
+        "done": {},
         "on": false,
         "tasks_sum": {
             "e263f569-5298-4a23-8e95-365bb0aef5e5": [
@@ -3130,7 +3042,7 @@
         "password": "241025819",
         "tasks": {
             "e263f569-5298-4a23-8e95-365bb0aef5e5": [
-                1,
+                0,
                 0,
                 0,
                 0
@@ -3157,9 +3069,7 @@
         "meta": "Orienta\u00e7\u00e3o a Objetos - T03",
         "user_id": "93a50437-270e-4bc5-80d2-f57b3aaca598",
         "permissions": [],
-        "done": {
-            "8c1f15e5-9f57-4f45-bf9e-1bead6bc15e3": "esse comando lista em seu diret\u00f3rio os arquivos ou pastas contidos nele, permitindo ver o que tem dentro dos diret\u00f3rios pelo terminal "
-        },
+        "done": {},
         "on": false,
         "tasks_sum": {
             "e263f569-5298-4a23-8e95-365bb0aef5e5": [
@@ -3442,7 +3352,7 @@
         "password": "241025363",
         "tasks": {
             "e263f569-5298-4a23-8e95-365bb0aef5e5": [
-                1,
+                0,
                 0,
                 0,
                 0
@@ -3469,9 +3379,7 @@
         "meta": "Orienta\u00e7\u00e3o a Objetos - T03",
         "user_id": "3e291bd5-decb-4174-b032-d26d7a471078",
         "permissions": [],
-        "done": {
-            "8c1f15e5-9f57-4f45-bf9e-1bead6bc15e3": "utilizado para listar quais arquivos e pastas est\u00e3o em um diret\u00f3rio espec\u00edfico."
-        },
+        "done": {},
         "on": false,
         "tasks_sum": {
             "e263f569-5298-4a23-8e95-365bb0aef5e5": [
@@ -3506,7 +3414,7 @@
         "password": "232027500",
         "tasks": {
             "e263f569-5298-4a23-8e95-365bb0aef5e5": [
-                1,
+                0,
                 0,
                 0,
                 0
@@ -3533,9 +3441,7 @@
         "meta": "Orienta\u00e7\u00e3o a Objetos - T03",
         "user_id": "ffe4f7fa-a057-4f47-8d1f-690c26d59e06",
         "permissions": [],
-        "done": {
-            "8c1f15e5-9f57-4f45-bf9e-1bead6bc15e3": "serve para listar arquivos e diret\u00f3rios dentro de um diret\u00f3rio"
-        },
+        "done": {},
         "on": false,
         "tasks_sum": {
             "e263f569-5298-4a23-8e95-365bb0aef5e5": [
@@ -3571,7 +3477,7 @@
         "tasks": {
             "e263f569-5298-4a23-8e95-365bb0aef5e5": [
                 0,
-                1,
+                0,
                 0,
                 0
             ],
@@ -3597,9 +3503,7 @@
         "meta": "Orienta\u00e7\u00e3o a Objetos - T03",
         "user_id": "db9e9be4-04d7-4b26-8b4a-9f5f96c7df45",
         "permissions": [],
-        "done": {
-            "d382b4e7-fcf3-4139-bc6c-0e0a276c35c9": "usando o comando clear"
-        },
+        "done": {},
         "on": false,
         "tasks_sum": {
             "e263f569-5298-4a23-8e95-365bb0aef5e5": [
@@ -3758,13 +3662,13 @@
         "password": "211061930",
         "tasks": {
             "e263f569-5298-4a23-8e95-365bb0aef5e5": [
-                3,
+                0,
                 0,
                 0,
                 0
             ],
             "730bb18b-814d-4c6b-aff9-87713d2e61f5": [
-                4,
+                0,
                 0,
                 0,
                 0
@@ -3785,15 +3689,7 @@
         "meta": "Orienta\u00e7\u00e3o a Objetos - T03",
         "user_id": "13a07043-92f3-494d-a70d-8c78bf6379d7",
         "permissions": [],
-        "done": {
-            "aa4e8c91-2f29-4f8c-9a4f-5b0cdd5f1b91": "listas s\u00e3o mut\u00e1veis e tuplas n\u00e3o",
-            "bb0a8398-8a39-4b8d-a6f7-5fc8c6db83c5": "para armazenar dados, manipular dados, filtrar dados, etc",
-            "e20482bc-62d8-4976-bf4e-d9c8a05be2ec": "sua estrutura \u00e9 delimitada por colchetes e pode ser criada tamb\u00e9m com o comando list()",
-            "4f5bde32-b375-4c98-a012-f678923b7f8f": "\u00e9 uma estrutura de dados onde \u00e9 poss\u00edvel armazenar v\u00e1rios valores em uma \u00fanica vari\u00e1vel, seus elementos s\u00e3o acess\u00edvel por \u00edndices, al\u00e9m de serem ordenados, podendo tamb\u00e9m serem alterados por outros, sendo assim a lista \u00e9 mut\u00e1vel tamb\u00e9m.",
-            "b2ae9be5-3543-45ec-8b40-2abbd081e7c0": "serve para criar um diret\u00f3rio.",
-            "5c8e436c-29e3-43d4-b3c4-44bc0076ef8e": "serve para mostrar conte\u00fado de um arquivo",
-            "8c1f15e5-9f57-4f45-bf9e-1bead6bc15e3": "para ver os arquivos e diret\u00f3rios do diret\u00f3rio atual."
-        },
+        "done": {},
         "on": false,
         "tasks_sum": {
             "e263f569-5298-4a23-8e95-365bb0aef5e5": [
@@ -3830,7 +3726,7 @@
             "e263f569-5298-4a23-8e95-365bb0aef5e5": [
                 0,
                 0,
-                1,
+                0,
                 0
             ],
             "730bb18b-814d-4c6b-aff9-87713d2e61f5": [
@@ -3855,9 +3751,7 @@
         "meta": "Orienta\u00e7\u00e3o a Objetos - T03",
         "user_id": "00c3425d-decc-4a2b-b8de-9d4f3d0854f2",
         "permissions": [],
-        "done": {
-            "474dd0f1-8cc8-4519-8cf9-c61a8b40f13f": "meu_projeto/ $ \u2502 $ \u251c\u2500\u2500 src/                     # C\u00f3digo fonte do projeto $ \u2502   \u251c\u2500\u2500 __init__.py          # Torna o diret\u00f3rio um pacote Python $ \u2502   \u251c\u2500\u2500 main.py              # Arquivo principal do programa $ \u2502   \u2514\u2500\u2500 pacote1/             # Pacote 1 $ \u2502       \u251c\u2500\u2500 __init__.py       $ \u2502       \u251c\u2500\u2500 modulo1.py        $ \u2502       \u2514\u2500\u2500 modulo2.py        $ \u2502 $ \u251c\u2500\u2500 data/                    # Dados utilizados pelo projeto $ \u2502   \u251c\u2500\u2500 raw/                 # Dados brutos $ \u2502   \u251c\u2500\u2500 processed/           # Dados processados $ \u2502   \u2514\u2500\u2500 external/            # Dados de fontes externas $ \u2502 $ \u251c\u2500\u2500 images/                  # Imagens utilizadas no projeto $ \u2502   \u251c\u2500\u2500 logo.png             # Exemplo de imagem $ \u2502   \u2514\u2500\u2500 outros/              # Outras imagens $ \u2502 $ \u251c\u2500\u2500 tests/                   # Testes do projeto $ \u2502   \u251c\u2500\u2500 __init__.py           $ \u2502   \u251c\u2500\u2500 test_modulo1.py      # Testes para o m\u00f3dulo 1 $ \u2502   \u2514\u2500\u2500 test_modulo2.py      # Testes para o m\u00f3dulo 2 $ \u2502 $ \u251c\u2500\u2500 requirements.txt         # Depend\u00eancias do projeto $ \u251c\u2500\u2500 README.md                # Documenta\u00e7\u00e3o do projeto $ \u2514\u2500\u2500 .gitignore               # Arquivos e pastas a serem ignorados pelo Git $ mkdir -p meu_projeto/src/pacote1  $          meu_projeto/data/raw  $          meu_projeto/data/processed  $          meu_projeto/data/external  $          meu_projeto/images/outros  $          meu_projeto/tests $ touch meu_projeto/src/__init__.py  $       meu_projeto/src/main.py  $       meu_projeto/src/pacote1/__init__.py  $       meu_projeto/src/pacote1/modulo1.py  $       meu_projeto/src/pacote1/modulo2.py  $       meu_projeto/tests/__init__.py  $       meu_projeto/tests/test_modulo1.py  $       meu_projeto/tests/test_modulo2.py  $       meu_projeto/requirements.txt  $       meu_projeto/README.md  $       meu_projeto/.gitignore"
-        },
+        "done": {},
         "on": false,
         "tasks_sum": {
             "e263f569-5298-4a23-8e95-365bb0aef5e5": [
@@ -4016,8 +3910,8 @@
         "password": "241040860",
         "tasks": {
             "e263f569-5298-4a23-8e95-365bb0aef5e5": [
-                2,
-                1,
+                0,
+                0,
                 0,
                 0
             ],
@@ -4043,11 +3937,7 @@
         "meta": "Orienta\u00e7\u00e3o a Objetos - T03",
         "user_id": "5122c682-e5f2-4785-a00e-d19fc7c8f96b",
         "permissions": [],
-        "done": {
-            "01a5d9cc-98c6-4901-bc3d-bc26783c99cc": "comando history",
-            "c14135dc-e52e-4b68-9fd5-d84d3c91ec01": "permite usu\u00e1rios comuns executarem comandos com privil\u00e9gio de root",
-            "8c1f15e5-9f57-4f45-bf9e-1bead6bc15e3": "lista arquivos e diret\u00f3rios"
-        },
+        "done": {},
         "on": false,
         "tasks_sum": {
             "e263f569-5298-4a23-8e95-365bb0aef5e5": [
@@ -4206,7 +4096,7 @@
         "password": "232028393",
         "tasks": {
             "e263f569-5298-4a23-8e95-365bb0aef5e5": [
-                1,
+                0,
                 0,
                 0,
                 0
@@ -4233,9 +4123,7 @@
         "meta": "Orienta\u00e7\u00e3o a Objetos - T03",
         "user_id": "07a89aaa-36d4-4108-98bb-226613db7872",
         "permissions": [],
-        "done": {
-            "bfe5e015-8d2b-4c8f-b02b-e3b3eb945307": "Serve para navegar entre as pastas nos sistemas de arquivos $ "
-        },
+        "done": {},
         "on": false,
         "tasks_sum": {
             "e263f569-5298-4a23-8e95-365bb0aef5e5": [
@@ -4394,7 +4282,7 @@
         "password": "232038335",
         "tasks": {
             "e263f569-5298-4a23-8e95-365bb0aef5e5": [
-                1,
+                0,
                 0,
                 0,
                 0
@@ -4421,9 +4309,7 @@
         "meta": "Orienta\u00e7\u00e3o a Objetos - T03",
         "user_id": "68bdc044-01eb-4f2e-b49b-6b65f75cc95a",
         "permissions": [],
-        "done": {
-            "8c1f15e5-9f57-4f45-bf9e-1bead6bc15e3": "Lista arquivos e diret\u00f3rios em um diret\u00f3rio."
-        },
+        "done": {},
         "on": false,
         "tasks_sum": {
             "e263f569-5298-4a23-8e95-365bb0aef5e5": [
@@ -4520,7 +4406,7 @@
         "password": "241025345",
         "tasks": {
             "e263f569-5298-4a23-8e95-365bb0aef5e5": [
-                2,
+                0,
                 0,
                 0,
                 0
@@ -4547,10 +4433,7 @@
         "meta": "Orienta\u00e7\u00e3o a Objetos - T03",
         "user_id": "8177f824-0bfd-4f64-aac0-02b6b56a0314",
         "permissions": [],
-        "done": {
-            "c81f77e1-89f1-4f73-b79b-4a16be66b7b6": "Limpar a tela do console",
-            "8c1f15e5-9f57-4f45-bf9e-1bead6bc15e3": "Lista o conteudo de uma pasta ou diretorio"
-        },
+        "done": {},
         "on": false,
         "tasks_sum": {
             "e263f569-5298-4a23-8e95-365bb0aef5e5": [
@@ -4771,7 +4654,7 @@
         "password": "241025980",
         "tasks": {
             "e263f569-5298-4a23-8e95-365bb0aef5e5": [
-                1,
+                0,
                 0,
                 0,
                 0
@@ -4798,9 +4681,7 @@
         "meta": "Orienta\u00e7\u00e3o a Objetos - T03",
         "user_id": "cd90ed21-fcad-4a14-9f53-ad568b06921d",
         "permissions": [],
-        "done": {
-            "02a4650a-d9a4-4189-a69a-10e4554cbb0": "O comando alias \u00e9 utilizado para criar atalhos de comandos no Bash, dessa forma, economizamos tempo para n\u00e3o ficar digitando comandos extensos. Para deixar o comando permanente utilizamos ``.bashrc``, para remover utilizamos ``unalais``."
-        },
+        "done": {},
         "on": false,
         "tasks_sum": {
             "e263f569-5298-4a23-8e95-365bb0aef5e5": [
@@ -4835,8 +4716,8 @@
         "password": "232030041",
         "tasks": {
             "e263f569-5298-4a23-8e95-365bb0aef5e5": [
-                1,
-                1,
+                0,
+                0,
                 0,
                 0
             ],
@@ -4862,10 +4743,7 @@
         "meta": "Orienta\u00e7\u00e3o a Objetos - T03",
         "user_id": "1fcafbbb-d3f2-4966-8ec7-c55346641b32",
         "permissions": [],
-        "done": {
-            "01a5d9cc-98c6-4901-bc3d-bc26783c99cc": "comando history",
-            "8c1f15e5-9f57-4f45-bf9e-1bead6bc15e3": "Listar arquivos ou diret\u00f3rios "
-        },
+        "done": {},
         "on": false,
         "tasks_sum": {
             "e263f569-5298-4a23-8e95-365bb0aef5e5": [
@@ -4912,7 +4790,7 @@
                 0
             ],
             "49cddbbf-7934-4669-ab8a-c54e2ba3a55d": [
-                6,
+                0,
                 0,
                 0,
                 0
@@ -4927,14 +4805,7 @@
         "meta": "Orienta\u00e7\u00e3o a Objetos - T03",
         "user_id": "9e917be8-c738-49e2-a35b-5c4b260b4fb2",
         "permissions": [],
-        "done": {
-            "2b7e9b72-77e3-42c3-a71a-cd798f162d99": "Usando o termo def, o nome do m\u00e9todo, os par\u00e2metros, e um s\u00edmbolo dois pontos (:)",
-            "0j0e29bc-0a63-45be-9eb2-b5f441fe4294": "O m\u00e9todo __str__ \u00e9 chamado quando se imprime um objeto.",
-            "2l2a58af-b98c-4b27-a71b-f4f9a25f8824": "\u00c9 o princ\u00edpio que diz que uma classe pode apresentar partes de outas classes em sua composi\u00e7\u00e3o.",
-            "5e29b53a-d77e-4339-9e56-bc9a4a7e674b": "\u00c9 um m\u00e9todo que est\u00e1 conectado a uma classe em vez de uma inst\u00e2ncia, logo, pode ser chamado sem criar um objeto.",
-            "c76e813c-7e90-4c7e-a9de-2e9e843276b1": "\u00c9 um conjunto de atributos e m\u00e9todos determinados por uma classe.",
-            "4n4c2e4b-1c7a-41d6-802d-e58f33b7389e": "O m\u00e9todo \u00e9 chamado ao usar a express\u00e3o repr()\\nEste m\u00e9todo \u00e9 usado para retornar uma string com informa\u00e7\u00f5es espec\u00edficas sobre um determinado objeto."
-        },
+        "done": {},
         "on": false,
         "tasks_sum": {
             "e263f569-5298-4a23-8e95-365bb0aef5e5": [
@@ -5217,8 +5088,8 @@
         "password": "241025917",
         "tasks": {
             "e263f569-5298-4a23-8e95-365bb0aef5e5": [
-                12,
-                2,
+                0,
+                0,
                 0,
                 0
             ],
@@ -5244,22 +5115,7 @@
         "meta": "Orienta\u00e7\u00e3o a Objetos - T02",
         "user_id": "af520ebb-71be-4691-b3c5-94eb7ab2a77e",
         "permissions": [],
-        "done": {
-            "76e4f32e-bf0e-4072-bdcb-2764a5b2ad2a": "Usado para, ordenar arquivos ou pastas com caracter\u00edsticas desejadas como, ordem alfab\u00e9tica, numeral, entre outras.",
-            "c14135dc-e52e-4b68-9fd5-d84d3c91ec01": "Concede permiss\u00e3o administrativa para executar o c\u00f3digo seguinte.",
-            "b2ae9be5-3543-45ec-8b40-2abbd081e7c0": "Cria um diret\u00f3rio em um local/pasta especificado. $ ",
-            "5c8e436c-29e3-43d4-b3c4-44bc0076ef8e": "Exibir conte\u00fado dentro de um arquivo, ou transportar conte\u00fado de um arquivo para outro.",
-            "8c1f15e5-9f57-4f45-bf9e-1bead6bc15e3": "Vai listar todos os arquivos e/ou pastas de um determinado diret\u00f3rio.",
-            "c81f77e1-89f1-4f73-b79b-4a16be66b7b6": "ao utilizar este comando, a tela do terminal ficar\u00e1 limpa, apagndo todo conte\u00fado, somente visual.",
-            "c160eb54-1a4b-4485-8168-15d9e4eb473d": "Para descompactar um arquivo at\u00e9 determinado grau, a depender do grau de compacta\u00e7\u00e3o.",
-            "74245f75-0d48-4c2c-81f5-2b84c89ab5af": "Exibe as \u00faltimas linhas de um c\u00f3digo, sendo a quantidade determinada pelo usu\u00e1rio, pode ser as 10, 20, 30 \u00faltimas linhas.",
-            "0e9673f5-9e76-4e98-97da-7b1f2e6d0214": "Assim como o tail, exibe um determinado n\u00b0 de linhas do c\u00f3digo, mas a partir da primeira linha. A quantidade deve ser espcificada pelo usu\u00e1rio",
-            "bfe5e015-8d2b-4c8f-b02b-e3b3eb945307": "Pode mudar o diret\u00f3rio que est\u00e1 trabanhando, especificando qual o diret\u00f3rio desejado.",
-            "ff7f12d9-4e4f-49d4-9258-1e80e1e80a7a": "Cria um aquivo no diret\u00f3rio especificado.",
-            "1df2c489-bb57-41a4-9b1e-0f5053371f2a": "Permite transportar um arquivo ou diret\u00f3rio de um sistema para outro atrav\u00e9s de um sistema remoto.",
-            "f32a762b-1cf0-4d29-bec6-8c6be001b0cb": "Basta direcionar o diret[orio desejado com `cd` e depois utilise o `ls`.",
-            "8d6be68e-e1f3-43cf-bb36-5a8317455c5a": "`mv`"
-        },
+        "done": {},
         "on": false,
         "tasks_sum": {
             "e263f569-5298-4a23-8e95-365bb0aef5e5": [
@@ -5356,7 +5212,7 @@
         "password": "232001120",
         "tasks": {
             "e263f569-5298-4a23-8e95-365bb0aef5e5": [
-                20,
+                0,
                 0,
                 0,
                 0
@@ -5383,28 +5239,7 @@
         "meta": "Orienta\u00e7\u00e3o a Objetos - T02",
         "user_id": "f6058c2e-8d9e-4d31-9fb0-abada6d3f666",
         "permissions": [],
-        "done": {
-            "fe3b3cc8-3e74-4b7f-804b-b62c4824fc3f": "\u00e9 utilizado para mostrar os programas em execu\u00e7\u00e3o no sistema",
-            "8c1f15e5-9f57-4f45-bf9e-1bead6bc15e3": "Podemos observar os documentos e arquivos locais ",
-            "b2e44230-1857-46a3-8673-7fb4f49c9c89": "\u00e9 utilizado para compactar arquivos em outros arquivos ou pastas ou at\u00e9 mesmo compactar pastas",
-            "c160eb54-1a4b-4485-8168-15d9e4eb473d": "serve para descompactar arquivos e pastas de diretorios selecionados",
-            "c14135dc-e52e-4b68-9fd5-d84d3c91ec01": "Comando que garante maior acesso a outros recursos do bash, como um modo administrador do linux",
-            "c81f77e1-89f1-4f73-b79b-4a16be66b7b6": "utilizado para limpar todos os comandos anteriores no terminal, no entanto n\u00e3o apaga nada, apenas esconde",
-            "c8e9b6d2-f3b1-4f2e-bd74-ff0f052b58d0": "copiar arquivos de um diretorio de um lugar para outro",
-            "bfe5e015-8d2b-4c8f-b02b-e3b3eb945307": "utilizado para navegar atraves de pastas (diretorios) atraves do terminal",
-            "76e4f32e-bf0e-4072-bdcb-2764a5b2ad2a": "ordena linhas de texto de um arquivo em uma ordem especifica",
-            "83a3e2d7-bdc2-4f3f-b486-550b3f213cf7": "para extrair se\u00e7\u00f5es especificas de um arquivo de texto",
-            "14c0d48c-57c5-408e-bd42-c8b1f4d92c8e": "instalar, remover ou gerenciar pacotes de software",
-            "5c8e436c-29e3-43d4-b3c4-44bc0076ef8e": "le e exibe os textos de um arquivo de texto",
-            "ff7f12d9-4e4f-49d4-9258-1e80e1e80a7a": "cria arquivos vazios ou atualiza data e hora de acessos de modifica\u00e7\u00e3o",
-            "0e9673f5-9e76-4e98-97da-7b1f2e6d0214": "mostra as primeiras 10 linhas de um arquivo selecionado de um arquivo de texto",
-            "9157f08f-3f2c-4e92-a3d1-64304b964d8a": "utilizado como ferramenta de procura dentro de arquivos ou diretorios, funciona como um control + F :)",
-            "b2ae9be5-3543-45ec-8b40-2abbd081e7c0": "utilizado para criar pastas (diretorios)",
-            "73cbe6f1-32bb-4891-a244-fc0de4da5696": "remover arquivos e diretorios",
-            "f497eeb8-1946-48c1-89cb-bd27a5ac3c6b": "permite trocar a permiss\u00e3o de acesso de arquivos e diretorios",
-            "dbe9d95a-6cf4-47c5-b44c-45a66f05107b": "para abrir ou baixar arquivos de web",
-            "8fbcf2a5-b6e3-4c68-915b-d1ee6cf7f6a4": "exibir uma linha de texto ou uma variavel no terminal"
-        },
+        "done": {},
         "on": false,
         "tasks_sum": {
             "e263f569-5298-4a23-8e95-365bb0aef5e5": [
@@ -5563,7 +5398,7 @@
         "password": "231011201",
         "tasks": {
             "e263f569-5298-4a23-8e95-365bb0aef5e5": [
-                2,
+                0,
                 0,
                 0,
                 0
@@ -5590,10 +5425,7 @@
         "meta": "Orienta\u00e7\u00e3o a Objetos - T02",
         "user_id": "7307f8e2-cbac-4fdd-b03a-a1bf7cce6203",
         "permissions": [],
-        "done": {
-            "0e9673f5-9e76-4e98-97da-7b1f2e6d0214": "Exibe as primeiras linhas de um arquivo de texto. Por padr\u00e3o ele mostra as 10 primeiras linhas, mas pode ser especificado um n\u00famero diferente de linhas.",
-            "8c1f15e5-9f57-4f45-bf9e-1bead6bc15e3": "\u00c9 utilizado para listar arquivos e diret\u00f3rios em um diret\u00f3rio espec\u00edfico."
-        },
+        "done": {},
         "on": false,
         "tasks_sum": {
             "e263f569-5298-4a23-8e95-365bb0aef5e5": [
@@ -5628,13 +5460,13 @@
         "password": "241025612",
         "tasks": {
             "e263f569-5298-4a23-8e95-365bb0aef5e5": [
-                9,
+                0,
                 0,
                 0,
                 0
             ],
             "730bb18b-814d-4c6b-aff9-87713d2e61f5": [
-                7,
+                0,
                 0,
                 0,
                 0
@@ -5655,24 +5487,7 @@
         "meta": "Orienta\u00e7\u00e3o a Objetos - T02",
         "user_id": "6a5308e0-103d-4b27-82e9-cde01eeaee28",
         "permissions": [],
-        "done": {
-            "c14135dc-e52e-4b68-9fd5-d84d3c91ec01": "Entrar no modo administrador",
-            "3e7c4f91-b4ac-494f-b0c7-9d94e3a01399": "Comando para transferir dados de ou para um servidor.",
-            "5c8e436c-29e3-43d4-b3c4-44bc0076ef8e": "Exibir, concatenar e criar arquivos.",
-            "b3c93163-b53c-4ab2-9861-65e9f7023994": "Mover ou renomear arquivos e diret\u00f3rios.",
-            "28543be4-f3b7-4143-89d4-c928e539f7d6": "Iniciar uma nova sess\u00e3o no bash e executar scripts bash.",
-            "d27c0f83-bf8b-4a7f-bf35-7c1fbe540b94": "Armazenar dados que podem ser associados de forma \u00fanica e eficiente.",
-            "3b1e4a70-1b02-4ae8-8b02-2463ee6cb40c": "Buscar arquivos e diret\u00f3rios com base em crit\u00e9rios.",
-            "1df2c489-bb57-41a4-9b1e-0f5053371f2a": "Transferir/copiar arquivos e diret\u00f3rios de forma criptografada.",
-            "4f5bde32-b375-4c98-a012-f678923b7f8f": "listas permitem armazenar itens em uma vari\u00e1vel.",
-            "aa4e8c91-2f29-4f8c-9a4f-5b0cdd5f1b91": "Enquanto listas armazenam dados para serem alterados as tuplas armazenam dados para n\u00e3o serem alterados.",
-            "bb0a8398-8a39-4b8d-a6f7-5fc8c6db83c5": "as listas em python servem para armazenar/gerenciar itens.",
-            "e20482bc-62d8-4976-bf4e-d9c8a05be2ec": "A lista \u00e9 definida atrav\u00e9s de colchetes ``[]`` e com itens separados por v\u00edrgula.",
-            "3990cf54-4db7-48f3-bf67-f8d3a3e8b3f6": "Identificar o diret\u00f3rio atual.",
-            "14c0d48c-57c5-408e-bd42-c8b1f4d92c8e": "dpkg serve para instalar, gerencia ou remover pacotes .deb.",
-            "10ec0c3a-b0bc-4c01-ae78-b9a8e27b0a35": "\u00e9 uma informa\u00e7\u00e3o associada a uma chave.",
-            "9d9a98de-4429-4d4e-a49b-09cd0f6b6f82": "Armazenar e organizar dados de forma eficiente"
-        },
+        "done": {},
         "on": false,
         "tasks_sum": {
             "e263f569-5298-4a23-8e95-365bb0aef5e5": [
@@ -5719,7 +5534,7 @@
                 0
             ],
             "49cddbbf-7934-4669-ab8a-c54e2ba3a55d": [
-                14,
+                0,
                 0,
                 0,
                 0
@@ -5734,22 +5549,7 @@
         "meta": "Orienta\u00e7\u00e3o a Objetos - T02",
         "user_id": "cee21de3-957b-4fde-99e9-a3712b102134",
         "permissions": [],
-        "done": {
-            "02f7c360-77d5-4a47-bbd3-334d1e8e52ec": "Serve para defini\u00e7\u00e3o dos par\u00e2metros iniciais. Por exemplo, se uma linha de c\u00f3digo come\u00e7a com def __init__(self,x), por exemplo, espera-se que na pr\u00f3xima linha do c\u00f3digo haja uma defini\u00e7\u00e3o sobre qual valor x representa.",
-            "b54d1d76-d65c-47b8-bc8f-e77f5d08c32c": "\u00c9 um grupo de ``objetos`` com caracter\u00edsticas comuns. Por exemplo: c\u00e3es, gatos e seres humanos s\u00e3o ``objetos`` dentro da classe mam\u00edferos.",
-            "c76e813c-7e90-4c7e-a9de-2e9e843276b1": "O objeto \u00e9 uma inst\u00e2ncia de uma classe. Por exemplo, dentro da classe carro, pode-se ter v\u00e1rios objetos, como HB20, Duster, Spin, C4, Ford Ka etc.",
-            "2l2a58af-b98c-4b27-a71b-f4f9a25f8824": "Quando um objeto \u00e9 essencial para a exist\u00eancia de outro - ou seja, um deles literalmente deixa de existir sem o outro - como uma tela numa televis\u00e3o. Se a televis\u00e3o deixar de existir, a tela tamb\u00e9m vai.",
-            "8h48d2b4-c0a1-4e92-b2e3-261c1e0d357b": "Usando cls ao inv\u00e9s de self no c\u00f3digo",
-            "7gde01c7-e6a5-4e64-b8b6-28e44ab6d89e": "Atributos de inst\u00e2ncia podem variar mesmo em objetos de mesma classe. Por exemplo, se a classe carro tiver um atributo ``marca`` (atributo de classe), cada objeto pode ter um atributo de inst\u00e2ncia diferente, como Toyota, Nissan, Ford etc. ",
-            "9i9b3885-df5f-4d4b-a60e-81aa9c07fbd7": "A interface define quais m\u00e9todos cada classe pode implementar. Por exemplo, uma interface chamada Animais aqu\u00e1ticos faria com que todas as classes que a implementem definam um valor para o m\u00e9todo nadar().",
-            "6p6e5c5e-67f8-4908-9c7c-3b27a8f8a82c": "Self diz respeito \u00e0 inst\u00e2ncia atual de uma classe, enquanto cls se refere \u00e0 pr\u00f3pria classe, e n\u00e3o \u00e0 inst\u00e2ncia",
-            "0t0i9i9h-3c8f-4e56-8c78-499e548f4d41": "Sinaliza se um objeto \u00e9 inst\u00e2ncia de uma classe ou grupo de classes",
-            "9s9h8h8g-4b7c-4f6f-bbf4-b5a3b6f1e028": "Criando uma classe base e depois criando subclasses que herdam caracter\u00edsticas dessa classe base - \u00e9 a aplica\u00e7\u00e3o do conceito de heran\u00e7a, um dos pilares de OO",
-            "3c1a64f0-1b2e-41c5-b36d-e6c08a1a7f43": "\u00c9 uma ``classe-modelo`` que n\u00e3o \u00e9 utilizado para o projeto, mas que permite criar subclasses com caracter\u00edsticas herdadas dela.",
-            "f1d3ff0e-7c7e-48c1-9824-b7ef5d58d85a": "Conceito em OO que permite que objetos de diferentes classes sejam tratados como objetos de uma classe comum (c\u00e3es, gatos e humanos s\u00e3o mam\u00edferos). Desta forma, \u00e9 poss\u00edvel escrever um c\u00f3digo mais gen\u00e9rico e flex\u00edvel e facilita a manuten\u00e7\u00e3o e extens\u00e3o do sistema. ",
-            "d69e2c0a-07c7-46e3-8f43-ea205cb3744d": "O objeto \u00e9 uma inst\u00e2ncia de uma classe. O objeto ``Mobi`` faz parte da classe ``carro``. E a classe re\u00fane objetos com caracter\u00edsticas similares.",
-            "4d885b5f-d3f3-4f7e-a2fc-e1b86d646f73": "Ele \u00e9 usado para chamar um m\u00e9todo da superclasse (classe pai) na subclasse - reutilizando c\u00f3digo da superclasse sem precisar reescrever m\u00e9todos na subclasse."
-        },
+        "done": {},
         "on": false,
         "tasks_sum": {
             "e263f569-5298-4a23-8e95-365bb0aef5e5": [
@@ -5846,8 +5646,8 @@
         "password": "231026330",
         "tasks": {
             "e263f569-5298-4a23-8e95-365bb0aef5e5": [
-                11,
-                8,
+                0,
+                0,
                 0,
                 0
             ],
@@ -5873,27 +5673,7 @@
         "meta": "Orienta\u00e7\u00e3o a Objetos - T02",
         "user_id": "2e0007ed-c127-4780-bcbc-2e740b699c6b",
         "permissions": [],
-        "done": {
-            "c8e9b6d2-f3b1-4f2e-bd74-ff0f052b58d0": "Comando Copy, para copiar o conteudo de alguma coisa em outra",
-            "c81f77e1-89f1-4f73-b79b-4a16be66b7b6": "Limpar a tela do terminal",
-            "b3c93163-b53c-4ab2-9861-65e9f7023994": "mover arquivos em outros diret\u00f3rios",
-            "3c94ac3e-94f3-46b0-8993-7d06b1a775af": "cd..",
-            "02aebc41-55e3-48b8-a0ab-fb19c91a7c5c": "sort",
-            "fe3b3cc8-3e74-4b7f-804b-b62c4824fc3f": "Serve para ver quais processos est\u00e3o sendo executados no computador. Mostra qual usu\u00e1rio executou o programa, hora que o processo foi iniciado.",
-            "02a4650a-d9a4-4189-a69a-10e4554cbb0": "Ele permite com que voc\u00ea crie atalhos para acessar programas mais complexos. Voce cria um ``apelido`` para uma variavel, diretorio, comandos.",
-            "1df2c489-bb57-41a4-9b1e-0f5053371f2a": "\u00c9 um protocolo de rede para transfer\u00eancia de arquivos. Ele \u00e9 baseado no sistema de chave SSH, pode ser para transferir de forma facil e segura entre um local remoto e um host ou entre dois locais remotos. Uma alternativa, para por exemplo, GitHub.",
-            "9157cda2-96f7-4c27-baa4-c72eb184672e": "uniq",
-            "0e9673f5-9e76-4e98-97da-7b1f2e6d0214": "Imprime as primeiras linhas de ou mais arquivos, por padr\u00e3o, ele imprime as 10 primeiras linhas de cada arquivo.",
-            "c14135dc-e52e-4b68-9fd5-d84d3c91ec01": "`super user`, lhe da permissoes especiais $ ",
-            "5c8e436c-29e3-43d4-b3c4-44bc0076ef8e": "originalmente, serve para concatenar arquivos, por\u00e9m, pode ser usado para ler arquivos tbm $ ",
-            "c160eb54-1a4b-4485-8168-15d9e4eb473d": "descompactar arquivos",
-            "b2cb1b0f-1881-44ed-b013-8aecc886aaf9": "ps",
-            "83a3e2d7-bdc2-4f3f-b486-550b3f213cf7": "seleciona partes de um arquivo e exibe o resultado",
-            "16d4c22b-dbd6-4eb1-ae47-68b7f6537a09": "df",
-            "8d6be68e-e1f3-43cf-bb36-5a8317455c5a": "mv",
-            "03cd6531-c6e8-4174-a481-458b88524ed7": "ls -l",
-            "ef515a8a-b20e-4eb6-9d82-0e83a5d38de8": "com o s\u00edmbolo `>` $ "
-        },
+        "done": {},
         "on": false,
         "tasks_sum": {
             "e263f569-5298-4a23-8e95-365bb0aef5e5": [
@@ -5928,7 +5708,7 @@
         "password": "241025523",
         "tasks": {
             "e263f569-5298-4a23-8e95-365bb0aef5e5": [
-                8,
+                0,
                 0,
                 0,
                 0
@@ -5955,16 +5735,7 @@
         "meta": "Orienta\u00e7\u00e3o a Objetos - T02",
         "user_id": "5eaa7d10-6ae7-4c64-aaa6-42584aaffcf0",
         "permissions": [],
-        "done": {
-            "b2ae9be5-3543-45ec-8b40-2abbd081e7c0": "Para criar uma pasta nomeada com o que o usu\u00e1rio digitar logo em seguida deste comando ex: ``mkdir Nova_Pasta`` (mkdir significa make directory)",
-            "b2e44230-1857-46a3-8673-7fb4f49c9c89": "Server para compactar arquivos ou pastas, colocando o nome do arquivo.zip ou pasta.zip e o arquivo a ser compactado logo em seguida.",
-            "bfe5e015-8d2b-4c8f-b02b-e3b3eb945307": "Significa Change Directory, para alterar a pasta em que o terminal est\u00e1 apontando.",
-            "c160eb54-1a4b-4485-8168-15d9e4eb473d": "Serve para descompactar os arquivos, \u00e9 o contr\u00e1rio do zip.",
-            "76e4f32e-bf0e-4072-bdcb-2764a5b2ad2a": "Serve para ordenar as linhas de um determinado arquivo.",
-            "c14135dc-e52e-4b68-9fd5-d84d3c91ec01": "Para conceder privil\u00e9gios de Super Usu\u00e1rio para dar o pr\u00f3ximo comando.",
-            "ff7f12d9-4e4f-49d4-9258-1e80e1e80a7a": "Serve para criar um novo arquivo nomeado com o que o usu\u00e1rio digita ap\u00f3s este comando ex: ~$touch arquivo.txt.",
-            "73cbe6f1-32bb-4891-a244-fc0de4da5696": "significa ``remove`` serve para remover arquivos de uma pasta ou uma pasta vazia com rmdir, para um diret\u00f3rio com subpastas e arquivos, utiliza-se: rm -r nome_do_diret\u00f3rio."
-        },
+        "done": {},
         "on": false,
         "tasks_sum": {
             "e263f569-5298-4a23-8e95-365bb0aef5e5": [
@@ -6061,7 +5832,7 @@
         "password": "241032500",
         "tasks": {
             "e263f569-5298-4a23-8e95-365bb0aef5e5": [
-                18,
+                0,
                 0,
                 0,
                 0
@@ -6088,26 +5859,7 @@
         "meta": "Orienta\u00e7\u00e3o a Objetos - T02",
         "user_id": "139c26f2-d964-4bfe-9ebc-d0efab464ebd",
         "permissions": [],
-        "done": {
-            "bfe5e015-8d2b-4c8f-b02b-e3b3eb945307": "Serve para entrar em um diret\u00f3rio e para mudar de diret\u00f3rios",
-            "8c1f15e5-9f57-4f45-bf9e-1bead6bc15e3": "Serve para listar arquivos e pastas em um diret\u00f3rio ",
-            "b3c93163-b53c-4ab2-9861-65e9f7023994": "Serve para mover ou renomear um arquivo",
-            "c160eb54-1a4b-4485-8168-15d9e4eb473d": "Serve para extrair arquivos de um arquivo ZIP",
-            "0e9673f5-9e76-4e98-97da-7b1f2e6d0214": "Imprime na tela as dez primeiras linhas de um arquivo ",
-            "9157f08f-3f2c-4e92-a3d1-64304b964d8a": "Serve para buscar textos em arquivos",
-            "fe3b3cc8-3e74-4b7f-804b-b62c4824fc3f": "Serve para listar processos que est\u00e3o sendo executados ",
-            "f497eeb8-1946-48c1-89cb-bd27a5ac3c6b": "Serve para alterar as permiss\u00f5es de acesso de arquivos e diret\u00f3rios",
-            "28543be4-f3b7-4143-89d4-c928e539f7d6": "Seve para Iniciar uma se\u00e7\u00e3o no Shell Bash",
-            "b2e44230-1857-46a3-8673-7fb4f49c9c89": "serve para comprimir arquivos e diret\u00f3rios em um \u00fanico arquivo",
-            "8fbcf2a5-b6e3-4c68-915b-d1ee6cf7f6a4": "serve para imprimir texto na tela",
-            "a4f0ec0f-1b25-4452-bd79-0ebff9e2eaa1": "serve para entrar em um editor de texto",
-            "76e4f32e-bf0e-4072-bdcb-2764a5b2ad2a": "Serve para ordenar linhas de texto em um arquivo",
-            "8fc5f623-1b90-49c9-b19e-9a8a440e95ec": "serve para executar scripts de shell",
-            "b2ae9be5-3543-45ec-8b40-2abbd081e7c0": "Serve para criar um novo diret\u00f3rio ",
-            "73cbe6f1-32bb-4891-a244-fc0de4da5696": "Serve para remover um arquivo ou diret\u00f3rio",
-            "dbe9d95a-6cf4-47c5-b44c-45a66f05107b": "Serve para baixar arquivos da internet",
-            "14c0d48c-57c5-408e-bd42-c8b1f4d92c8e": "serve para gerenciar pacotes no sistema de gerenciamento Debian"
-        },
+        "done": {},
         "on": false,
         "tasks_sum": {
             "e263f569-5298-4a23-8e95-365bb0aef5e5": [
@@ -6142,7 +5894,7 @@
         "password": "231027097",
         "tasks": {
             "e263f569-5298-4a23-8e95-365bb0aef5e5": [
-                9,
+                0,
                 0,
                 0,
                 0
@@ -6169,17 +5921,7 @@
         "meta": "Orienta\u00e7\u00e3o a Objetos - T02",
         "user_id": "59f9a4c4-2199-43e5-9a11-fedc0a5ffa1c",
         "permissions": [],
-        "done": {
-            "c8e9b6d2-f3b1-4f2e-bd74-ff0f052b58d0": "copia arquivos e diret\u00f3rios",
-            "8fbcf2a5-b6e3-4c68-915b-d1ee6cf7f6a4": "imprime um texto no terminal",
-            "3e7c4f91-b4ac-494f-b0c7-9d94e3a01399": "Transfere dados",
-            "5c8e436c-29e3-43d4-b3c4-44bc0076ef8e": "cria e combina arquivos de texto",
-            "76e4f32e-bf0e-4072-bdcb-2764a5b2ad2a": "Ordena arquivos em ordem num\u00e9rica ou alfab\u00e9tica",
-            "c160eb54-1a4b-4485-8168-15d9e4eb473d": "extrai arquivos .zip",
-            "02a4650a-d9a4-4189-a69a-10e4554cbb0": "d\u00e1 apelidos a outros comandos",
-            "14c0d48c-57c5-408e-bd42-c8b1f4d92c8e": "gerenciamento de pacotes",
-            "1df2c489-bb57-41a4-9b1e-0f5053371f2a": "copia arquivos de forma segura com criptografia"
-        },
+        "done": {},
         "on": false,
         "tasks_sum": {
             "e263f569-5298-4a23-8e95-365bb0aef5e5": [
@@ -6214,7 +5956,7 @@
         "password": "241025640",
         "tasks": {
             "e263f569-5298-4a23-8e95-365bb0aef5e5": [
-                9,
+                0,
                 0,
                 0,
                 0
@@ -6241,17 +5983,7 @@
         "meta": "Orienta\u00e7\u00e3o a Objetos - T02",
         "user_id": "4804b880-7660-4b37-b8d1-f2926be6ee7e",
         "permissions": [],
-        "done": {
-            "bfe5e015-8d2b-4c8f-b02b-e3b3eb945307": "navegar em diretorios,h\u00e1 varia\u00e7oes de tipos de cd.",
-            "8c1f15e5-9f57-4f45-bf9e-1bead6bc15e3": "serve para listar arquivos e diretorios ,h\u00e3 maneiras diferente de listar",
-            "8fbcf2a5-b6e3-4c68-915b-d1ee6cf7f6a4": "mostrar uma linha de texto ou variavel! parecido com o print do python",
-            "dbe9d95a-6cf4-47c5-b44c-45a66f05107b": "serve para baixar arquivos web! pode ser arquivos html, imagens etc",
-            "02a4650a-d9a4-4189-a69a-10e4554cbb0": "server pra cirar atalhos de comandos no bash,h\u00e1 possibilidade de deixalhos permanentes",
-            "76e4f32e-bf0e-4072-bdcb-2764a5b2ad2a": "servem para ordenar arquivos txt ou da entrada mesmo.tem como escolher como ordenar",
-            "74245f75-0d48-4c2c-81f5-2b84c89ab5af": "exibir ultimas linhas de um arquivo,\u00e9 util para monitorar logs em tempo real,\u00e9 possivel escolher qual linha ir\u00e1 ler",
-            "8fc5f623-1b90-49c9-b19e-9a8a440e95ec": "serve como um interpretador de comandos unix,pode ser usado para executar scripts ou comandos interativos",
-            "3e7c4f91-b4ac-494f-b0c7-9d94e3a01399": "serve para transferir dados de ou para um servirdor ,suporta HTTP,HTTPS,FTP,h\u00e1 maneiras difentes de interagir"
-        },
+        "done": {},
         "on": false,
         "tasks_sum": {
             "e263f569-5298-4a23-8e95-365bb0aef5e5": [
@@ -6348,19 +6080,19 @@
         "password": "232014709",
         "tasks": {
             "e263f569-5298-4a23-8e95-365bb0aef5e5": [
-                7,
+                0,
                 0,
                 0,
                 0
             ],
             "730bb18b-814d-4c6b-aff9-87713d2e61f5": [
-                2,
+                0,
                 0,
                 0,
                 0
             ],
             "49cddbbf-7934-4669-ab8a-c54e2ba3a55d": [
-                5,
+                0,
                 0,
                 0,
                 0
@@ -6375,22 +6107,7 @@
         "meta": "Orienta\u00e7\u00e3o a Objetos - T02",
         "user_id": "3046cebe-765e-4203-a60f-9e9c986e625a",
         "permissions": [],
-        "done": {
-            "c160eb54-1a4b-4485-8168-15d9e4eb473d": "Descompactar arquivos",
-            "c14135dc-e52e-4b68-9fd5-d84d3c91ec01": "Para possibilitar o usu\u00e1rio ter acesso a uma fun\u00e7\u00e3o mais livre dentro do sistema",
-            "2l2a58af-b98c-4b27-a71b-f4f9a25f8824": "Um objeto pode ser feito usando outros objetos.",
-            "6f67ff1f-1057-4d77-bc84-4b3a828ea8e2": "Fun\u00e7\u00e3o que \u00e9 criado dentro da montagem da classe, respons\u00e1vel por atribuir caracter\u00edsticas e funcionalidades que fazem um objeto.",
-            "b3c93163-b53c-4ab2-9861-65e9f7023994": "MoVer ou renomear arquivos e diret\u00f3rios.",
-            "0e9673f5-9e76-4e98-97da-7b1f2e6d0214": "Exibe as primeiras linhas de um arquivo de texto ou da s\u00e1ida de outro comando.",
-            "b2e44230-1857-46a3-8673-7fb4f49c9c89": "Usado para comprimir arquivos e diret\u00f3rios.",
-            "c81f77e1-89f1-4f73-b79b-4a16be66b7b6": "Para limpar oque j\u00e1 foi escrito no terminal.",
-            "76e4f32e-bf0e-4072-bdcb-2764a5b2ad2a": "Ordena linhas de texto em arquivos ou na sa\u00edda de outros comandos no terminal.",
-            "aa4e8c91-2f29-4f8c-9a4f-5b0cdd5f1b91": "A tulpla pode n\u00e3o pode ser mutavel, \u00e9 definida usando par\u00eanteses e queremos usar ela para valores que n\u00e3o querermos alterar. $ J\u00e1 o dicion\u00e1rio pode ser m\u00fatavel, \u00e9 definido usando colchetes e queremos usar ele para valores que podem ser alterados.",
-            "bb0a8398-8a39-4b8d-a6f7-5fc8c6db83c5": "Armazenam cole\u00e7\u00f5es de itens de forma ordenada e mut\u00e1vel. Permite trabalhar com m\u00faltiplos valores em uma \u00fanica vari\u00e1vel.",
-            "a40f64eb-b5ca-4703-ae40-6b1d2f4b227d": "Organiza\u00e7\u00e3o e entendimento de um c\u00f3digo. Tamb\u00e9m evita mais linhas de c\u00f3digos que s\u00e3o evitadas usando encapsulameto",
-            "5e29b53a-d77e-4339-9e56-bc9a4a7e674b": "Um m\u00e9todo que pertence a uma classe, e n\u00e3o a uma inst\u00e2ncia da classe",
-            "5o5d3f79-5b3d-4930-b3ee-b28779f37f5f": "Utilizando o .self, \u00e9 poss\u00edvel acessar os atributos de uma classe dentro do parametro. \u00c9 poss\u00edvel chamar j\u00e1 como inst\u00e2ncia usando (nome da classe que vc atribuiu).{nome dado na montagem da classe}"
-        },
+        "done": {},
         "on": false,
         "tasks_sum": {
             "e263f569-5298-4a23-8e95-365bb0aef5e5": [
@@ -6549,13 +6266,13 @@
         "password": "232014057",
         "tasks": {
             "e263f569-5298-4a23-8e95-365bb0aef5e5": [
-                8,
+                0,
                 0,
                 0,
                 0
             ],
             "730bb18b-814d-4c6b-aff9-87713d2e61f5": [
-                5,
+                0,
                 0,
                 0,
                 0
@@ -6576,21 +6293,7 @@
         "meta": "Orienta\u00e7\u00e3o a Objetos - T02",
         "user_id": "2ea9cb82-cc56-4a2e-80ac-859819d898ab",
         "permissions": [],
-        "done": {
-            "8fc5f623-1b90-49c9-b19e-9a8a440e95ec": "eh usado para executar scripts escritos em linguagem de shell",
-            "76e4f32e-bf0e-4072-bdcb-2764a5b2ad2a": "organizar arquivos em ordem alfabetica ",
-            "b2e44230-1857-46a3-8673-7fb4f49c9c89": "compactar arquivos",
-            "ff7f12d9-4e4f-49d4-9258-1e80e1e80a7a": "para criar arquivos",
-            "83a3e2d7-bdc2-4f3f-b486-550b3f213cf7": "usado para extrair se\u00e7oes especificas de um texto",
-            "3e7c4f91-b4ac-494f-b0c7-9d94e3a01399": "transferir dados entre um cliente e um servidor",
-            "c81f77e1-89f1-4f73-b79b-4a16be66b7b6": "limpar o terminal",
-            "aa4e8c91-2f29-4f8c-9a4f-5b0cdd5f1b91": "listas sao mutaveis e tuplas sao imutaveis",
-            "3b1e4a70-1b02-4ae8-8b02-2463ee6cb40c": "pesquisar arquivos de acordo com criterios",
-            "d27c0f83-bf8b-4a7f-bf35-7c1fbe540b94": "uma cole\u00e7ao de pares chave-valor",
-            "c3a8d5a2-d69d-43e8-aaa6-b7c84f4e2e82": "identificador usado para acessar valores armazenados",
-            "4f5bde32-b375-4c98-a012-f678923b7f8f": "um conjunto de itens armazenados em uma variavel",
-            "e20482bc-62d8-4976-bf4e-d9c8a05be2ec": "um vetor com numeradores sequenciais de seus itens"
-        },
+        "done": {},
         "on": false,
         "tasks_sum": {
             "e263f569-5298-4a23-8e95-365bb0aef5e5": [
@@ -6823,7 +6526,7 @@
                 0
             ],
             "49cddbbf-7934-4669-ab8a-c54e2ba3a55d": [
-                3,
+                0,
                 0,
                 0,
                 0
@@ -6838,11 +6541,7 @@
         "meta": "Orienta\u00e7\u00e3o a Objetos - T02",
         "user_id": "169c083d-0cee-4ce5-bc05-2c34ba0420fb",
         "permissions": [],
-        "done": {
-            "4n4c2e4b-1c7a-41d6-802d-e58f33b7389e": "\u00e9 um jeito de representar uma String, mas de maneira mais detalhada para o melhor entendimento do usu\u00e1rio ",
-            "2l2a58af-b98c-4b27-a71b-f4f9a25f8824": "\u00e9 uma rela\u00e7\u00e3o entre objetos, na qual um n\u00e3o consegue existir sem o outro (ambos seriam destruidos)",
-            "8r8g7g7f-9e69-4a97-b35f-8f76e44c7e9a": "o getter \u00e9 um m\u00e9todo que obtem um valor (protegido ou privado) de uma classe para ser usado no c\u00f3digo, e o setter pode definir ou alterar esse valor"
-        },
+        "done": {},
         "on": false,
         "tasks_sum": {
             "e263f569-5298-4a23-8e95-365bb0aef5e5": [
@@ -6877,7 +6576,7 @@
         "password": "211045178",
         "tasks": {
             "e263f569-5298-4a23-8e95-365bb0aef5e5": [
-                3,
+                0,
                 0,
                 0,
                 0
@@ -6904,11 +6603,7 @@
         "meta": "Orienta\u00e7\u00e3o a Objetos - T02",
         "user_id": "97af14b4-378f-4684-8194-8d2afca322ed",
         "permissions": [],
-        "done": {
-            "c160eb54-1a4b-4485-8168-15d9e4eb473d": "Serve para descomprimir arquivos do tipo .zip",
-            "bfe5e015-8d2b-4c8f-b02b-e3b3eb945307": "O comando serve para voltar ao diret\u00f3rio anterior durante a navega\u00e7\u00e3o entre as pastas ",
-            "ff7f12d9-4e4f-49d4-9258-1e80e1e80a7a": "O comando serve para criar um arquivo de texto. "
-        },
+        "done": {},
         "on": false,
         "tasks_sum": {
             "e263f569-5298-4a23-8e95-365bb0aef5e5": [
@@ -6943,8 +6638,8 @@
         "password": "232005352",
         "tasks": {
             "e263f569-5298-4a23-8e95-365bb0aef5e5": [
-                20,
-                9,
+                0,
+                0,
                 0,
                 0
             ],
@@ -6970,37 +6665,7 @@
         "meta": "Orienta\u00e7\u00e3o a Objetos - T02",
         "user_id": "0bfbce9a-19a4-4ecf-b0f0-7a460391ae2b",
         "permissions": [],
-        "done": {
-            "14c0d48c-57c5-408e-bd42-c8b1f4d92c8e": "\u00c9 um comando usado para gerenciar pacotes Debian",
-            "83a3e2d7-bdc2-4f3f-b486-550b3f213cf7": "Mostra apenas algumas partes de um arquivo na sa\u00edda padr\u00e3o",
-            "ff7f12d9-4e4f-49d4-9258-1e80e1e80a7a": "Cria arquivos vazios e tamb\u00e9m altera a hora e a data de um arquivo/diret\u00f3rio",
-            "28543be4-f3b7-4143-89d4-c928e539f7d6": "Interpreta comandos do sistema Linux",
-            "1df2c489-bb57-41a4-9b1e-0f5053371f2a": "Cria uma c\u00f3pia de seguran\u00e7a de um arquivo/diret\u00f3rio em um computador remoto",
-            "b2e44230-1857-46a3-8673-7fb4f49c9c89": "O comando serve para compacta\u00e7\u00e3o/empacotamento de arquivos ou diret\u00f3rios",
-            "3990cf54-4db7-48f3-bf67-f8d3a3e8b3f6": "Exibe o caminho completo do diret\u00f3rio atual",
-            "0e9673f5-9e76-4e98-97da-7b1f2e6d0214": "O comando imprime as primeiras linhas de um dado arquivo",
-            "c8e9b6d2-f3b1-4f2e-bd74-ff0f052b58d0": "O comando copia um arquivo ou diret\u00f3rio para outro diret\u00f3rio ou outro arquivo.%Ex.: ``cp test.txt /tmp`` ou ``cp -r /test /test2``",
-            "c14135dc-e52e-4b68-9fd5-d84d3c91ec01": "O comando permite a execu\u00e7\u00e3o de comandos e tarefas que seria requisitados por um ``superusu\u00e1rio``",
-            "c758aa80-d685-4e1e-b623-1e635761d912": "cat",
-            "d382b4e7-fcf3-4139-bc6c-0e0a276c35c9": "clear",
-            "9157cda2-96f7-4c27-baa4-c72eb184672e": "uniq",
-            "f32a762b-1cf0-4d29-bec6-8c6be001b0cb": "ls",
-            "c160eb54-1a4b-4485-8168-15d9e4eb473d": "Descompacta arquivos ou diret\u00f3rios",
-            "1f54e3b7-65f8-4e8e-92d3-f60e125ef3e5": "pwd",
-            "e7abf67b-49d5-4344-9ff8-e1e15af7e25a": "bash test.sh",
-            "c3b020c8-1625-4cf6-9774-2ab30e8ef1eb": "mv",
-            "01a5d9cc-98c6-4901-bc3d-bc26783c99cc": "history",
-            "8a9d5280-c1eb-4298-9352-3d32d843b8ef": "cat > arquivoteste.txt",
-            "74245f75-0d48-4c2c-81f5-2b84c89ab5af": "Imprime a \u00faltima linha de um programa",
-            "76e4f32e-bf0e-4072-bdcb-2764a5b2ad2a": "Ordena uma sequ\u00eancia de linhas de forma crescente/decrescente/num\u00e9rica/alfab\u00e9tica",
-            "b2ae9be5-3543-45ec-8b40-2abbd081e7c0": "Cria um diret\u00f3rio",
-            "73cbe6f1-32bb-4891-a244-fc0de4da5696": "Deleta um arquivo",
-            "02a4650a-d9a4-4189-a69a-10e4554cbb0": "Cria ou modifica um apelido para um comando",
-            "9157f08f-3f2c-4e92-a3d1-64304b964d8a": "Pesquisa padr\u00f5es de texto em arquivos/diret\u00f3rios",
-            "8fbcf2a5-b6e3-4c68-915b-d1ee6cf7f6a4": "Exibe um texto na sa\u00edda do terminal ou em um arquivo",
-            "f497eeb8-1946-48c1-89cb-bd27a5ac3c6b": "Altera as permiss\u00f5es de um arquivo ou pasta",
-            "fe3b3cc8-3e74-4b7f-804b-b62c4824fc3f": "Detalha sobre os processos em execu\u00e7\u00e3o do sistema operacional"
-        },
+        "done": {},
         "on": false,
         "tasks_sum": {
             "e263f569-5298-4a23-8e95-365bb0aef5e5": [
@@ -7159,7 +6824,7 @@
         "password": "232005405",
         "tasks": {
             "e263f569-5298-4a23-8e95-365bb0aef5e5": [
-                20,
+                0,
                 0,
                 0,
                 0
@@ -7186,28 +6851,7 @@
         "meta": "Orienta\u00e7\u00e3o a Objetos - T02",
         "user_id": "de43c6c3-13ec-44f0-939a-bfa41abae7ed",
         "permissions": [],
-        "done": {
-            "83a3e2d7-bdc2-4f3f-b486-550b3f213cf7": "Serve para cortar trechos da linha de um arquivo de texto",
-            "bfe5e015-8d2b-4c8f-b02b-e3b3eb945307": "serve para navegar entre diret\u00f3rios. Posso usar cd /, cd .., posso usar o cd para mudar para um diret\u00f3rio espec\u00edfico, cd ~ (home)...",
-            "3e7c4f91-b4ac-494f-b0c7-9d94e3a01399": "transferir dados e fazer requisi\u00e7\u00f5es web",
-            "c160eb54-1a4b-4485-8168-15d9e4eb473d": "Serve para descompactar arquivos",
-            "c81f77e1-89f1-4f73-b79b-4a16be66b7b6": "serve para limpar o terminal",
-            "74245f75-0d48-4c2c-81f5-2b84c89ab5af": "Tail exibe as ultimas linhas de um arquivo de texto. \u00c9 \u00fatil para monitorar logs",
-            "f497eeb8-1946-48c1-89cb-bd27a5ac3c6b": "o comando chmod serve para dar permiss\u00f5es para os tipos de usu\u00e1rios e v\u00e1rios tipos de permiss\u00f5es diferentes, da\u00ed varia de acordo com a letra e n\u00famero",
-            "14c0d48c-57c5-408e-bd42-c8b1f4d92c8e": "Refere-se ao gereciamento de arquivos relacionados a distribui\u00e7\u00f5es linux baseadas em debian",
-            "28543be4-f3b7-4143-89d4-c928e539f7d6": "O comando bash serve para voc\u00ea conseguir trocar o shell para bash, caso esteja um sh ou zsh",
-            "3990cf54-4db7-48f3-bf67-f8d3a3e8b3f6": "exibe em qual diret\u00f3rio voc\u00ea est\u00e1 no momento",
-            "dbe9d95a-6cf4-47c5-b44c-45a66f05107b": "\u00c9 uma ferramenta para fazer e automatizar downloads da internet",
-            "02a4650a-d9a4-4189-a69a-10e4554cbb0": "Com o alias eu posso propor um nome personalizado para um comando, tornando mais f\u00e1cil de lembrar, ent\u00e3o \u00e9 um atalho personalizado para comandos",
-            "c14135dc-e52e-4b68-9fd5-d84d3c91ec01": "\u00c9 uma forma de executar comandos com permiss\u00e3o de admnistrador de forma f\u00e1cil, sem precisar ficar logando toda hora.",
-            "b3c93163-b53c-4ab2-9861-65e9f7023994": "Serve para mover arquivos",
-            "b2ae9be5-3543-45ec-8b40-2abbd081e7c0": "Criar um novo diret\u00f3rio",
-            "3b1e4a70-1b02-4ae8-8b02-2463ee6cb40c": "Serve para localizar arquivos e diret\u00f3rios, podendo filtrar por crit\u00e9rios.",
-            "8fbcf2a5-b6e3-4c68-915b-d1ee6cf7f6a4": "Exibe mensagens, valores... \u00e9 um print que exibe as coisas no terminal",
-            "8fc5f623-1b90-49c9-b19e-9a8a440e95ec": "Com o comando sh eu consigo criar um script que pode me ajudar automatizar tarefas. Ao inv\u00e9s de eu escrever varios comandos toda vez que eu for trabalhar, posso criar um script que pode conter todos esses comandos, e vai facilitar muito minha rotina",
-            "9157f08f-3f2c-4e92-a3d1-64304b964d8a": "\u00c9 uma ferramenta que eu posso usar palavras, express\u00f5es regulares para filtrar texto em arquivos",
-            "a4f0ec0f-1b25-4452-bd79-0ebff9e2eaa1": "\u00c9 um editor de texto altamente configur\u00e1vel mas que n\u00e3o chega a ser uma IDE por algumas funcionalidades de depura\u00e7\u00e3o que tem no vscode e sublime por exemplo. E ele opera principalmente no terminal"
-        },
+        "done": {},
         "on": false,
         "tasks_sum": {
             "e263f569-5298-4a23-8e95-365bb0aef5e5": [
@@ -7304,7 +6948,7 @@
         "password": "211031440",
         "tasks": {
             "e263f569-5298-4a23-8e95-365bb0aef5e5": [
-                9,
+                0,
                 0,
                 0,
                 0
@@ -7331,17 +6975,7 @@
         "meta": "Orienta\u00e7\u00e3o a Objetos - T02",
         "user_id": "c8e8201f-b623-4df2-a5f6-f570be85c078",
         "permissions": [],
-        "done": {
-            "dbe9d95a-6cf4-47c5-b44c-45a66f05107b": "Baixa arquivos da internet.",
-            "0e9673f5-9e76-4e98-97da-7b1f2e6d0214": "Mostra as primeiras linhas de um arquivo. $ ",
-            "74245f75-0d48-4c2c-81f5-2b84c89ab5af": "Exibe as ultimas linhas de um arquivo.",
-            "8c1f15e5-9f57-4f45-bf9e-1bead6bc15e3": "lista arquivos do diret\u00f3rio",
-            "bfe5e015-8d2b-4c8f-b02b-e3b3eb945307": "Altera o diret\u00f3rio para outro diret\u00f3rio.",
-            "c81f77e1-89f1-4f73-b79b-4a16be66b7b6": "limpa a tela do terminal.",
-            "02a4650a-d9a4-4189-a69a-10e4554cbb0": "Cria um nome alternativo para um comando.",
-            "3990cf54-4db7-48f3-bf67-f8d3a3e8b3f6": "exibe o diret\u00f3rio atual",
-            "b2ae9be5-3543-45ec-8b40-2abbd081e7c0": "Cria um novo diret\u00f3rio."
-        },
+        "done": {},
         "on": false,
         "tasks_sum": {
             "e263f569-5298-4a23-8e95-365bb0aef5e5": [
@@ -7376,7 +7010,7 @@
         "password": "232038442",
         "tasks": {
             "e263f569-5298-4a23-8e95-365bb0aef5e5": [
-                29,
+                0,
                 0,
                 0,
                 0
@@ -7403,37 +7037,7 @@
         "meta": "Orienta\u00e7\u00e3o a Objetos - T02",
         "user_id": "d60d1b12-c2fa-43ed-9d60-9caf05fdeecb",
         "permissions": [],
-        "done": {
-            "3990cf54-4db7-48f3-bf67-f8d3a3e8b3f6": "exibe o diret\u00f3rio atual",
-            "8c1f15e5-9f57-4f45-bf9e-1bead6bc15e3": "listar os arquivos do computador",
-            "83a3e2d7-bdc2-4f3f-b486-550b3f213cf7": "extrair se\u00e7\u00f5es especificas de cada linha de um arquivo ou entrada, delimitado",
-            "b2ae9be5-3543-45ec-8b40-2abbd081e7c0": "criar diret\u00f3rio (pasta)",
-            "74245f75-0d48-4c2c-81f5-2b84c89ab5af": "listar os \u00faltimos arquivos de um diret\u00f3rio ou texto",
-            "14c0d48c-57c5-408e-bd42-c8b1f4d92c8e": "gerenciar pacotes de software ",
-            "76e4f32e-bf0e-4072-bdcb-2764a5b2ad2a": "ordenar linhas de texto do arquivo ou entrada padr\u00e3o",
-            "fe3b3cc8-3e74-4b7f-804b-b62c4824fc3f": "observar os processos em execu\u00e7\u00e3o no sistema",
-            "1df2c489-bb57-41a4-9b1e-0f5053371f2a": "usando conex\u00e3o ssh, serve para copiar arquivos ou diret\u00f3rios de outro computador pela rede de forma segura",
-            "8fc5f623-1b90-49c9-b19e-9a8a440e95ec": "executa scripts de shell",
-            "9157f08f-3f2c-4e92-a3d1-64304b964d8a": "busca e filtra texto em arquivos ou sa\u00eddas em outros comando",
-            "bfe5e015-8d2b-4c8f-b02b-e3b3eb945307": "move-se entre os diret\u00f3rios",
-            "0e9673f5-9e76-4e98-97da-7b1f2e6d0214": "visualiza as primeiras linhas de texto de arquivos ",
-            "ff7f12d9-4e4f-49d4-9258-1e80e1e80a7a": "criar arquivo",
-            "c160eb54-1a4b-4485-8168-15d9e4eb473d": "descompactar arquivos",
-            "c14135dc-e52e-4b68-9fd5-d84d3c91ec01": "pedir permiss\u00e3o de administrador, entrar no root",
-            "5c8e436c-29e3-43d4-b3c4-44bc0076ef8e": "ler, exibir e concatenar arquivos",
-            "c81f77e1-89f1-4f73-b79b-4a16be66b7b6": "limpar o terminal",
-            "b3c93163-b53c-4ab2-9861-65e9f7023994": "mover arquivo para outros diret\u00f3rios",
-            "b2e44230-1857-46a3-8673-7fb4f49c9c89": "compactar arquivos e diret\u00f3rios",
-            "a4f0ec0f-1b25-4452-bd79-0ebff9e2eaa1": "editor de texto do linux",
-            "c8e9b6d2-f3b1-4f2e-bd74-ff0f052b58d0": "copia arquivos",
-            "8fbcf2a5-b6e3-4c68-915b-d1ee6cf7f6a4": "exibe mensagens ou conte\u00fado nas vari\u00e1veis no terminal",
-            "3b1e4a70-1b02-4ae8-8b02-2463ee6cb40c": "procurar arquivo",
-            "28543be4-f3b7-4143-89d4-c928e539f7d6": "iniciar nova sess\u00e3o ou subshell interpretador de bash",
-            "3e7c4f91-b4ac-494f-b0c7-9d94e3a01399": "transferir dados da internet usando v\u00e1rios protocolos, links",
-            "f497eeb8-1946-48c1-89cb-bd27a5ac3c6b": "trocar a permiss\u00e3o de diret\u00f3rios ou arquivos, moderador",
-            "02a4650a-d9a4-4189-a69a-10e4554cbb0": "criar atalhos ou sequ\u00eancias de comandos",
-            "73cbe6f1-32bb-4891-a244-fc0de4da5696": "deleta arquivos"
-        },
+        "done": {},
         "on": false,
         "tasks_sum": {
             "e263f569-5298-4a23-8e95-365bb0aef5e5": [
@@ -7530,7 +7134,7 @@
         "password": "222006490",
         "tasks": {
             "e263f569-5298-4a23-8e95-365bb0aef5e5": [
-                7,
+                0,
                 0,
                 0,
                 0
@@ -7557,15 +7161,7 @@
         "meta": "Orienta\u00e7\u00e3o a Objetos - T02",
         "user_id": "de14b4e2-350a-4c5f-9a45-7d4a22dd735b",
         "permissions": [],
-        "done": {
-            "8c1f15e5-9f57-4f45-bf9e-1bead6bc15e3": "Listar conte\u00fados(pastas e arquivos) do diret\u00f3rio atual.",
-            "c81f77e1-89f1-4f73-b79b-4a16be66b7b6": "Limpar terminal.",
-            "c160eb54-1a4b-4485-8168-15d9e4eb473d": "Extrair pastas compactadas no diret\u00f3rio atual.",
-            "b2ae9be5-3543-45ec-8b40-2abbd081e7c0": "Criar uma nova pasta no diret\u00f3rio atual.",
-            "14c0d48c-57c5-408e-bd42-c8b1f4d92c8e": "Instala\u00e7\u00e3o e gerenciamento de pacotes Debian.",
-            "b3c93163-b53c-4ab2-9861-65e9f7023994": "Mover arquivo/pasta(primeiro argumento) para diret\u00f3rio existente(segundo argumento). Caso inexistente, renomeia arquivo origem(primeiro argumento) para o nome fornecido no segundo argumento.",
-            "fe3b3cc8-3e74-4b7f-804b-b62c4824fc3f": "Mostra os processos ativos, tendo em conta associa\u00e7\u00e3o a terminal e sess\u00e3o, hierarquia e rela\u00e7\u00e3o em \u00e1rvore, rastreamento e consumo de recursos destes, dependendo da op\u00e7\u00e3o escolhida."
-        },
+        "done": {},
         "on": false,
         "tasks_sum": {
             "e263f569-5298-4a23-8e95-365bb0aef5e5": [
@@ -7600,7 +7196,7 @@
         "password": "241025480",
         "tasks": {
             "e263f569-5298-4a23-8e95-365bb0aef5e5": [
-                28,
+                0,
                 0,
                 0,
                 0
@@ -7618,7 +7214,7 @@
                 0
             ],
             "bc98762b-c01c-4c64-b8b2-5f84fe463c9c": [
-                28,
+                0,
                 0,
                 0,
                 0
@@ -7627,64 +7223,7 @@
         "meta": "Orienta\u00e7\u00e3o a Objetos - T02",
         "user_id": "75dcdd7b-6f66-4400-afc6-1f48d23514b0",
         "permissions": [],
-        "done": {
-            "8c1f15e5-9f57-4f45-bf9e-1bead6bc15e3": "Serve para mostrar arquivos e pastas no diret\u00f3rio atual.",
-            "c14135dc-e52e-4b68-9fd5-d84d3c91ec01": "Serve para executar o comando como root (admin)",
-            "b2ae9be5-3543-45ec-8b40-2abbd081e7c0": "Serve para criar uma pasta no diret\u00f3rio atual.",
-            "c81f77e1-89f1-4f73-b79b-4a16be66b7b6": "Serve para limpar os comandos da janela do terminal.",
-            "73cbe6f1-32bb-4891-a244-fc0de4da5696": "Serve para remover arquivos ou diret\u00f3rios.",
-            "8fc5f623-1b90-49c9-b19e-9a8a440e95ec": "O sh inicia o shell interativo o qual pode executar comandos.",
-            "02a4650a-d9a4-4189-a69a-10e4554cbb0": "Serve para \u201crenomear\u201d um comando, criar uma esp\u00e9cie de atalho para um comando.",
-            "3e7c4f91-b4ac-494f-b0c7-9d94e3a01399": "\u00c9 um comando que permite a transfer\u00eancia de dados entre servidores.",
-            "b3c93163-b53c-4ab2-9861-65e9f7023994": "Serve para mover arquivos.",
-            "b2e44230-1857-46a3-8673-7fb4f49c9c89": "Serve para comprimir arquivos.",
-            "f0e01d1a-b36c-4795-9d3a-63de9ca0573b": "Serve para receber um \u201cmanual\u201d de um comando.",
-            "5b7d7b58-e1de-4c34-a009-2256d1d7e535": "Serve para salvar um arquivo (write, w) e logo em seguida fechar o vim (quit, q)",
-            "eb3d5c94-b90b-41f7-a2ee-9a1415cbd641": "Serve para entrar no modo de inser\u00e7\u00e3o de texto, e insere o texto onde o cursor est\u00e1 localizado",
-            "e303d2cb-6b2d-45c7-b44f-17b27963df1b": "Serve para desfazer a mudan\u00e7a mais atual.",
-            "a8db4b37-23e3-4b06-9f4e-e87f07da80d5": "Executa um certo comando em todos os buffers e janelas.",
-            "d5caa91c-9053-4a2d-9b5d-5a44c1941ca1": "Serve para entrar no modo de inser\u00e7\u00e3o de texto e automaticamente coloca o cursor no final da linha.",
-            "5a63f092-7f26-4a68-8263-eacff894ab67": "Serve para ir para uma linha especifica do c\u00f3digo, caso n\u00e3o haja argumento ele automaticamente vai para a primeira linha.",
-            "bfe5e015-8d2b-4c8f-b02b-e3b3eb945307": "Serve para navegar entre diret\u00f3rios.",
-            "ff7f12d9-4e4f-49d4-9258-1e80e1e80a7a": "Serve para criar um arquivo novo.",
-            "83a3e2d7-bdc2-4f3f-b486-550b3f213cf7": "Serve para remover se\u00e7\u00f5es de cada linha de um arquivo.",
-            "c160eb54-1a4b-4485-8168-15d9e4eb473d": "Serve para descompactar um arquivo previamente compactado.",
-            "e2c39bc0-dcd0-4b34-9198-7898682853a2": "O comando syntax permite ao vim exibir partes de um texto em outras cores, por exemplo, comandos, fun\u00e7\u00f5es etc. Ao dar o argumento off, tal ferramenta \u00e9 desligada.",
-            "e3c5016d-407f-418e-bbd5-d2fd78274507": "Serve para entrar no modo de inser\u00e7\u00e3o de texto e cria uma nova linha acima do cursor.",
-            "d604d0ed-3be1-4055-b83b-2514fce9cb4e": "Serve para entrar no modo de inser\u00e7\u00e3o de texto e cria uma nova linha abaixo do cursor.",
-            "ddc9c07b-645b-4268-a03c-4e02d907b8a5": "Serve para apagar o caractere onde o cursor est\u00e1 localizado.",
-            "f7c362f0-e51c-4944-8373-bbb2e7c1d98a": "Serve para executar um comando no terminal.",
-            "d29392be-17c5-4d80-b9f3-e89a64b00326": "Serve para deletar uma linha.",
-            "4916e620-6f58-4299-bb4e-bf17733b51e8": "Serve para ligar o syntax highlighting, que permite ao vim a dar cores ao texto, por exemplo a fun\u00e7\u00f5es, etc",
-            "66d1d4e5-5b9e-4906-b26a-03b7e8f6e6f7": "Serve para colar texto, copiado por y ou yy.",
-            "48f1cf06-1214-49f7-90c6-efb50ffb8b56": "Serve para copiar linhas.",
-            "cdffb1e8-e9b5-4098-a3af-885b768635d0": "Esse comando ir\u00e1 substituir (:s) todas as inst\u00e2ncias (/g) das palavras \u201cpalavra\u201d por \u201cnova_palavra\u201d em todo o arquivo (%)",
-            "28543be4-f3b7-4143-89d4-c928e539f7d6": "Serve para iniciar o shell bash.",
-            "ec8fbbbe-4049-4678-92d2-942d7fef56c0": "O comando e serve para ir ao fim da pr\u00f3xima palavra.",
-            "e3c5016d-407f-418e-bbd5-d2fd78274508": "Serve para mostrar a numera\u00e7\u00e3o das linhas a esquerda do editor.",
-            "14c0d48c-57c5-408e-bd42-c8b1f4d92c8e": "Serve para gerenciar pacotes em distros baseadas em Debian",
-            "74245f75-0d48-4c2c-81f5-2b84c89ab5af": "Imprime as ultimas 10 linhas de um c\u00f3digo.",
-            "0e9673f5-9e76-4e98-97da-7b1f2e6d0214": "Serve para imprimir os 10 primeiras linhas de um arquivo.",
-            "f497eeb8-1946-48c1-89cb-bd27a5ac3c6b": "\u00c9 usado para alterar permiss\u00f5es de arquivo e diret\u00f3rio (escrever, ler, etc)",
-            "fe3b3cc8-3e74-4b7f-804b-b62c4824fc3f": "Serve para visualizar processos na maquina.",
-            "dbe9d95a-6cf4-47c5-b44c-45a66f05107b": "Serve para baixar arquivos da internet.",
-            "3b1e4a70-1b02-4ae8-8b02-2463ee6cb40c": "Serve para procurar arquivos em uma arvore de diret\u00f3rios.",
-            "e437bd51-5110-49dc-897e-cbc09bce2236": "Serve para salvar as mudan\u00e7as efetuadas em um arquivo.",
-            "f98db35a-6c34-4694-babc-6a1f90f8798d": "Serve para inserir texto no arquivo, escrever nele.",
-            "f79dc5b3-1234-4b70-8de5-589194a2c9e8": "Ele entra no modo visual e seleciona toda a linha.",
-            "e48a8a51-e69e-44ea-8c4a-f7008eb06f2b": "Serve para entrar no modo visual e selecionar um bloco.",
-            "12a2191e-78d5-43a6-92c3-c5d303d7a345": "Serve para substituir o caractere atual por outro.",
-            "0a97f779-68a2-4583-85be-5d4d19f8be4f": "Serve para sair do vim, sem salvar.",
-            "c8e9b6d2-f3b1-4f2e-bd74-ff0f052b58d0": "Serve para copiar arquivos.",
-            "8fbcf2a5-b6e3-4c68-915b-d1ee6cf7f6a4": "Serve para mostrar uma linha de texto, pode mostrar retorno de comandos, etc.",
-            "20bb0cf6-5d12-4ab4-bb80-9a5af31975cb": "Serve para entrar no modo de inser\u00e7\u00e3o de texto e coloca o cursor antes da primeira linha que n\u00e3o esteja em branco.",
-            "66d1d4e5-5b9e-4906-b26a-03b7e8f6e6f8": "Serve para colar texto (copiado pelo y ou yy) antes do cursor.",
-            "e4606f52-dabe-49c5-8016-c8f4eec4436e": "Serve para dividir a janela atual em duas.",
-            "3990cf54-4db7-48f3-bf67-f8d3a3e8b3f6": "Serve para imprimir o seu diret\u00f3rio atual.",
-            "9157f08f-3f2c-4e92-a3d1-64304b964d8a": "Serve para procurar por linhas que correspondam com um texto, como uma especie de Ctrl-F no windows",
-            "1df2c489-bb57-41a4-9b1e-0f5053371f2a": "Serve para copiar arquivos entre servidores de uma rede.",
-            "76e4f32e-bf0e-4072-bdcb-2764a5b2ad2a": "Serve para organizar/sortear linhas de um arquivo."
-        },
+        "done": {},
         "on": false,
         "tasks_sum": {
             "e263f569-5298-4a23-8e95-365bb0aef5e5": [
@@ -7731,7 +7270,7 @@
                 0
             ],
             "49cddbbf-7934-4669-ab8a-c54e2ba3a55d": [
-                3,
+                0,
                 0,
                 0,
                 0
@@ -7746,11 +7285,7 @@
         "meta": "Orienta\u00e7\u00e3o a Objetos - T02",
         "user_id": "5eefb282-056b-4c00-a908-edf677a93eaf",
         "permissions": [],
-        "done": {
-            "6f67ff1f-1057-4d77-bc84-4b3a828ea8e2": "um metodo de uma classe pode ser entendido de maneira mais simpl\u00f3ria como ``coisas que essa classe pode fazer`` , por exemplo um cachorro pode latir, pular, correr, andar ent\u00e3o na cria\u00e7\u00e3o da classe teria que ser criado um metodo como latir(), correr(), pular(), os metodos tambem podem ser usados nao apenas para definir coisas que algo que faz mas tambem para fazer coisas que tem relevancia apenas para o codigo como uma fun\u00e7\u00e3o show_name(), ou show_age() ",
-            "c76e813c-7e90-4c7e-a9de-2e9e843276b1": "um objeto \u00e9 uma instancia de uma classe, se uma classe \u00e9 como se fosse a ``blueprint`` do que se quer abstrair um cachorro por exemplo seria abstraido para a classe cachorro onde seria definido quais metodos e quais atributos ele teria e ja o objeto seria uma instancia dessa classe  que nem um cachorro chamado ``toto`` ou  ``amarelinho`` onde ele teria os seus atributos definidos para ele em especifico",
-            "1b00d1f3-0a6f-46cb-b4fc-e32b77efc63c": "os atributos de uma classe sao como caracteristicas do objeto que se est\u00e1 abstraindo , entao uma pessoa pode ter atributos como nome, idade, cpf, natalidade etc"
-        },
+        "done": {},
         "on": false,
         "tasks_sum": {
             "e263f569-5298-4a23-8e95-365bb0aef5e5": [
@@ -7785,7 +7320,7 @@
         "password": "231034064",
         "tasks": {
             "e263f569-5298-4a23-8e95-365bb0aef5e5": [
-                10,
+                0,
                 0,
                 0,
                 0
@@ -7797,7 +7332,7 @@
                 0
             ],
             "49cddbbf-7934-4669-ab8a-c54e2ba3a55d": [
-                9,
+                0,
                 0,
                 0,
                 0
@@ -7812,27 +7347,7 @@
         "meta": "Orienta\u00e7\u00e3o a Objetos - T02",
         "user_id": "bf92fb9e-a4a7-4648-a30a-0eebcc45f1f4",
         "permissions": [],
-        "done": {
-            "3990cf54-4db7-48f3-bf67-f8d3a3e8b3f6": "exibe o nome do diret\u00f3rio em que voc\u00ea est\u00e1",
-            "73cbe6f1-32bb-4891-a244-fc0de4da5696": "serve para remover arquivos e pastas.",
-            "1df2c489-bb57-41a4-9b1e-0f5053371f2a": "permite copiar arquivos e diret\u00f3rios com seguran\u00e7a",
-            "83a3e2d7-bdc2-4f3f-b486-550b3f213cf7": "mostra em colunas se\u00e7\u00f5es especificas de um arquivo ou saidas de outros comandos",
-            "b2ae9be5-3543-45ec-8b40-2abbd081e7c0": "criar diret\u00f3rios no sistema",
-            "ff7f12d9-4e4f-49d4-9258-1e80e1e80a7a": "serve para criar arquivos",
-            "5c8e436c-29e3-43d4-b3c4-44bc0076ef8e": "permite criar, exibir e combinar arquivos de texto ",
-            "c14135dc-e52e-4b68-9fd5-d84d3c91ec01": "para receber permiss\u00f5es de super usu\u00e1rio",
-            "dbe9d95a-6cf4-47c5-b44c-45a66f05107b": "permite baixar arquivos de servidores da internet",
-            "a4f0ec0f-1b25-4452-bd79-0ebff9e2eaa1": "\u00e9 um editor de texto",
-            "e8570a9f-8db8-44b2-82ef-4f65e0b08098": "\u00e9 um conceito na qual uma classe herda metodos de outra, exemplo: $  $ class Circle(Point): -> circle herda de point",
-            "1b00d1f3-0a6f-46cb-b4fc-e32b77efc63c": "s\u00e3o caracter\u00edsticas que definem a estrutura e o valor de uma classe.",
-            "2l2a58af-b98c-4b27-a71b-f4f9a25f8824": "\u00c9 quando um objeto possui ou faz parte de outro objeto.",
-            "9i9b3885-df5f-4d4b-a60e-81aa9c07fbd7": "\u00e9 um facilitador de uso de um programa feito usando oirenta\u00e7\u00e3o a objetos",
-            "f1d3ff0e-7c7e-48c1-9824-b7ef5d58d85a": "\u00e9 um  conceito que permite que um mesmo m\u00e9todo possua 2 comportamentos diferentes quando definido em duas classes.",
-            "8h48d2b4-c0a1-4e92-b2e3-261c1e0d357b": "fazendo uma classe abstrata",
-            "0j0e29bc-0a63-45be-9eb2-b5f441fe4294": "fornecer uma representa\u00e7\u00e3o leg\u00edvel de um objeto",
-            "b54d1d76-d65c-47b8-bc8f-e77f5d08c32c": "\u00e9  uma abstra\u00e7\u00e3o de algo real.",
-            "5e29b53a-d77e-4339-9e56-bc9a4a7e674b": "\u00e9 um metodo que n\u00e3o depende de uma inst\u00e2ncia da classe para ser chamado e n\u00e3o tem acesso aos atributos."
-        },
+        "done": {},
         "on": false,
         "tasks_sum": {
             "e263f569-5298-4a23-8e95-365bb0aef5e5": [
@@ -7867,7 +7382,7 @@
         "password": "232046050",
         "tasks": {
             "e263f569-5298-4a23-8e95-365bb0aef5e5": [
-                16,
+                0,
                 0,
                 0,
                 0
@@ -7894,24 +7409,7 @@
         "meta": "Orienta\u00e7\u00e3o a Objetos - T02",
         "user_id": "10f0bc0e-8ba4-4e24-8a16-201f2b7b54b8",
         "permissions": [],
-        "done": {
-            "3990cf54-4db7-48f3-bf67-f8d3a3e8b3f6": "Mostra caminho at\u00e9 o diret\u00f3rio atual",
-            "b2ae9be5-3543-45ec-8b40-2abbd081e7c0": "Criar um diret\u00f3rio",
-            "ff7f12d9-4e4f-49d4-9258-1e80e1e80a7a": "Criar ou editar um arquivo",
-            "b2e44230-1857-46a3-8673-7fb4f49c9c89": "Compactar arquivo",
-            "c81f77e1-89f1-4f73-b79b-4a16be66b7b6": "Limpar terminal",
-            "8fc5f623-1b90-49c9-b19e-9a8a440e95ec": "Executar scripts em shell",
-            "b3c93163-b53c-4ab2-9861-65e9f7023994": "Mover ou renomear arquivo ou pasta",
-            "02a4650a-d9a4-4189-a69a-10e4554cbb0": "Criar atalhos para comandos",
-            "c8e9b6d2-f3b1-4f2e-bd74-ff0f052b58d0": "Copiar um arquivo ou pasta para outro diret\u00f3rio",
-            "f497eeb8-1946-48c1-89cb-bd27a5ac3c6b": "Alterar permiss\u00f5es de arquivos ou diret\u00f3rios",
-            "3e7c4f91-b4ac-494f-b0c7-9d94e3a01399": "Transfer\u00eancia de dados de rede",
-            "83a3e2d7-bdc2-4f3f-b486-550b3f213cf7": "Selecionar e exibir partes espec\u00edficas de um arquivo",
-            "74245f75-0d48-4c2c-81f5-2b84c89ab5af": "Exibir \u00faltimas linhas de um arquivo",
-            "3b1e4a70-1b02-4ae8-8b02-2463ee6cb40c": "Encontrar arquivo dentro de um diret\u00f3rio (find . -name `nome_arquivo`)",
-            "8fbcf2a5-b6e3-4c68-915b-d1ee6cf7f6a4": "Imprimir texto na tela do terminal",
-            "a4f0ec0f-1b25-4452-bd79-0ebff9e2eaa1": "Editar arquivo"
-        },
+        "done": {},
         "on": false,
         "tasks_sum": {
             "e263f569-5298-4a23-8e95-365bb0aef5e5": [
@@ -7946,13 +7444,13 @@
         "password": "232032000",
         "tasks": {
             "e263f569-5298-4a23-8e95-365bb0aef5e5": [
-                18,
+                0,
                 0,
                 0,
                 0
             ],
             "730bb18b-814d-4c6b-aff9-87713d2e61f5": [
-                7,
+                0,
                 0,
                 0,
                 0
@@ -7973,33 +7471,7 @@
         "meta": "Orienta\u00e7\u00e3o a Objetos - T02",
         "user_id": "bd943683-49eb-4b68-b2cd-880feb550232",
         "permissions": [],
-        "done": {
-            "8c1f15e5-9f57-4f45-bf9e-1bead6bc15e3": "Serve para listar o conte\u00fado de um diret\u00f3rio",
-            "ff7f12d9-4e4f-49d4-9258-1e80e1e80a7a": "Serve para criar arquivos vazios ou alterar a data e hora de modifica\u00e7\u00e3o de arquivos existentes (para a atual)",
-            "c14135dc-e52e-4b68-9fd5-d84d3c91ec01": "Serve para usu\u00e1rios comuns poderem executar tarefas espec\u00edficas de privil\u00e9gio de outros usu\u00e1rios",
-            "76e4f32e-bf0e-4072-bdcb-2764a5b2ad2a": "serve para ordenar linhas de arquivos em ordem num\u00e9rica ou alfab\u00e9tica",
-            "14c0d48c-57c5-408e-bd42-c8b1f4d92c8e": "Serve para gerenciar pacotes em sistemas Debian",
-            "c8e9b6d2-f3b1-4f2e-bd74-ff0f052b58d0": "Serve para copiar arquivos para outros arquivos ou diret\u00f3rios",
-            "3990cf54-4db7-48f3-bf67-f8d3a3e8b3f6": "Serve para exibir o diret\u00f3rio de trabalho atual",
-            "3b1e4a70-1b02-4ae8-8b02-2463ee6cb40c": "Serve para localizar arquivos e diret\u00f3rios em um sistema de arquivos",
-            "b3c93163-b53c-4ab2-9861-65e9f7023994": "Serve para mover ou renomear arquivos e diret\u00f3rios",
-            "a4f0ec0f-1b25-4452-bd79-0ebff9e2eaa1": "Serve para abrir um editor de texto",
-            "1df2c489-bb57-41a4-9b1e-0f5053371f2a": "Serve para copiar arquivos de ou para diret\u00f3rios de outro local (computadores remotos)",
-            "fe3b3cc8-3e74-4b7f-804b-b62c4824fc3f": "Serve para exibir uma lista com os processos em execu\u00e7\u00e3o",
-            "73cbe6f1-32bb-4891-a244-fc0de4da5696": "Serve para remover arquivos e diret\u00f3rios",
-            "9157f08f-3f2c-4e92-a3d1-64304b964d8a": "Serve para procurar por padr\u00f5es de texto em arquivos e diret\u00f3rios",
-            "8fbcf2a5-b6e3-4c68-915b-d1ee6cf7f6a4": "Serve para imprimir um texto ou resultado de um comando no terminal",
-            "02a4650a-d9a4-4189-a69a-10e4554cbb0": "Serve para definir apelidos para comandos",
-            "74245f75-0d48-4c2c-81f5-2b84c89ab5af": "Serve para exibir as \u00faltimas 10 linhas de um arquivo",
-            "c3a8d5a2-d69d-43e8-aaa6-b7c84f4e2e82": "\u00c9 o ``nome`` de um atributo, serve para identificar",
-            "83a3e2d7-bdc2-4f3f-b486-550b3f213cf7": "Serve para selecionar partes de um arquivo e exibi-las",
-            "e20482bc-62d8-4976-bf4e-d9c8a05be2ec": "Sequ\u00eancia ordenada de valores separados por v\u00edrgulas e dentro de colchetes",
-            "4f5bde32-b375-4c98-a012-f678923b7f8f": "\u00c9 uma estrutura de dados que armazena uma sequ\u00eancia de valores",
-            "9d9a98de-4429-4d4e-a49b-09cd0f6b6f82": "Servem para armazenar, manipular e acessar informa\u00e7\u00f5es de forma eficiente",
-            "bb0a8398-8a39-4b8d-a6f7-5fc8c6db83c5": "Servem para armazenar e organizar dados",
-            "d27c0f83-bf8b-4a7f-bf35-7c1fbe540b94": "\u00c9 uma estrutura de dados que armazena pares de chave-valor, similar a um banco de dados",
-            "10ec0c3a-b0bc-4c01-ae78-b9a8e27b0a35": "\u00c9 o pr\u00f3prio dado ou a informa\u00e7\u00e3o associada a uma chave"
-        },
+        "done": {},
         "on": false,
         "tasks_sum": {
             "e263f569-5298-4a23-8e95-365bb0aef5e5": [
@@ -8096,19 +7568,19 @@
         "password": "232014404",
         "tasks": {
             "e263f569-5298-4a23-8e95-365bb0aef5e5": [
-                17,
+                0,
                 0,
                 0,
                 0
             ],
             "730bb18b-814d-4c6b-aff9-87713d2e61f5": [
-                1,
+                0,
                 0,
                 0,
                 0
             ],
             "49cddbbf-7934-4669-ab8a-c54e2ba3a55d": [
-                6,
+                0,
                 0,
                 0,
                 0
@@ -8123,32 +7595,7 @@
         "meta": "Orienta\u00e7\u00e3o a Objetos - T02",
         "user_id": "28161d8c-1466-414d-960a-b66e1233e588",
         "permissions": [],
-        "done": {
-            "c81f77e1-89f1-4f73-b79b-4a16be66b7b6": "Serve para limpar o terminal ",
-            "ff7f12d9-4e4f-49d4-9258-1e80e1e80a7a": "Serve para criar e atualizar arquivos ",
-            "c160eb54-1a4b-4485-8168-15d9e4eb473d": "Serve para descompactar os arquivos ",
-            "8r8g7g7f-9e69-4a97-b35f-8f76e44c7e9a": "Getter \u00e9 um m\u00e9todo que retorna um valor de um atributo para exibi\u00e7\u00e3o. Setter \u00e9 um m\u00e9todo usado para definir ou alterar o valor de um atributo",
-            "5o5d3f79-5b3d-4930-b3ee-b28779f37f5f": "Instanciando a classe e colocando um ponto para acessar o atributo se for p\u00fablico. Os atributos privados n\u00e3o s\u00e3o poss\u00edveis de serem acessados fora da classe, somente se manipular de forma controlada com getters e setters. Os atributos protegidos s\u00e3o acess\u00edveis externamente s\u00f3 que s\u00e3o indicados para somente uso interno da classe e de suas subclasses  ",
-            "e8570a9f-8db8-44b2-82ef-4f65e0b08098": "Todos os m\u00e9todos e atributos da subclasse s\u00e3o herdados da superclasse ",
-            "a40f64eb-b5ca-4703-ae40-6b1d2f4b227d": "Importante para a prote\u00e7\u00e3o dos dados de um objeto e para a manipula\u00e7\u00e3o do mesmo ",
-            "3c1a64f0-1b2e-41c5-b36d-e6c08a1a7f43": "\u00c9 uma classe que serve como base para as outras classes e n\u00e3o pode ser instanciada",
-            "c76e813c-7e90-4c7e-a9de-2e9e843276b1": "\u00c9 uma inst\u00e2ncia de classe ",
-            "74245f75-0d48-4c2c-81f5-2b84c89ab5af": "Para mostrar as 10(por padr\u00e3o) \u00faltimas linhas ",
-            "0e9673f5-9e76-4e98-97da-7b1f2e6d0214": "Para mostrar as 10(por padr\u00e3o) primeiras linhas",
-            "f497eeb8-1946-48c1-89cb-bd27a5ac3c6b": "Serve para alterar as permiss\u00f5es de arquivos e pastas ",
-            "b3c93163-b53c-4ab2-9861-65e9f7023994": "Serve para mover arquivos e renomear ",
-            "8c1f15e5-9f57-4f45-bf9e-1bead6bc15e3": "Para listar pastas e arquivos ",
-            "14c0d48c-57c5-408e-bd42-c8b1f4d92c8e": "Para instalar, remover e gerenciar pacotes de software no sistema ",
-            "bfe5e015-8d2b-4c8f-b02b-e3b3eb945307": "Para conseguir mudar de pasta",
-            "b2e44230-1857-46a3-8673-7fb4f49c9c89": "Para compactar arquivos e pastaa. ",
-            "c14135dc-e52e-4b68-9fd5-d84d3c91ec01": "Para conseguir utilizar os privil\u00e9gios de um superusuario ",
-            "5c8e436c-29e3-43d4-b3c4-44bc0076ef8e": "Para criar e exibir arquivos ",
-            "76e4f32e-bf0e-4072-bdcb-2764a5b2ad2a": "Para ordenar as linhas de um arquivo ",
-            "aa4e8c91-2f29-4f8c-9a4f-5b0cdd5f1b91": "As listas s\u00e3o mut\u00e1veis e possuem colchetes, enquanto as tuplas s\u00e3o imut\u00e1veis e possuem par\u00eanteses",
-            "83a3e2d7-bdc2-4f3f-b486-550b3f213cf7": "Serve para exibir partes espec\u00edficas de arquivos com texto ou tamb\u00e9m comandos ",
-            "3e7c4f91-b4ac-494f-b0c7-9d94e3a01399": "Serve para requisi\u00e7\u00e3o http e baixar ",
-            "dbe9d95a-6cf4-47c5-b44c-45a66f05107b": "Serve para baixar arquivos da internet "
-        },
+        "done": {},
         "on": false,
         "tasks_sum": {
             "e263f569-5298-4a23-8e95-365bb0aef5e5": [
@@ -8257,7 +7704,7 @@
                 0
             ],
             "49cddbbf-7934-4669-ab8a-c54e2ba3a55d": [
-                6,
+                0,
                 0,
                 0,
                 0
@@ -8272,14 +7719,7 @@
         "meta": "Orienta\u00e7\u00e3o a Objetos",
         "user_id": "a12400ab-ffbb-454f-8025-d919d1b9dcc3",
         "permissions": [],
-        "done": {
-            "8h48d2b4-c0a1-4e92-b2e3-261c1e0d357b": "definindo a classe como abstrata",
-            "1u1j0j0j-7d3c-4e9b-87ef-59b5e6891f1e": "destrutor de classe",
-            "4d885b5f-d3f3-4f7e-a2fc-e1b86d646f73": "e um metodo para chamar metodos da classe superior $ ",
-            "6f67ff1f-1057-4d77-bc84-4b3a828ea8e2": "e um metodo para a classe em si, ao inves de um metodo para instancia",
-            "3c1a64f0-1b2e-41c5-b36d-e6c08a1a7f43": "e uma classe que nao pode ser instanciada",
-            "1b00d1f3-0a6f-46cb-b4fc-e32b77efc63c": "sao variaveis que armazenam dados ou propriedades de uma classe"
-        },
+        "done": {},
         "on": false,
         "tasks_sum": {
             "e263f569-5298-4a23-8e95-365bb0aef5e5": [
@@ -8376,7 +7816,7 @@
         "password": "222008468",
         "tasks": {
             "e263f569-5298-4a23-8e95-365bb0aef5e5": [
-                3,
+                0,
                 0,
                 0,
                 0
@@ -8403,11 +7843,7 @@
         "meta": "Orienta\u00e7\u00e3o a Objetos - T02",
         "user_id": "1d7379b1-6a5d-4a09-91be-1c449a3958eb",
         "permissions": [],
-        "done": {
-            "0e9673f5-9e76-4e98-97da-7b1f2e6d0214": "Mostra o come\u00e7o de um arquivo de texto.",
-            "fe3b3cc8-3e74-4b7f-804b-b62c4824fc3f": "Mostra os programas que est\u00e3o abertos.",
-            "dbe9d95a-6cf4-47c5-b44c-45a66f05107b": "Baixar arquivos da internet pelo terminal."
-        },
+        "done": {},
         "on": false,
         "tasks_sum": {
             "e263f569-5298-4a23-8e95-365bb0aef5e5": [
@@ -8442,7 +7878,7 @@
         "password": "231011248",
         "tasks": {
             "e263f569-5298-4a23-8e95-365bb0aef5e5": [
-                10,
+                0,
                 0,
                 0,
                 0
@@ -8469,18 +7905,7 @@
         "meta": "Orienta\u00e7\u00e3o a Objetos - T02",
         "user_id": "9fbb64f8-6f0b-46be-bd1a-b2f9fd549e6d",
         "permissions": [],
-        "done": {
-            "f497eeb8-1946-48c1-89cb-bd27a5ac3c6b": "o chmod serve para mexer nas permiss\u00f5es dos arquivos e pastas ",
-            "c14135dc-e52e-4b68-9fd5-d84d3c91ec01": "comando para acessar o usu\u00e1rio sudo, e ter acesso a todo o computador%",
-            "b3c93163-b53c-4ab2-9861-65e9f7023994": "ele serve para recortar um documento de um lado para o outro",
-            "c81f77e1-89f1-4f73-b79b-4a16be66b7b6": "ele limpa os comandos feitos antes do  terminal, mas eles ainda podem ser acessados apertando a seta para cima $ ",
-            "5c8e436c-29e3-43d4-b3c4-44bc0076ef8e": "o cat pode criar um arquivo e abri-lo ou pode abrir um outro arquivo antigo",
-            "c160eb54-1a4b-4485-8168-15d9e4eb473d": "ele descompacta um arquivo compactado pelo .zip ",
-            "bfe5e015-8d2b-4c8f-b02b-e3b3eb945307": "cd \u00e9 um comando feito para se locomover dentre os diret\u00f3rios do computador  ",
-            "b2ae9be5-3543-45ec-8b40-2abbd081e7c0": "ele cria um diret\u00f3rio",
-            "83a3e2d7-bdc2-4f3f-b486-550b3f213cf7": "ele \u00e9 usado para mostrar peda\u00e7os espec\u00edficos de arquivos de texto e de outros comandos do terminal",
-            "76e4f32e-bf0e-4072-bdcb-2764a5b2ad2a": "organiza as linhas de um arquivo em uma forma espec\u00edfica"
-        },
+        "done": {},
         "on": false,
         "tasks_sum": {
             "e263f569-5298-4a23-8e95-365bb0aef5e5": [
@@ -8577,13 +8002,13 @@
         "password": "241025766",
         "tasks": {
             "e263f569-5298-4a23-8e95-365bb0aef5e5": [
-                18,
+                0,
                 0,
                 0,
                 0
             ],
             "730bb18b-814d-4c6b-aff9-87713d2e61f5": [
-                8,
+                0,
                 0,
                 0,
                 0
@@ -8604,34 +8029,7 @@
         "meta": "Orienta\u00e7\u00e3o a Objetos - T02",
         "user_id": "edc1fa27-04b3-4558-88ac-bd66458321eb",
         "permissions": [],
-        "done": {
-            "bfe5e015-8d2b-4c8f-b02b-e3b3eb945307": "Altera o diret\u00f3rio de trabalho atual ",
-            "b2e44230-1857-46a3-8673-7fb4f49c9c89": "O comando compacta o arquivo ou pasta selecionada ",
-            "b3c93163-b53c-4ab2-9861-65e9f7023994": "Renomeia o arquivo selecionado ",
-            "5c8e436c-29e3-43d4-b3c4-44bc0076ef8e": "Concatena arquivos ",
-            "3e7c4f91-b4ac-494f-b0c7-9d94e3a01399": "Transfer\u00eancia de conte\u00fados para servidores ",
-            "3b1e4a70-1b02-4ae8-8b02-2463ee6cb40c": "Procura arquivos dentro do computador ",
-            "8fbcf2a5-b6e3-4c68-915b-d1ee6cf7f6a4": "Mostra uma linha de texto no terminal ",
-            "14c0d48c-57c5-408e-bd42-c8b1f4d92c8e": "Gestor de pacotes",
-            "73cbe6f1-32bb-4891-a244-fc0de4da5696": "remove arquivos ou diretorios ",
-            "28543be4-f3b7-4143-89d4-c928e539f7d6": "Um interpretador que executa comandos ",
-            "aa4e8c91-2f29-4f8c-9a4f-5b0cdd5f1b91": "Os valores de uma lista s\u00e3o mut\u00e1veis enquanto as tuplas s\u00e3o imut\u00e1veis",
-            "c81f77e1-89f1-4f73-b79b-4a16be66b7b6": "limpa o terminal ",
-            "c160eb54-1a4b-4485-8168-15d9e4eb473d": "descompacta um arquivo compactado",
-            "74245f75-0d48-4c2c-81f5-2b84c89ab5af": "imprime as ultimas 10 linhas de um arquivo",
-            "4f5bde32-b375-4c98-a012-f678923b7f8f": "s\u00e3o conjuntos de dados armazenados dentro de uma unica variavel ",
-            "e20482bc-62d8-4976-bf4e-d9c8a05be2ec": "list = [ ]",
-            "d27c0f83-bf8b-4a7f-bf35-7c1fbe540b94": "uma cole\u00e7\u00e3o de elementos que possuem um valor $ ",
-            "10ec0c3a-b0bc-4c01-ae78-b9a8e27b0a35": "\u00e9 um valor atribuido a uma chave",
-            "bb0a8398-8a39-4b8d-a6f7-5fc8c6db83c5": "armazenar conteudos e fazer manipula\u00e7\u00f5es com os mesmos",
-            "9d9a98de-4429-4d4e-a49b-09cd0f6b6f82": "guardar um valor atribuido ",
-            "c3a8d5a2-d69d-43e8-aaa6-b7c84f4e2e82": "\u00e9 um objeto no qual \u00e9 atribuido um valor",
-            "a4f0ec0f-1b25-4452-bd79-0ebff9e2eaa1": "funciona como um editor de texto",
-            "76e4f32e-bf0e-4072-bdcb-2764a5b2ad2a": "organiza linhas de um arquivo",
-            "02a4650a-d9a4-4189-a69a-10e4554cbb0": "atribui apelidos para arquivos",
-            "fe3b3cc8-3e74-4b7f-804b-b62c4824fc3f": "mostra informa\u00e7\u00f5es sobre os processos ativos",
-            "f497eeb8-1946-48c1-89cb-bd27a5ac3c6b": "altera os bits de uma pasta"
-        },
+        "done": {},
         "on": false,
         "tasks_sum": {
             "e263f569-5298-4a23-8e95-365bb0aef5e5": [
@@ -8790,13 +8188,13 @@
         "password": "232002664",
         "tasks": {
             "e263f569-5298-4a23-8e95-365bb0aef5e5": [
-                15,
+                0,
                 0,
                 0,
                 0
             ],
             "730bb18b-814d-4c6b-aff9-87713d2e61f5": [
-                1,
+                0,
                 0,
                 0,
                 0
@@ -8817,24 +8215,7 @@
         "meta": "Orienta\u00e7\u00e3o a Objetos - T02",
         "user_id": "8702ec94-6499-4cf6-9fff-150d79d0f4d3",
         "permissions": [],
-        "done": {
-            "8c1f15e5-9f57-4f45-bf9e-1bead6bc15e3": "Serve para listar arquivos e pastas do seu diret\u00f3rio",
-            "f497eeb8-1946-48c1-89cb-bd27a5ac3c6b": "Usado para definir quem pode ler, escrever ou executar um arquivo ou pasta",
-            "b2ae9be5-3543-45ec-8b40-2abbd081e7c0": "Para criar uma pasta",
-            "ff7f12d9-4e4f-49d4-9258-1e80e1e80a7a": "Para criar um arquivo vazio",
-            "83a3e2d7-bdc2-4f3f-b486-550b3f213cf7": "Pode ser usado para manipular e extrair dados no terminal, como se fosse um `replace` (uma fun\u00e7\u00e3o do python)",
-            "c81f77e1-89f1-4f73-b79b-4a16be66b7b6": "Serve para limpar o terminal",
-            "74245f75-0d48-4c2c-81f5-2b84c89ab5af": "Serve para exibir as ultimas linhas de um arquivo de texto",
-            "fe3b3cc8-3e74-4b7f-804b-b62c4824fc3f": "Serve para verificar quais processos est\u00e3o em execu\u00e7\u00e3o no sistema",
-            "73cbe6f1-32bb-4891-a244-fc0de4da5696": "Serve para remover arquivos e diret\u00f3rios",
-            "3e7c4f91-b4ac-494f-b0c7-9d94e3a01399": "Serve para fazer requisi\u00e7\u00f5es a URL`s e transferir dados",
-            "14c0d48c-57c5-408e-bd42-c8b1f4d92c8e": "\u00c9 utilizado na instala\u00e7\u00e3o, na remo\u00e7\u00e3o e no gerenciamento de pacotes espec\u00edficos",
-            "76e4f32e-bf0e-4072-bdcb-2764a5b2ad2a": "\u00c9 usado para manipular e organizar dados em arquivos de texto",
-            "0e9673f5-9e76-4e98-97da-7b1f2e6d0214": "Serve para exibir as primeiras linhas de um arquivo de texto ",
-            "3b1e4a70-1b02-4ae8-8b02-2463ee6cb40c": "Procurar um arquivo ou diret\u00f3rio pelo terminal",
-            "1df2c489-bb57-41a4-9b1e-0f5053371f2a": "Usado para copiar arquivos entre sistemas locais e remotos",
-            "aa4e8c91-2f29-4f8c-9a4f-5b0cdd5f1b91": "Listas s\u00e3o mut\u00e1veis e tuplas s\u00e3o imut\u00e1veis"
-        },
+        "done": {},
         "on": false,
         "tasks_sum": {
             "e263f569-5298-4a23-8e95-365bb0aef5e5": [
@@ -8993,13 +8374,13 @@
         "password": "232013891",
         "tasks": {
             "e263f569-5298-4a23-8e95-365bb0aef5e5": [
-                10,
+                0,
                 0,
                 0,
                 0
             ],
             "730bb18b-814d-4c6b-aff9-87713d2e61f5": [
-                8,
+                0,
                 0,
                 0,
                 0
@@ -9020,26 +8401,7 @@
         "meta": "Orienta\u00e7\u00e3o a Objetos - T02",
         "user_id": "912ebb43-d48a-4875-8097-b2885053274e",
         "permissions": [],
-        "done": {
-            "0e9673f5-9e76-4e98-97da-7b1f2e6d0214": "printar no terminal as primeiras linhas de um arquivo",
-            "9157f08f-3f2c-4e92-a3d1-64304b964d8a": "filtrar/achar em uma lista ou em um arquivo a palavra que voc\u00ea passar, ex. env | grep PATH",
-            "c81f77e1-89f1-4f73-b79b-4a16be66b7b6": "limpar o terminal.",
-            "3990cf54-4db7-48f3-bf67-f8d3a3e8b3f6": "mostra no terminal a localiza\u00e7\u00e3o em que diret\u00f3rio voc\u00ea esta.",
-            "f497eeb8-1946-48c1-89cb-bd27a5ac3c6b": "mudar as de um grupo/usuario permiss\u00f5es para um arquivo/diret\u00f3rio.  +",
-            "8fc5f623-1b90-49c9-b19e-9a8a440e95ec": "executar um script",
-            "bfe5e015-8d2b-4c8f-b02b-e3b3eb945307": "navegar entre os diret\u00f3rios",
-            "74245f75-0d48-4c2c-81f5-2b84c89ab5af": "printar no terminal as \u00faltimas linhas de um arquivo",
-            "aa4e8c91-2f29-4f8c-9a4f-5b0cdd5f1b91": "lista \u00e9 mut\u00e1vel e tuplas s\u00e3o fixas",
-            "4f5bde32-b375-4c98-a012-f678923b7f8f": "\u00e9 estrutura de dados que armazenam uma sequec\u00cancia de valores",
-            "3b1e4a70-1b02-4ae8-8b02-2463ee6cb40c": "pesquisar arquivos de acordo com cr\u00edterios",
-            "1df2c489-bb57-41a4-9b1e-0f5053371f2a": "copiar arquivos de forma segura",
-            "bb0a8398-8a39-4b8d-a6f7-5fc8c6db83c5": "armazenar dados em sequ\u00eancia. ",
-            "c3a8d5a2-d69d-43e8-aaa6-b7c84f4e2e82": "identificador usado para acessar um valor",
-            "d27c0f83-bf8b-4a7f-bf35-7c1fbe540b94": "\u00e9 uma estrutura de dados chave-valor da linguagem.",
-            "10ec0c3a-b0bc-4c01-ae78-b9a8e27b0a35": "\u00e9 o qualquer valor referente a uma chave",
-            "e20482bc-62d8-4976-bf4e-d9c8a05be2ec": "Array",
-            "9d9a98de-4429-4d4e-a49b-09cd0f6b6f82": "Armazenar valores a chave."
-        },
+        "done": {},
         "on": false,
         "tasks_sum": {
             "e263f569-5298-4a23-8e95-365bb0aef5e5": [
@@ -9074,7 +8436,7 @@
         "password": "232003652",
         "tasks": {
             "e263f569-5298-4a23-8e95-365bb0aef5e5": [
-                3,
+                0,
                 0,
                 0,
                 0
@@ -9101,11 +8463,7 @@
         "meta": "Orienta\u00e7\u00e3o a Objetos - T02",
         "user_id": "89f82216-cfe6-4f44-98b2-eeb01220b034",
         "permissions": [],
-        "done": {
-            "c160eb54-1a4b-4485-8168-15d9e4eb473d": "\u00c9 um comando utilizado quando queremos descompactar um arquivo do tipo zip.",
-            "ff7f12d9-4e4f-49d4-9258-1e80e1e80a7a": "Esse comando serve para criar arquivos vazios ou atualizar hora e data de modifica\u00e7\u00f5es do arquivo sem alterar o conte\u00fado existente.",
-            "02a4650a-d9a4-4189-a69a-10e4554cbb0": "Este comando serve para criar comando personalizados para facilitar o trabalho durante o bash atual. $ "
-        },
+        "done": {},
         "on": false,
         "tasks_sum": {
             "e263f569-5298-4a23-8e95-365bb0aef5e5": [
@@ -9140,7 +8498,7 @@
         "password": "180020439",
         "tasks": {
             "e263f569-5298-4a23-8e95-365bb0aef5e5": [
-                1,
+                0,
                 0,
                 0,
                 0
@@ -9167,9 +8525,7 @@
         "meta": "Orienta\u00e7\u00e3o a Objetos - T02",
         "user_id": "a9b4bc35-2cf8-4a2d-9457-fe712a1c1daf",
         "permissions": [],
-        "done": {
-            "0e9673f5-9e76-4e98-97da-7b1f2e6d0214": "mostra no terminal as primeiras linhas de um arquivo"
-        },
+        "done": {},
         "on": false,
         "tasks_sum": {
             "e263f569-5298-4a23-8e95-365bb0aef5e5": [
@@ -9210,7 +8566,7 @@
                 0
             ],
             "730bb18b-814d-4c6b-aff9-87713d2e61f5": [
-                8,
+                0,
                 0,
                 0,
                 0
@@ -9231,16 +8587,7 @@
         "meta": "Orienta\u00e7\u00e3o a Objetos - T02",
         "user_id": "18f086ed-ebbd-4ec0-96f0-586348574200",
         "permissions": [],
-        "done": {
-            "c3a8d5a2-d69d-43e8-aaa6-b7c84f4e2e82": "\u00c9 um identificador \u00fanico, que \u00e9 usado para acessar e armazenar um valor espec\u00edfico contido no dicion\u00e1rio ",
-            "aa4e8c91-2f29-4f8c-9a4f-5b0cdd5f1b91": "Listas s\u00e3o mut\u00e1veis ( podendo alterar seus elementos e acrescentar ou remover outros), j\u00e1 as turmas s\u00e3o imut\u00e1veis",
-            "9d9a98de-4429-4d4e-a49b-09cd0f6b6f82": "Servem para armazenar dados de uma forma mais organizada e de f\u00e1cil acesso",
-            "10ec0c3a-b0bc-4c01-ae78-b9a8e27b0a35": "\u00c9 um dado armazenado em uma determinada chave",
-            "4f5bde32-b375-4c98-a012-f678923b7f8f": "E uma estrutura de dados que armazena uma cole\u00e7\u00e3o ordenada de elementos",
-            "bb0a8398-8a39-4b8d-a6f7-5fc8c6db83c5": "Servem para armazenar, organizar e manipular cole\u00e7\u00f5es de dados de uma forma mais eficiente e flex\u00edvel ",
-            "d27c0f83-bf8b-4a7f-bf35-7c1fbe540b94": "\u00c9 uma estrutura de dados que permite que valores sejam atribu\u00eddos a diferentes chaves e permite um acesso mais organizado e e din\u00e2mico ao conte\u00fado armazenado",
-            "e20482bc-62d8-4976-bf4e-d9c8a05be2ec": "Consiste em uma sequ\u00eancia ordenada de elementos separados por v\u00edrgula e delimitados por colchetes"
-        },
+        "done": {},
         "on": false,
         "tasks_sum": {
             "e263f569-5298-4a23-8e95-365bb0aef5e5": [
@@ -9275,7 +8622,7 @@
         "password": "232021786",
         "tasks": {
             "e263f569-5298-4a23-8e95-365bb0aef5e5": [
-                10,
+                0,
                 0,
                 0,
                 0
@@ -9302,18 +8649,7 @@
         "meta": "Orienta\u00e7\u00e3o a Objetos - T02",
         "user_id": "1a088fab-9d82-4dee-adff-1adc64520574",
         "permissions": [],
-        "done": {
-            "8c1f15e5-9f57-4f45-bf9e-1bead6bc15e3": "Serve para listar arquivos",
-            "76e4f32e-bf0e-4072-bdcb-2764a5b2ad2a": "Serve para ordenar elementos em uma lista em ordem crescente ou decrescente.",
-            "c14135dc-e52e-4b68-9fd5-d84d3c91ec01": "Serve para que usu\u00e1rios comuns tenham privil\u00e9gios de outro usu\u00e1rio e que consigam executar tarefa espec\u00edficas dentro do sistema.",
-            "c81f77e1-89f1-4f73-b79b-4a16be66b7b6": "Serve para limpar o console da tela.",
-            "5c8e436c-29e3-43d4-b3c4-44bc0076ef8e": "\u00c8 usado no linux para exibir,criar e combinar arquivos de textos,mas, n\u00e3o \u00e9 nativo do python.",
-            "dbe9d95a-6cf4-47c5-b44c-45a66f05107b": "Serve para  automatizar o download de arquivos.",
-            "fe3b3cc8-3e74-4b7f-804b-b62c4824fc3f": "serve para obter informa\u00e7\u00f5es detalhada sobre os processos em execu\u00e7\u00e3o do sistema.",
-            "c8e9b6d2-f3b1-4f2e-bd74-ff0f052b58d0": "Ele vai copiara diret\u00f3rios inteiros para outros diret\u00f3rios se voc\u00ea especificar os sinalizadores.",
-            "73cbe6f1-32bb-4891-a244-fc0de4da5696": "Ele serve para remover arquivos e diret\u00f3rios",
-            "3e7c4f91-b4ac-494f-b0c7-9d94e3a01399": "Serve para automatizar o fluxo de trabalho,fazer testes,depura\u00e7\u00e3o e raspagem web."
-        },
+        "done": {},
         "on": false,
         "tasks_sum": {
             "e263f569-5298-4a23-8e95-365bb0aef5e5": [
@@ -9348,13 +8684,13 @@
         "password": "211062105",
         "tasks": {
             "e263f569-5298-4a23-8e95-365bb0aef5e5": [
-                7,
+                0,
                 0,
                 0,
                 0
             ],
             "730bb18b-814d-4c6b-aff9-87713d2e61f5": [
-                3,
+                0,
                 0,
                 0,
                 0
@@ -9375,18 +8711,7 @@
         "meta": "Orienta\u00e7\u00e3o a Objetos - T02",
         "user_id": "fabb71fd-f92e-425e-9cfd-aa49b7d4c4c4",
         "permissions": [],
-        "done": {
-            "c160eb54-1a4b-4485-8168-15d9e4eb473d": "Descompactar um arquivo",
-            "3e7c4f91-b4ac-494f-b0c7-9d94e3a01399": "Manipula\u00e7\u00e3o de URl",
-            "0e9673f5-9e76-4e98-97da-7b1f2e6d0214": "Exibe as primeiras linhas de um arquivo de texto",
-            "c81f77e1-89f1-4f73-b79b-4a16be66b7b6": "Limpa sua tela",
-            "d27c0f83-bf8b-4a7f-bf35-7c1fbe540b94": "Metodo usado para armazenar dados",
-            "02a4650a-d9a4-4189-a69a-10e4554cbb0": "substitui uma palavra por outra cadeia de caracteres",
-            "f497eeb8-1946-48c1-89cb-bd27a5ac3c6b": "trabalhar com permiss\u00f5es",
-            "14c0d48c-57c5-408e-bd42-c8b1f4d92c8e": "Listar arquivos e pacotes n\u00e3o instalados",
-            "aa4e8c91-2f29-4f8c-9a4f-5b0cdd5f1b91": "Listas n\u00e3o s\u00e3o imut\u00e1veis como as tuplas",
-            "bb0a8398-8a39-4b8d-a6f7-5fc8c6db83c5": "Armazenar objetos, permitindo acesso e modifica\u00e7\u00e3o a eles"
-        },
+        "done": {},
         "on": false,
         "tasks_sum": {
             "e263f569-5298-4a23-8e95-365bb0aef5e5": [
@@ -9421,7 +8746,7 @@
         "password": "231026456",
         "tasks": {
             "e263f569-5298-4a23-8e95-365bb0aef5e5": [
-                14,
+                0,
                 0,
                 0,
                 0
@@ -9448,22 +8773,7 @@
         "meta": "Orienta\u00e7\u00e3o a Objetos - T02",
         "user_id": "01a07991-0656-4806-b058-a91adde4ed74",
         "permissions": [],
-        "done": {
-            "f497eeb8-1946-48c1-89cb-bd27a5ac3c6b": "modifica as permiss\u00f5es de leitura, grava\u00e7\u00e3o e execu\u00e7\u00e3o de um arquivo ou diret\u00f3rio",
-            "b2e44230-1857-46a3-8673-7fb4f49c9c89": "compactar arquivos em um arquivo ZIP",
-            "c81f77e1-89f1-4f73-b79b-4a16be66b7b6": "limpar a tela do terminal",
-            "c14135dc-e52e-4b68-9fd5-d84d3c91ec01": "permite executar comandos com privil\u00e9gio de super usu\u00e1rio",
-            "c8e9b6d2-f3b1-4f2e-bd74-ff0f052b58d0": "copiar arquivos ou diret\u00f3rios e seu conte\u00fado",
-            "b2ae9be5-3543-45ec-8b40-2abbd081e7c0": "criar um diret\u00f3rio ou subdiret\u00f3rio",
-            "3b1e4a70-1b02-4ae8-8b02-2463ee6cb40c": "buscar arquivos em diret\u00f3rios",
-            "0e9673f5-9e76-4e98-97da-7b1f2e6d0214": "visualizar as primeiras 10 linha de um texto",
-            "c160eb54-1a4b-4485-8168-15d9e4eb473d": "extrai os arquivos dentro de um arquivo ZIP",
-            "ff7f12d9-4e4f-49d4-9258-1e80e1e80a7a": "alterar o registro de data e hora de arquivos ou pastas",
-            "74245f75-0d48-4c2c-81f5-2b84c89ab5af": "visualizar as 10 ultimas linhas de um texto",
-            "1df2c489-bb57-41a4-9b1e-0f5053371f2a": "transferir arquivos entre um local remoto e um host ou entre dois locais remotos",
-            "02a4650a-d9a4-4189-a69a-10e4554cbb0": "permite o usu\u00e1rio criar atalhos para fun\u00e7\u00f5es de comandos, nome de arquivos ou textos",
-            "b3c93163-b53c-4ab2-9861-65e9f7023994": "mover arquivos"
-        },
+        "done": {},
         "on": false,
         "tasks_sum": {
             "e263f569-5298-4a23-8e95-365bb0aef5e5": [
@@ -9560,7 +8870,7 @@
         "password": "231012002",
         "tasks": {
             "e263f569-5298-4a23-8e95-365bb0aef5e5": [
-                10,
+                0,
                 0,
                 0,
                 0
@@ -9587,18 +8897,7 @@
         "meta": "Orienta\u00e7\u00e3o a Objetos - T02",
         "user_id": "1fda2b66-fbe4-419b-afb7-ad9dc1083de5",
         "permissions": [],
-        "done": {
-            "c81f77e1-89f1-4f73-b79b-4a16be66b7b6": "Ele limpa o terminal.",
-            "bfe5e015-8d2b-4c8f-b02b-e3b3eb945307": "Ele \u00e9 utilizado para navegar entre os diret\u00f3rios do sistema.",
-            "8c1f15e5-9f57-4f45-bf9e-1bead6bc15e3": "Lista as pastas e arquivos de um diret\u00f3rio.",
-            "b2e44230-1857-46a3-8673-7fb4f49c9c89": "Ele \u00e9 utilizado para zipar arquivos.",
-            "28543be4-f3b7-4143-89d4-c928e539f7d6": "Ele \u00e9 interpretador de comandos.",
-            "0e9673f5-9e76-4e98-97da-7b1f2e6d0214": "Utilizado para mostrar as 10  primeiras linhas do c\u00f3digo.",
-            "b2ae9be5-3543-45ec-8b40-2abbd081e7c0": "Cria um diret\u00f3rio no sistema.",
-            "76e4f32e-bf0e-4072-bdcb-2764a5b2ad2a": "Ordenar as listas do texto.",
-            "14c0d48c-57c5-408e-bd42-c8b1f4d92c8e": "Ele \u00e9 um comando utilizado para gerenciar pacotes .deb.",
-            "8fc5f623-1b90-49c9-b19e-9a8a440e95ec": "Ele \u00e9 utilizado para executar scripts no terminal."
-        },
+        "done": {},
         "on": false,
         "tasks_sum": {
             "e263f569-5298-4a23-8e95-365bb0aef5e5": [
@@ -9695,7 +8994,7 @@
         "password": "232014502",
         "tasks": {
             "e263f569-5298-4a23-8e95-365bb0aef5e5": [
-                1,
+                0,
                 0,
                 0,
                 0
@@ -9722,9 +9021,7 @@
         "meta": "Orienta\u00e7\u00e3o a Objetos - T02",
         "user_id": "7389e664-6db9-4e48-96f8-7405a0be4a76",
         "permissions": [],
-        "done": {
-            "8c1f15e5-9f57-4f45-bf9e-1bead6bc15e3": "\u00c9 usado para listar arquivos do diret\u00f3rio Linux, \u00e9 uma ferramenta b\u00e1sica e essencial para visualizar o conte\u00fado das pastas no terminal. "
-        },
+        "done": {},
         "on": false,
         "tasks_sum": {
             "e263f569-5298-4a23-8e95-365bb0aef5e5": [
@@ -9765,7 +9062,7 @@
                 0
             ],
             "730bb18b-814d-4c6b-aff9-87713d2e61f5": [
-                8,
+                0,
                 0,
                 0,
                 0
@@ -9786,16 +9083,7 @@
         "meta": "Orienta\u00e7\u00e3o a Objetos - T02",
         "user_id": "0a06cae5-424d-4c03-a8f1-4a15b0604ead",
         "permissions": [],
-        "done": {
-            "aa4e8c91-2f29-4f8c-9a4f-5b0cdd5f1b91": "As tuplas sao frequentemente usadas para representar colecoes de elementos relacionados, onde a ordem e a imutabilidade sao importantes. As listas sao usadas quando precisa de flexibilidade para modificar o conteudo da colecao.",
-            "4f5bde32-b375-4c98-a012-f678923b7f8f": "As listas sao um tipo de estrutura de dados que permite armazenar uma colecao de itens em uma unica variavel.",
-            "bb0a8398-8a39-4b8d-a6f7-5fc8c6db83c5": "As listas em python servem para armazenar diversos itens em uma unica variavel.",
-            "e20482bc-62d8-4976-bf4e-d9c8a05be2ec": "As listas sao definidas com com colchetes e os valores separados por virgula:  numeros = [1, 2, 3,]",
-            "c3a8d5a2-d69d-43e8-aaa6-b7c84f4e2e82": "Uma chave vai servir para indexar (posicionar) determinado elemento no dicionario.",
-            "d27c0f83-bf8b-4a7f-bf35-7c1fbe540b94": "Um dicionario em python e uma estrutura de dados que permite armazenar valores em pares.",
-            "10ec0c3a-b0bc-4c01-ae78-b9a8e27b0a35": "Os valores de um dicionario representam cada dado ou informacao associado a uma determinada chave.",
-            "9d9a98de-4429-4d4e-a49b-09cd0f6b6f82": "Utilizamos dicionarios para representar estruturas e relacoes que existem na vida real."
-        },
+        "done": {},
         "on": false,
         "tasks_sum": {
             "e263f569-5298-4a23-8e95-365bb0aef5e5": [
@@ -9830,19 +9118,19 @@
         "password": "231026993",
         "tasks": {
             "e263f569-5298-4a23-8e95-365bb0aef5e5": [
-                25,
+                0,
                 0,
                 0,
                 0
             ],
             "730bb18b-814d-4c6b-aff9-87713d2e61f5": [
-                4,
+                0,
                 0,
                 0,
                 0
             ],
             "49cddbbf-7934-4669-ab8a-c54e2ba3a55d": [
-                9,
+                0,
                 0,
                 0,
                 0
@@ -9857,46 +9145,7 @@
         "meta": "Orienta\u00e7\u00e3o a Objetos - T02",
         "user_id": "d5caf7fb-e101-43ff-a19f-4cab5e3052db",
         "permissions": [],
-        "done": {
-            "8c1f15e5-9f57-4f45-bf9e-1bead6bc15e3": "para listar arquivo e pastas em um diret\u00f3rio ",
-            "b54d1d76-d65c-47b8-bc8f-e77f5d08c32c": "uma abstra\u00e7\u00e3o de qualquer coisa no mundo real ",
-            "f497eeb8-1946-48c1-89cb-bd27a5ac3c6b": "alterar as permiss\u00f5es de arquivo ",
-            "dbe9d95a-6cf4-47c5-b44c-45a66f05107b": "baixar arquivos da web",
-            "1df2c489-bb57-41a4-9b1e-0f5053371f2a": "copiar arquivos e diret\u00f3rios entre dois locais de forma segura ",
-            "7q7f6f51-e5e7-44c2-bef3-b2b4d4b4a6c7": "atributo de classe que \u00e9 calculado dinamicamente ao inv\u00e9s de ser armazenado na mem\u00f3ria ",
-            "c81f77e1-89f1-4f73-b79b-4a16be66b7b6": "limpar a tela do console",
-            "6p6e5c5e-67f8-4908-9c7c-3b27a8f8a82c": "self \u00e9 utilizado para m\u00e9todos de inst\u00e2ncia; $ cls \u00e9 utilizado em m\u00e9todos de classe.",
-            "d69e2c0a-07c7-46e3-8f43-ea205cb3744d": "classe \u00e9 toda abstra\u00e7\u00e3o do mundo real, objeto \u00e9 uma inst\u00e2ncia concreta de uma classe.",
-            "a40f64eb-b5ca-4703-ae40-6b1d2f4b227d": "facilita a manuten\u00e7\u00e3o, protege os dados, controla o acesso, ajuda na reutiliza\u00e7\u00e3o de c\u00f3digo",
-            "5c8e436c-29e3-43d4-b3c4-44bc0076ef8e": "exibir o conte\u00fado de um ou v\u00e1rios arquivos de texto ou anexar os conte\u00fados",
-            "c160eb54-1a4b-4485-8168-15d9e4eb473d": "expandir arquivos ou diret\u00f3rios de arquivos que foram compactados em zip.",
-            "3e7c4f91-b4ac-494f-b0c7-9d94e3a01399": "serve para fazer manipula\u00e7\u00e3o e transfer\u00eancia de url",
-            "c14135dc-e52e-4b68-9fd5-d84d3c91ec01": "obter rapidamente permiss\u00f5es de administrador para executar um desses comandos",
-            "8fbcf2a5-b6e3-4c68-915b-d1ee6cf7f6a4": "exibir mensagens na tela ou em um arquivo",
-            "4f5bde32-b375-4c98-a012-f678923b7f8f": "estrutura de dados que armazena uma sequ\u00eancia de valores",
-            "bb0a8398-8a39-4b8d-a6f7-5fc8c6db83c5": "armazenar informa\u00e7\u00f5es de forma organizada e classificada, para que possam ser usadas depois.",
-            "f1d3ff0e-7c7e-48c1-9824-b7ef5d58d85a": "objetos de diferentes classes sejam tratados de forma uniforme ",
-            "c8e9b6d2-f3b1-4f2e-bd74-ff0f052b58d0": "copiar arquivos e diret\u00f3rios ",
-            "ff7f12d9-4e4f-49d4-9258-1e80e1e80a7a": "atualiza o tempo de acesso e modifica\u00e7\u00e3o de cada arquivo, e cria\u00e7\u00e3o de arquivos vazios",
-            "02a4650a-d9a4-4189-a69a-10e4554cbb0": "comando personalizado para uma sequ\u00eancia de comandos que podemos definir",
-            "b2ae9be5-3543-45ec-8b40-2abbd081e7c0": "criar um novo diret\u00f3rio ou subdiret\u00f3rio",
-            "76e4f32e-bf0e-4072-bdcb-2764a5b2ad2a": "ordenar listas",
-            "3990cf54-4db7-48f3-bf67-f8d3a3e8b3f6": "grava na sa\u00edda padr\u00e3o o nome completo do caminho do diret\u00f3rio atual",
-            "14c0d48c-57c5-408e-bd42-c8b1f4d92c8e": "listar arquivos de pacotes que n\u00e3o est\u00e3o instalados no sistema",
-            "9157f08f-3f2c-4e92-a3d1-64304b964d8a": "procurar padr\u00e3o em arquivo de texto simples",
-            "1b00d1f3-0a6f-46cb-b4fc-e32b77efc63c": "as caracter\u00edsticas que essa classe possui",
-            "6f67ff1f-1057-4d77-bc84-4b3a828ea8e2": "servem para definir um m\u00e9todo que opera na classe, e n\u00e3o em inst\u00e2ncias",
-            "73cbe6f1-32bb-4891-a244-fc0de4da5696": "remove arquivos e diret\u00f3rios",
-            "3c1a64f0-1b2e-41c5-b36d-e6c08a1a7f43": "\u00e9 uma classe especial que n\u00e3o pode ser instanciada, apenas herdada",
-            "b3c93163-b53c-4ab2-9861-65e9f7023994": "move arquivos de um diret\u00f3rio para o outro",
-            "a4f0ec0f-1b25-4452-bd79-0ebff9e2eaa1": "\u00e9 um editor de texto ",
-            "3b1e4a70-1b02-4ae8-8b02-2463ee6cb40c": "para encontrar a primeira ocorr\u00eancia de um valor espec\u00edfico em uma string ",
-            "74245f75-0d48-4c2c-81f5-2b84c89ab5af": "para ler uma parte espec\u00edfica do arquivo",
-            "fe3b3cc8-3e74-4b7f-804b-b62c4824fc3f": "exibir informa\u00e7\u00f5es sobre os processos que est\u00e3o sendo executados na m\u00e1quina",
-            "8fc5f623-1b90-49c9-b19e-9a8a440e95ec": "para automatizar comandos do terminal em, alguns sistemas operacionais",
-            "d27c0f83-bf8b-4a7f-bf35-7c1fbe540b94": "uma cole\u00e7\u00e3o com elementos chave-valor que permite representar melhor o mundo real.",
-            "c3a8d5a2-d69d-43e8-aaa6-b7c84f4e2e82": "uma cole\u00e7\u00e3o com elementos chave-valor que permite representar melhor o mundo real."
-        },
+        "done": {},
         "on": false,
         "tasks_sum": {
             "e263f569-5298-4a23-8e95-365bb0aef5e5": [
@@ -9993,25 +9242,25 @@
         "password": "232005989",
         "tasks": {
             "e263f569-5298-4a23-8e95-365bb0aef5e5": [
-                9,
-                10,
+                0,
+                0,
                 0,
                 0
             ],
             "730bb18b-814d-4c6b-aff9-87713d2e61f5": [
-                8,
-                2,
+                0,
+                0,
                 0,
                 0
             ],
             "49cddbbf-7934-4669-ab8a-c54e2ba3a55d": [
-                8,
+                0,
                 0,
                 0,
                 0
             ],
             "bc98762b-c01c-4c64-b8b2-5f84fe463c9c": [
-                9,
+                0,
                 0,
                 0,
                 0
@@ -10020,54 +9269,7 @@
         "meta": "Orienta\u00e7\u00e3o a Objetos - T02",
         "user_id": "3b60159d-8ee4-414b-9a84-52682491708e",
         "permissions": [],
-        "done": {
-            "9157f08f-3f2c-4e92-a3d1-64304b964d8a": "\u00e9 usado pra buscar texto dentro de arquivos no linux e unix,ele pesquisa por uma string e exibe as linhas que contem esse texto ",
-            "3990cf54-4db7-48f3-bf67-f8d3a3e8b3f6": "\u00e9 usado para exibir o diretorio atual em um sistema de arquivos",
-            "14c0d48c-57c5-408e-bd42-c8b1f4d92c8e": "\u00e9 usado no gerenciamento de pacote de sistema operacional Debian.Permite instalar,remover e gerenciar pacotes .deb ",
-            "02a4650a-d9a4-4189-a69a-10e4554cbb0": "\u00e9 usado para criar atalhos personalizados para outros comandos no terminal,voc\u00ea poder definir um nome mais curto pra um comando complexo ",
-            "3e7c4f91-b4ac-494f-b0c7-9d94e3a01399": "\u00e9 usado pra transferir dados de ou para um servidor como HTTP, HTTPS,FTP ",
-            "b3c93163-b53c-4ab2-9861-65e9f7023994": "\u00e9 usado para mover ou renomear arquivos e diretorios no linux e unix",
-            "bfe5e015-8d2b-4c8f-b02b-e3b3eb945307": "\u00e9 usado para navegar entre diretorios no sistema de arquivos do linux,unix,macOS",
-            "28543be4-f3b7-4143-89d4-c928e539f7d6": "o bash interpreta e executa comandos digitados no terminal , permite a execu\u00e7\u00e3o de scripts",
-            "1df2c489-bb57-41a4-9b1e-0f5053371f2a": "\u00e9 usado para transferir arquivos de forma segura entre maquinas",
-            "10ec0c3a-b0bc-4c01-ae78-b9a8e27b0a35": "cada valor um dicionario \u00e9 associado a uma chave \u00fanica",
-            "e7abf67b-49d5-4344-9ff8-e1e15af7e25a": "abrir o terminal escrever %nano meu_script.sh %echo ``ol\u00e1,mundo``%torna-lo executavel %chmod +x meu_script.sh %usa %./meu_script.sh ",
-            "aa4e8c91-2f29-4f8c-9a4f-5b0cdd5f1b91": "lista \u00e9 mutaveis , mais lentas  $ tuplas \u00e9 imutavel , mais rapidas e ocupam menos memoria ",
-            "9d9a98de-4429-4d4e-a49b-09cd0f6b6f82": "servem para armazenar dados em pares chave-valor",
-            "4f5bde32-b375-4c98-a012-f678923b7f8f": "\u00e9 uma estrutura de dados que permite armazenar um cole\u00e7\u00e3o de intens em uma \u00fanica variavel ",
-            "c3a8d5a2-d69d-43e8-aaa6-b7c84f4e2e82": "chave \u00e9 um identificado \u00fanico usado para acessar valores armazenado na estrutura",
-            "bb0a8398-8a39-4b8d-a6f7-5fc8c6db83c5": "s\u00e3o usados pra manipula\u00e7\u00e3o de dados,acesso por \u00edndice ,itera\u00e7\u00e3o e fatiamento",
-            "d27c0f83-bf8b-4a7f-bf35-7c1fbe540b94": "\u00e9 uma estrutura de dados que armazena dados em pares de chave-valor ",
-            "e20482bc-62d8-4976-bf4e-d9c8a05be2ec": "lista_numeros= [1,2,3,4]",
-            "78835c30-cd09-4914-bc9e-9bdf9f554b3e": "uname exime informa\u00e7\u00e3o sobre o sistema operacional ",
-            "5e29b53a-d77e-4339-9e56-bc9a4a7e674b": "pertence uma  classe, pode chamar sem precissar de um objeto classe",
-            "1u1j0j0j-7d3c-4e9b-87ef-59b5e6891f1e": "serve com destrutor de objetos",
-            "6f67ff1f-1057-4d77-bc84-4b3a828ea8e2": "\u00e9 associado a classe em si",
-            "d382b4e7-fcf3-4139-bc6c-0e0a276c35c9": "uso cls ou clear pra limpar o terminal ",
-            "02f7c360-77d5-4a47-bbd3-334d1e8e52ec": "\u00e9 um construtor chamado pra uma nova instancia de uma classe ",
-            "a40f64eb-b5ca-4703-ae40-6b1d2f4b227d": "pra prote\u00e7\u00e3o de dados,facilidade de manuten\u00e7\u00e3o,controle de acesso",
-            "8h48d2b4-c0a1-4e92-b2e3-261c1e0d357b": "usar construtor privado como __init__ ",
-            "9i9b3885-df5f-4d4b-a60e-81aa9c07fbd7": "\u00e9 um conceito que define um conjunto de m\u00e9todos que uma classe deve implementar",
-            "02aebc41-55e3-48b8-a0ab-fb19c91a7c5c": "usar o comando sort organiza linhas de um arquivo em ordem alfabetica ou numerica ",
-            "c3b020c8-1625-4cf6-9774-2ab30e8ef1eb": "mv \u00e9 um comando multifuncioanl que serve pra mover e renomear o arquivo ",
-            "0t0i9i9h-3c8f-4e56-8c78-499e548f4d41": "verifica se um objeto \u00e9 uma instancia de uma classe ou tupla ",
-            "3c94ac3e-94f3-46b0-8993-7d06b1a775af": "usar comando cd.. que representa o diretorio pai ",
-            "8d6be68e-e1f3-43cf-bb36-5a8317455c5a": "vc pode usar mv pra mover ou renomerar no linux ou macos ",
-            "e3c5016d-407f-418e-bbd5-d2fd78274507": "\u00e9 usado pra abrir uma nova linhas acima atual  e entrar no modo inser\u00e7\u00e3o ",
-            "d604d0ed-3be1-4055-b83b-2514fce9cb4e": "abrir uma nova linha abaixo na linha atual e no modo inser\u00e7\u00e3o ",
-            "d29392be-17c5-4d80-b9f3-e89a64b00326": "\u00e9 utilizado pra deletar a linha onde cursor est\u00e1 ",
-            "5b7d7b58-e1de-4c34-a009-2256d1d7e535": "\u00e9 utilizado para salvar as altera\u00e7\u00f5es feitas no arquivo e sair do editor ",
-            "a8db4b37-23e3-4b06-9f4e-e87f07da80d5": "\u00e9 um comando permite executar comando em todas janelas ou buffers ",
-            "e4606f52-dabe-49c5-8016-c8f4eec4436e": "\u00e9 utilizado para dividir a janela atual em duas partes",
-            "e3c5016d-407f-418e-bbd5-d2fd78274508": "\u00e9 utilizado pra ativar a exibi\u00e7\u00e3o de n\u00fameros de linhas ",
-            "4916e620-6f58-4299-bb4e-bf17733b51e8": "ativar a realce de sintaxe no arquivo que est\u00e1 editando ",
-            "ddc9c07b-645b-4268-a03c-4e02d907b8a5": "\u00e9 utilizado para deletar o caractere sob o cursor na linha atual ",
-            "e61e88f7-d436-4c91-bc80-4a9cd31c32f8": "o comando cat no linux permite que vc visualize conte\u00fado",
-            "f32a762b-1cf0-4d29-bec6-8c6be001b0cb": "usar comando ls \u00e9 usado para listar arquivos e pastas dentro de um diret\u00f3rio ",
-            "03cd6531-c6e8-4174-a481-458b88524ed7": "usar comando ls e -l fornerce uma lista detalhada de arquivos e diretorios ",
-            "0059c1a5-c34c-44e5-bf7b-4d8e5cf182f6": "usar o metodo .remove()",
-            "4c5c4bb1-988f-4b1c-b60c-8c7c1db09f99": "vc pode usar colchetes [] ou fun\u00e7\u00e3o list()"
-        },
+        "done": {},
         "on": false,
         "tasks_sum": {
             "e263f569-5298-4a23-8e95-365bb0aef5e5": [
@@ -10164,13 +9366,13 @@
         "password": "241011626",
         "tasks": {
             "e263f569-5298-4a23-8e95-365bb0aef5e5": [
-                15,
+                0,
                 0,
                 0,
                 0
             ],
             "730bb18b-814d-4c6b-aff9-87713d2e61f5": [
-                1,
+                0,
                 0,
                 0,
                 0
@@ -10191,24 +9393,7 @@
         "meta": "Orienta\u00e7\u00e3o a Objetos - T02",
         "user_id": "1c74941f-8813-44ba-92d8-6680c3be5799",
         "permissions": [],
-        "done": {
-            "73cbe6f1-32bb-4891-a244-fc0de4da5696": "Remove um arquivo",
-            "c81f77e1-89f1-4f73-b79b-4a16be66b7b6": "Limpa o que est\u00e1 escrito no terminal",
-            "83a3e2d7-bdc2-4f3f-b486-550b3f213cf7": "Serve para extrair trechos de linhas ou a pr\u00f3pria saida padr\u00e3o ",
-            "c160eb54-1a4b-4485-8168-15d9e4eb473d": "Serve para descompactar arquivos .zip",
-            "76e4f32e-bf0e-4072-bdcb-2764a5b2ad2a": "Serve para organizar textos com base em par\u00e2metros selecionados pelo usu\u00e1rio",
-            "c14135dc-e52e-4b68-9fd5-d84d3c91ec01": "D\u00e1 permiss\u00f5es de administrador para o comando executado com o sudo",
-            "b2e44230-1857-46a3-8673-7fb4f49c9c89": "Transforma um arquivo ou diret\u00f3rio em .zip",
-            "3e7c4f91-b4ac-494f-b0c7-9d94e3a01399": "Serve para manipular dados de um servidor",
-            "0e9673f5-9e76-4e98-97da-7b1f2e6d0214": "Exibe as primeiras linhas de um arquivo",
-            "aa4e8c91-2f29-4f8c-9a4f-5b0cdd5f1b91": "A mutabilidade, sendo as listas mut\u00e1veis e as tuplas n\u00e3o",
-            "8fbcf2a5-b6e3-4c68-915b-d1ee6cf7f6a4": "Serve para exibir mensagens no terminal",
-            "74245f75-0d48-4c2c-81f5-2b84c89ab5af": "Mostra as \u00faltimas linhas de um arquivo",
-            "1df2c489-bb57-41a4-9b1e-0f5053371f2a": "Serve para fazer c\u00f3pias seguras de arquivos",
-            "c8e9b6d2-f3b1-4f2e-bd74-ff0f052b58d0": "Serve para copiar algum arquivo ou diret\u00f3rio",
-            "3990cf54-4db7-48f3-bf67-f8d3a3e8b3f6": "mostra o path at\u00e9 algum arquivo ou diret\u00f3rio",
-            "8c1f15e5-9f57-4f45-bf9e-1bead6bc15e3": "Serve para mostrar o conte\u00fado de algum diret\u00f3rio, pode ser usado no pr\u00f3prio diret\u00f3rio ou fora dele, dependendo dos par\u00e2metros passados para essa fun\u00e7\u00e3o ela \u00e9 capaz de mostrar outros tipos de arquivos"
-        },
+        "done": {},
         "on": false,
         "tasks_sum": {
             "e263f569-5298-4a23-8e95-365bb0aef5e5": [
@@ -10429,7 +9614,7 @@
         "password": "232007016",
         "tasks": {
             "e263f569-5298-4a23-8e95-365bb0aef5e5": [
-                4,
+                0,
                 0,
                 0,
                 0
@@ -10456,12 +9641,7 @@
         "meta": "Orienta\u00e7\u00e3o a Objetos - T02",
         "user_id": "5d8ecdaa-8dbe-4232-816e-8160f74cf83d",
         "permissions": [],
-        "done": {
-            "bfe5e015-8d2b-4c8f-b02b-e3b3eb945307": "Serve para mudar o diretoria, acredito que seja change directory, pois d\u00e1 para avan\u00e7ar dentro das pastas e tamb\u00e9m para regredir.",
-            "c14135dc-e52e-4b68-9fd5-d84d3c91ec01": "\u00c9 para liberar permissoes dentro do terminal, tipo baixar ",
-            "c81f77e1-89f1-4f73-b79b-4a16be66b7b6": "Limpar o terminal.",
-            "b2ae9be5-3543-45ec-8b40-2abbd081e7c0": "Criar pastas ou criar diretorios, que no caso \u00e9 a mesma coisa."
-        },
+        "done": {},
         "on": false,
         "tasks_sum": {
             "e263f569-5298-4a23-8e95-365bb0aef5e5": [

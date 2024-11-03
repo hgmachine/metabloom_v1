@@ -97,9 +97,9 @@ socket.on('new_response', function(data) {
 	    setTimeout(function() {
 		var feedbackValue;
 
-                // **Alterado**: Usando os novos IDs combinados
-                var correctFeedback = document.getElementById('correct_' + data.question_id + '_' + data.user_id); 
-                var incorrectFeedback = document.getElementById('incorrect_' + data.question_id + '_' + data.user_id); 
+    // **Alterado**: Usando os novos IDs combinados
+    var correctFeedback = document.getElementById('correct_' + data.question_id + '_' + data.user_id);
+    var incorrectFeedback = document.getElementById('incorrect_' + data.question_id + '_' + data.user_id);
 
 		if (correctFeedback.checked) {
 		    feedbackValue = 'Correta';
@@ -136,8 +136,8 @@ function handleResend(userId, questionId, question, response) {
     var feedbackValue;
 
     // **Alterado**: Usando os novos IDs combinados para obter o feedback
-    var correctFeedback = document.getElementById('correct_' + questionId + '_' + userId); 
-    var incorrectFeedback = document.getElementById('incorrect_' + questionId + '_' + userId); 
+    var correctFeedback = document.getElementById('correct_' + questionId + '_' + userId);
+    var incorrectFeedback = document.getElementById('incorrect_' + questionId + '_' + userId);
 
     if (correctFeedback.checked) {
         feedbackValue = 'Correta';
