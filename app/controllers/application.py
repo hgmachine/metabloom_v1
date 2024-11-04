@@ -156,9 +156,9 @@ class Application:
                 self.generate_user_report(student.user_id)
             redirect('/admin')
 
-        @self.app.route('/admin/students/content_all', method='POST')
-        def admins_students_content_post():
-            self.show_content()
+        @self.app.route('/admin/students/reciclar', method='POST')
+        def admins_students_reciclar_post():
+            self.reciclar()
 
         @self.app.route('/index', method='POST')
         def index_post():
@@ -474,11 +474,23 @@ class Application:
                                 current_user.user_id)
                         if task:
                             questions= task.questions(level,current_user.user_id)
+                            if not questions:
+                                current_user.crowded[number]= level
+                                self.students.save()
                             return self.jinja2_template('dojo.tpl', \
                             username=current_user.username, \
                             user=current_user, user_id= current_user.user_id, \
                             task=task, level=level, questions=questions)
         redirect('/student')
+
+    def reciclar(self):
+        users= self.students.models
+        tasks= self.tasks.models
+        for user in users:
+            if user.crowded:
+                for task_number, level in user.crowded.items():
+                    pass 
+
 
     def generate_user_report(self, user_id):
         user = self.students.get_user_by_id(user_id)
