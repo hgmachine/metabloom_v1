@@ -6,7 +6,7 @@ WORKDIR /bmeta
 
 # Atualizar o pip e instalar as bibliotecas necessárias
 RUN pip install --upgrade pip && \
-    pip install bottle eventlet python-socketio reportlab jinja2 pytz
+    pip install bottle eventlet python-socketio reportlab jinja2 pytz filelock
 
 # Expor a porta que o aplicativo usa
 EXPOSE 8080

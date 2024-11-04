@@ -520,6 +520,7 @@ class Application:
         self.students.save()
 
     def generate_user_report(self, user_id):
+
         user = self.students.get_user_by_id(user_id)
 
         # Define o fuso horário de Brasília
@@ -543,8 +544,6 @@ class Application:
 
         user_paragraph = Paragraph(f"Estudante: {user.username}", styles['Heading2'])
         elements.append(user_paragraph)
-        user_paragraph = Paragraph(f"Código identificador: {user_id}", styles['Heading4'])
-        elements.append(user_paragraph)
         elements.append(Paragraph("<br/><br/>", styles['Normal']))
 
         data = [["Tarefa", "Nível 1", "Nível 2", "Nível 3", "Nível 4"]]
@@ -566,52 +565,48 @@ class Application:
         elements.append(table)
         elements.append(Paragraph("<br/><br/>", styles['Normal']))
 
-        # Duplicando as informações para cada usuário para cada usuário
-        report_content = f"Respostas corretas @ {date_str}\n\n"
-        if user.done:
-            for codigo, response in user.done.items():
-                question = self.tasks.get_question_by_id(codigo)
-                report_content += f"Pergunta: {question}\nResposta: {response}\n\n"
-                question_paragraph = Paragraph(f"<b>Pergunta:</b> {question}", styles['Normal'])
-                elements.append(question_paragraph)
-                descricao_paragraph = Paragraph(f"<b>Resposta:</b> {response}", styles['Normal'])
-                elements.append(descricao_paragraph)
-                elements.append(Spacer(1, 12))
-        else:
-            nenhum_texto = Paragraph("Nenhum acerto foi obtido.", styles['Normal'])
-            report_content += "Nenhuma pergunta para ser apresentada aqui.\n"
-            elements.append(nenhum_texto)
+        # Variável para armazenar o conteúdo do relatório completo
+        report_content = ""
 
-        # Duplicando as informações para cada usuário para cada usuário
-        report_content = f"Respostas erradas @ {date_str}\n\n"
-        if user.lost:
-            for codigo, response in user.lost.items():
-                question = self.tasks.get_question_by_id(codigo)
-                report_content += f"Pergunta: {question}\nResposta: {response}\n\n"
-                question_paragraph = Paragraph(f"<b>Pergunta:</b> {question}", styles['Normal'])
-                elements.append(question_paragraph)
-                descricao_paragraph = Paragraph(f"<b>Resposta:</b> {response}", styles['Normal'])
-                elements.append(descricao_paragraph)
-                elements.append(Spacer(1, 12))
-        else:
-            nenhum_texto = Paragraph("Nenhum erro foi cometido.", styles['Normal'])
-            report_content += "Nenhuma pergunta para ser apresentada aqui.\n"
-            elements.append(nenhum_texto)
+        # Função auxiliar para adicionar respostas ao relatório e ao conteúdo
+        def add_responses(responses, response_type):
+            nonlocal report_content
+            section_title = f"Respostas {response_type} @ {date_str}\n\n"
+            report_content += section_title
+            elements.append(Paragraph(f"<b>{section_title.strip()}</b>", styles['Heading3']))
 
-        doc.build(elements)
-        user.last= report_content
-        self.students.save()
+            if responses:
+                for codigo, response in responses.items():
+                    question = self.tasks.get_question_by_id(codigo)
+                    if question:  # Verifique se a pergunta existe
+                        report_content += f"Pergunta: {question}\nResposta: {response}\n\n"
 
-    def evaluate_dojos(self):
-        students= self.students.models
-        for student in students:
-            if student.done:
-                for q_id in student.done:
-                    task_id, level= self.tasks.get_task_data_by_number(q_id)
-                    if task_id not in student.tasks:
-                        student.tasks[task_id]= [0] * 4
-                    student.tasks[task_id][int(level)-1] += 1
-        self.students.summation()
+                        question_paragraph = Paragraph(f"<b>Pergunta:</b> {question}", styles['Normal'])
+                        elements.append(question_paragraph)
+
+                        descricao_paragraph = Paragraph(f"<b>Resposta:</b> {response}", styles['Normal'])
+                        elements.append(descricao_paragraph)
+
+                        elements.append(Spacer(1, 12))
+                    else:
+                        print(f"Pergunta com código {codigo} não encontrada.")
+            else:
+                nenhum_texto = Paragraph(f"Nenhuma resposta foi encontrada para {response_type}.", styles['Normal'])
+                elements.append(nenhum_texto)
+                report_content += f"Nenhuma resposta foi encontrada para {response_type}.\n\n"
+
+        # Adiciona as respostas corretas e incorretas ao PDF e ao conteúdo do relatório
+        add_responses(user.done, "corretas")
+        add_responses(user.lost, "erradas")
+
+        try:
+            print('Gerando relatório')
+            doc.build(elements)
+        except Exception as e:
+            print(f"Erro ao gerar o PDF: {e}")
+
+        # Salva o conteúdo completo no atributo `last` do usuário
+        user.last = report_content
         self.students.save()
 
     def set_status_dojos(self, status_dojos):
@@ -628,6 +623,18 @@ class Application:
             self.evaluate_dojos()
         elif status_dojos == 'As avaliações foram iniciadas':
             self.sio.emit('update_status_dojos', {'status_dojos': status_dojos}, room='mentors')
+
+    def evaluate_dojos(self):
+        students= self.students.models
+        for student in students:
+            if student.done:
+                for q_id in student.done:
+                    task_id, level= self.tasks.get_task_data_by_number(q_id)
+                    if task_id not in student.tasks:
+                        student.tasks[task_id]= [0] * 4
+                    student.tasks[task_id][int(level)-1] += 1
+        self.students.summation()
+        self.students.save()
 
     def reset_them_all(self):
         students= self.students
