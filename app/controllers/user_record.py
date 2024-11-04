@@ -25,11 +25,20 @@ class UserRecord(DataRecord):
             return user
         return None
 
-    def add_question_data(self,question_number,response,user_id):
+    def add_question_data_to_done(self,question_number,response,user_id):
         for user in self.models:
             if user_id == user.user_id:
                 if question_number not in user.done:
                     user.done[question_number]= response
+                self.write_objects()
+                return True
+        return False
+
+    def add_question_data_to_lost(self,question_number,response,user_id):
+        for user in self.models:
+            if user_id == user.user_id:
+                if question_number not in user.lost:
+                    user.lost[question_number]= response
                 self.write_objects()
                 return True
         return False

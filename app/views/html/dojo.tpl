@@ -36,7 +36,11 @@
                       <h4 id="feedback_{{ question['number'] }}">Resposta: não corrigida.</h4>
                   {% endfor %}
                 {% else %}
-                  <h1 style="text-align: center;">Limite de perguntas atingido para esta tarefa :)</h1>
+                  <h2 style="text-align: center;">Limite de perguntas atingido para esta tarefa :)</h2>
+                  <h3>Recicle esta tarefa para poder utilizada na próxima abertura de dojo.</h3>
+                  <form action="/student/reciclar/{{ user_id }}/{{ task.number }}/{{ level }}" method="post" style="display:inline;">
+                      <button type="submit" class="btn btn-warning">Reciclar</button>
+                  </form>
                 {% endif %}
             </div>
         </div>

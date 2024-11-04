@@ -159,6 +159,12 @@ class Application:
         @self.app.route('/admin/students/reciclar', method='POST')
         def admins_students_reciclar_post():
             self.reciclar()
+            redirect('/admin')
+
+        @self.app.route('/student/reciclar/<user_id>/<task_number>/<task_level>', method='POST')
+        def admins_student_reciclar_post(user_id,task_number,task_level):
+            self.reciclar(user_id,task_number,task_level)
+            redirect('/student')
 
         @self.app.route('/index', method='POST')
         def index_post():
@@ -468,6 +474,9 @@ class Application:
                         for question_id in current_user.done:
                             task.update_answered_number(level,question_id, \
                             current_user.user_id)
+                        for question_id in current_user.lost:
+                            task.update_answered_number(level,question_id, \
+                            current_user.user_id)
                         for content in self.content.contents:
                             if current_user.user_id == content.user_id:
                                 task.update_answered_number(level,content.question_id, \
@@ -475,22 +484,40 @@ class Application:
                         if task:
                             questions= task.questions(level,current_user.user_id)
                             if not questions:
-                                current_user.crowded[number]= level
-                                self.students.save()
+                                if number not in current_user.crowded:
+                                    current_user.crowded[number]= level
+                                    self.students.save()
                             return self.jinja2_template('dojo.tpl', \
                             username=current_user.username, \
                             user=current_user, user_id= current_user.user_id, \
                             task=task, level=level, questions=questions)
         redirect('/student')
 
-    def reciclar(self):
-        users= self.students.models
-        tasks= self.tasks.models
-        for user in users:
-            if user.crowded:
-                for task_number, level in user.crowded.items():
-                    pass 
-
+    def reciclar(self,user_id=None,task_number= None, task_level= None):
+        tasks= self.tasks
+        if user_id and ( task_number and task_level ):
+            user= self.students.get_user_by_id(user_id)
+            if task_number in user.crowded.keys():
+                task= tasks.get_task_by_number(task_number)
+                all_q_ids = {q["number"] for q in task.content[task_level]}
+                for q_id in all_q_ids:
+                    user.done.pop(q_id, None)
+                    user.lost.pop(q_id, None)
+                if task_number in user.crowded.keys():
+                    del user.crowded[task_number]
+        else:
+            users= self.students.models
+            for user in users:
+                if user.crowded:
+                    for task_number, level in user.crowded.items():
+                        task= tasks.get_task_by_number(task_number)
+                        all_q_ids = {q["number"] for q in task.content[level]}
+                        for q_id in all_q_ids:
+                            user.done.pop(q_id, None)
+                            user.lost.pop(q_id, None)
+                if task_number in user.crowded.keys():
+                    del user.crowded[task_number]
+        self.students.save()
 
     def generate_user_report(self, user_id):
         user = self.students.get_user_by_id(user_id)
@@ -540,7 +567,7 @@ class Application:
         elements.append(Paragraph("<br/><br/>", styles['Normal']))
 
         # Duplicando as informações para cada usuário para cada usuário
-        report_content = f"Data: {date_str}\n\n"
+        report_content = f"Respostas corretas @ {date_str}\n\n"
         if user.done:
             for codigo, response in user.done.items():
                 question = self.tasks.get_question_by_id(codigo)
@@ -551,8 +578,24 @@ class Application:
                 elements.append(descricao_paragraph)
                 elements.append(Spacer(1, 12))
         else:
-            nenhum_texto = Paragraph("Nenhuma pergunta foi respondida corretamente.", styles['Normal'])
-            report_content += "Nenhuma pergunta foi respondida neste dojo.\n"
+            nenhum_texto = Paragraph("Nenhum acerto foi obtido.", styles['Normal'])
+            report_content += "Nenhuma pergunta para ser apresentada aqui.\n"
+            elements.append(nenhum_texto)
+
+        # Duplicando as informações para cada usuário para cada usuário
+        report_content = f"Respostas erradas @ {date_str}\n\n"
+        if user.lost:
+            for codigo, response in user.lost.items():
+                question = self.tasks.get_question_by_id(codigo)
+                report_content += f"Pergunta: {question}\nResposta: {response}\n\n"
+                question_paragraph = Paragraph(f"<b>Pergunta:</b> {question}", styles['Normal'])
+                elements.append(question_paragraph)
+                descricao_paragraph = Paragraph(f"<b>Resposta:</b> {response}", styles['Normal'])
+                elements.append(descricao_paragraph)
+                elements.append(Spacer(1, 12))
+        else:
+            nenhum_texto = Paragraph("Nenhum erro foi cometido.", styles['Normal'])
+            report_content += "Nenhuma pergunta para ser apresentada aqui.\n"
             elements.append(nenhum_texto)
 
         doc.build(elements)
@@ -641,12 +684,14 @@ class Application:
             feedback = data['feedback']
             question= data['question']
             question_id= data['question_id']
-            task_number, task_level= self.tasks.get_task_data_by_text(question)
+            task_number, task_level= self.tasks.get_task_data_by_number(question_id)
             self.content.update_content(user_id,question_id, feedback)
             task= self.tasks.get_task_by_number(task_number)
             task.update_answered_number(task_level,question_id, user_id)
             if feedback == "Correta":
-                self.students.add_question_data(question_id,response,user_id)
+                self.students.add_question_data_to_done(question_id,response,user_id)
+            else:
+                self.students.add_question_data_to_lost(question_id,response,user_id)
             self.sio.emit('receive_feedback', {'feedback': feedback, 'question_id': question_id, 'response': response}, room=user_id)
             self.sio.emit('app_update_handle_button', {'question_id': question_id}, room='mentors')
 
