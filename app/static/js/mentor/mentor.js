@@ -93,7 +93,7 @@ socket.on('new_response', function(data) {
     submitButton.className = 'btn btn-primary'; // Classe Bootstrap para botão
     submitButton.id = 'resendButton_' + data.question_id; // Definindo o ID do botão
     // Função chamada ao clicar no botão
-	submitButton.onclick = function() {
+  	submitButton.onclick = function() {
 	    setTimeout(function() {
 		var feedbackValue;
 
@@ -106,17 +106,17 @@ socket.on('new_response', function(data) {
 		} else if (incorrectFeedback.checked) {
 		    feedbackValue = 'Errada';
 		}
-	       // Log os valores
-               console.log('Feedback Value:', feedbackValue);
-               console.log('User ID:', data.user_id);
-               console.log('Question ID:', data.question_id);
-               console.log('Question:', data.question);
-               console.log('Response:', data.response.replace(/\n/g, '\\n'));
-	       if (feedbackValue) {
-		    sendFeedback(data.user_id, data.question_id, data.question, data.response.replace(/\n/g, '\\n'), feedbackValue);
-		    submitButton.disabled = true;
-		    submitButton.innerText = 'Enviado';
-		    setTimeout(function() {
+	     // Log os valores
+      console.log('Feedback Value:', feedbackValue);
+      console.log('User ID:', data.user_id);
+      console.log('Question ID:', data.question_id);
+      console.log('Question:', data.question);
+      console.log('Response:', data.response.replace(/\n/g, '\\n'));
+	    if (feedbackValue) {
+		  sendFeedback(data.user_id, data.question_id, data.question, data.response.replace(/\n/g, '\\n'), feedbackValue);
+		  submitButton.disabled = true;
+		  submitButton.innerText = 'Enviando..';
+		  setTimeout(function() {
 			document.getElementById('responses').removeChild(responseDiv);
 		    }, 1000);
 		} else {
@@ -151,7 +151,7 @@ function handleResend(userId, questionId, question, response) {
             sendFeedback(userId, questionId, question, response.replace(/\n/g, '\\n'), feedbackValue);
             var submitButton = document.getElementById('resendButton_' + questionId);
             submitButton.disabled = true;
-            submitButton.innerText = 'Enviado';
+            submitButton.innerText = 'Enviando..';
 
             // Após 1 segundo, remove o conteúdo da pergunta
             setTimeout(function() {
