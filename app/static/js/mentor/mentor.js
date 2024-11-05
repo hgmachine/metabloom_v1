@@ -54,6 +54,14 @@ socket.on('new_response', function(data) {
     responseTextarea.className = 'form-control'; // Classe Bootstrap para textarea
     responseDiv.appendChild(responseTextarea); // Adicionando a textarea
 
+    // **NOVO: Campo para comentários do monitor**
+    var commentTextarea = document.createElement('textarea');
+    commentTextarea.rows = 2; // Número de linhas visíveis para o comentário
+    commentTextarea.cols = 50; // Número de colunas visíveis
+    commentTextarea.placeholder = 'Comentários do monitor'; // Placeholder para o campo
+    commentTextarea.className = 'form-control mt-2'; // Classe Bootstrap e margem superior
+    responseDiv.appendChild(commentTextarea); // Adicionando a textarea de comentários
+
     // Criação dos radio buttons
     var correctFeedback = document.createElement('input');
     correctFeedback.type = 'radio';
@@ -92,53 +100,63 @@ socket.on('new_response', function(data) {
     submitButton.innerText = 'Enviar Feedback';
     submitButton.className = 'btn btn-primary'; // Classe Bootstrap para botão
     submitButton.id = 'resendButton_' + data.question_id; // Definindo o ID do botão
+
     // Função chamada ao clicar no botão
-  	submitButton.onclick = function() {
-	    setTimeout(function() {
-		var feedbackValue;
+    submitButton.onclick = function() {
+        setTimeout(function() {
+            var feedbackValue;
 
-    // **Alterado**: Usando os novos IDs combinados
-    var correctFeedback = document.getElementById('correct_' + data.question_id + '_' + data.user_id);
-    var incorrectFeedback = document.getElementById('incorrect_' + data.question_id + '_' + data.user_id);
+            // **Alterado**: Usando os novos IDs combinados
+            var correctFeedback = document.getElementById('correct_' + data.question_id + '_' + data.user_id);
+            var incorrectFeedback = document.getElementById('incorrect_' + data.question_id + '_' + data.user_id);
 
-		if (correctFeedback.checked) {
-		    feedbackValue = 'Correta';
-		} else if (incorrectFeedback.checked) {
-		    feedbackValue = 'Errada';
-		}
-	     // Log os valores
-      console.log('Feedback Value:', feedbackValue);
-      console.log('User ID:', data.user_id);
-      console.log('Question ID:', data.question_id);
-      console.log('Question:', data.question);
-      console.log('Response:', data.response.replace(/\n/g, '\\n'));
-	    if (feedbackValue) {
-		  sendFeedback(data.user_id, data.question_id, data.question, data.response.replace(/\n/g, '\\n'), feedbackValue);
-		  submitButton.disabled = true;
-		  submitButton.innerText = 'Enviando..';
-		  setTimeout(function() {
-			document.getElementById('responses').removeChild(responseDiv);
-		    }, 1000);
-		} else {
-		    alert('Por favor, selecione uma opção antes de enviar.');
-		}
-	    }, 500); // Ajuste o tempo conforme necessário
-	};
+            if (correctFeedback.checked) {
+                feedbackValue = 'Correta';
+            } else if (incorrectFeedback.checked) {
+                feedbackValue = 'Errada';
+            }
+            // Log os valores
+            console.log('Feedback Value:', feedbackValue);
+            console.log('User ID:', data.user_id);
+            console.log('Question ID:', data.question_id);
+            console.log('Question:', data.question);
+            console.log('Response:', data.response.replace(/\n/g, '\\n'));
+
+            if (feedbackValue) {
+                // **Concatenando resposta do estudante com comentários do monitor**
+                var monitorComments = commentTextarea.value.trim().replace(/\n/g, '\\n') || "nenhum comentário"; // Captura os comentários e trata quebras de linha
+                var combinedResponse = data.response + ' # Feedback do Monitor: "' + monitorComments + '"';
+
+                sendFeedback(data.user_id, data.question_id, data.question, combinedResponse.replace(/\n/g, '\\n'), feedbackValue);
+                submitButton.disabled = true;
+                submitButton.innerText = 'Enviando..';
+                setTimeout(function() {
+                    document.getElementById('responses').removeChild(responseDiv);
+                }, 1000);
+            } else {
+                alert('Por favor, selecione uma opção antes de enviar.');
+            }
+        }, 500); // Ajuste o tempo conforme necessário
+    };
     responseDiv.appendChild(submitButton);
     document.getElementById('responses').appendChild(responseDiv);
 });
 
 function sendFeedback(userId, questionId, question, response, feedback) {
-    socket.emit('mentor_feedback', {user_id: userId, question_id: questionId, question:question, response:response, feedback: feedback});
+    socket.emit('mentor_feedback', {user_id: userId, question_id: questionId, question: question, response: response, feedback: feedback});
 }
 
 function handleResend(userId, questionId, question, response) {
     var feedbackValue;
 
-    // **Alterado**: Usando os novos IDs combinados para obter o feedback
+    // Obtenha os elementos de feedback
     var correctFeedback = document.getElementById('correct_' + questionId + '_' + userId);
     var incorrectFeedback = document.getElementById('incorrect_' + questionId + '_' + userId);
 
+    // Obtenha o campo de comentários do monitor
+    var commentTextarea = document.getElementById('monitorComments_' + questionId + '_' + userId); // Usando o ID definido
+
+    // Verifique qual feedback foi selecionado
     if (correctFeedback.checked) {
         feedbackValue = 'Correta';
     } else if (incorrectFeedback.checked) {
@@ -146,21 +164,23 @@ function handleResend(userId, questionId, question, response) {
     }
 
     if (feedbackValue) {
-        // Adiciona um delay de 500ms antes de enviar o feedback
         setTimeout(function() {
-            sendFeedback(userId, questionId, question, response.replace(/\n/g, '\\n'), feedbackValue);
+            var monitorComments = commentTextarea.value.trim().replace(/\n/g, '\\n') || "nenhum comentário";
+            var combinedResponse = response + ' # Feedback do Monitor: "' + monitorComments + '"';
+
+            sendFeedback(userId, questionId, question, combinedResponse, feedbackValue);
+
             var submitButton = document.getElementById('resendButton_' + questionId);
             submitButton.disabled = true;
             submitButton.innerText = 'Enviando..';
 
-            // Após 1 segundo, remove o conteúdo da pergunta
             setTimeout(function() {
-                var responseItem = submitButton.closest('.response-item'); // Encontra o item da resposta
+                var responseItem = submitButton.closest('.response-item');
                 if (responseItem) {
-                    responseItem.remove(); // Remove o item da resposta da página
+                    responseItem.remove();
                 }
-            }, 1000); // 1000 milissegundos = 1 segundo
-        }, 500); // Adiciona o delay de 500ms aqui
+            }, 1000);
+        }, 500);
     } else {
         alert('Por favor, selecione uma opção antes de enviar.');
     }

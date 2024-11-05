@@ -4,7 +4,7 @@
 
 {% block styles %}
 <link rel="stylesheet" type="text/css" href="/static/css/mentor/mentor.css">
-<script type="text/javascript" src="/static/js/mentor/mentor.js?v=1.0.1"></script>
+<script type="text/javascript" src="/static/js/mentor/mentor.js?v=1.0.5"></script>
 {% endblock %}
 
 {% block content %}
@@ -38,6 +38,10 @@
                           <div><strong>Estudante(ID):</strong> {{ message.user_id }}<br></div>
                           <div>
                               <textarea rows="4" cols="50">{{ message.response | replace("'","`") | replace('"', "``") | replace('\n',' $ ') | safe }}</textarea>
+                          </div>
+                          <div>
+                              <!-- Campo para comentários do monitor -->
+                              <textarea rows="2" cols="50" placeholder="Comentários do monitor" id="monitorComments_{{ message.question_id }}_{{ message.user_id }}" onfocus="this.value = this.value.replace(/\\n/g, '\\r\\n');"></textarea>
                           </div>
                           <div>
                               <!-- Criação dos radio buttons -->
