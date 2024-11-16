@@ -232,7 +232,7 @@
     "on": [true, true, true, false]
 },
     {
-    "title": "Python e a Orientação a Objetos",
+    "title": "Python e a Orientação a Objetos (*)",
     "type": "Micro",
     "explains": [
         {"Titulo": "Os pilares da Orientação a Objetos", "Conteudo": "Nesta tarefa, estudaremos os recursos mais básicos da Orientação a Objetos, em Python: Herança, Encapsulamento e Polimorfismo."}

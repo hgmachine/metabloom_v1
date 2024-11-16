@@ -83,16 +83,20 @@
             <button class="btn btn-success" onclick="set_status_dojos('Os dojos foram fechados')">Fechar dojos</button>
             <button class="btn btn-success" onclick="set_status_tasks('Atualizar')">Atualizar tarefas</button>
             <!-- Botão para Gerar relatório de cada estudante disponível -->
+            <form action="/admin/students/evaluate_all" method="post" style="display:inline;">
+                <button type="submit" class="btn btn-sm btn-danger">Parcial</button>
+            </form>
+            <!-- Botão para Gerar relatório de cada estudante disponível -->
             <form action="/admin/students/report_all" method="post" style="display:inline;">
                 <button type="submit" class="btn btn-sm btn-danger">Gerar relatórios</button>
             </form>
             <!-- Botão para tornar todos os estudantes indisponíveis -->
             <form action="/admin/students/light_them_all" method="post" style="display:inline;">
-                <button type="submit" class="btn btn-sm btn-danger">Disponibilidade</button>
+                <button type="submit" class="btn btn-sm btn-danger">Habilitar</button>
             </form>
             <!-- Botão para tornar todos os estudantes indisponíveis -->
             <form action="/admin/students/off_them_all" method="post" style="display:inline;">
-                <button type="submit" class="btn btn-sm btn-danger">Indisponíbilidade</button>
+                <button type="submit" class="btn btn-sm btn-danger">Desabilitar</button>
             </form>
             <!-- Botão para visualizar o content -->
             <form action="/admin/students/reciclar" method="post" style="display:inline;">

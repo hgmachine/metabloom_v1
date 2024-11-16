@@ -149,6 +149,11 @@ class Application:
             self.admins.save()
             redirect('/admin')
 
+        @self.app.route('/admin/students/evaluate_all', method='POST')
+        def students_evaluate_post():
+            self.evaluate_dojos()
+            redirect('/admin')
+
         @self.app.route('/admin/students/report_all', method='POST')
         def students_report_post():
             students= self.students
@@ -522,10 +527,8 @@ class Application:
     def generate_user_report(self, user_id):
 
         user = self.students.get_user_by_id(user_id)
-
         # Define o fuso horário de Brasília
         brasilia_tz = pytz.timezone('America/Sao_Paulo')
-
         # Obtém a data e hora atuais no fuso horário de Brasília
         time_now = datetime.now(brasilia_tz).strftime("%Y%m%d_%H%M%S")
         filename = f"Report_{user.username}_{user.password}@{time_now}.pdf"
@@ -546,8 +549,12 @@ class Application:
         elements.append(user_paragraph)
         elements.append(Paragraph("<br/><br/>", styles['Normal']))
 
+        user_paragraph = Paragraph(f"Pontuação total:", styles['Normal'])
+        elements.append(user_paragraph)
+        elements.append(Paragraph("<br/><br/>", styles['Normal']))
+
         data = [["Tarefa", "Nível 1", "Nível 2", "Nível 3", "Nível 4"]]
-        for task, hits in user.tasks.items():
+        for task, hits in user.tasks_sum.items():
             title = self.tasks.get_task_by_number(task).title
             row = [f"Tarefa {title}"] + hits
             data.append(row)
@@ -571,7 +578,7 @@ class Application:
         # Função auxiliar para adicionar respostas ao relatório e ao conteúdo
         def add_responses(responses, response_type):
             nonlocal report_content
-            section_title = f"Respostas {response_type} @ {date_str}\n\n"
+            section_title = f"Últimas respostas {response_type} @ {date_str}\n\n"
             report_content += section_title
             elements.append(Paragraph(f"<b>{section_title.strip()}</b>", styles['Heading3']))
 
@@ -612,28 +619,21 @@ class Application:
     def set_status_dojos(self, status_dojos):
         self.dojo_status= status_dojos
         if status_dojos == 'Os dojos foram abertos':
+            self.dojo_status= 'Os dojos foram abertos'
             self.dojo_is_open= True
-            self.content.clear_all()
-            self.students.reset_tasks()
-            self.tasks.reset_submission()
         elif status_dojos == 'Os dojos foram fechados':
-            self.dojo_is_open= False
             self.dojo_status= 'Os dojos foram fechados'
-            self.students.save()
+            self.dojo_is_open= False
+            # Ações após fechamento
             self.evaluate_dojos()
+            self.content.clear_all()
+            self.tasks.reset_submission()
         elif status_dojos == 'As avaliações foram iniciadas':
             self.sio.emit('update_status_dojos', {'status_dojos': status_dojos}, room='mentors')
 
     def evaluate_dojos(self):
-        students= self.students.models
-        for student in students:
-            if student.done:
-                for q_id in student.done:
-                    task_id, level= self.tasks.get_task_data_by_number(q_id)
-                    if task_id not in student.tasks:
-                        student.tasks[task_id]= [0] * 4
-                    student.tasks[task_id][int(level)-1] += 1
         self.students.summation()
+        self.students.reset_tasks()
         self.students.save()
 
     def reset_them_all(self):
@@ -697,6 +697,7 @@ class Application:
             task.update_answered_number(task_level,question_id, user_id)
             if feedback == "Correta":
                 self.students.add_question_data_to_done(question_id,response,user_id)
+                self.students.add_points_to_task(task_number,task_level,user_id)
             else:
                 self.students.add_question_data_to_lost(question_id,response,user_id)
             self.sio.emit('receive_feedback', {'feedback': feedback, 'question_id': question_id, 'response': response}, room=user_id)

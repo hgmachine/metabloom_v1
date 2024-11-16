@@ -74,7 +74,8 @@
                               <p>Estamos constituindo a nossa memória sobre o conteúdo abordado. Crie um resumo claro, de preferência por escrito, para auxiliar a sua memorização.</p>
                         </div>
                         <div class="pricing-bottom">
-                              {% set stars = user.tasks[task.number][0] // 10 %}
+                          {% set stars = user.tasks_sum[task.number][0] // 10 if task.number in user.tasks_sum.keys() else 0 %}
+                          {% set stars = 5 if stars > 5 else stars %}
                               {% for star in range(0, stars) %}
                                   <span class="pricing-dollar" style="display: inline-block;">
                                       <img src="/static/img/star.png" class="img-responsive" style="width:20px; height: 20px;">
@@ -93,7 +94,8 @@
                               <p>Aqui, estamos colocando em prática os primeiros recursos cognitivos/psicomotores memorizados. Pode utilizar o seu resumo e também ferramentas inteligentes de pesquisas.</p>
                         </div>
                         <div class="pricing-bottom">
-                          {% set stars = user.tasks[task.number][1] // 10 %}
+                          {% set stars = user.tasks_sum[task.number][1] // 6 if task.number in user.tasks_sum.keys() else 0 %}
+                          {% set stars = 5 if stars > 5 else stars %}
                           {% for star in range(0, stars) %}
                               <span class="pricing-dollar" style="display: inline-block;">
                                   <img src="/static/img/star.png" class="img-responsive" style="width:20px; height: 20px;">
@@ -114,7 +116,8 @@
                              <p>Os estudantes desenvolvolvem aqui a capacidade de aplicar habilidades para resolver problemas ou realizar tarefas específicas. O estudante ainda pode utilizar o seu resumo, além de ferramentas inteligentes de pesquisa (se necessário).</p>
                        </div>
                        <div class="pricing-bottom">
-                         {% set stars = user.tasks[task.number][2] // 10 %}
+                         {% set stars = user.tasks_sum[task.number][2] // 4 if task.number in user.tasks_sum.keys() else 0 %}
+                         {% set stars = 5 if stars > 5 else stars %}
                          {% for star in range(0, stars) %}
                              <span class="pricing-dollar" style="display: inline-block;">
                                  <img src="/static/img/star.png" class="img-responsive" style="width:20px; height: 20px;">
@@ -133,7 +136,8 @@
                              <p>Na esfera cognitiva, este é nível é observado pela resolução de problemas sem a necessidade de quaisquer pesquisas. Na esfera psicomotora, este nível é observado na resposta rápida/internalizada de uma ação específica.</p>
                        </div>
                        <div class="pricing-bottom">
-                         {% set stars = user.tasks[task.number][3] // 10 %}
+                         {% set stars = user.tasks_sum[task.number][3] // 10 if task.number in user.tasks_sum.keys() else 0 %}
+                         {% set stars = 5 if stars > 5 else stars %}
                          {% for star in range(0, stars) %}
                              <span class="pricing-dollar" style="display: inline-block;">
                                  <img src="/static/img/star.png" class="img-responsive" style="width:20px; height: 20px;">

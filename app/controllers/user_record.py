@@ -25,6 +25,14 @@ class UserRecord(DataRecord):
             return user
         return None
 
+    def add_points_to_task(self,task_number,task_level,user_id):
+        for user in self.models:
+            if user_id == user.user_id:
+                user.tasks[task_number][int(task_level)-1] += 1
+                self.write_objects()
+                return True
+        return False
+
     def add_question_data_to_done(self,question_number,response,user_id):
         for user in self.models:
             if user_id == user.user_id:
