@@ -79,8 +79,8 @@ class UserRecord(DataRecord):
         for user in self.models:
             for task_id, points in user.tasks.items():
                 if task_id not in user.tasks_sum:
-                    user.tasks_sum[task_id] = [0, 0, 0, 0]
-                for i in range(len(user.tasks_sum[task_id])):
+                    user.tasks_sum[task_id] = [0] * len(points)
+                for i in range(len(points)):
                     user.tasks_sum[task_id][i] += points[i]
 
     def save(self):
