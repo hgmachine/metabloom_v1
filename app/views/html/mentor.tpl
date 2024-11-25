@@ -35,7 +35,6 @@
                       {% if not message.feedback %}
                       <div class="response-item">
                           <div><strong>Pergunta:</strong> {{ message.question }}<br></div>
-                          <div><strong>Estudante(ID):</strong> {{ message.user_id }}<br></div>
                           <div>
                               <textarea rows="4" cols="50">{{ message.response | replace("'","`") | replace('"', "``") | replace('\n',' $ ') | safe }}</textarea>
                           </div>
