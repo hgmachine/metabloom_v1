@@ -26,6 +26,24 @@
                 0,
                 0,
                 0
+            ],
+            "3g91e3f7-cf41-47b9-a3d2-b9c5e7a4f6d2": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "a7f9b0d7-42f4-48c9-8b7d-a78efd6e1b71": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "e6675bbe-9928-42a3-a397-c3930fa2e454": [
+                0,
+                0,
+                0,
+                0
             ]
         },
         "meta": "Programa\u00e7\u00e3o FullStack",
@@ -92,11 +110,29 @@
                 0,
                 0,
                 0
+            ],
+            "3g91e3f7-cf41-47b9-a3d2-b9c5e7a4f6d2": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "a7f9b0d7-42f4-48c9-8b7d-a78efd6e1b71": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "e6675bbe-9928-42a3-a397-c3930fa2e454": [
+                0,
+                0,
+                0,
+                0
             ]
         },
         "meta": "Orienta\u00e7\u00e3o a Objetos - T03",
         "user_id": "7df0538d-1488-4536-af71-0a96022a5017",
-        "permissions": [],
+        "permissions": {},
         "done": {},
         "lost": {},
         "on": false,
@@ -156,11 +192,29 @@
                 0,
                 0,
                 0
+            ],
+            "3g91e3f7-cf41-47b9-a3d2-b9c5e7a4f6d2": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "a7f9b0d7-42f4-48c9-8b7d-a78efd6e1b71": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "e6675bbe-9928-42a3-a397-c3930fa2e454": [
+                0,
+                0,
+                0,
+                0
             ]
         },
         "meta": "Orienta\u00e7\u00e3o a Objetos - T03",
         "user_id": "9e0d2cc9-2c08-427a-93b7-939867e57a51",
-        "permissions": [],
+        "permissions": {},
         "done": {
             "d29392be-17c5-4d80-b9f3-e89a64b00326": "O comando dd no VIM tem por finalidade excluir uma linha. # Feedback do Monitor: \"nenhum coment\u00e1rio\"",
             "e437bd51-5110-49dc-897e-cbc09bce2236": "O comando :w serve para salvar (``ou gravar``) o conte\u00fado do buffer atual em um arquivo. Ele \u00e9 essencial para persistir as altera\u00e7\u00f5es feitas no documento. # Feedback do Monitor: \"nenhum coment\u00e1rio\"",
@@ -238,11 +292,29 @@
                 0,
                 0,
                 0
+            ],
+            "3g91e3f7-cf41-47b9-a3d2-b9c5e7a4f6d2": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "a7f9b0d7-42f4-48c9-8b7d-a78efd6e1b71": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "e6675bbe-9928-42a3-a397-c3930fa2e454": [
+                0,
+                0,
+                0,
+                0
             ]
         },
         "meta": "Orienta\u00e7\u00e3o a Objetos - T03",
         "user_id": "97b313d0-fec0-4e73-b8fe-e26852a9cd0a",
-        "permissions": [],
+        "permissions": {},
         "done": {
             "1b00d1f3-0a6f-46cb-b4fc-e32b77efc63c": "s\u00e3o os elementos que cada inst\u00e2ncia da classe possuir\u00e1  # Feedback do Monitor: \"nenhum coment\u00e1rio\"",
             "6f67ff1f-1057-4d77-bc84-4b3a828ea8e2": "\u00e9 uma fun\u00e7\u00e3o dentro da classe\\n # Feedback do Monitor: \"nenhum coment\u00e1rio\"",
@@ -329,11 +401,29 @@
                 0,
                 0,
                 0
+            ],
+            "3g91e3f7-cf41-47b9-a3d2-b9c5e7a4f6d2": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "a7f9b0d7-42f4-48c9-8b7d-a78efd6e1b71": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "e6675bbe-9928-42a3-a397-c3930fa2e454": [
+                0,
+                0,
+                0,
+                0
             ]
         },
         "meta": "Orienta\u00e7\u00e3o a Objetos - T03",
         "user_id": "32881716-3a4b-4265-9961-c7f9adb5ee6b",
-        "permissions": [],
+        "permissions": {},
         "done": {
             "c8e9b6d2-f3b1-4f2e-bd74-ff0f052b58d0": "\"cp\" \u00e9 uma abrevia\u00e7\u00e3o para 'copy', que significa copiar. Sendo assim, \u00e9 um comando que permite copiar arquivos para outros arquivos e diret\u00f3rios. # Feedback do Monitor: \"nenhum coment\u00e1rio\"",
             "8c1f15e5-9f57-4f45-bf9e-1bead6bc15e3": "\u00c9 um comando b\u00e1sico que serve para listar arquivos e diret\u00f3rios que est\u00e3o no sistema, dessa maneira pode-se analisar e selecionar o arquivo desejado. # Feedback do Monitor: \"nenhum coment\u00e1rio\"",
@@ -434,11 +524,29 @@
                 0,
                 0,
                 0
+            ],
+            "3g91e3f7-cf41-47b9-a3d2-b9c5e7a4f6d2": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "a7f9b0d7-42f4-48c9-8b7d-a78efd6e1b71": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "e6675bbe-9928-42a3-a397-c3930fa2e454": [
+                0,
+                0,
+                0,
+                0
             ]
         },
         "meta": "Orienta\u00e7\u00e3o a Objetos - T03",
         "user_id": "68f1e4f3-806a-4ff0-832f-61afed326754",
-        "permissions": [],
+        "permissions": {},
         "done": {
             "f497eeb8-1946-48c1-89cb-bd27a5ac3c6b": "ele define quem pode ler,escrever ou executar um arquivo ou diret\u00f3rio  # Feedback do Monitor: \"nenhum coment\u00e1rio\"",
             "9157f08f-3f2c-4e92-a3d1-64304b964d8a": "serve para procurar e filtrar texto em arquivos ou em outros comandos # Feedback do Monitor: \"nenhum coment\u00e1rio\"",
@@ -555,11 +663,29 @@
                 0,
                 0,
                 0
+            ],
+            "3g91e3f7-cf41-47b9-a3d2-b9c5e7a4f6d2": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "a7f9b0d7-42f4-48c9-8b7d-a78efd6e1b71": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "e6675bbe-9928-42a3-a397-c3930fa2e454": [
+                0,
+                0,
+                0,
+                0
             ]
         },
         "meta": "Orienta\u00e7\u00e3o a Objetos - T03",
         "user_id": "a6c2ef6a-20dc-4ecf-bec9-645611bbdab8",
-        "permissions": [],
+        "permissions": {},
         "done": {
             "23c1619d-bf3f-4699-88fc-6a86eb2331aa": "mkdir nome_do_diretorio # Feedback do Monitor: \"nenhum coment\u00e1rio\"",
             "8a9d5280-c1eb-4298-9352-3d32d843b8ef": "da para usar o comando 'nano', 'nano nome_do_arquivo.txt' para criar ou editar um arquivo j\u00e1 existente ou o 'vim', 'vim nome_o_arquivo.txt', para criar ou editar um arquivo j\u00e1 existente  # Feedback do Monitor: \"nenhum coment\u00e1rio\"",
@@ -664,11 +790,29 @@
                 0,
                 0,
                 0
+            ],
+            "3g91e3f7-cf41-47b9-a3d2-b9c5e7a4f6d2": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "a7f9b0d7-42f4-48c9-8b7d-a78efd6e1b71": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "e6675bbe-9928-42a3-a397-c3930fa2e454": [
+                0,
+                0,
+                0,
+                0
             ]
         },
         "meta": "Orienta\u00e7\u00e3o a Objetos - T03",
         "user_id": "81625832-5a12-48c6-9407-6aaabe213113",
-        "permissions": [],
+        "permissions": {},
         "done": {
             "e20482bc-62d8-4976-bf4e-d9c8a05be2ec": "lista = [elem1, elem2, elem3] # Feedback do Monitor: \"nenhum coment\u00e1rio\"",
             "afcc2f54-8eb6-4583-b0fa-2b90e378b5b4": "significa que \u00e9 possivel mudar elementos dentro das listas # Feedback do Monitor: \"nenhum coment\u00e1rio\"",
@@ -798,11 +942,29 @@
                 0,
                 0,
                 0
+            ],
+            "3g91e3f7-cf41-47b9-a3d2-b9c5e7a4f6d2": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "a7f9b0d7-42f4-48c9-8b7d-a78efd6e1b71": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "e6675bbe-9928-42a3-a397-c3930fa2e454": [
+                0,
+                0,
+                0,
+                0
             ]
         },
         "meta": "Orienta\u00e7\u00e3o a Objetos - T03",
         "user_id": "ecb60a80-bccb-4ff7-8cfd-4c6b4cffdab2",
-        "permissions": [],
+        "permissions": {},
         "done": {
             "e4606f52-dabe-49c5-8016-c8f4eec4436e": "dividir a janela atual em duas janelas.  # Feedback do Monitor: \"nenhum coment\u00e1rio\"",
             "20bb0cf6-5d12-4ab4-bb80-9a5af31975cb": "ele insere um texto no inicio da linha.  # Feedback do Monitor: \"nenhum coment\u00e1rio\"",
@@ -885,11 +1047,29 @@
                 0,
                 0,
                 0
+            ],
+            "3g91e3f7-cf41-47b9-a3d2-b9c5e7a4f6d2": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "a7f9b0d7-42f4-48c9-8b7d-a78efd6e1b71": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "e6675bbe-9928-42a3-a397-c3930fa2e454": [
+                0,
+                0,
+                0,
+                0
             ]
         },
         "meta": "Orienta\u00e7\u00e3o a Objetos - T03",
         "user_id": "006a9961-dd27-4ee8-a0e5-f7906d2cf4fa",
-        "permissions": [],
+        "permissions": {},
         "done": {
             "b2e44230-1857-46a3-8673-7fb4f49c9c89": "Empacotar e compactar arquivos e diret\u00f3rios # Feedback do Monitor: \"nenhum coment\u00e1rio\"",
             "0e9673f5-9e76-4e98-97da-7b1f2e6d0214": "Exibir as primeiras linhas de um arquivo texto # Feedback do Monitor: \"nenhum coment\u00e1rio\"",
@@ -1021,11 +1201,29 @@
                 0,
                 0,
                 0
+            ],
+            "3g91e3f7-cf41-47b9-a3d2-b9c5e7a4f6d2": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "a7f9b0d7-42f4-48c9-8b7d-a78efd6e1b71": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "e6675bbe-9928-42a3-a397-c3930fa2e454": [
+                0,
+                0,
+                0,
+                0
             ]
         },
         "meta": "Orienta\u00e7\u00e3o a Objetos - T03",
         "user_id": "87394e47-b1f9-4719-aa97-6b52c321741a",
-        "permissions": [],
+        "permissions": {},
         "done": {
             "3c1a64f0-1b2e-41c5-b36d-e6c08a1a7f43": "\u00c9 uma classe que n\u00e3o pode ser instanciada, apenas herdada. # Feedback do Monitor: \"nenhum coment\u00e1rio\"",
             "1b00d1f3-0a6f-46cb-b4fc-e32b77efc63c": "S\u00e3o os par\u00e2metros que uma classe recebe e que vai trabalhar em cima. # Feedback do Monitor: \"nenhum coment\u00e1rio\"",
@@ -1143,11 +1341,29 @@
                 0,
                 0,
                 0
+            ],
+            "3g91e3f7-cf41-47b9-a3d2-b9c5e7a4f6d2": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "a7f9b0d7-42f4-48c9-8b7d-a78efd6e1b71": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "e6675bbe-9928-42a3-a397-c3930fa2e454": [
+                0,
+                0,
+                0,
+                0
             ]
         },
         "meta": "Orienta\u00e7\u00e3o a Objetos - T03",
         "user_id": "e4b322ff-1964-4ccf-ac27-e0c455b8a948",
-        "permissions": [],
+        "permissions": {},
         "done": {
             "f497eeb8-1946-48c1-89cb-bd27a5ac3c6b": "\u00e9 usado para alterar as permiss\u00f5es de acessos e arquivos e diretorios em sistemas, ele define quem pode ler, escrever ou executar um arquivo ou diretorio. # Feedback do Monitor: \"nenhum coment\u00e1rio\"",
             "c81f77e1-89f1-4f73-b79b-4a16be66b7b6": "\u00e9 usado para limpar a tela do terminal # Feedback do Monitor: \"nenhum coment\u00e1rio\"",
@@ -1271,11 +1487,29 @@
                 0,
                 0,
                 0
+            ],
+            "3g91e3f7-cf41-47b9-a3d2-b9c5e7a4f6d2": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "a7f9b0d7-42f4-48c9-8b7d-a78efd6e1b71": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "e6675bbe-9928-42a3-a397-c3930fa2e454": [
+                0,
+                0,
+                0,
+                0
             ]
         },
         "meta": "Orienta\u00e7\u00e3o a Objetos - T03",
         "user_id": "610c1a14-35e6-47f6-bb12-0af9a13bc16b",
-        "permissions": [],
+        "permissions": {},
         "done": {
             "f497eeb8-1946-48c1-89cb-bd27a5ac3c6b": "Para mudar as permiss\u00f5es de acesso # Feedback do Monitor: \"nenhum coment\u00e1rio\"",
             "28543be4-f3b7-4143-89d4-c928e539f7d6": "ele ajuda ou \u00e9 um interpretador de comandos, para comandos mais complexos # Feedback do Monitor: \"nenhum coment\u00e1rio\"",
@@ -1365,11 +1599,29 @@
                 0,
                 0,
                 0
+            ],
+            "3g91e3f7-cf41-47b9-a3d2-b9c5e7a4f6d2": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "a7f9b0d7-42f4-48c9-8b7d-a78efd6e1b71": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "e6675bbe-9928-42a3-a397-c3930fa2e454": [
+                0,
+                0,
+                0,
+                0
             ]
         },
         "meta": "Orienta\u00e7\u00e3o a Objetos - T03",
         "user_id": "b1b86a1b-de56-49db-8222-deff0ee4e707",
-        "permissions": [],
+        "permissions": {},
         "done": {
             "b2ae9be5-3543-45ec-8b40-2abbd081e7c0": "Serve para criar um diret\u00f3rio ou um subdiret\u00f3rio # Feedback do Monitor: \"nenhum coment\u00e1rio\"",
             "b2e44230-1857-46a3-8673-7fb4f49c9c89": "Serve para compactar arquivos, economizando espa\u00e7o # Feedback do Monitor: \"nenhum coment\u00e1rio\"",
@@ -1477,11 +1729,29 @@
                 0,
                 0,
                 0
+            ],
+            "3g91e3f7-cf41-47b9-a3d2-b9c5e7a4f6d2": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "a7f9b0d7-42f4-48c9-8b7d-a78efd6e1b71": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "e6675bbe-9928-42a3-a397-c3930fa2e454": [
+                0,
+                0,
+                0,
+                0
             ]
         },
         "meta": "Orienta\u00e7\u00e3o a Objetos - T03",
         "user_id": "acd10a85-d4fa-4686-b7af-6c7dc0978142",
-        "permissions": [],
+        "permissions": {},
         "done": {
             "c81f77e1-89f1-4f73-b79b-4a16be66b7b6": "\u00c9 utilizado para limpar a tela do terminal. # Feedback do Monitor: \"nenhum coment\u00e1rio\"",
             "c160eb54-1a4b-4485-8168-15d9e4eb473d": "Podemos utilizar esse comando para descompactar arquivos zip. # Feedback do Monitor: \"nenhum coment\u00e1rio\"",
@@ -1604,11 +1874,29 @@
                 0,
                 0,
                 0
+            ],
+            "3g91e3f7-cf41-47b9-a3d2-b9c5e7a4f6d2": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "a7f9b0d7-42f4-48c9-8b7d-a78efd6e1b71": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "e6675bbe-9928-42a3-a397-c3930fa2e454": [
+                0,
+                0,
+                0,
+                0
             ]
         },
         "meta": "Orienta\u00e7\u00e3o a Objetos - T03",
         "user_id": "661aafd0-b0ed-4aa6-9307-8809820611d7",
-        "permissions": [],
+        "permissions": {},
         "done": {
             "83a3e2d7-bdc2-4f3f-b486-550b3f213cf7": "Serve para extrair colunas ou partes especificas de cada linha de um arquivo ou de uma entrada de texto # Feedback do Monitor: \"nenhum coment\u00e1rio\"",
             "1df2c489-bb57-41a4-9b1e-0f5053371f2a": "Serve para copiar arquivos de forma segura entre m\u00e1quinas na rede usando o protocolo SSH # Feedback do Monitor: \"nenhum coment\u00e1rio\"",
@@ -1730,11 +2018,29 @@
                 0,
                 0,
                 0
+            ],
+            "3g91e3f7-cf41-47b9-a3d2-b9c5e7a4f6d2": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "a7f9b0d7-42f4-48c9-8b7d-a78efd6e1b71": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "e6675bbe-9928-42a3-a397-c3930fa2e454": [
+                0,
+                0,
+                0,
+                0
             ]
         },
         "meta": "Orienta\u00e7\u00e3o a Objetos - T03",
         "user_id": "6578bfb5-648d-43f6-9b71-768d437c798f",
-        "permissions": [],
+        "permissions": {},
         "done": {
             "3c1a64f0-1b2e-41c5-b36d-e6c08a1a7f43": "\u00c9 uma classe que serve como modelo e n\u00e3o pode ser instanciada diretamente. # Feedback do Monitor: \"nenhum coment\u00e1rio\"",
             "9i9b3885-df5f-4d4b-a60e-81aa9c07fbd7": "\u00c9 um contrato que define um conjunto de m\u00e9todos que uma classe deve implementar, mas sem fornecer uma implementa\u00e7\u00e3o para esses m\u00e9todos. # Feedback do Monitor: \"nenhum coment\u00e1rio\"",
@@ -1834,11 +2140,29 @@
                 0,
                 0,
                 0
+            ],
+            "3g91e3f7-cf41-47b9-a3d2-b9c5e7a4f6d2": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "a7f9b0d7-42f4-48c9-8b7d-a78efd6e1b71": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "e6675bbe-9928-42a3-a397-c3930fa2e454": [
+                0,
+                0,
+                0,
+                0
             ]
         },
         "meta": "Orienta\u00e7\u00e3o a Objetos - T03",
         "user_id": "01139fa8-d061-422c-b941-51ad6b638297",
-        "permissions": [],
+        "permissions": {},
         "done": {
             "8fc5f623-1b90-49c9-b19e-9a8a440e95ec": "Serve para invocar a shell padr\u00e3o e usa sua sintaxe e sinalizadores  # Feedback do Monitor: \"nenhum coment\u00e1rio\"",
             "b2ae9be5-3543-45ec-8b40-2abbd081e7c0": "cria um ou mais diret\u00f3rios no sistema # Feedback do Monitor: \"nenhum coment\u00e1rio\"",
@@ -1909,11 +2233,29 @@
                 0,
                 0,
                 0
+            ],
+            "3g91e3f7-cf41-47b9-a3d2-b9c5e7a4f6d2": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "a7f9b0d7-42f4-48c9-8b7d-a78efd6e1b71": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "e6675bbe-9928-42a3-a397-c3930fa2e454": [
+                0,
+                0,
+                0,
+                0
             ]
         },
         "meta": "Orienta\u00e7\u00e3o a Objetos - T03",
         "user_id": "b3d3da33-663a-45aa-93bd-84fef7b78689",
-        "permissions": [],
+        "permissions": {},
         "done": {
             "c758aa80-d685-4e1e-b623-1e635761d912": "O comando ``cat`` \u00e9 respons\u00e1vel por exibir o conte\u00fado de um arquivo na tela # Feedback do Monitor: \"nenhum coment\u00e1rio\"",
             "c3b020c8-1625-4cf6-9774-2ab30e8ef1eb": "utilizando o comando `mv` seguido do antigo nome do arquivo e do novo nome. # Feedback do Monitor: \"nenhum coment\u00e1rio\"",
@@ -2012,11 +2354,29 @@
                 0,
                 0,
                 0
+            ],
+            "3g91e3f7-cf41-47b9-a3d2-b9c5e7a4f6d2": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "a7f9b0d7-42f4-48c9-8b7d-a78efd6e1b71": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "e6675bbe-9928-42a3-a397-c3930fa2e454": [
+                0,
+                0,
+                0,
+                0
             ]
         },
         "meta": "Orienta\u00e7\u00e3o a Objetos - T03",
         "user_id": "184484f3-0698-43f8-aefd-bf493e9646bc",
-        "permissions": [],
+        "permissions": {},
         "done": {
             "74245f75-0d48-4c2c-81f5-2b84c89ab5af": "mostra a ultima linha do texto ou arquivo # Feedback do Monitor: \"nenhum coment\u00e1rio\"",
             "14c0d48c-57c5-408e-bd42-c8b1f4d92c8e": "instala, remove e manipula arquivos # Feedback do Monitor: \"nenhum coment\u00e1rio\"",
@@ -2091,11 +2451,29 @@
                 0,
                 0,
                 0
+            ],
+            "3g91e3f7-cf41-47b9-a3d2-b9c5e7a4f6d2": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "a7f9b0d7-42f4-48c9-8b7d-a78efd6e1b71": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "e6675bbe-9928-42a3-a397-c3930fa2e454": [
+                0,
+                0,
+                0,
+                0
             ]
         },
         "meta": "Orienta\u00e7\u00e3o a Objetos - T03",
         "user_id": "c4ebd554-52d6-419d-90a8-ddd1b7b6c121",
-        "permissions": [],
+        "permissions": {},
         "done": {
             "afcc2f54-8eb6-4583-b0fa-2b90e378b5b4": "significa que \u00e9 poss\u00edvel mudar o conte\u00fado dentro das listas  # Feedback do Monitor: \"nenhum coment\u00e1rio\"",
             "6c9070e8-11f5-4ab6-8b00-b3fa1ed62327": "primeiro_elemento = minha_lista[0]  # Feedback do Monitor: \"nenhum coment\u00e1rio\"",
@@ -2205,11 +2583,29 @@
                 0,
                 0,
                 0
+            ],
+            "3g91e3f7-cf41-47b9-a3d2-b9c5e7a4f6d2": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "a7f9b0d7-42f4-48c9-8b7d-a78efd6e1b71": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "e6675bbe-9928-42a3-a397-c3930fa2e454": [
+                0,
+                0,
+                0,
+                0
             ]
         },
         "meta": "Orienta\u00e7\u00e3o a Objetos - T03",
         "user_id": "f95f02c2-65e9-4f81-ac14-98c5968c2f76",
-        "permissions": [],
+        "permissions": {},
         "done": {},
         "lost": {},
         "on": false,
@@ -2269,11 +2665,29 @@
                 0,
                 0,
                 0
+            ],
+            "3g91e3f7-cf41-47b9-a3d2-b9c5e7a4f6d2": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "a7f9b0d7-42f4-48c9-8b7d-a78efd6e1b71": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "e6675bbe-9928-42a3-a397-c3930fa2e454": [
+                0,
+                0,
+                0,
+                0
             ]
         },
         "meta": "Orienta\u00e7\u00e3o a Objetos - T03",
         "user_id": "119a9097-dfbb-4269-9904-64b34d828a3c",
-        "permissions": [],
+        "permissions": {},
         "done": {
             "c14135dc-e52e-4b68-9fd5-d84d3c91ec01": "permite que voc\u00ea use um comando como um superusuario ou um outro usuario # Feedback do Monitor: \"nenhum coment\u00e1rio\"",
             "b3c93163-b53c-4ab2-9861-65e9f7023994": "para mover arquivos de um diretorio para o outro ou renomear um diretorio ou arquivo # Feedback do Monitor: \"nenhum coment\u00e1rio\"",
@@ -2400,11 +2814,29 @@
                 0,
                 0,
                 0
+            ],
+            "3g91e3f7-cf41-47b9-a3d2-b9c5e7a4f6d2": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "a7f9b0d7-42f4-48c9-8b7d-a78efd6e1b71": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "e6675bbe-9928-42a3-a397-c3930fa2e454": [
+                0,
+                0,
+                0,
+                0
             ]
         },
         "meta": "Orienta\u00e7\u00e3o a Objetos - T03",
         "user_id": "0907d1ca-bd79-485f-a4f5-c0dd4979ca91",
-        "permissions": [],
+        "permissions": {},
         "done": {
             "02a4650a-d9a4-4189-a69a-10e4554cbb0": "Para criar um atalho para uma sequ\u00eancia de comandos a serem executados # Feedback do Monitor: \"nenhum coment\u00e1rio\"",
             "c81f77e1-89f1-4f73-b79b-4a16be66b7b6": "Para limpar a tela # Feedback do Monitor: \"nenhum coment\u00e1rio\"",
@@ -2534,11 +2966,29 @@
                 0,
                 0,
                 0
+            ],
+            "3g91e3f7-cf41-47b9-a3d2-b9c5e7a4f6d2": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "a7f9b0d7-42f4-48c9-8b7d-a78efd6e1b71": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "e6675bbe-9928-42a3-a397-c3930fa2e454": [
+                0,
+                0,
+                0,
+                0
             ]
         },
         "meta": "Orienta\u00e7\u00e3o a Objetos - T03",
         "user_id": "1f3a5b6d-a035-494d-b465-d2618cb99932",
-        "permissions": [],
+        "permissions": {},
         "done": {
             "8r8g7g7f-9e69-4a97-b35f-8f76e44c7e9a": "getter \u00e9 um metodo que retorna o valor de um atributo de classe, enquanto setter modifica o valor do atributo de uma classe # Feedback do Monitor: \"nenhum coment\u00e1rio\"",
             "e8570a9f-8db8-44b2-82ef-4f65e0b08098": "principio que permite classes herdarem metodos de outras classes # Feedback do Monitor: \"M\u00e9todos e atributos.\"",
@@ -2691,11 +3141,29 @@
                 0,
                 0,
                 0
+            ],
+            "3g91e3f7-cf41-47b9-a3d2-b9c5e7a4f6d2": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "a7f9b0d7-42f4-48c9-8b7d-a78efd6e1b71": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "e6675bbe-9928-42a3-a397-c3930fa2e454": [
+                0,
+                0,
+                0,
+                0
             ]
         },
         "meta": "Orienta\u00e7\u00e3o a Objetos - T03",
         "user_id": "35766f10-f2e0-4849-a9f5-1af6e9052139",
-        "permissions": [],
+        "permissions": {},
         "done": {
             "73cbe6f1-32bb-4891-a244-fc0de4da5696": "Serve para remover arquivos e diret\u00f3rios. # Feedback do Monitor: \"nenhum coment\u00e1rio\"",
             "3b1e4a70-1b02-4ae8-8b02-2463ee6cb40c": "Serve para localizar arquivos e diret\u00f3rios. # Feedback do Monitor: \"nenhum coment\u00e1rio\"",
@@ -2784,11 +3252,29 @@
                 0,
                 0,
                 0
+            ],
+            "3g91e3f7-cf41-47b9-a3d2-b9c5e7a4f6d2": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "a7f9b0d7-42f4-48c9-8b7d-a78efd6e1b71": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "e6675bbe-9928-42a3-a397-c3930fa2e454": [
+                0,
+                0,
+                0,
+                0
             ]
         },
         "meta": "Orienta\u00e7\u00e3o a Objetos - T03",
         "user_id": "bd188632-9125-4da7-9b61-5913420f7778",
-        "permissions": [],
+        "permissions": {},
         "done": {
             "b3c93163-b53c-4ab2-9861-65e9f7023994": "serve para movimentar arquivos e diret\u00f3rios para outros lugares no disco. Serve tamb\u00e9m como ferramenta de renomea\u00e7\u00e3o de arquivos ou diret\u00f3rios # Feedback do Monitor: \"nenhum coment\u00e1rio\"",
             "c160eb54-1a4b-4485-8168-15d9e4eb473d": "para descompactar arquivos .zip # Feedback do Monitor: \"nenhum coment\u00e1rio\"",
@@ -2889,11 +3375,29 @@
                 0,
                 0,
                 0
+            ],
+            "3g91e3f7-cf41-47b9-a3d2-b9c5e7a4f6d2": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "a7f9b0d7-42f4-48c9-8b7d-a78efd6e1b71": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "e6675bbe-9928-42a3-a397-c3930fa2e454": [
+                0,
+                0,
+                0,
+                0
             ]
         },
         "meta": "Orienta\u00e7\u00e3o a Objetos - T03",
         "user_id": "c73e7b24-0ff5-4cc9-8a50-27663b1ae399",
-        "permissions": [],
+        "permissions": {},
         "done": {
             "ff7f12d9-4e4f-49d4-9258-1e80e1e80a7a": "cria arquivos vazios ou atualiza a data de modifica\u00e7\u00e3o de arquivos\\n # Feedback do Monitor: \"nenhum coment\u00e1rio\"",
             "fe3b3cc8-3e74-4b7f-804b-b62c4824fc3f": "exibe informa\u00e7\u00f5es de processos em execu\u00e7\u00e3o no sistema  # Feedback do Monitor: \"nenhum coment\u00e1rio\"",
@@ -2993,11 +3497,29 @@
                 0,
                 0,
                 0
+            ],
+            "3g91e3f7-cf41-47b9-a3d2-b9c5e7a4f6d2": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "a7f9b0d7-42f4-48c9-8b7d-a78efd6e1b71": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "e6675bbe-9928-42a3-a397-c3930fa2e454": [
+                0,
+                0,
+                0,
+                0
             ]
         },
         "meta": "Orienta\u00e7\u00e3o a Objetos - T03",
         "user_id": "e554c045-beb7-4324-8842-968cb206d074",
-        "permissions": [],
+        "permissions": {},
         "done": {
             "1bcfa5dc-0aa1-4372-9b4e-e87aa77f276e": "O comando chmod. # Feedback do Monitor: \"nenhum coment\u00e1rio\"",
             "03cd6531-c6e8-4174-a481-458b88524ed7": "O comando ls -l. # Feedback do Monitor: \"nenhum coment\u00e1rio\"",
@@ -3087,11 +3609,29 @@
                 0,
                 0,
                 0
+            ],
+            "3g91e3f7-cf41-47b9-a3d2-b9c5e7a4f6d2": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "a7f9b0d7-42f4-48c9-8b7d-a78efd6e1b71": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "e6675bbe-9928-42a3-a397-c3930fa2e454": [
+                0,
+                0,
+                0,
+                0
             ]
         },
         "meta": "Orienta\u00e7\u00e3o a Objetos - T03",
         "user_id": "926eaa35-5102-46ce-b2ff-89d3ce5aa8b1",
-        "permissions": [],
+        "permissions": {},
         "done": {
             "1u1j0j0j-7d3c-4e9b-87ef-59b5e6891f1e": "O m\u00e9todo __del__ tamb\u00e9m \u00e9 chamado de destrutor e serve para liberar recursos que possam estar sendo alocados para determinado objeto, como mem\u00f3ria ou conex\u00f5es de rede. Ele \u00e9 chamado quando o coletor de lixo detecta que n\u00e3o h\u00e1 mais refer\u00eancias para o objeto em quest\u00e3o, mas podem acontecer situa\u00e7\u00f5es em que o objeto n\u00e3o \u00e9 destru\u00eddo como em intera\u00e7\u00f5es c\u00edclicas. # Feedback do Monitor: \"nenhum coment\u00e1rio\"",
             "4d885b5f-d3f3-4f7e-a2fc-e1b86d646f73": "Ele \u00e9 usado para recuperar atributos de uma superclasse, no contexto de heran\u00e7a. Dessa forma, n\u00e3o \u00e9 necess\u00e1rio inicializar todos atributos individualmente na subclasse. O super() oferece vantagens como: reaproveitamento de c\u00f3digo, mudan\u00e7as na superclasse s\u00e3o imediatamente refletidas na subclasse e ainda permite heran\u00e7a m\u00faltipla. # Feedback do Monitor: \"nenhum coment\u00e1rio\"",
@@ -3194,11 +3734,29 @@
                 0,
                 0,
                 0
+            ],
+            "3g91e3f7-cf41-47b9-a3d2-b9c5e7a4f6d2": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "a7f9b0d7-42f4-48c9-8b7d-a78efd6e1b71": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "e6675bbe-9928-42a3-a397-c3930fa2e454": [
+                0,
+                0,
+                0,
+                0
             ]
         },
         "meta": "Orienta\u00e7\u00e3o a Objetos - T03",
         "user_id": "bd8ca575-0f87-4ed7-9340-114101a77a80",
-        "permissions": [],
+        "permissions": {},
         "done": {
             "76e4f32e-bf0e-4072-bdcb-2764a5b2ad2a": "Ordena linhas de texto de um arquivo alfab\u00e9tica ou numericamente. Ele pode ser usado sozinho ou em conjunto com outros comandos Linux # Feedback do Monitor: \"nenhum coment\u00e1rio\"",
             "c3a8d5a2-d69d-43e8-aaa6-b7c84f4e2e82": "Cole\u00e7\u00e3o de pares chave-valor, onde cada chave \u00e9 \u00fanica e mapeada para um valor determinado. # Feedback do Monitor: \"nenhum coment\u00e1rio\"",
