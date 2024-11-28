@@ -15833,11 +15833,29 @@
                 0,
                 0,
                 0
+            ],
+            "3g91e3f7-cf41-47b9-a3d2-b9c5e7a4f6d2": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "a7f9b0d7-42f4-48c9-8b7d-a78efd6e1b71": [
+                0,
+                0,
+                0,
+                0
+            ],
+            "e6675bbe-9928-42a3-a397-c3930fa2e454": [
+                0,
+                0,
+                0,
+                0
             ]
         },
         "meta": "Orienta\u00e7\u00e3o a Objetos - T02",
         "user_id": "f82d61f8-c6bc-4f00-9f09-9e9aa69f7767",
-        "permissions": [],
+        "permissions": {},
         "done": {},
         "lost": {},
         "on": false,
